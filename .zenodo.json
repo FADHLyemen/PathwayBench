@@ -1,0 +1,34 @@
+{
+  "title": "PathwayBench: Benchmarking Pathway Activity Scoring Methods for Pseudobulk Single-Cell Transcriptomics",
+  "description": "PathwayBench is a comprehensive benchmarking framework that systematically evaluates five pathway activity scoring methods (ssGSEA, GSVA, Z-score, AUCell, UCell) for pseudobulk data derived from single-cell and single-nucleus RNA sequencing. The benchmark assesses six robustness criteria -- biological relevance, aggregation stability, low-abundance gene sensitivity, outlier robustness, normalization stability, and sample-size stability -- across ten disease datasets from CellxGene Discover, with literature-backed ground truth pathways from Reactome. Includes a Snakemake pipeline for full reproducibility and an interactive Shiny app (PathwayBench Advisor) for method recommendation.",
+  "creators": [
+    {
+      "name": "Alakwaa, Fadhl M.",
+      "affiliation": "University of Michigan",
+      "orcid": ""
+    }
+  ],
+  "keywords": [
+    "single-cell RNA-seq",
+    "pseudobulk",
+    "pathway activity",
+    "benchmarking",
+    "ssGSEA",
+    "GSVA",
+    "AUCell",
+    "UCell",
+    "Snakemake",
+    "gene set enrichment"
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/fadhlyemen/PathwayBench",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ],
+  "notes": "Data files for Zenodo deposition:\n1. data/pathways/ - Gene set GMT files\n2. data/pseudobulk/ - Pseudobulk expression matrices (RDS)\n3. results/scores/ - Pathway activity scores per method\n4. results/evaluation/ - Criteria evaluation results (CSV + RDS)\n5. results/figures/ - Publication figures (PDF)"
+}

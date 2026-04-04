@@ -1,0 +1,145 @@
+# PathwayBench Pathway Configuration
+# ====================================
+# Each pathway has Reactome ID and expected direction of change
+# for each disease (UP = activated in disease, DOWN = suppressed)
+
+pathways:
+  interferon_signaling:
+    name: "Interferon Signaling"
+    reactome_id: "R-HSA-913531"
+    msigdb_name: "REACTOME_INTERFERON_SIGNALING"
+    expected_direction:
+      t2d_kidney: UP
+      dkd_kidney: UP
+      covid_lung: UP
+      ipf_lung: UP
+      ad_brain: UP
+      uc_colon: UP
+      sle_blood: UP
+      ms_brain: UP
+    evidence_pmids:
+      - "32839624"
+      - "33372174"
+
+  jak_stat:
+    name: "JAK-STAT Signaling"
+    reactome_id: "R-HSA-9626314"
+    msigdb_name: "REACTOME_SIGNALING_BY_INTERLEUKINS"
+    expected_direction:
+      t2d_kidney: UP
+      covid_lung: UP
+      uc_colon: UP
+      sle_blood: UP
+      ms_brain: UP
+    evidence_pmids:
+      - "31511620"
+
+  insulin_signaling:
+    name: "Insulin Signaling"
+    reactome_id: "R-HSA-74751"
+    msigdb_name: "REACTOME_SIGNALING_BY_INSULIN_RECEPTOR"
+    expected_direction:
+      t2d_kidney: DOWN
+      dkd_kidney: DOWN
+    evidence_pmids:
+      - "29083299"
+
+  glucose_metabolism:
+    name: "Glucose Metabolism"
+    reactome_id: "R-HSA-1430728"
+    msigdb_name: "REACTOME_GLUCOSE_METABOLISM"
+    expected_direction:
+      t2d_kidney: UP
+    evidence_pmids:
+      - "29083299"
+
+  nfkb_signaling:
+    name: "NF-kB Signaling"
+    reactome_id: "R-HSA-1169091"
+    msigdb_name: "REACTOME_NFKB_IS_ACTIVATED_AND_SIGNALS_SURVIVAL"
+    expected_direction:
+      t2d_kidney: UP
+      dkd_kidney: UP
+      covid_lung: UP
+      ad_brain: UP
+      uc_colon: UP
+      cirrhosis_liver: UP
+      hf_heart: UP
+      sle_blood: UP
+      ms_brain: UP
+    evidence_pmids:
+      - "31511620"
+
+  toll_like_receptor:
+    name: "Toll-like Receptor Signaling"
+    reactome_id: "R-HSA-168898"
+    msigdb_name: "REACTOME_TOLL_LIKE_RECEPTOR_CASCADES"
+    expected_direction:
+      covid_lung: UP
+      uc_colon: UP
+      sle_blood: UP
+    evidence_pmids:
+      - "32839624"
+
+  tgfb_signaling:
+    name: "TGF-beta Signaling"
+    reactome_id: "R-HSA-170834"
+    msigdb_name: "REACTOME_SIGNALING_BY_TGF_BETA_FAMILY_MEMBERS"
+    expected_direction:
+      dkd_kidney: UP
+      ipf_lung: UP
+      cirrhosis_liver: UP
+      hf_heart: UP
+    evidence_pmids:
+      - "31511620"
+
+  oxidative_stress:
+    name: "Detoxification of Reactive Oxygen Species"
+    reactome_id: "R-HSA-3299685"
+    msigdb_name: "REACTOME_DETOXIFICATION_OF_REACTIVE_OXYGEN_SPECIES"
+    expected_direction:
+      dkd_kidney: UP
+      ad_brain: UP
+      hf_heart: UP
+      ipf_lung: UP
+    evidence_pmids:
+      - "30723457"
+
+  ecm_remodeling:
+    name: "Extracellular Matrix Organization"
+    reactome_id: "R-HSA-1474244"
+    msigdb_name: "REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION"
+    expected_direction:
+      dkd_kidney: UP
+      ipf_lung: UP
+      cirrhosis_liver: UP
+    evidence_pmids:
+      - "31511620"
+
+  raas:
+    name: "Renin-Angiotensin System"
+    reactome_id: "R-HSA-2022377"
+    msigdb_name: null
+    # Small pathway - use custom gene list
+    custom_genes:
+      - "AGT"
+      - "REN"
+      - "ACE"
+      - "ACE2"
+      - "AGTR1"
+      - "AGTR2"
+      - "MAS1"
+      - "ATP6AP2"
+      - "CTSA"
+      - "CMA1"
+      - "CTSG"
+      - "ENPEP"
+      - "MME"
+      - "ANPEP"
+      - "LNPEP"
+      - "THOP1"
+    expected_direction:
+      dkd_kidney: UP
+      hf_heart: UP
+    evidence_pmids:
+      - "30723457"

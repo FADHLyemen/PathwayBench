@@ -1,0 +1,58 @@
+# PathwayBench Configuration
+# ===========================
+
+project_dir: "/nfs/turbo/umms-alakwaaf/from_zug/PathwayBench"
+
+# Scoring methods to benchmark
+methods:
+  - ssGSEA
+  - GSVA
+  - zscore
+  - AUCell
+  - UCell
+
+# Pseudobulk aggregation methods
+aggregation_methods:
+  - sum
+  - mean
+
+# Normalization methods
+normalizations:
+  - log2CPM
+  - voom
+  - scran
+  - sctransform
+
+# Sample size fractions for criterion 6
+sample_fractions:
+  - 0.3
+  - 0.5
+  - 0.7
+  - 0.9
+  - 1.0
+
+# Number of bootstrap iterations for sample size stability
+n_bootstrap: 100
+
+# Low abundance gene thresholds (percentiles to remove)
+low_abundance_thresholds:
+  - 0
+  - 10
+  - 25
+  - 50
+
+# Outlier injection parameters
+outlier_min_cells: [5, 10, 20, 50]
+
+# Random seed
+seed: 42
+
+# Number of threads
+threads: 8
+
+# Figure parameters
+figure:
+  width: 10
+  height: 8
+  dpi: 300
+  format: "pdf"

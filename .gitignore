@@ -1,0 +1,54 @@
+# Data (too large for git)
+data/raw/*.h5ad
+data/pseudobulk/
+data/pathways/reactome_msigdb.gmt
+data/pathways/pathway_genes_summary.yaml
+data/pathways/*_genes.txt
+
+# Results (reproducible via pipeline)
+results/scores/
+results/evaluation/
+results/figures/
+
+# Logs
+logs/
+
+# Snakemake
+.snakemake/
+
+# R artifacts
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.eggs/
+*.egg-info/
+*.egg
+
+# OS
+.DS_Store
+Thumbs.db
+._*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archives
+*.tar.gz
+*.zip
+
+# Manuscript / temporary
+manuscript_package/
+manuscript_package.tar.gz
+
+# Claude metadata
+.claude/

@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+title: >-
+  PathwayBench: Benchmarking Pathway Activity Scoring Methods
+  for Pseudobulk Single-Cell Transcriptomics
+message: >-
+  If you use this software, please cite it using the metadata
+  from this file.
+type: software
+authors:
+  - family-names: Alakwaa
+    given-names: Fadhl M.
+    email: alakwaaf@umich.edu
+    affiliation: University of Michigan
+repository-code: https://github.com/fadhlyemen/PathwayBench
+url: https://github.com/fadhlyemen/PathwayBench
+license: MIT
+version: 1.0.0
+date-released: '2026-04-04'
+keywords:
+  - single-cell RNA-seq
+  - pseudobulk
+  - pathway activity
+  - benchmarking
+  - ssGSEA
+  - GSVA
+  - AUCell
+  - UCell
+  - Snakemake
+abstract: >-
+  PathwayBench is a comprehensive benchmarking framework that
+  systematically evaluates five pathway activity scoring methods
+  (ssGSEA, GSVA, Z-score, AUCell, UCell) for pseudobulk data
+  derived from single-cell and single-nucleus RNA sequencing.
+  The benchmark assesses six robustness criteria across ten
+  disease datasets from CellxGene Discover, with literature-backed
+  ground truth pathways from Reactome.

@@ -1,0 +1,42 @@
+name: pb_r
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - r-base=4.3
+  - r-tidyverse
+  - r-ggplot2
+  - r-patchwork
+  - r-pheatmap
+  - r-rcolorbrewer
+  - r-ggpubr
+  - r-scales
+  - r-yaml
+  - r-optparse
+  - r-data.table
+  - r-matrix
+  - r-jsonlite
+  - r-corrplot
+  - r-reshape2
+  - r-reticulate
+  - r-seurat
+  - bioconductor-gsva
+  - bioconductor-aucell
+  - bioconductor-singlecellexperiment
+  - bioconductor-summarizedexperiment
+  - bioconductor-edger
+  - bioconductor-limma
+  - bioconductor-deseq2
+  - bioconductor-scran
+  - bioconductor-scater
+  - bioconductor-decoupler
+  - bioconductor-gseabase
+  - bioconductor-reactome.db
+  - bioconductor-org.hs.eg.db
+  - r-sctransform
+  - r-devtools
+  - python=3.11
+  - anndata
+  - pip:
+    - anndata

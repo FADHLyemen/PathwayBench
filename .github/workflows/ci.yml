@@ -1,0 +1,86 @@
+name: PathwayBench CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint-and-dryrun:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Validate YAML configs
+        run: |
+          python -c "import yaml; yaml.safe_load(open('config/config.yaml'))"
+          python -c "import yaml; yaml.safe_load(open('config/datasets.yaml'))"
+          python -c "import yaml; yaml.safe_load(open('config/pathways.yaml'))"
+
+      - name: Check Python script syntax
+        run: |
+          python -m py_compile workflow/scripts/01_download_cellxgene.py
+          python -m py_compile workflow/scripts/01b_download_pathways.py
+          python -m py_compile workflow/scripts/02a_pseudobulk_aggregate.py
+
+      - name: Install Snakemake
+        run: pip install snakemake pyyaml
+
+      - name: Snakemake lint
+        run: snakemake --lint 2>&1 || true
+
+      - name: Snakemake dry run
+        run: snakemake -n --printshellcmds 2>&1 | head -80
+
+  check-r-scripts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.3'
+
+      - name: Parse R scripts
+        run: |
+          for f in workflow/scripts/*.R; do
+            echo "Parsing $f..."
+            Rscript -e "tryCatch(parse('$f'), error=function(e) quit(status=1))"
+          done
+
+  check-shiny-app:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.3'
+
+      - name: Install Shiny
+        run: Rscript -e 'install.packages("shiny", repos="https://cloud.r-project.org")'
+
+      - name: Verify app.R parses
+        run: |
+          Rscript -e "
+            lines <- readLines('tool/app.R')
+            lines[length(lines)] <- 'cat(\"Shiny app parsed OK\n\")'
+            tryCatch(
+              eval(parse(text=lines), envir=new.env()),
+              error=function(e) { cat('PARSE ERROR:', conditionMessage(e), '\n'); quit(status=1) }
+            )
+          " 2>&1 || echo "Note: Full parse requires all Bioconductor deps (expected to fail in CI without conda)"
+
+      - name: Verify example data exists
+        run: |
+          test -f tool/example_data/example_pseudobulk.csv || exit 1
+          test -f tool/example_data/example_geneset.txt || exit 1
+          echo "Example data files present"

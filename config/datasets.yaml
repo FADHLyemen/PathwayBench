@@ -1,0 +1,200 @@
+# PathwayBench Dataset Configuration
+# ====================================
+# Each dataset defines: disease, tissue, cell types to pseudobulk,
+# conditions to compare, and CellxGene query filters.
+
+datasets:
+  # ---- KIDNEY DISEASES ----
+  t2d_kidney:
+    name: "Type 2 Diabetes - Kidney"
+    disease_query: "type 2 diabetes mellitus"
+    control_query: "normal"
+    tissue: "kidney"
+    organism: "homo_sapiens"
+    cell_types:
+      - "proximal tubule cell"
+      - "podocyte"
+      - "thick ascending limb cell"
+      - "distal tubule cell"
+    assay_filter: "10x 3' v3"
+    min_cells_per_sample: 30
+    ground_truth_pathways:
+      - interferon_signaling
+      - jak_stat
+      - insulin_signaling
+      - glucose_metabolism
+      - nfkb_signaling
+
+  dkd_kidney:
+    name: "Diabetic Kidney Disease"
+    disease_query: "diabetic nephropathy"
+    control_query: "normal"
+    tissue: "kidney"
+    organism: "homo_sapiens"
+    cell_types:
+      - "proximal tubule cell"
+      - "podocyte"
+      - "endothelial cell"
+      - "fibroblast"
+    assay_filter: null
+    min_cells_per_sample: 30
+    ground_truth_pathways:
+      - nfkb_signaling
+      - tgfb_signaling
+      - raas
+      - oxidative_stress
+      - ecm_remodeling
+
+  # ---- LUNG DISEASES ----
+  covid_lung:
+    name: "COVID-19 - Lung"
+    disease_query: "COVID-19"
+    control_query: "normal"
+    tissue: "lung"
+    organism: "homo_sapiens"
+    cell_types:
+      - "type II pneumocyte"
+      - "macrophage"
+      - "monocyte"
+      - "CD8-positive, alpha-beta T cell"
+    assay_filter: null
+    min_cells_per_sample: 30
+    ground_truth_pathways:
+      - interferon_signaling
+      - toll_like_receptor
+      - nfkb_signaling
+      - jak_stat
+
+  ipf_lung:
+    name: "Idiopathic Pulmonary Fibrosis"
+    disease_query: "pulmonary fibrosis"
+    control_query: "normal"
+    tissue: "lung"
+    organism: "homo_sapiens"
+    cell_types:
+      - "fibroblast"
+      - "type II pneumocyte"
+      - "macrophage"
+      - "myofibroblast cell"
+    assay_filter: null
+    min_cells_per_sample: 30
+    ground_truth_pathways:
+      - tgfb_signaling
+      - ecm_remodeling
+      - oxidative_stress
+
+  # ---- BRAIN DISEASES ----
+  ad_brain:
+    name: "Alzheimer's Disease - Brain"
+    disease_query: "Alzheimer disease"
+    control_query: "normal"
+    tissue: "brain"
+    organism: "homo_sapiens"
+    cell_types:
+      - "microglial cell"
+      - "astrocyte"
+      - "oligodendrocyte"
+      - "glutamatergic neuron"
+    assay_filter: null
+    min_cells_per_sample: 20
+    ground_truth_pathways:
+      - nfkb_signaling
+      - oxidative_stress
+      - interferon_signaling
+
+  # ---- GUT DISEASES ----
+  uc_colon:
+    name: "Ulcerative Colitis - Colon"
+    disease_query: "ulcerative colitis"
+    control_query: "normal"
+    tissue: "large intestine"
+    organism: "homo_sapiens"
+    cell_types:
+      - "enterocyte"
+      - "CD4-positive, alpha-beta T cell"
+      - "plasma cell"
+      - "macrophage"
+    assay_filter: null
+    min_cells_per_sample: 30
+    ground_truth_pathways:
+      - nfkb_signaling
+      - jak_stat
+      - toll_like_receptor
+      - interferon_signaling
+
+  # ---- LIVER DISEASES ----
+  cirrhosis_liver:
+    name: "Liver Cirrhosis"
+    disease_query: "liver cirrhosis"
+    control_query: "normal"
+    tissue: "liver"
+    organism: "homo_sapiens"
+    cell_types:
+      - "hepatocyte"
+      - "hepatic stellate cell"
+      - "Kupffer cell"
+      - "endothelial cell"
+    assay_filter: null
+    min_cells_per_sample: 20
+    ground_truth_pathways:
+      - tgfb_signaling
+      - nfkb_signaling
+      - ecm_remodeling
+
+  # ---- HEART DISEASES ----
+  hf_heart:
+    name: "Heart Failure"
+    disease_query: "heart failure"
+    control_query: "normal"
+    tissue: "heart"
+    organism: "homo_sapiens"
+    cell_types:
+      - "cardiomyocyte"
+      - "fibroblast"
+      - "endothelial cell"
+      - "macrophage"
+    assay_filter: null
+    min_cells_per_sample: 20
+    ground_truth_pathways:
+      - tgfb_signaling
+      - nfkb_signaling
+      - oxidative_stress
+      - raas
+
+  # ---- AUTOIMMUNE DISEASES ----
+  sle_blood:
+    name: "Systemic Lupus Erythematosus"
+    disease_query: "systemic lupus erythematosus"
+    control_query: "normal"
+    tissue: "blood"
+    organism: "homo_sapiens"
+    cell_types:
+      - "B cell"
+      - "classical monocyte"
+      - "CD4-positive, alpha-beta T cell"
+      - "natural killer cell"
+    assay_filter: null
+    min_cells_per_sample: 30
+    ground_truth_pathways:
+      - interferon_signaling
+      - jak_stat
+      - toll_like_receptor
+      - nfkb_signaling
+
+  ms_brain:
+    name: "Multiple Sclerosis"
+    disease_query: "multiple sclerosis"
+    control_query: "normal"
+    tissue: "brain"
+    organism: "homo_sapiens"
+    cell_types:
+      - "T cell"
+      - "B cell"
+      - "microglial cell"
+      - "oligodendrocyte"
+    assay_filter: null
+    min_cells_per_sample: 20
+    ground_truth_pathways:
+      - interferon_signaling
+      - jak_stat
+      - nfkb_signaling
