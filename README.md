@@ -5,6 +5,13 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Snakemake](https://img.shields.io/badge/snakemake-%E2%89%A57.0-brightgreen.svg)](https://snakemake.readthedocs.io)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.XXXXXXX-blue)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pathwaybench-xrdxczzdpeahvcinxwbrcq.streamlit.app)
+
+## Try PathwayBench Advisor online
+
+**[Launch PathwayBench Advisor →](https://pathwaybench-xrdxczzdpeahvcinxwbrcq.streamlit.app)**
+
+No installation required. Upload your pseudobulk expression matrix and gene set to get a benchmarked method recommendation.
 
 <!-- ![Study Overview](docs/fig1_study_overview.svg) -->
 
@@ -110,14 +117,13 @@ download_cellxgene --> generate_pseudobulk --> run_scoring --> evaluate_criteria
 download_pathways  /
 ```
 
-## PathwayBench Advisor (Shiny App)
+## PathwayBench Advisor
 
 An interactive tool that recommends the best scoring method for your data:
 
-```bash
-conda activate pathwaybench
-Rscript -e 'shiny::runApp("tool/")'
-```
+- **Online (no installation):** [pathwaybench-xrdxczzdpeahvcinxwbrcq.streamlit.app](https://pathwaybench-xrdxczzdpeahvcinxwbrcq.streamlit.app)
+- **Local Shiny app:** `Rscript -e "shiny::runApp('tool/app.R', port=3838)"`
+- **Local Streamlit app:** `cd streamlit_app && streamlit run app.py`
 
 **Features:**
 - Upload your own pseudobulk expression matrix and gene sets
@@ -157,10 +163,14 @@ PathwayBench/
 │   │   └── 05_generate_figures.R         # Publication figures
 │   └── envs/                # Conda sub-environments
 ├── tool/
-│   ├── app.R                # PathwayBench Advisor Shiny app
+│   ├── app.R                # PathwayBench Advisor (Shiny)
 │   └── example_data/
 │       ├── example_pseudobulk.csv   # 184 genes x 20 samples
 │       └── example_geneset.txt      # 30 interferon signaling genes
+├── streamlit_app/
+│   ├── app.py               # PathwayBench Advisor (Streamlit)
+│   ├── requirements.txt
+│   └── example_data/        # Same example files
 ├── data/                    # Downloaded data (not in repo)
 │   ├── raw/                 # h5ad files from CellxGene
 │   ├── pseudobulk/          # Aggregated + normalized matrices
