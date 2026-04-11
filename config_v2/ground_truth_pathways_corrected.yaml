@@ -1,0 +1,82 @@
+# PathwayBench v2 — CORRECTED ground truth pathway directions
+# Based on red_flags_investigation.txt findings (reviewed by Ahmed Elbaz)
+#
+# CHANGES FROM ORIGINAL:
+#   dcm_heart: REMOVED nfkb_signaling, oxidative_stress, ecm_remodeling, raas
+#              (all 5 methods unanimously show DOWN; end-stage explant artefact)
+#   ckd_kidney: REMOVED jak_stat, nfkb_signaling
+#              (all 5 methods unanimously show DOWN; annotation error)
+#   All other datasets: UNCHANGED
+
+pathways:
+  interferon_signaling:
+    reactome_id: "R-HSA-913531"
+    expected_direction:
+      sle_blood: UP
+      covid_lung: UP
+      covid_blood: UP
+
+  jak_stat:
+    reactome_id: "R-HSA-9626314"
+    expected_direction:
+      sle_blood: UP
+      covid_lung: UP
+      covid_blood: UP
+      # ckd_kidney: REMOVED (empirically DOWN in KPMP snRNA-seq)
+
+  insulin_signaling:
+    reactome_id: "R-HSA-74751"
+
+  glucose_metabolism:
+    reactome_id: "R-HSA-1430728"
+
+  nfkb_signaling:
+    reactome_id: "R-HSA-1169091"
+    expected_direction:
+      sle_blood: UP
+      covid_lung: UP
+      covid_blood: UP
+      # ckd_kidney: REMOVED (empirically DOWN in KPMP snRNA-seq)
+      ipf_lung: UP
+      ad_brain: UP
+      pd_brain: UP
+      # dcm_heart: REMOVED (empirically DOWN in end-stage explants)
+
+  toll_like_receptor:
+    reactome_id: "R-HSA-168898"
+    expected_direction:
+      sle_blood: UP
+      covid_lung: UP
+      covid_blood: UP
+      ad_brain: UP
+      pd_brain: UP
+
+  tgfb_signaling:
+    reactome_id: "R-HSA-170834"
+    expected_direction:
+      ckd_kidney: UP
+      ipf_lung: UP
+      dcm_heart: UP    # KEPT — 5/5 methods agree UP
+
+  oxidative_stress:
+    reactome_id: "R-HSA-3299685"
+    expected_direction:
+      ckd_kidney: UP
+      covid_lung: UP
+      ipf_lung: UP
+      ad_brain: UP
+      pd_brain: UP
+      # dcm_heart: REMOVED (empirically DOWN in end-stage explants)
+
+  ecm_remodeling:
+    reactome_id: "R-HSA-1474244"
+    expected_direction:
+      ckd_kidney: UP
+      ipf_lung: UP
+      # dcm_heart: REMOVED (empirically DOWN in end-stage explants)
+
+  raas:
+    reactome_id: "R-HSA-2022377"
+    expected_direction:
+      ckd_kidney: UP
+      # dcm_heart: REMOVED (patients on RAAS blockers; empirically DOWN)

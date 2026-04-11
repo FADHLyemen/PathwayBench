@@ -1,0 +1,190 @@
+================================================================================
+PATHWAYBENCH V2 — CORRECTED GROUND TRUTH RESULTS
+================================================================================
+Date: 2026-04-10
+Ground truth: config_v2/ground_truth_pathways_corrected.yaml
+Changes: dcm_heart lost 4/5 pathways, ckd_kidney lost 2/6 pathways
+Scoring: UNCHANGED (results_v2/scores/)
+Robustness criteria (agg/outlier/norm/sample): UNCHANGED from v2
+
+ANNOTATIONS REMOVED:
+  dcm_heart:  nfkb_signaling, oxidative_stress, ecm_remodeling, raas
+  ckd_kidney: jak_stat, nfkb_signaling
+
+RESULT: Total comparisons dropped from 10,800 to 9,320 (per method: 1,864)
+
+================================================================================
+PER-DATASET DIRECTION ACCURACY (%) — CORRECTED
+================================================================================
+
+| Dataset      | ssGSEA |  GSVA | zscore | AUCell | UCell |
+|--------------|-------:|------:|-------:|-------:|------:|
+| ckd_kidney   |   67.6 |  64.7 |   66.5 |   34.6 |  36.4 |
+| sle_blood    |   91.0 |  95.8 |   91.0 |   93.1 |  89.6 |
+| covid_lung   |   61.4 |  61.6 |   60.5 |   50.9 |  49.1 |
+| covid_blood  |   71.0 |  56.2 |   91.1 |   67.0 |  80.4 |
+| ipf_lung     |   52.9 |  46.2 |   62.5 |   46.2 |  46.7 |
+| ad_brain     |   91.7 |  87.5 |   91.7 |   70.8 |  91.7 |
+| pd_brain     |   63.6 |  64.4 |   67.4 |   61.4 |  60.6 |
+| dcm_heart    |   87.5 |  87.5 |   87.5 |   60.0 |  75.0 |
+
+Key changes vs pre-correction:
+  ckd_kidney: ssGSEA 53.2->67.6 (+14.4), AUCell 29.4->34.6 (+5.2)
+  dcm_heart:  ssGSEA 33.5->87.5 (+54.0!), GSVA 35.5->87.5 (+52.0!)
+  Note: dcm_heart jumped to 87.5% because only TGF-beta remains
+  (which all methods get right). But n=200 -> n=40 comparisons.
+
+================================================================================
+PER-DATASET AUROC — CORRECTED
+================================================================================
+
+| Dataset      | ssGSEA |  GSVA | zscore | AUCell | UCell |
+|--------------|-------:|------:|-------:|-------:|------:|
+| ckd_kidney   |  0.563 | 0.539 |  0.566 |  0.529 | 0.486 |
+| sle_blood    |  0.663 | 0.725 |  0.638 |  0.717 | 0.696 |
+| covid_lung   |  0.550 | 0.577 |  0.554 |  0.507 | 0.517 |
+| covid_blood  |  0.609 | 0.547 |  0.720 |  0.607 | 0.607 |
+| ipf_lung     |  0.494 | 0.500 |  0.517 |  0.472 | 0.500 |
+| ad_brain     |  0.682 | 0.607 |  0.632 |  0.704 | 0.748 |
+| pd_brain     |  0.529 | 0.510 |  0.553 |  0.635 | 0.651 |
+| dcm_heart    |  0.591 | 0.670 |  0.619 |  0.521 | 0.584 |
+
+================================================================================
+PER-DATASET MEAN |COHEN'S D| — CORRECTED
+================================================================================
+
+| Dataset      | ssGSEA |  GSVA | zscore | AUCell | UCell |
+|--------------|-------:|------:|-------:|-------:|------:|
+| ckd_kidney   |  0.513 | 0.517 |  0.513 |  0.518 | 0.525 |
+| sle_blood    |  0.722 | 0.937 |  0.684 |  0.890 | 0.815 |
+| covid_lung   |  0.748 | 0.812 |  0.660 |  0.727 | 0.732 |
+| covid_blood  |  0.861 | 0.802 |  1.109 |  1.125 | 0.866 |
+| ipf_lung     |  0.410 | 0.436 |  0.427 |  0.447 | 0.482 |
+| ad_brain     |  0.762 | 0.495 |  0.542 |  0.596 | 0.662 |
+| pd_brain     |  0.512 | 0.468 |  0.461 |  0.553 | 0.576 |
+| dcm_heart    |  0.773 | 1.097 |  0.940 |  0.619 | 0.475 |
+
+================================================================================
+ROBUSTNESS CRITERIA — ALL 8 DATASETS
+================================================================================
+
+| Method |  DirAcc |  AUROC |  |d|   |   Agg | Outlier |  Norm | Sample |
+|--------|--------:|-------:|------:|------:|--------:|------:|-------:|
+| ssGSEA |   0.648 |  0.555 | 0.628 | 0.869 |   0.218 | 0.730 |  0.868 |
+| GSVA   |   0.614 |  0.558 | 0.665 | 0.726 |   0.183 | 0.848 |  0.893 |
+| zscore |   0.694 |  0.576 | 0.629 | 0.825 |   0.215 | 0.770 |  0.866 |
+| AUCell |   0.538 |  0.542 | 0.675 | 0.841 |   0.171 | 0.669 |  0.864 |
+| UCell  |   0.555 |  0.547 | 0.647 | 0.960 |   0.163 | 0.797 |  0.864 |
+
+GIP (8 datasets):
+  ssGSEA   bio=Good   agg=Interm out=Interm norm=Interm samp=Interm -> 1 Good
+  GSVA     bio=Good   agg=Poor   out=Good   norm=Good   samp=Good   -> 4 Good
+  zscore   bio=Good   agg=Interm out=Interm norm=Good   samp=Interm -> 2 Good
+  AUCell   bio=Good   agg=Interm out=Good   norm=Interm samp=Interm -> 2 Good
+  UCell    bio=Good   agg=Good   out=Good   norm=Good   samp=Interm -> 4 Good
+
+GIP Ranking: UCell 4, GSVA 4, AUCell 2, zscore 2, ssGSEA 1
+
+================================================================================
+ROBUSTNESS CRITERIA — 7 DATASETS (excl CKD)
+================================================================================
+
+| Method |  DirAcc |  AUROC |  |d|   |   Agg | Outlier |  Norm | Sample |
+|--------|--------:|-------:|------:|------:|--------:|------:|-------:|
+| ssGSEA |   0.643 |  0.554 | 0.648 | 0.864 |   0.213 | 0.723 |  0.855 |
+| GSVA   |   0.609 |  0.562 | 0.690 | 0.728 |   0.177 | 0.849 |  0.886 |
+| zscore |   0.698 |  0.577 | 0.649 | 0.820 |   0.220 | 0.765 |  0.860 |
+| AUCell |   0.570 |  0.544 | 0.701 | 0.840 |   0.175 | 0.670 |  0.857 |
+| UCell  |   0.587 |  0.557 | 0.668 | 0.958 |   0.164 | 0.798 |  0.856 |
+
+GIP (7 datasets):
+  ssGSEA   bio=Good   agg=Interm out=Interm norm=Interm samp=Interm -> 1 Good
+  GSVA     bio=Good   agg=Poor   out=Good   norm=Good   samp=Good   -> 4 Good
+  zscore   bio=Good   agg=Interm out=Interm norm=Good   samp=Interm -> 2 Good
+  AUCell   bio=Good   agg=Interm out=Good   norm=Interm samp=Interm -> 2 Good
+  UCell    bio=Good   agg=Good   out=Good   norm=Good   samp=Interm -> 4 Good
+
+GIP Ranking: UCell 4, GSVA 4, AUCell 2, zscore 2, ssGSEA 1
+
+Rankings are IDENTICAL between 7 and 8 datasets.
+
+================================================================================
+TOP PERFORMER PER DATASET
+================================================================================
+
+| Dataset      | Best DirAcc | Best AUROC | Best |d| |
+|--------------|-------------|------------|---------|
+| ckd_kidney   | ssGSEA      | zscore     | UCell   |
+| sle_blood    | GSVA        | GSVA       | GSVA    |
+| covid_lung   | GSVA        | GSVA       | GSVA    |
+| covid_blood  | zscore      | zscore     | AUCell  |
+| ipf_lung     | zscore      | zscore     | UCell   |
+| ad_brain     | ssGSEA*     | UCell      | ssGSEA  |
+| pd_brain     | zscore      | UCell      | UCell   |
+| dcm_heart    | GSVA*       | GSVA       | GSVA    |
+
+*tied with zscore and UCell (ad_brain), or ssGSEA and zscore (dcm_heart)
+
+Per-method wins:
+  DirAcc: zscore 3, GSVA 2, ssGSEA 1 (+ ties)
+  AUROC:  zscore 2, GSVA 2, UCell 2
+  |d|:    GSVA 3, UCell 3, AUCell 1, ssGSEA 1
+
+================================================================================
+SIGNIFICANT COMPARISONS (p < 0.05)
+================================================================================
+
+| Method | Significant | Total | % |
+|--------|------------|-------|-----|
+| ssGSEA |       463  | 1,864 | 24.8 |
+| GSVA   |       503  | 1,864 | 27.0 |
+| zscore |       447  | 1,864 | 24.0 |
+| AUCell |       486  | 1,864 | 26.1 |
+| UCell  |       494  | 1,864 | 26.5 |
+
+================================================================================
+IMPACT OF GROUND-TRUTH CORRECTION
+================================================================================
+
+Comparison: pre-correction vs corrected direction accuracy (8 datasets):
+
+| Method | Pre-correction | Corrected | Delta |
+|--------|---------------:|----------:|------:|
+| ssGSEA |          0.648 |     0.648 | +0.00 |
+| GSVA   |          0.620 |     0.614 | -0.01 |
+| zscore |          0.689 |     0.694 | +0.01 |
+| AUCell |          0.565 |     0.538 | -0.03 |
+| UCell  |          0.616 |     0.555 | -0.06 |
+
+Observations:
+- zscore GAINED slightly (+0.01) — the removed CKD/DCM annotations
+  were wrong pathways that zscore was ALSO getting wrong. Removing
+  them doesn't change zscore much because it was near chance on those.
+- UCell LOST the most (-0.06) — it was benefiting from the wrong DCM
+  annotations. Under pre-correction, UCell got DCM "right" 44.5% of
+  the time on 5 pathways. Now with only TGF-beta, it gets 75% but
+  the reduced denominator changes the average.
+- AUCell also LOST (-0.03) — same DCM effect.
+
+RANKINGS UNCHANGED:
+  Pre-correction: zscore > ssGSEA > GSVA > UCell > AUCell
+  Post-correction: zscore > ssGSEA > GSVA > UCell > AUCell
+  The z-score lead is robust to ground-truth correction.
+
+GIP UNCHANGED:
+  Pre-correction: UCell 4, GSVA 4, AUCell 2, zscore 2, ssGSEA 1
+  Post-correction: UCell 4, GSVA 4, AUCell 2, zscore 2, ssGSEA 1
+  Not a single classification threshold was crossed.
+
+================================================================================
+FILE LOCATIONS
+================================================================================
+
+config_v2/ground_truth_pathways_corrected.yaml  - corrected annotations
+results_v2_corrected/evaluation/all_metrics.csv - per-dataset-method metrics
+results_v2_corrected/evaluation/{ds}/criterion1_corrected.rds - per-dataset
+results_v2_corrected/evaluation/criterion1_corrected_all.rds - combined
+
+================================================================================
+END OF CORRECTED RESULTS
+================================================================================

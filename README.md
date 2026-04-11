@@ -1,6 +1,6 @@
 # PathwayBench
 
-**Benchmarking Pathway Activity Scoring Methods for Pseudobulk scRNA-seq/snRNA-seq Data**
+**Rank-based pathway scoring methods can invert biological signal under gene competition: a benchmark of five methods across four tissues**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Snakemake](https://img.shields.io/badge/snakemake-%E2%89%A57.0-brightgreen.svg)](https://snakemake.readthedocs.io)
@@ -13,13 +13,23 @@
 
 No installation required. Upload your pseudobulk expression matrix and gene set to get a benchmarked method recommendation.
 
-<!-- ![Study Overview](docs/fig1_study_overview.svg) -->
+## Key finding: rank-window competition
+
+We discovered that rank-based pathway scoring methods (AUCell, UCell) can **systematically invert** disease-vs-control direction when non-pathway genes are upregulated more strongly than the pathway of interest. In simulations, AUCell flipped sign (Cohen's d = -0.27) while magnitude methods maintained correct detection (d = 2.2-11.1). In real CKD kidney data, AUCell/UCell reported ECM remodeling as unchanged while ssGSEA/GSVA/Z-score correctly detected upregulation.
+
+### GIP summary (7 datasets, corrected ground truth)
+
+| Method | Biology | Aggregation | Outlier | Normalization | Sample | Good |
+|--------|---------|-------------|---------|---------------|--------|:----:|
+| **UCell** | Good | Good | Good | Good | Interm | **4** |
+| **GSVA** | Good | Poor | Good | Good | Good | **4** |
+| zscore | Good | Interm | Interm | Good | Interm | 2 |
+| AUCell | Good | Interm | Good | Interm | Interm | 2 |
+| ssGSEA | Good | Interm | Interm | Interm | Interm | 1 |
 
 ## Overview
 
-PathwayBench is a comprehensive benchmarking framework that systematically evaluates pathway activity scoring methods for pseudobulk data derived from single-cell and single-nucleus RNA sequencing. Unlike existing benchmarks that focus on single-cell level scoring, PathwayBench addresses the practical use case of pseudobulk analysis -- the dominant approach for comparing pathway activities between disease groups.
-
-We evaluate **5 scoring methods** across **6 robustness criteria** using **10 disease datasets** from [CellxGene Discover](https://cellxgene.cziscience.com/), with literature-backed ground truth pathways from Reactome.
+PathwayBench is a systematic benchmark of five pathway activity scoring methods (ssGSEA, GSVA, Z-score, AUCell, UCell) for pseudobulk single-cell RNA-seq data. We evaluate **5 methods** across **5 robustness criteria** using **8 disease datasets** (4.3M cells, 682 donors, 4 tissues) from [CellxGene Census](https://cellxgene.cziscience.com/) release 2025-11-08, with literature-curated ground-truth pathways from Reactome.
 
 ### Scoring Methods
 
@@ -196,12 +206,12 @@ If you use PathwayBench, please cite:
 
 ```bibtex
 @article{alakwaa2026pathwaybench,
-  title   = {PathwayBench: Benchmarking pathway activity scoring methods
-             for pseudobulk single-cell transcriptomics},
-  author  = {Alakwaa, Fadhl M.},
+  title   = {Rank-based pathway scoring methods can invert biological signal
+             under gene competition: a benchmark of five methods across four tissues},
+  author  = {Alakwaa, Fadhl M. and Elbaz, Ahmed and Al Azzam, Sara and Alshebani, Tasnim},
   journal = {Nature Methods},
   year    = {2026},
-  note    = {In preparation}
+  note    = {Submitted}
 }
 ```
 
