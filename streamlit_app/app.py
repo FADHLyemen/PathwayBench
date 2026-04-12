@@ -18,6 +18,7 @@ import plotly.graph_objects as go
 import streamlit as st
 from scipy import stats
 
+APP_VERSION = "2.0.0"
 ZENODO_DOI = "10.5281/zenodo.19503595"
 
 # ---------------------------------------------------------------------------
