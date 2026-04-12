@@ -18,6 +18,8 @@ import plotly.graph_objects as go
 import streamlit as st
 from scipy import stats
 
+ZENODO_DOI = "10.5281/zenodo.19503595"
+
 # ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
@@ -72,7 +74,6 @@ _BENCH_RAW = pd.DataFrame(
         "sample_stability": [0.855, 0.886, 0.860, 0.857, 0.856],
     }
 )
-APP_VERSION = "2.0.0"
 
 CRITERIA = list(CRITERIA_SHORT.keys())
 
@@ -401,7 +402,7 @@ def main() -> None:
 
     # ---- Header ----
     st.markdown(
-        """
+        f"""
         <div style="background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%);
                     color:white; padding:28px 32px 22px; border-radius:0 0 8px 8px;
                     margin:-1rem -1rem 1.5rem -1rem;">
@@ -418,6 +419,18 @@ def main() -> None:
 
     # ---- Sidebar ----
     with st.sidebar:
+        st.markdown(
+            f"""
+            **📄 Paper**
+
+            [![DOI](https://zenodo.org/badge/DOI/{ZENODO_DOI}.svg)](https://doi.org/{ZENODO_DOI})
+
+            Alakwaa et al., *Nature Methods* (submitted, 2026).
+
+            [Zenodo](https://doi.org/{ZENODO_DOI}) · [GitHub](https://github.com/fadhlyemen/PathwayBench)
+            """
+        )
+        st.divider()
         # Example data
         st.markdown("### Example Data")
         st.caption(
@@ -690,8 +703,9 @@ def main() -> None:
     st.divider()
     st.caption(
         f"PathwayBench Advisor v{APP_VERSION} | Benchmarking 5 pathway scoring methods "
-        "across 5 robustness criteria | Reference: 7 disease datasets from "
-        "CellxGene Census 2025-11-08"
+        f"across 5 robustness criteria | Reference: 7 disease datasets from "
+        f"CellxGene Census 2025-11-08 | "
+        f"[DOI: {ZENODO_DOI}](https://doi.org/{ZENODO_DOI})"
     )
 
 
