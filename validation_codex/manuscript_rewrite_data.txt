@@ -1,0 +1,440 @@
+================================================================================
+PATHWAYBENCH V2 — MANUSCRIPT REWRITE DATA
+================================================================================
+Source: data_v2/raw/, data_v2/pseudobulk/, results_v2/, config_v2/
+Census version: 2025-11-08 (pinned)
+Date extracted: 2026-04-08
+
+================================================================================
+SECTION 1: PER-DATASET METADATA (TABLE 2)
+================================================================================
+
+----------------------------------------------------------------
+1. ckd_kidney — Chronic Kidney Disease (KPMP snRNA-seq)
+----------------------------------------------------------------
+  Tissue              : kidney
+  Disease label       : "chronic kidney disease"
+  Control label       : "normal"
+  Census UUID         : a12ccb9b-4fbe-457d-8590-ac78053259ef
+  Collection          : An atlas of healthy and injured cell states and niches
+                        in the human kidney (Version 1.5)  [KPMP]
+  Dataset title       : Single-nucleus RNA-seq of the Adult Human Kidney (v1.5)
+  Source paper        : Lake, Menon et al. 2023 — Nature
+                        DOI: 10.1038/s41586-023-05769-3
+                        PMID: 36859589
+                        (Census collection_doi field empty; cited via KPMP)
+  Total cells         : 250,440
+  Disease cells       : 127,996
+  Control cells       : 122,444
+  Total donors        : 64
+  Disease donors      : 39
+  Control donors      : 25
+  Cell types          : 26
+  Pseudobulk samples  : 651
+
+----------------------------------------------------------------
+2. sle_blood — Systemic Lupus Erythematosus (Perez et al.)
+----------------------------------------------------------------
+  Tissue              : blood
+  Disease label       : "systemic lupus erythematosus"
+  Control label       : "normal"
+  Census UUID         : 218acb0f-9f2f-4f76-b90b-15a4b7c7f629
+  Collection          : Single-cell RNA-seq reveals the cell-type-specific
+                        molecular and genetic associations to lupus
+  Dataset title       : multiplexed scRNA-seq of 1.2 million PBMCs from adult
+                        lupus samples
+  Source paper        : Perez RK et al. 2022 — Science 376:eabf1970
+                        DOI: 10.1126/science.abf1970
+                        PMID: 35389781
+  Total cells         : 1,263,676
+  Disease cells       : 777,258
+  Control cells       : 486,418
+  Total donors        : 261
+  Disease donors      : 162
+  Control donors      : 99
+  Cell types          : 11
+  Pseudobulk samples  : 1,902
+
+----------------------------------------------------------------
+3. covid_lung — COVID-19 Lung (HLCA)
+----------------------------------------------------------------
+  Tissue              : lung
+  Disease label       : "COVID-19"
+  Control label       : "normal"
+  Census UUID         : 9f222629-9e39-47d0-b83f-e08d610c7479
+  Collection          : The integrated Human Lung Cell Atlas
+  Dataset title       : An integrated cell atlas of the human lung in health
+                        and disease (full)
+  Source paper        : Sikkema L et al. 2023 — Nature Medicine 29:1563-1577
+                        DOI: 10.1038/s41591-023-02327-2
+                        PMID: 37291214
+  Total cells         : 595,657 (after subsampling at max 600k cell budget)
+  Disease cells       : 123,786
+  Control cells       : 471,871
+  Total donors        : 101 (after subsampling)
+  Disease donors      : 18 (subsampled from 60)
+  Control donors      : 83 (subsampled from 164)
+  Cell types          : 51
+  Pseudobulk samples  : 1,014
+
+----------------------------------------------------------------
+4. covid_blood — COVID-19 PBMC (Schulte-Schrepping et al.)
+----------------------------------------------------------------
+  Tissue              : blood
+  Disease label       : "COVID-19"
+  Control label       : "normal"
+  Census UUID         : 5e717147-0f75-4de1-8bd2-6fda01b8d75f
+  Collection          : A Web Portal and Workbench for Biological Dissection of
+                        Single Cell COVID-19 Host Responses (COMBAT-derived)
+  Dataset title       : Individual Single-Cell RNA-seq PBMC Data from
+                        Schulte-Schrepping et al.
+  Source paper        : Schulte-Schrepping J et al. 2020 — Cell 182:1419-1440
+                        DOI: 10.1016/j.cell.2020.08.001
+                        PMID: 32810438
+                        (Census collection_doi: 10.1016/j.isci.2021.103115 —
+                         the workbench paper that re-deposited the data)
+  Total cells         : 90,957
+  Disease cells       : 45,170
+  Control cells       : 45,787
+  Total donors        : 39
+  Disease donors      : 18
+  Control donors      : 21
+  Cell types          : 22
+  Pseudobulk samples  : 360
+
+----------------------------------------------------------------
+5. ipf_lung — Pulmonary Fibrosis (HLCA)
+----------------------------------------------------------------
+  Tissue              : lung
+  Disease label       : "pulmonary fibrosis"
+  Control label       : "normal"
+  Census UUID         : 9f222629-9e39-47d0-b83f-e08d610c7479
+                        (SAME source h5ad as covid_lung — HLCA atlas)
+  Collection          : The integrated Human Lung Cell Atlas
+  Source paper        : Sikkema L et al. 2023 — Nature Medicine 29:1563-1577
+                        DOI: 10.1038/s41591-023-02327-2
+                        PMID: 37291214
+  Total cells         : 591,248 (after subsampling)
+  Disease cells       : 102,467
+  Control cells       : 488,781
+  Total donors        : 106
+  Disease donors      : 20 (subsampled from 55)
+  Control donors      : 86 (subsampled from 164)
+  Cell types          : 51
+  Pseudobulk samples  : 1,141
+
+----------------------------------------------------------------
+6. ad_brain — Alzheimer Disease Cortex (Otero-Garcia et al.)
+----------------------------------------------------------------
+  Tissue              : prefrontal cortex
+  Disease label       : "Alzheimer disease"
+  Control label       : "normal"
+  Census UUID(s)      : 85c60876-7f35-40c5-a256-7808d84c6ba5  (Excitatory)
+                        9813a1d4-d107-459e-9b2e-7687be935f69  (Inhibitory)
+                        — TWO files concatenated at download
+  Collection          : Single-soma transcriptomics of tangle-bearing neurons
+                        in Alzheimer's disease
+  Source paper        : Otero-Garcia M et al. 2022 — Neuron 110:2929-2948
+                        DOI: 10.1016/j.neuron.2022.06.021
+                        PMID: 35914528
+  Total cells         : 119,326
+  Disease cells       : 61,792
+  Control cells       : 57,534
+  Total donors        : 16
+  Disease donors      : 8
+  Control donors      : 8
+  Cell types          : 2 (excitatory neuron, inhibitory interneuron)
+  Pseudobulk samples  : 32
+
+----------------------------------------------------------------
+7. pd_brain — Parkinson Disease (Macnair multi-region atlas)
+----------------------------------------------------------------
+  Tissue              : brain (multi-region)
+  Disease label       : "Parkinson disease"
+  Control label       : "normal"
+  Census UUID         : d3cb449b-c2b1-4b50-a7f1-21203535fe61
+  Collection          : A multi-region single nucleus transcriptomic atlas of
+                        Parkinson's disease
+  Source paper        : Macnair W et al. 2024 — Scientific Data
+                        DOI: 10.1038/s41597-024-04117-y
+                        PMID: 39627271
+  Total cells         : 580,123 (after subsampling at 600k cell budget)
+  Disease cells       : 472,068
+  Control cells       : 108,055
+  Total donors        : 25
+  Disease donors      : 19 (subsampled from 73)
+  Control donors      : 6  (subsampled from 24)
+  Cell types          : 11
+  Pseudobulk samples  : 254
+
+----------------------------------------------------------------
+8. dcm_heart — Dilated Cardiomyopathy (Reichart et al.)
+----------------------------------------------------------------
+  Tissue              : heart
+  Disease label       : "dilated cardiomyopathy"
+  Control label       : "normal"
+  Census UUID         : 65badd7a-9262-4fd1-9ce2-eb5dc0ca8039
+  Collection          : Pathogenic variants damage cell composition and single
+                        cell transcription in cardiomyopathies
+  Dataset title       : DCM/ACM heart cell atlas: All cells
+  Source paper        : Reichart D et al. 2022 — Science 377:eabo1984
+                        DOI: 10.1126/science.abo1984
+                        PMID: 35926050
+  Total cells         : 764,953
+  Disease cells       : 482,581
+  Control cells       : 282,372
+  Total donors        : 70
+  Disease donors      : 52
+  Control donors      : 18
+  Cell types          : 10
+  Pseudobulk samples  : 569
+
+================================================================================
+SECTION 2: AGGREGATE TOTALS
+================================================================================
+
+  Total cells across 8 datasets   : 4,256,380
+    Total disease cells           : 2,193,118
+    Total control cells           : 2,063,262
+
+  Total donors (sum, may overlap)  : 682
+    Total disease donors          : 336
+    Total control donors          : 346
+
+  Total pseudobulk samples         : 5,923
+
+  Total scoring runs (individual)  : 285
+    (excludes 'all_methods_*' combined files)
+  Total score files in scores/     : 342
+    (5 methods x 7-8 agg/norm combos x 8 datasets;
+     mean_voom drops out for most datasets — see Section 6)
+
+  Census version pinned            : 2025-11-08
+
+================================================================================
+SECTION 3: PER-DATASET BIOLOGICAL RELEVANCE
+================================================================================
+
+Direction accuracy (% direction_correct), per dataset x method:
+
+| Dataset       | ssGSEA | GSVA  | zscore | AUCell | UCell |
+|---------------|-------:|------:|-------:|-------:|------:|
+| ckd_kidney    |   53.2 |  48.5 |   53.7 |   29.4 |  30.4 |
+| sle_blood     |   91.0 |  95.8 |   91.0 |   93.1 |  89.6 |
+| covid_lung    |   61.4 |  61.6 |   60.5 |   50.9 |  49.1 |
+| covid_blood   |   71.0 |  56.2 |   91.1 |   67.0 |  80.4 |
+| ipf_lung      |   52.9 |  46.2 |   62.5 |   46.2 |  46.7 |
+| ad_brain      |   91.7 |  87.5 |   91.7 |   70.8 |  91.7 |
+| pd_brain      |   63.6 |  64.4 |   67.4 |   61.4 |  60.6 |
+| dcm_heart     |   33.5 |  35.5 |   33.5 |   33.0 |  44.5 |
+| **MEAN**      | **64.78** | **61.97** | **68.92** | **56.46** | **61.61** |
+
+================================================================================
+SECTION 4: SIGNIFICANT COMPARISONS PER METHOD
+================================================================================
+
+Comparisons (denominator) per method: 2,160
+  (= 8 datasets x 4 normalizations x ~67.5 pathway-x-celltype tests average)
+
+Significant (p < 0.05):
+
+| Method | Significant | Total | Significant % |
+|--------|------------:|------:|--------------:|
+| ssGSEA |        571  | 2,160 |       26.4%   |
+| GSVA   |        607  | 2,160 |       28.1%   |
+| zscore |        546  | 2,160 |       25.3%   |
+| AUCell |        616  | 2,160 |       28.5%   |
+| UCell  |        629  | 2,160 |       29.1%   |
+
+Range: 546 (zscore) -- 629 (UCell)
+
+Note: This is significantly more than v1's 244 comparisons because v2
+includes ckd_kidney (high cell-type diversity, 26 types) and the
+larger HLCA datasets (51 cell types each).
+
+================================================================================
+SECTION 5: ROBUSTNESS CRITERIA VALUES
+================================================================================
+
+Independently verified from results_v2/evaluation/{ds}/summary_table.rds:
+
+| Method |   Bio  | Aggreg | Outlier | Norm  | Sample |
+|--------|-------:|-------:|--------:|------:|-------:|
+| ssGSEA | 0.6478 | 0.8692 |  0.2180 | 0.7299| 0.8682 |
+| GSVA   | 0.6197 | 0.7265 |  0.1825 | 0.8480| 0.8929 |
+| zscore | 0.6892 | 0.8251 |  0.2149 | 0.7703| 0.8665 |
+| AUCell | 0.5646 | 0.8413 |  0.1707 | 0.6686| 0.8640 |
+| UCell  | 0.6161 | 0.9604 |  0.1630 | 0.7970| 0.8641 |
+
+All 25 values match the previously reported v2 numbers to 3 decimals.
+
+================================================================================
+SECTION 6: NORMALIZATION PAIRWISE CORRELATIONS
+================================================================================
+
+Mean Spearman correlation per method per normalization pair:
+
+ssGSEA:
+  log2CPM vs scran        : 0.746
+  log2CPM vs voom         : 0.746
+  voom vs scran           : 1.000
+  log2CPM vs sctransform  : 0.553   <- LOWEST sctransform pair
+  scran vs sctransform    : 0.672
+  voom vs sctransform     : 0.672
+
+GSVA:
+  log2CPM vs scran        : 0.819
+  log2CPM vs voom         : 0.789
+  voom vs scran           : 0.983
+  log2CPM vs sctransform  : 0.903   <- HIGHEST sctransform pair
+  scran vs sctransform    : 0.800
+  voom vs sctransform     : 0.792
+
+zscore:
+  log2CPM vs scran        : 0.724
+  log2CPM vs voom         : 0.724
+  voom vs scran           : 0.895
+  log2CPM vs sctransform  : 0.937   <- HIGHEST sctransform pair
+  scran vs sctransform    : 0.650   <- LOWEST sctransform pair
+  voom vs sctransform     : 0.691
+
+AUCell:
+  log2CPM vs scran        : 0.619
+  log2CPM vs voom         : 0.619
+  voom vs scran           : 0.999
+  log2CPM vs sctransform  : 0.688
+  scran vs sctransform    : 0.548   <- LOWEST sctransform pair
+  voom vs sctransform     : 0.548
+
+UCell:
+  log2CPM vs scran        : 0.994
+  log2CPM vs voom         : 0.994
+  voom vs scran           : 1.000   <- ESSENTIALLY PERFECT
+  log2CPM vs sctransform  : 0.602
+  scran vs sctransform    : 0.599   <- LOWEST sctransform pair
+  voom vs sctransform     : 0.599
+
+KEY NUMBERS FOR THE TEXT:
+
+Mean rho across log2CPM/scran/voom pairs (excluding sctransform):
+  ssGSEA: 0.831
+  GSVA  : 0.864
+  zscore: 0.781
+  AUCell: 0.746
+  UCell : 0.996   <- "near-perfect concordance" (3-way average ~1.00)
+
+UCell log2CPM/scran/voom: rho ~ 0.99-1.00 (essentially perfect)
+
+Best sctransform pair across methods:
+  zscore log2CPM vs sctransform : 0.937
+  GSVA   log2CPM vs sctransform : 0.903
+  GSVA   scran   vs sctransform : 0.800
+
+Worst sctransform pair across methods:
+  AUCell scran vs sctransform   : 0.548
+  AUCell voom  vs sctransform   : 0.548
+  ssGSEA log2CPM vs sctransform : 0.553
+  UCell  scran vs sctransform   : 0.599
+
+NOTE: mean_voom is excluded from these correlations (insufficient gene
+overlap after filterByExpr — see validation_codex/v2_validation_report.txt).
+
+================================================================================
+SECTION 7: SAMPLE STABILITY AT DIFFERENT FRACTIONS
+================================================================================
+
+Mean Spearman correlation of effect-size vector vs full dataset, by
+sample fraction (subsample disease and control donors proportionally):
+
+| Method |  30%  |  50%  |  70%  |  90%  |
+|--------|------:|------:|------:|------:|
+| ssGSEA | 0.800 | 0.867 | 0.913 | 0.953 |
+| GSVA   | 0.830 | 0.892 | 0.931 | 0.969 |
+| zscore | 0.806 | 0.865 | 0.918 | 0.958 |
+| AUCell | 0.789 | 0.863 | 0.917 | 0.964 |
+| UCell  | 0.791 | 0.863 | 0.912 | 0.958 |
+
+GSVA leads at every fraction. Differences are small (~0.02-0.04) but
+consistent.
+
+At 30% subsample (most stringent):
+  Best:  GSVA  rho = 0.830
+  Worst: AUCell rho = 0.789
+  Range: 0.789-0.830
+
+================================================================================
+SECTION 8: EFFECT SIZES (MEDIAN |COHEN'S D|)
+================================================================================
+
+Per-method median |Cohen's d| across all 2,160 disease vs control comparisons:
+
+  ssGSEA  : 0.484
+  GSVA    : 0.523
+  zscore  : 0.495
+  AUCell  : 0.528
+  UCell   : 0.518
+
+Range: 0.484 (ssGSEA) -- 0.528 (AUCell)
+All methods produce moderate effect sizes (~0.5), consistent with
+biologically meaningful but not extreme differences.
+
+================================================================================
+SECTION 9: TOP PERFORMER PER DATASET (BIOLOGICAL RELEVANCE)
+================================================================================
+
+| Dataset      | Best method  | Best %  | 2nd place    |  2nd %  | Margin |
+|--------------|--------------|--------:|--------------|--------:|-------:|
+| ckd_kidney   | zscore       |  53.7%  | ssGSEA       |  53.2%  |  +0.5  |
+| sle_blood    | GSVA         |  95.8%  | AUCell       |  93.1%  |  +2.8  |
+| covid_lung   | GSVA         |  61.6%  | ssGSEA       |  61.4%  |  +0.2  |
+| covid_blood  | zscore       |  91.1%  | UCell        |  80.4%  | +10.7  |
+| ipf_lung     | zscore       |  62.5%  | ssGSEA       |  52.9%  |  +9.6  |
+| ad_brain     | (3-way tie)  |  91.7%  | (ssGSEA = zscore = UCell) |  +0.0  |
+| pd_brain     | zscore       |  67.4%  | GSVA         |  64.4%  |  +3.0  |
+| dcm_heart    | UCell        |  44.5%  | GSVA         |  35.5%  |  +9.0  |
+
+Wins per method:
+  zscore : 4 outright (ckd, covid_blood, ipf, pd) + 1 tied (ad)
+  GSVA   : 2 outright (sle, covid_lung)
+  UCell  : 1 outright (dcm) + 1 tied (ad)
+  ssGSEA : 0 outright + 1 tied (ad)
+  AUCell : 0 wins, 0 ties
+
+Notable patterns:
+- z-score wins all chronic, multi-pathway diseases (CKD, IPF, PD, covid_blood)
+- GSVA wins SLE and covid_lung (both dominated by interferon signaling)
+- UCell only wins dcm_heart (where all methods score poorly, 33-45%)
+- AUCell never wins; it is in the bottom 2 in all 8 datasets
+
+================================================================================
+SECTION 10: FIGURE PATHS
+================================================================================
+
+Main figures (results_v2/figures/):
+
+  fig2_biological_relevance.pdf       62K  — boxplots of bio relevance per
+                                              method across 8 datasets
+  fig3_summary_heatmap.pdf            5.3K — 5 methods x 5 criteria heatmap
+                                              (scaled 0-1 per criterion)
+  fig4_normalization.pdf              6.5K — 5 correlation matrices
+                                              (one per method)
+  fig5_sample_size.pdf                7.1K — sample-stability curves
+                                              (30/50/70/90% subsample)
+  fig_method_comparison.pdf           5.4K — grouped bar chart of all 5 methods
+
+Supplementary per-dataset detail figures (results_v2/figures/):
+
+  supp_ad_brain_detail.pdf            6.3K
+  supp_ckd_kidney_detail.pdf           20K
+  supp_covid_blood_detail.pdf          14K
+  supp_covid_lung_detail.pdf           25K
+  supp_dcm_heart_detail.pdf            13K
+  supp_ipf_lung_detail.pdf             22K
+  supp_pd_brain_detail.pdf             11K
+  supp_sle_blood_detail.pdf            11K
+
+Total: 5 main + 8 supplementary = 13 PDFs
+
+================================================================================
+END OF MANUSCRIPT REWRITE DATA
+================================================================================

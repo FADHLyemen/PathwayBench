@@ -18,6 +18,8 @@ import plotly.graph_objects as go
 import streamlit as st
 from scipy import stats
 
+ZENODO_DOI = "10.5281/zenodo.19503595"
+
 # ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
@@ -58,16 +60,18 @@ DEFAULT_WEIGHTS: dict[str, float] = {
     "sample_stability": 0.15,
 }
 
-# Benchmark reference — averaged across 10 CellxGene disease datasets.
+# Benchmark reference — v2-corrected, averaged across 7 CellxGene datasets
+# (excluding ckd_kidney pending KPMP approval).
 # outlier_sensitivity is inverted to outlier_robustness (1 - value).
+# Source: validation_codex/v2_corrected_results.txt (7-dataset table)
 _BENCH_RAW = pd.DataFrame(
     {
         "method": ["ssGSEA", "GSVA", "zscore", "AUCell", "UCell"],
-        "bio_relevance": [0.354, 0.398, 0.340, 0.380, 0.358],
-        "calc_method_cor": [0.866, 0.668, 0.796, 0.816, 0.925],
-        "outlier_robustness": [1 - 0.251, 1 - 0.255, 1 - 0.256, 1 - 0.195, 1 - 0.195],
-        "norm_stability": [0.681, 0.696, 0.705, 0.648, 0.757],
-        "sample_stability": [0.888, 0.866, 0.885, 0.856, 0.827],
+        "bio_relevance": [0.643, 0.609, 0.698, 0.570, 0.587],
+        "calc_method_cor": [0.864, 0.728, 0.820, 0.840, 0.958],
+        "outlier_robustness": [1 - 0.213, 1 - 0.177, 1 - 0.220, 1 - 0.175, 1 - 0.164],
+        "norm_stability": [0.723, 0.849, 0.765, 0.670, 0.798],
+        "sample_stability": [0.855, 0.886, 0.860, 0.857, 0.856],
     }
 )
 
@@ -398,7 +402,7 @@ def main() -> None:
 
     # ---- Header ----
     st.markdown(
-        """
+        f"""
         <div style="background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%);
                     color:white; padding:28px 32px 22px; border-radius:0 0 8px 8px;
                     margin:-1rem -1rem 1.5rem -1rem;">
@@ -406,7 +410,8 @@ def main() -> None:
                        letter-spacing:-0.3px;">PathwayBench Advisor</h1>
             <p style="margin:0; font-size:13px; color:#a0b4d0;">
                 Upload your pseudobulk data. Get a benchmarked recommendation
-                for the best pathway scoring method.</p>
+                for the best pathway scoring method. v{APP_VERSION} — now includes
+                rank-window competition analysis.</p>
         </div>
         """,
         unsafe_allow_html=True,
@@ -414,6 +419,18 @@ def main() -> None:
 
     # ---- Sidebar ----
     with st.sidebar:
+        st.markdown(
+            f"""
+            **📄 Paper**
+
+            [![DOI](https://zenodo.org/badge/DOI/{ZENODO_DOI}.svg)](https://doi.org/{ZENODO_DOI})
+
+            Alakwaa et al., *Nature Methods* (submitted, 2026).
+
+            [Zenodo](https://doi.org/{ZENODO_DOI}) · [GitHub](https://github.com/fadhlyemen/PathwayBench)
+            """
+        )
+        st.divider()
         # Example data
         st.markdown("### Example Data")
         st.caption(
@@ -550,8 +567,9 @@ def main() -> None:
         st.info("Upload data, provide a gene set, and click **Run Analysis**.")
         return
 
-    tab_crit, tab_scores, tab_compare, tab_bench = st.tabs(
-        ["Criteria Performance", "Pathway Scores", "Method Comparison", "Benchmark Reference"]
+    tab_crit, tab_scores, tab_compare, tab_bench, tab_rankwin = st.tabs(
+        ["Criteria Performance", "Pathway Scores", "Method Comparison",
+         "Benchmark Reference", "Rank-Window Competition"]
     )
 
     # -- Tab 1: Criteria performance --
@@ -631,11 +649,63 @@ def main() -> None:
             use_container_width=True,
         )
 
+    # -- Tab 5: Rank-window competition --
+    with tab_rankwin:
+        st.markdown("### Rank-window competition: a novel failure mode")
+        st.markdown(
+            "We discovered that rank-based methods (AUCell, UCell) can **invert** "
+            "the disease-vs-control direction when non-pathway genes are upregulated "
+            "more strongly, displacing pathway genes from the fixed top-N rank window."
+        )
+
+        sim_data = pd.DataFrame({
+            "Scenario": ["a: Top 10%, clean"] * 5 + ["b: Top 50%, clean"] * 5 +
+                        ["c: Top 10%, 200 comp"] * 5 + ["d: Top 10%, 500 comp"] * 5,
+            "Method": ["ssGSEA","GSVA","zscore","AUCell","UCell"] * 4,
+            "Cohen_d": [9.16, 13.49, 9.28, 7.14, 9.15,
+                        8.93, 13.12, 9.07, 0.00, 0.22,
+                        6.18, 12.57, 9.17, 4.00, 6.19,
+                        2.26, 11.91, 9.40, 0.05, 2.28],
+        })
+        sim_data["color"] = sim_data.apply(
+            lambda r: "#D32F2F" if r["Cohen_d"] < 0.3 and r["Method"] in ("AUCell", "UCell")
+            else METHOD_COLORS.get(r["Method"], "#999"), axis=1
+        )
+        fig_sim = go.Figure()
+        for sc in sim_data["Scenario"].unique():
+            sub = sim_data[sim_data["Scenario"] == sc]
+            fig_sim.add_trace(go.Bar(
+                name=sc, x=sub["Method"], y=sub["Cohen_d"],
+                marker_color=sub["color"].tolist(),
+                showlegend=False,
+            ))
+        fig_sim.update_layout(
+            barmode="group", title="Simulation: Cohen's d under rank-window competition",
+            yaxis_title="Cohen's d", height=400,
+            annotations=[dict(text="Red = missed or wrong sign", x=0.5, y=1.05,
+                              xref="paper", yref="paper", showarrow=False,
+                              font=dict(size=11, color="grey"))],
+        )
+        st.plotly_chart(fig_sim, use_container_width=True)
+
+        st.markdown(
+            "**Real-data validation (CKD kidney, ECM remodeling):** "
+            "ssGSEA d=+0.39, GSVA d=+0.40, zscore d=+0.44 (detect UP). "
+            "AUCell d=+0.03, UCell d=-0.05 (miss or invert)."
+        )
+        st.info(
+            "**Recommendation:** When AUCell/UCell and magnitude methods disagree, "
+            "trust the magnitude method. Avoid AUCell/UCell as sole method in diseases "
+            "with broad transcriptional remodeling (CKD, fibrotic conditions)."
+        )
+
     # ---- Footer ----
     st.divider()
     st.caption(
-        "PathwayBench Advisor | Benchmarking 5 pathway scoring methods across "
-        "6 robustness criteria | Reference database: 10 disease datasets from CellxGene Census"
+        f"PathwayBench Advisor v{APP_VERSION} | Benchmarking 5 pathway scoring methods "
+        f"across 5 robustness criteria | Reference: 7 disease datasets from "
+        f"CellxGene Census 2025-11-08 | "
+        f"[DOI: {ZENODO_DOI}](https://doi.org/{ZENODO_DOI})"
     )
 
 
