@@ -4,7 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Snakemake](https://img.shields.io/badge/snakemake-%E2%89%A57.0-brightgreen.svg)](https://snakemake.readthedocs.io)
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.XXXXXXX-blue)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.19503595-blue)](https://doi.org/10.5281/zenodo.19503595)
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pathwaybench-xrdxczzdpeahvcinxwbrcq.streamlit.app)
 
 ## Try PathwayBench Advisor online
@@ -29,7 +29,7 @@ We discovered that rank-based pathway scoring methods (AUCell, UCell) can **syst
 
 ## Overview
 
-PathwayBench is a systematic benchmark of five pathway activity scoring methods (ssGSEA, GSVA, Z-score, AUCell, UCell) for pseudobulk single-cell RNA-seq data. We evaluate **5 methods** across **5 robustness criteria** using **8 disease datasets** (4.3M cells, 682 donors, 4 tissues) from [CellxGene Census](https://cellxgene.cziscience.com/) release 2025-11-08, with literature-curated ground-truth pathways from Reactome.
+PathwayBench is a systematic benchmark of five pathway activity scoring methods (ssGSEA, GSVA, Z-score, AUCell, UCell) for pseudobulk single-cell RNA-seq data. We evaluate **5 methods** across **5 robustness criteria** using **7 disease datasets** (4,005,940 cells, 618 donors, 4 tissues) from [CellxGene Census](https://cellxgene.cziscience.com/) release 2025-11-08, with literature-curated ground-truth pathways from Reactome.
 
 ### Scoring Methods
 
@@ -197,7 +197,7 @@ PathwayBench/
 ## Data Availability
 
 - **Raw data**: Downloaded programmatically from [CellxGene Discover](https://cellxgene.cziscience.com/) Census
-- **Processed data + results**: Available on [Zenodo](https://doi.org/10.5281/zenodo.XXXXXXX) (DOI pending)
+- **Processed data + results**: Available on [Zenodo](https://doi.org/10.5281/zenodo.19503595) 
 - **Pathway gene sets**: From [Reactome](https://reactome.org/) via MSigDB
 
 ## Citation
