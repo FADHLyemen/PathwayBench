@@ -18,7 +18,7 @@ import plotly.graph_objects as go
 import streamlit as st
 from scipy import stats
 
-APP_VERSION = "2.1.3"
+APP_VERSION = "2.1.4"
 ZENODO_DOI = "10.5281/zenodo.19503595"
 
 # ---------------------------------------------------------------------------
@@ -316,8 +316,9 @@ def get_priority_based_recommendation(
     sctransform_used: bool = False,
     gene_set_size: int = 50,
     outlier_fraction: float = 0.0,
+    n_donors: int | None = None,
 ) -> tuple[str, str, list[str]]:
-    """Implement the Figure 9 (Practical Guidelines) decision tree.
+    """Implement the Figure 8/9 (Practical Guidelines) decision tree.
 
     Returns (recommended_method, reasoning_text, warnings_list).
     """
@@ -362,6 +363,38 @@ def get_priority_based_recommendation(
                 "GSVA leads sample-size stability (0.893) and combines it "
                 "with low outlier deviation (0.183), making it the safer "
                 "choice with <15 donors."
+            )
+    elif priority.startswith("I\u2019m not sure") or priority.startswith("I'm not sure"):
+        # Data-driven decision: inspect profile and pick the best fit
+        eff_donors = n_donors if n_donors is not None else 20
+        if eff_donors < 15:
+            method = "GSVA"
+            reason = (
+                f"Your dataset has {eff_donors} donors (<15). "
+                "GSVA leads sample-size stability (0.893), which is the "
+                "most important criterion when donor counts are low."
+            )
+        elif outlier_fraction > 20.0:
+            method = "UCell"
+            reason = (
+                f"Your data has {outlier_fraction:.0f}% outlier samples. "
+                "UCell has the lowest outlier sensitivity (0.163) and "
+                "is the most robust choice for noisy data."
+            )
+        elif sctransform_used:
+            method = "GSVA or UCell (run both)"
+            reason = (
+                "sctransform normalization detected. GSVA and UCell have "
+                "the highest normalization stability (0.849 and 0.798), "
+                "while AUCell is the most affected (0.670). Run both "
+                "GSVA and UCell and compare."
+            )
+        else:
+            method = "GSVA or UCell (run both)"
+            reason = (
+                "No strong data-specific concern detected. GSVA and UCell "
+                "each achieve Good on 4/5 PathwayBench criteria and are "
+                "the safest general-purpose choices. Run both and compare."
             )
 
     warnings: list[str] = []
@@ -614,8 +647,9 @@ def main() -> None:
                 "Biological sensitivity (detect the right direction & effect)",
                 "Balanced (good on both sensitivity and robustness)",
                 "Technical robustness (stable across pipelines & subsets)",
+                "I'm not sure \u2014 help me decide based on my data",
             ],
-            index=1,
+            index=3,
             key="priority",
             help=(
                 "Sensitivity = does the method find true biological signal? "
@@ -730,14 +764,25 @@ def main() -> None:
         gs_size = len(gene_set) if gene_set else 50
         outlier_frac = profile["outlier_pct"] if profile else 0.0
 
+        detected_donors = profile.get("n_donors") if profile else None
+
+        current_priority = st.session_state.get("priority", "Balanced")
         pri_method, pri_reason, pri_warnings = get_priority_based_recommendation(
-            priority=st.session_state.get("priority", "Balanced"),
+            priority=current_priority,
             sub_priority_bio=st.session_state.get("sub_priority_bio"),
             sub_priority_robust=st.session_state.get("sub_priority_robust"),
             sctransform_used=sct_used,
             gene_set_size=gs_size,
             outlier_fraction=outlier_frac,
+            n_donors=detected_donors,
         )
+
+        if current_priority.startswith("I") and "not sure" in current_priority.lower():
+            st.info(
+                f"\U0001f9e0 You asked the app to decide. Based on your data "
+                f"profile, {pri_reason}"
+            )
+
         st.success(f"### For your priorities: **{pri_method}**")
         st.markdown(f"**Why:** {pri_reason}")
         if pri_warnings:
