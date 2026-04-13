@@ -17,7 +17,7 @@ No installation required. Upload your pseudobulk expression matrix and gene set 
 
 We discovered that rank-based pathway scoring methods (AUCell, UCell) can **systematically invert** disease-vs-control direction when non-pathway genes are upregulated more strongly than the pathway of interest. In simulations, AUCell flipped sign (Cohen's d = -0.27) while magnitude methods maintained correct detection (d = 2.2-11.1). In real CKD kidney data, AUCell/UCell reported ECM remodeling as unchanged while ssGSEA/GSVA/Z-score correctly detected upregulation.
 
-### GIP summary (7 datasets, corrected ground truth)
+### GIP summary (8 datasets, corrected ground truth)
 
 | Method | Biology | Aggregation | Outlier | Normalization | Sample | Good |
 |--------|---------|-------------|---------|---------------|--------|:----:|
@@ -29,7 +29,7 @@ We discovered that rank-based pathway scoring methods (AUCell, UCell) can **syst
 
 ## Overview
 
-PathwayBench is a systematic benchmark of five pathway activity scoring methods (ssGSEA, GSVA, Z-score, AUCell, UCell) for pseudobulk single-cell RNA-seq data. We evaluate **5 methods** across **5 robustness criteria** using **7 disease datasets** (4,005,940 cells, 618 donors, 4 tissues) from [CellxGene Census](https://cellxgene.cziscience.com/) release 2025-11-08, with literature-curated ground-truth pathways from Reactome.
+PathwayBench is a systematic benchmark of five pathway activity scoring methods (ssGSEA, GSVA, Z-score, AUCell, UCell) for pseudobulk single-cell RNA-seq data. We evaluate **5 methods** across **5 robustness criteria** using **8 disease datasets** (4,256,380 cells, 682 donors, 4 tissues) from [CellxGene Census](https://cellxgene.cziscience.com/) release 2025-11-08, with literature-curated ground-truth pathways from Reactome.
 
 ### Scoring Methods
 

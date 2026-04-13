@@ -18,7 +18,7 @@ import plotly.graph_objects as go
 import streamlit as st
 from scipy import stats
 
-APP_VERSION = "2.1.4"
+APP_VERSION = "2.1.5"
 ZENODO_DOI = "10.5281/zenodo.19503595"
 
 # ---------------------------------------------------------------------------
@@ -64,7 +64,7 @@ DEFAULT_WEIGHTS: dict[str, float] = {
 # Benchmark reference — v2-corrected, averaged across 7 CellxGene datasets
 # (excluding ckd_kidney pending KPMP approval).
 # outlier_sensitivity is inverted to outlier_robustness (1 - value).
-# Source: validation_codex/v2_corrected_results.txt (7-dataset table)
+# Source: validation_codex/v2_corrected_results.txt (8-dataset table)
 _BENCH_RAW = pd.DataFrame(
     {
         "method": ["ssGSEA", "GSVA", "zscore", "AUCell", "UCell"],
@@ -778,9 +778,12 @@ def main() -> None:
         )
 
         if current_priority.startswith("I") and "not sure" in current_priority.lower():
+            # Lowercase the first char of the reasoning so it flows
+            # grammatically after the intro clause.
+            reason_lc = pri_reason[0].lower() + pri_reason[1:] if pri_reason else ""
             st.info(
                 f"\U0001f9e0 You asked the app to decide. Based on your data "
-                f"profile, {pri_reason}"
+                f"profile, {reason_lc}"
             )
 
         st.success(f"### For your priorities: **{pri_method}**")
@@ -943,7 +946,7 @@ def main() -> None:
     st.divider()
     st.caption(
         f"PathwayBench Advisor v{APP_VERSION} | Benchmarking 5 pathway scoring methods "
-        f"across 5 robustness criteria | Reference: 7 disease datasets from "
+        f"across 5 robustness criteria | Reference: 8 disease datasets from "
         f"CellxGene Census 2025-11-08 | "
         f"[DOI: {ZENODO_DOI}](https://doi.org/{ZENODO_DOI})"
     )
