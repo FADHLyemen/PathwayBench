@@ -18,7 +18,7 @@ import plotly.graph_objects as go
 import streamlit as st
 from scipy import stats
 
-APP_VERSION = "2.1.0"
+APP_VERSION = "2.1.1"
 ZENODO_DOI = "10.5281/zenodo.19503595"
 
 # ---------------------------------------------------------------------------
@@ -167,7 +167,36 @@ def profile_data(expr: pd.DataFrame) -> dict:
         cond_counts = {}
     info["conditions"] = cond_counts
 
+    # Donor count auto-detection
+    info["n_donors"] = detect_donor_count(expr)
+
     return info
+
+
+def detect_donor_count(expr: pd.DataFrame) -> int | None:
+    """Try to infer the number of unique donors from column names.
+
+    Pseudobulk sample IDs follow ``donor__celltype__condition``
+    (double-underscore, PathwayBench convention).  We only auto-detect
+    when the ``__`` delimiter is present, which is unambiguous.  For
+    single-underscore names we return ``None`` so the UI falls back to
+    a manual input.
+    """
+    cols = expr.columns.tolist()
+    if not cols:
+        return None
+
+    # Only use the unambiguous double-underscore delimiter
+    if not any("__" in c for c in cols):
+        return None
+
+    donors = {c.split("__")[0] for c in cols if "__" in c}
+
+    # Sanity: need at least 2 distinct donors and fewer donors than columns
+    if len(donors) < 2 or len(donors) == len(cols):
+        return None
+
+    return len(donors)
 
 
 # ---------------------------------------------------------------------------
@@ -602,12 +631,25 @@ def main() -> None:
 
         sub_priority_robust = None
         if priority.startswith("Technical"):
-            n_donors = st.number_input(
-                "How many donors are in your dataset?",
-                min_value=2, max_value=10000, value=20, step=1,
-                key="n_donors_input",
-                help="Sample-size stability differs by donor count.",
+            # Auto-detect donor count from uploaded data; manual fallback
+            auto_donors = (
+                profile.get("n_donors") if profile is not None else None
             )
+            if auto_donors is not None:
+                n_donors = auto_donors
+                st.caption(
+                    f"Detected **{n_donors} donors** from column names."
+                )
+            else:
+                n_donors = st.number_input(
+                    "How many donors are in your dataset?",
+                    min_value=2, max_value=10000, value=20, step=1,
+                    key="n_donors_input",
+                    help=(
+                        "Could not auto-detect donors from column names. "
+                        "Enter the count manually."
+                    ),
+                )
             sub_priority_robust = (
                 "\u226515 donors" if n_donors >= 15 else "<15 donors"
             )
