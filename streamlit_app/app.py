@@ -18,7 +18,7 @@ import plotly.graph_objects as go
 import streamlit as st
 from scipy import stats
 
-APP_VERSION = "2.0.0"
+APP_VERSION = "2.1.0"
 ZENODO_DOI = "10.5281/zenodo.19503595"
 
 # ---------------------------------------------------------------------------
@@ -275,6 +275,87 @@ def compute_recommendation(
 
 
 # ---------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
+# Priority-based recommendation (matches Figure 9 decision tree)
+# ---------------------------------------------------------------------------
+
+
+def get_priority_based_recommendation(
+    priority: str,
+    sub_priority_bio: str | None = None,
+    sub_priority_robust: str | None = None,
+    sctransform_used: bool = False,
+    gene_set_size: int = 50,
+    outlier_fraction: float = 0.0,
+) -> tuple[str, str, list[str]]:
+    """Implement the Figure 9 (Practical Guidelines) decision tree.
+
+    Returns (recommended_method, reasoning_text, warnings_list).
+    """
+    method: str | None = None
+    reason = ""
+
+    if priority.startswith("Biological"):
+        if sub_priority_bio and "Direction accuracy" in sub_priority_bio:
+            method = "Z-score"
+            reason = (
+                "Z-score has the highest direction accuracy in PathwayBench "
+                "(0.694 across 8 datasets, wins outright on 3 of 8)."
+            )
+        elif sub_priority_bio and "Effect magnitude" in sub_priority_bio:
+            method = "AUCell"
+            reason = (
+                "AUCell produces the largest effect magnitudes "
+                "(mean |Cohen's d| = 0.675), useful for ranking pathways. "
+                "Also run a magnitude method (ssGSEA, GSVA, or Z-score) to "
+                "detect rank-window inversion in diseases with broad "
+                "transcriptional remodeling."
+            )
+    elif priority.startswith("Balanced"):
+        method = "GSVA or UCell (run both)"
+        reason = (
+            "Both achieve Good ratings on 4/5 PathwayBench criteria. "
+            "GSVA: stronger biology and sample-size stability. "
+            "UCell: stronger aggregation and outlier robustness. "
+            "Comparing the two gives a sensitivity-vs-robustness check."
+        )
+    elif priority.startswith("Technical"):
+        if sub_priority_robust == "\u226515 donors":
+            method = "UCell"
+            reason = (
+                "UCell leads aggregation stability (0.960) and outlier "
+                "robustness (0.163 deviation). With \u226515 donors, "
+                "sample-size stability is not the bottleneck."
+            )
+        else:
+            method = "GSVA"
+            reason = (
+                "GSVA leads sample-size stability (0.893) and combines it "
+                "with low outlier deviation (0.183), making it the safer "
+                "choice with <15 donors."
+            )
+
+    warnings: list[str] = []
+    if sctransform_used and method == "AUCell":
+        warnings.append(
+            "sctransform normalization detected: AUCell has the lowest "
+            "normalization independence (0.669). Prefer UCell or GSVA."
+        )
+    if gene_set_size < 20 and method == "Z-score":
+        warnings.append(
+            "Small gene set (<20 genes): Z-score is sensitive to individual "
+            "high-variance genes. Prefer GSVA or ssGSEA."
+        )
+    if outlier_fraction > 20.0 and method not in ("UCell", "GSVA or UCell (run both)"):
+        warnings.append(
+            "High outlier fraction (>20%): Consider UCell (lowest outlier "
+            "deviation, 0.163) or GSVA (0.183)."
+        )
+
+    return method or "GSVA or UCell (run both)", reason, warnings
+
+
+# ---------------------------------------------------------------------------
 # Plotting helpers (Plotly)
 # ---------------------------------------------------------------------------
 
@@ -410,9 +491,10 @@ def main() -> None:
             <h1 style="margin:0 0 4px; font-size:26px; font-weight:700;
                        letter-spacing:-0.3px;">PathwayBench Advisor</h1>
             <p style="margin:0; font-size:13px; color:#a0b4d0;">
-                Upload your pseudobulk data. Get a benchmarked recommendation
-                for the best pathway scoring method. v{APP_VERSION} — now includes
-                rank-window competition analysis.</p>
+                Upload pseudobulk data and tell us your priorities.
+                PathwayBench will recommend the best scoring method
+                <b>based on what you value most</b> and run all five methods
+                so you can compare. v{APP_VERSION}</p>
         </div>
         """,
         unsafe_allow_html=True,
@@ -476,6 +558,60 @@ def main() -> None:
             height=100,
             label_visibility="collapsed",
         )
+
+        st.divider()
+
+        # ---- STEP 1: User priorities elicitation ----
+        st.markdown("### 2. Your priorities")
+        st.caption(
+            "_PathwayBench shows there is no universally best method "
+            "-- the right choice depends on what you value._"
+        )
+
+        priority = st.radio(
+            "What matters most for your analysis?",
+            options=[
+                "Biological sensitivity (detect the right direction & effect)",
+                "Balanced (good on both sensitivity and robustness)",
+                "Technical robustness (stable across pipelines & subsets)",
+            ],
+            index=1,
+            key="priority",
+            help=(
+                "Sensitivity = does the method find true biological signal? "
+                "Robustness = does the method give consistent answers under "
+                "different aggregations, normalizations, and donor subsets?"
+            ),
+        )
+
+        sub_priority_bio = None
+        if priority.startswith("Biological"):
+            sub_priority_bio = st.radio(
+                "Within biological sensitivity, what matters more?",
+                options=[
+                    "Direction accuracy (is the sign correct?)",
+                    "Effect magnitude (how large is the difference?)",
+                ],
+                index=0,
+                key="sub_priority_bio",
+                help=(
+                    "Direction accuracy: best for hypothesis testing. "
+                    "Effect magnitude: best for ranking pathways."
+                ),
+            )
+
+        sub_priority_robust = None
+        if priority.startswith("Technical"):
+            n_donors = st.number_input(
+                "How many donors are in your dataset?",
+                min_value=2, max_value=10000, value=20, step=1,
+                key="n_donors_input",
+                help="Sample-size stability differs by donor count.",
+            )
+            sub_priority_robust = (
+                "\u226515 donors" if n_donors >= 15 else "<15 donors"
+            )
+            st.session_state["sub_priority_robust"] = sub_priority_robust
 
         st.divider()
         run_clicked = st.button("Run Analysis", type="primary", use_container_width=True)
@@ -562,6 +698,33 @@ def main() -> None:
             """,
             unsafe_allow_html=True,
         )
+
+    # ---- Priority-based recommendation (STEP 3) ----
+    if rec is not None:
+        # Detect sctransform from profiler
+        sct_used = (
+            profile is not None
+            and "sctransform" in profile.get("norm_guess", "").lower()
+        )
+        gs_size = len(gene_set) if gene_set else 50
+        outlier_frac = profile["outlier_pct"] if profile else 0.0
+
+        pri_method, pri_reason, pri_warnings = get_priority_based_recommendation(
+            priority=st.session_state.get("priority", "Balanced"),
+            sub_priority_bio=st.session_state.get("sub_priority_bio"),
+            sub_priority_robust=st.session_state.get("sub_priority_robust"),
+            sctransform_used=sct_used,
+            gene_set_size=gs_size,
+            outlier_fraction=outlier_frac,
+        )
+        st.success(f"### For your priorities: **{pri_method}**")
+        st.markdown(f"**Why:** {pri_reason}")
+        if pri_warnings:
+            st.warning("**Additional considerations for your data:**")
+            for w in pri_warnings:
+                st.markdown(f"- {w}")
+        st.markdown("---")
+        st.markdown("### Full results across all five methods")
 
     # ---- Tabs ----
     if rec is None:
