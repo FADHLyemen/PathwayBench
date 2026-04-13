@@ -197,3 +197,45 @@ rule generate_figures:
             --config config/config.yaml \
             2>&1 | tee {log}
         """
+
+
+# =========================
+# FIGURE REPRODUCTION TARGETS (v2-corrected)
+# =========================
+
+rule reproduce_all_figures:
+    input:
+        expand("results_v2_corrected/figures/Figure_{n}.pdf", n=[1,2,3,4,5,6,8])
+
+rule fig1:
+    output: "results_v2_corrected/figures/Figure_1.pdf"
+    shell: "python workflow/scripts/figures/generate_fig1_schematic.py"
+
+rule fig2:
+    input: "results_v2_corrected/evaluation/all_metrics.csv"
+    output: "results_v2_corrected/figures/Figure_2.pdf"
+    shell: "Rscript workflow/scripts/figures/generate_fig2_biological.R"
+
+rule fig3:
+    output: "results_v2_corrected/figures/Figure_3.pdf"
+    shell: "Rscript workflow/scripts/figures/generate_fig3_simulation.R"
+
+rule fig4:
+    input: expand("results_v2/scores/ckd_kidney/{m}_sum_log2CPM_scores.rds",
+                   m=["ssGSEA","GSVA","zscore","AUCell","UCell"])
+    output: "results_v2_corrected/figures/Figure_4.pdf"
+    shell: "Rscript workflow/scripts/figures/generate_fig4_ckd_ecm.R"
+
+rule fig5:
+    input: "results_v2_corrected/evaluation/all_metrics.csv"
+    output: "results_v2_corrected/figures/Figure_5.pdf"
+    shell: "Rscript workflow/scripts/figures/generate_fig5_gip_table.R"
+
+rule fig6:
+    input: "results_v2_corrected/evaluation/all_metrics.csv"
+    output: "results_v2_corrected/figures/Figure_6.pdf"
+    shell: "Rscript workflow/scripts/figures/generate_fig6_tradeoff.R"
+
+rule fig8:
+    output: "results_v2_corrected/figures/Figure_8.pdf"
+    shell: "python workflow/scripts/figures/generate_fig8_decision_tree.py"

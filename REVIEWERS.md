@@ -1,0 +1,99 @@
+# PathwayBench Figure Reproduction Guide
+
+This guide enables independent reproduction of all 8 manuscript figures from
+the public GitHub repository and Zenodo deposit.
+
+## Setup (15 min, one-time)
+
+```bash
+git clone https://github.com/fadhlyemen/PathwayBench.git
+cd PathwayBench
+conda env create -f environment.yml -n pathwaybench
+conda activate pathwaybench
+```
+
+## Reproduce all 7 data/schematic figures (one command)
+
+```bash
+snakemake --cores 4 reproduce_all_figures
+```
+
+Output: `results_v2_corrected/figures/Figure_{1,2,3,4,5,6,8}.pdf`
+
+Figure 7 (Streamlit app screenshot) is a UI screenshot, not code-generated.
+It is available in the Zenodo deposit.
+
+## Reproduce a single figure
+
+| Figure | Command | Time | Data needed |
+|--------|---------|------|-------------|
+| Fig 1 (schematic) | `python workflow/scripts/figures/generate_fig1_schematic.py` | 5 sec | None |
+| Fig 2 (bio relevance) | `Rscript workflow/scripts/figures/generate_fig2_biological.R` | 10 sec | `all_metrics.csv` |
+| Fig 3 (simulation) | `Rscript workflow/scripts/figures/generate_fig3_simulation.R` | 5 min | None (runs inline) |
+| Fig 4 (CKD ECM) | `Rscript workflow/scripts/figures/generate_fig4_ckd_ecm.R` | 10 sec | CKD score files |
+| Fig 5 (GIP table) | `Rscript workflow/scripts/figures/generate_fig5_gip_table.R` | 10 sec | `all_metrics.csv` + eval RDS |
+| Fig 6 (tradeoff) | `Rscript workflow/scripts/figures/generate_fig6_tradeoff.R` | 10 sec | `all_metrics.csv` + eval RDS |
+| Fig 7 (app screenshot) | Visit https://pathwaybench-xrdxczzdpeahvcinxwbrcq.streamlit.app | 1 min | None |
+| Fig 8 (decision tree) | `python workflow/scripts/figures/generate_fig8_decision_tree.py` | 5 sec | None |
+
+### Data files needed
+
+Figures 2, 5, 6 need `results_v2_corrected/evaluation/all_metrics.csv`.
+This file is included in the repo AND in the Zenodo deposit
+(`data__all_metrics.csv`). If missing, download from Zenodo:
+
+```bash
+curl -L "https://zenodo.org/records/19503595/files/data__all_metrics.csv" \
+  -o results_v2_corrected/evaluation/all_metrics.csv
+```
+
+Figures 4 and 5 also need per-dataset evaluation RDS files in
+`results_v2/evaluation/` and `results_v2/scores/`. These are generated
+by the full Snakemake pipeline. If you have the Zenodo tarball
+(`PathwayBench-submission-v2.tar.gz`), extract it to get these files.
+
+## Expected key numbers per figure (for spot-checking)
+
+### Figure 2 (biological relevance)
+Mean direction accuracy: zscore 0.694, ssGSEA 0.648, GSVA 0.614, UCell 0.555, AUCell 0.538
+
+### Figure 3 (rank-window simulation, Scenario D)
+Cohen's d: ssGSEA ~2.3, GSVA ~11.9, zscore ~9.4, AUCell **~0.05** (near zero), UCell ~2.3
+
+### Figure 4 (CKD ECM real data)
+Cohen's d: ssGSEA=+0.39, GSVA=+0.40, zscore=+0.44, AUCell=+0.03, UCell=-0.05
+
+### Figure 5 (GIP table)
+Good count: UCell 4, GSVA 4, AUCell 2, zscore 2, ssGSEA 1
+
+### Figure 6 (tradeoff scatter)
+Highest bio relevance: zscore (0.694). Highest robustness: UCell (0.865).
+
+## Comparing your output to manuscript figures
+
+The published figures are available in the Zenodo deposit
+(https://doi.org/10.5281/zenodo.19503595) as `figures__*.pdf`.
+
+## Task assignments
+
+- **Ahmed**: Figs 3, 4 (the rank-window competition finding)
+- **Sara**: Figs 2, 5, 6 (benchmark summary) + optionally run the full Snakemake pipeline
+- **Tasnim**: Figs 1, 7, 8 (schematics + Streamlit app test)
+
+## If you get stuck
+
+1. Try the same command with `--cores 1` for clearer error messages
+2. Paste the exact error into [Claude](https://claude.ai) and ask for help
+3. If still stuck after 30 minutes, document what you tried and move on
+4. Do not contact Fadhl this week -- he is unavailable
+
+## Deadline
+
+All deliverables due: **end of day Monday, April 20, 2026**
+
+## What to send back
+
+- The PDFs you regenerated (or screenshots confirming they match)
+- Confirmation the key numbers match (within rounding tolerance)
+- Any errors encountered, with the exact error message
+- Send to: alakwaaf@umich.edu with subject "PathwayBench reproduction: [your name]"
