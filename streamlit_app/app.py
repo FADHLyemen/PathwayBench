@@ -18,7 +18,7 @@ import plotly.graph_objects as go
 import streamlit as st
 from scipy import stats
 
-APP_VERSION = "2.1.1"
+APP_VERSION = "2.1.2"
 ZENODO_DOI = "10.5281/zenodo.19503595"
 
 # ---------------------------------------------------------------------------
@@ -389,18 +389,30 @@ def get_priority_based_recommendation(
 # ---------------------------------------------------------------------------
 
 
-def plot_criteria_bars(scaled: pd.DataFrame, best_method: str, weights: dict) -> go.Figure:
-    """Grouped bar chart of criteria performance."""
+def plot_criteria_bars(
+    scaled: pd.DataFrame,
+    best_method: str,
+    priority_label: str = "",
+) -> go.Figure:
+    """Grouped bar chart of criteria performance.
+
+    *best_method* is outlined in black.  *priority_label* is shown in the
+    subtitle so the reader knows which priority drove the recommendation.
+    """
     methods = scaled["method"].tolist()
 
     fig = go.Figure()
+
+    # Normalise best_method for matching (strip parenthetical advice)
+    best_base = best_method.split(" (")[0].split(" or ")
 
     for method in methods:
         row = scaled[scaled["method"] == method].iloc[0]
         vals = [float(row[c]) for c in CRITERIA]
         labels = [CRITERIA_SHORT[c] for c in CRITERIA]
-        border_w = 3 if method == best_method else 0
-        border_c = "black" if method == best_method else "rgba(0,0,0,0)"
+        is_best = method in best_base
+        border_w = 3 if is_best else 0
+        border_c = "black" if is_best else "rgba(0,0,0,0)"
 
         fig.add_trace(
             go.Bar(
@@ -413,17 +425,16 @@ def plot_criteria_bars(scaled: pd.DataFrame, best_method: str, weights: dict) ->
             )
         )
 
-    wt_text = "  ".join(
-        f"{s} {round(weights[c]*100)}%"
-        for c, s in zip(CRITERIA, ["Bio", "Agg", "Out", "Norm", "Size"])
-    )
+    subtitle = f"Recommended method outlined"
+    if priority_label:
+        subtitle += f" | Your priority: {priority_label}"
 
     fig.update_layout(
         barmode="group",
         title=dict(text="Criteria performance (scaled 0-1)", font_size=16),
         annotations=[
             dict(
-                text=f"Recommended method outlined | Weights: {wt_text}",
+                text=subtitle,
                 xref="paper", yref="paper", x=0, y=1.06,
                 showarrow=False, font=dict(size=12, color="grey"),
             )
@@ -720,28 +731,7 @@ def main() -> None:
                 st.caption(f"**Conditions:** {cond_str}")
         st.caption(f"**Example genes:** {profile['gene_example']}")
 
-    # ---- Recommendation banner ----
-    if rec is not None:
-        best = rec["best_method"]
-        color = METHOD_COLORS[best]
-        st.markdown(
-            f"""
-            <div style="background:linear-gradient(135deg,#e8f5e9,#f1f8e9);
-                        border:2px solid #66bb6a; border-radius:8px;
-                        padding:20px 24px; margin:12px 0 18px;">
-                <h2 style="color:#2e7d32; margin:0 0 6px; font-size:20px;">
-                    Recommended:
-                    <span style="background:{color}; color:white; padding:3px 12px;
-                                 border-radius:12px; font-size:16px;">{best}</span>
-                </h2>
-                <p style="color:#424242; margin:0; font-size:13px; line-height:1.55;">
-                    {rec['explanation']}</p>
-            </div>
-            """,
-            unsafe_allow_html=True,
-        )
-
-    # ---- Priority-based recommendation (STEP 3) ----
+    # ---- Priority-based recommendation ----
     if rec is not None:
         # Detect sctransform from profiler
         sct_used = (
@@ -768,6 +758,12 @@ def main() -> None:
         st.markdown("---")
         st.markdown("### Full results across all five methods")
 
+        # Persist for chart highlighting
+        st.session_state["pri_method"] = pri_method
+        st.session_state["pri_priority_label"] = st.session_state.get(
+            "priority", "Balanced"
+        ).split(" (")[0]
+
     # ---- Tabs ----
     if rec is None:
         st.info("Upload data, provide a gene set, and click **Run Analysis**.")
@@ -780,7 +776,11 @@ def main() -> None:
 
     # -- Tab 1: Criteria performance --
     with tab_crit:
-        fig = plot_criteria_bars(rec["scaled"], rec["best_method"], rec["weights"])
+        fig = plot_criteria_bars(
+            rec["scaled"],
+            best_method=st.session_state.get("pri_method", rec["best_method"]),
+            priority_label=st.session_state.get("pri_priority_label", ""),
+        )
         st.plotly_chart(fig, use_container_width=True)
 
     # -- Tab 2: Pathway scores --
