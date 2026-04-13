@@ -18,7 +18,7 @@ import plotly.graph_objects as go
 import streamlit as st
 from scipy import stats
 
-APP_VERSION = "2.1.2"
+APP_VERSION = "2.1.3"
 ZENODO_DOI = "10.5281/zenodo.19503595"
 
 # ---------------------------------------------------------------------------
@@ -640,32 +640,6 @@ def main() -> None:
                 ),
             )
 
-        sub_priority_robust = None
-        if priority.startswith("Technical"):
-            # Auto-detect donor count from uploaded data; manual fallback
-            auto_donors = (
-                profile.get("n_donors") if profile is not None else None
-            )
-            if auto_donors is not None:
-                n_donors = auto_donors
-                st.caption(
-                    f"Detected **{n_donors} donors** from column names."
-                )
-            else:
-                n_donors = st.number_input(
-                    "How many donors are in your dataset?",
-                    min_value=2, max_value=10000, value=20, step=1,
-                    key="n_donors_input",
-                    help=(
-                        "Could not auto-detect donors from column names. "
-                        "Enter the count manually."
-                    ),
-                )
-            sub_priority_robust = (
-                "\u226515 donors" if n_donors >= 15 else "<15 donors"
-            )
-            st.session_state["sub_priority_robust"] = sub_priority_robust
-
         st.divider()
         run_clicked = st.button("Run Analysis", type="primary", use_container_width=True)
 
@@ -698,6 +672,21 @@ def main() -> None:
             zscore_scores = score_zscore(expr_df, gene_set)
             # Recommendation from benchmark reference
             rec = compute_recommendation(profile, zscore_scores)
+
+        # Donor-count detection for "Technical robustness" priority
+        priority = st.session_state.get("priority", "Balanced")
+        sub_priority_robust = None
+        if priority.startswith("Technical"):
+            n_donors = profile.get("n_donors") if profile else None
+            if n_donors is not None:
+                sub_priority_robust = (
+                    "\u226515 donors" if n_donors >= 15 else "<15 donors"
+                )
+                st.info(f"\U0001f4ca Detected {n_donors} donors in your metadata.")
+            else:
+                st.warning("Could not detect donor count from metadata.")
+                sub_priority_robust = "\u226515 donors"  # safe default
+            st.session_state["sub_priority_robust"] = sub_priority_robust
 
         # Persist in session state so tabs work after re-render
         st.session_state["rec"] = rec
