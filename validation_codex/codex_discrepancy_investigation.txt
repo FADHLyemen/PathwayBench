@@ -1,0 +1,141 @@
+================================================================================
+CODEX DISCREPANCY INVESTIGATION — DEFINITIVE FINDINGS
+================================================================================
+Date: 2026-04-13
+Source: results_v2_corrected/figures_codex/COMPARISON_REPORT.md
+
+================================================================================
+FINDING 1: Direction accuracy values — manuscript vs all_metrics.csv
+================================================================================
+
+Codex computed (from all_metrics.csv, mean-of-dataset-means):
+  ssGSEA 0.733, GSVA 0.705, zscore 0.773, AUCell 0.605, UCell 0.662
+
+Manuscript claims (from v2_corrected_results.txt):
+  ssGSEA 0.648, GSVA 0.614, zscore 0.694, AUCell 0.538, UCell 0.555
+
+VERDICT: BOTH ARE TECHNICALLY CORRECT — they use different aggregations.
+
+ROOT CAUSE: The R script that generated v2_corrected_results.txt used:
+  aggregate(direction_correct ~ method, data=sub, FUN=mean)
+This POOLS all 9,320 individual comparisons, giving CKD kidney's 1,360
+comparisons 34x the weight of DCM heart's 40 comparisons.
+
+all_metrics.csv stores per-dataset direction accuracy, so averaging gives
+MEAN-OF-DATASET-MEANS (each dataset weighted equally).
+
+After ground-truth correction, DCM jumped from 35% to 87.5% (4 wrong
+pathways removed), but DCM has only 40 comparisons. In the pooled mean
+this barely moves the needle (+0.3% per method). In the mean-of-means
+it raises every method by 6-10%.
+
+WHAT TO DO: The manuscript should use mean-of-dataset-means (standard in
+benchmarks, used by Soneson & Robinson 2018, Saelens et al. 2019). The
+correct values are those in all_metrics.csv:
+  ssGSEA 0.733, GSVA 0.705, zscore 0.773, AUCell 0.605, UCell 0.662
+
+The manuscript's v2_corrected_results.txt summary table is INCONSISTENT
+with its own per-dataset table (which shows the correct per-dataset values
+that average to 0.733, not 0.648).
+
+================================================================================
+FINDING 2: AUCell scenario D — positive (+0.054) or negative (-0.27)?
+================================================================================
+
+Codex found: AUCell scenario D mean d = +0.054 from simulation CSV.
+Manuscript claims: AUCell "flips sign" to d ~ -0.27.
+
+VERDICT: THE CHECK IS CORRECT. The manuscript value is from a SINGLE
+unreplicated simulation run. The 100-replicate CSV shows:
+
+  AUCell scenario D: mean d = +0.054, SD = 0.248
+  40 of 100 replicates are negative (40% sign inversion rate)
+  Range: [-0.528, +0.588]
+
+The mean is slightly POSITIVE, not negative. AUCell does NOT reliably
+flip sign — it becomes NOISY and uninformative (d ≈ 0 ± 0.25), with
+sign inversion in 40% of replicates. This is still a meaningful failure
+(a method scoring d ≈ 0 when the true effect is d ≈ 9 for zscore) but
+the manuscript's "flips to -0.27" overstates the finding.
+
+WHAT TO DO: Revise the manuscript text from:
+  "AUCell's Cohen's d flipped to -0.27"
+to:
+  "AUCell's Cohen's d collapsed to near zero (0.054 ± 0.25, with 40%
+   of replicates showing sign inversion), while magnitude-based methods
+   maintained strong detection (Z-score d = 9.4 ± 0.9)"
+
+The qualitative finding (AUCell fails under competition) is preserved;
+only the quantitative claim changes.
+
+================================================================================
+FINDING 3: Figure 4 panel count and Figure 5 type
+================================================================================
+
+Codex found: Figure 4 reference PNG has ONE panel (CKD ECM boxplots).
+Manuscript mentions a second panel (per-dataset gap).
+
+VERDICT: THE CHECK IS CORRECT. The current generate_fig4_ckd_ecm.R
+produces only the 5-method boxplot row. No "panel b" (per-dataset
+gap analysis) exists as a script or figure. The manuscript description
+of a 2-panel Figure 4 is aspirational text that was never implemented.
+
+WHAT TO DO: Either (a) remove the "panel b" reference from the
+manuscript caption, or (b) create a panel b script. Since the
+single-panel CKD ECM boxplot is self-contained and publication-
+quality, option (a) is simpler.
+
+---
+
+Codex found: Figure 5 reference PNG is categorical GIP heatmap, not
+numeric values.
+
+VERDICT: THE CHECK IS CORRECT. The generate_fig5_gip_table.R script
+produces a categorical heatmap with Good/Interm/Poor text labels in
+colored tiles. It does NOT embed raw numeric values in the cells.
+The manuscript text mentioning "raw numeric values" may refer to a
+different visualization or an earlier draft.
+
+WHAT TO DO: The categorical GIP heatmap IS the intended Figure 5
+(matches the GIP classification system described in the Methods).
+Update the manuscript caption to match: "Color-coded GIP classification
+(Good, Intermediate, Poor) for five methods across five criteria."
+
+================================================================================
+FINDING 4: Git index.lock error
+================================================================================
+
+VERDICT: RESOLVED. No .git/index.lock file exists currently. The
+.git directory is writable. The error Codex encountered was likely
+caused by two git processes running simultaneously (e.g., the Codex
+validation process and a concurrent git operation). This is transient
+and does not indicate a filesystem-level problem.
+
+If it recurs, the fix is: rm .git/index.lock (after confirming no
+other git process is running).
+
+================================================================================
+SUMMARY — WHAT NEEDS FIXING IN THE MANUSCRIPT
+================================================================================
+
+1. DIRECTION ACCURACY VALUES: Replace the pooled means with mean-of-
+   dataset-means. This affects the Abstract, Results, and all summary
+   tables. New values:
+     ssGSEA 73.3%, GSVA 70.5%, zscore 77.3%, AUCell 60.5%, UCell 66.2%
+
+2. AUCELL SCENARIO D: Change "flips to d = -0.27" to "collapses to
+   d ≈ 0 (0.054 ± 0.25, 40% sign inversion rate)." The qualitative
+   claim is preserved; the quantitative precision is corrected.
+
+3. FIGURE 4 CAPTION: Remove "panel b" reference (or create the panel).
+
+4. FIGURE 5 CAPTION: Clarify it shows categorical GIP labels, not
+   raw numeric values.
+
+NOTHING IS WRONG WITH THE DATA OR THE ANALYSIS. The findings are all
+about how results are REPORTED, not about errors in the underlying
+computation.
+
+================================================================================
+END OF CODEX DISCREPANCY INVESTIGATION
+================================================================================
