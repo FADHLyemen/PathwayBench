@@ -1,0 +1,9 @@
+zscore DirAcc: 0.7727
+ssGSEA DirAcc: 0.7334
+UCell AggStab: 0.9604
+GSVA NormStab: 0.8480
+AUCell Good count: 2
+GSVA Good count: 4
+UCell Good count: 4
+ssGSEA Good count: 1
+zscore Good count: 2

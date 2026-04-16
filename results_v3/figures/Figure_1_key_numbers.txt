@@ -1,0 +1,8 @@
+Datasets: 8
+Methods: 5
+Criteria: 5
+GSVA Good count: 4
+UCell Good count: 4
+AUCell Good count: 2
+zscore Good count: 2
+ssGSEA Good count: 1

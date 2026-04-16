@@ -1,0 +1,23 @@
+EXPECTED KEY NUMBERS:
+  zscore_sensitivity: 0.7727448986386612
+  UCell_robustness: 0.8646068947199964
+  GSVA_Good_count: 4
+  UCell_Good_count: 4
+  AUCell_Good_count: 2
+  zscore_Good_count: 2
+  ssGSEA_Good_count: 1
+  Biology_Good_threshold: > 0.45
+  Biology_Intermediate_threshold: > 0.30
+  Biology_Poor_threshold: <= 0.30
+  Aggregation_Good_threshold: >= 0.90
+  Aggregation_Intermediate_threshold: >= 0.75
+  Aggregation_Poor_threshold: < 0.75
+  Outlier_Good_threshold: < 0.20
+  Outlier_Intermediate_threshold: < 0.27
+  Outlier_Poor_threshold: >= 0.27
+  Normalization_Good_threshold: >= 0.75
+  Normalization_Intermediate_threshold: >= 0.65
+  Normalization_Poor_threshold: < 0.65
+  Sample_Good_threshold: >= 0.88
+  Sample_Intermediate_threshold: >= 0.84
+  Sample_Poor_threshold: < 0.84

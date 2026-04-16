@@ -1,0 +1,12 @@
+ssGSEA: sensitivity=0.7334, robustness=0.8123
+  components: agg=0.8692, outlier_rob=0.7820, norm=0.7299, sample=0.8682
+GSVA: sensitivity=0.7049, robustness=0.8212
+  components: agg=0.7265, outlier_rob=0.8175, norm=0.8480, sample=0.8929
+zscore: sensitivity=0.7727, robustness=0.8118
+  components: agg=0.8251, outlier_rob=0.7851, norm=0.7703, sample=0.8665
+AUCell: sensitivity=0.6048, robustness=0.8008
+  components: agg=0.8413, outlier_rob=0.8293, norm=0.6686, sample=0.8640
+UCell: sensitivity=0.6617, robustness=0.8646
+  components: agg=0.9604, outlier_rob=0.8370, norm=0.7970, sample=0.8641
+Median sensitivity: 0.7049
+Median robustness: 0.8123

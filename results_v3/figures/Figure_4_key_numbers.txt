@@ -1,0 +1,13 @@
+CKD ECM ssGSEA: d=0.3473
+CKD ECM GSVA: d=0.3335
+CKD ECM zscore: d=0.3992
+CKD ECM AUCell: d=-0.0173
+CKD ECM UCell: d=-0.0361
+Gap ckd_kidney: +30.8 pp (mag=0.6630, rank=0.3548)
+Gap dcm_heart: +20.0 pp (mag=0.8750, rank=0.6750)
+Gap covid_lung: +11.1 pp (mag=0.6115, rank=0.5000)
+Gap ad_brain: +9.0 pp (mag=0.9028, rank=0.8125)
+Gap ipf_lung: +7.4 pp (mag=0.5387, rank=0.4643)
+Gap pd_brain: +4.2 pp (mag=0.6515, rank=0.6098)
+Gap sle_blood: +1.3 pp (mag=0.9259, rank=0.9132)
+Gap covid_blood: -0.9 pp (mag=0.7277, rank=0.7366)

@@ -1,0 +1,79 @@
+FIGURE 1 NUMERICAL CLAIMS - SOURCE-VERIFIED
+============================================
+
+Total cells: 4,256,380  (computed from: data_v2/raw/*.h5ad, n_obs per file)
+  Per dataset:
+    ad_brain:     119,326
+    ckd_kidney:   250,440
+    covid_blood:   90,957
+    covid_lung:   595,657
+    dcm_heart:    764,953
+    ipf_lung:     591,248
+    pd_brain:     580,123
+    sle_blood:  1,263,676
+
+Total donors: 682  (computed from: data_v2/raw/*.h5ad, donor_id nunique per file)
+  Per dataset:
+    ad_brain:      16
+    ckd_kidney:    64
+    covid_blood:   39
+    covid_lung:   101
+    dcm_heart:     70
+    ipf_lung:     106
+    pd_brain:      25
+    sle_blood:    261
+
+Total pseudobulk samples: 5,923  (computed from: data_v2/pseudobulk/*/sum_log2CPM.rds, ncol per file)
+  Per dataset:
+    ad_brain:      32
+    ckd_kidney:   651
+    covid_blood:  360
+    covid_lung: 1,014
+    dcm_heart:    569
+    ipf_lung:   1,141
+    pd_brain:     254
+    sle_blood:  1,902
+
+Unique pathways: 10  (source: Reactome only, all IDs match R-HSA-* pattern)
+  Names: interferon_signaling, jak_stat, insulin_signaling, glucose_metabolism,
+         nfkb_signaling, toll_like_receptor, tgfb_signaling, oxidative_stress,
+         ecm_remodeling, raas
+  Gene-set sizes: 16 (raas) to 473 (jak_stat)
+  Source file: data/pathways/pathwaybench_genesets.gmt
+
+Comparisons per method: 1,864  (verified against criterion1_corrected.rds: yes)
+  Total criterion1 rows across 8 datasets: 9,320 (= 5 methods x 1,864)
+  all_metrics.csv rows: 40 (= 5 methods x 8 datasets, one row per dataset-method)
+  Per-dataset breakdown:
+    ad_brain:      24 per method (  3 pathways x  2 cell types x 4 norms)
+    ckd_kidney:   272 per method (  4 pathways x 17 cell types x 4 norms)
+    covid_blood:  224 per method (  4 pathways x 14 cell types x 4 norms)
+    covid_lung:   580 per method (  5 pathways x 29 cell types x 4 norms)
+    dcm_heart:     40 per method (  1 pathway  x 10 cell types x 4 norms)
+    ipf_lung:     448 per method (  4 pathways x 28 cell types x 4 norms)
+    pd_brain:     132 per method (  3 pathways x 11 cell types x 4 norms)
+    sle_blood:    144 per method (  4 pathways x  9 cell types x 4 norms)
+
+Aggregation x normalization grid: {sum, mean} x {log2CPM, voom, scran, sctransform} = 2 x 4 = 8 combinations
+  Note: mean_voom produces too few genes for scoring in most datasets
+  (filterByExpr removes nearly all genes from mean-aggregated values);
+  effectively 7 usable combinations per dataset.
+
+DISCREPANCIES vs. proposed Fig 1 schematic values:
+  - Cells:       schematic says 4,272,000;  computed: 4,256,380;  match: NO (delta -15,620; 0.4%)
+  - Donors:      schematic says 682;        computed: 682;        match: YES
+  - PB samples:  schematic says 5,923;      computed: 5,923;      match: YES
+  - Pathways:    schematic says 10 Reactome; computed: 10 Reactome; match: YES
+  - Comparisons: schematic says 2,160;      computed: 1,864;      match: NO (delta -296)
+  - Grid:        schematic says 2x4=8;      computed: 2x4=8;      match: YES
+
+NOTES ON DISCREPANCIES:
+
+1. Cells (4,272,000 vs 4,256,380): The schematic value 4,272,000 does not
+   match any aggregation of the v2 raw data. The correct value from summing
+   all 8 h5ad files is 4,256,380. The schematic should be updated.
+
+2. Comparisons (2,160 vs 1,864): The value 2,160 was from the UNCORRECTED
+   ground truth (before removing 6 pathway-disease annotations). After
+   correction, the total dropped to 1,864 per method (9,320 total / 5 methods).
+   The schematic should use 1,864 (corrected).

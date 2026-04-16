@@ -1,0 +1,5 @@
+GSVA: Biology=0.705(Good), Aggregation=0.726(Poor), Outlier=0.183(Good), Normalization=0.848(Good), Sample=0.893(Good), Good=4
+UCell: Biology=0.662(Good), Aggregation=0.960(Good), Outlier=0.163(Good), Normalization=0.797(Good), Sample=0.864(Intermediate), Good=4
+AUCell: Biology=0.605(Good), Aggregation=0.841(Intermediate), Outlier=0.171(Good), Normalization=0.669(Intermediate), Sample=0.864(Intermediate), Good=2
+zscore: Biology=0.773(Good), Aggregation=0.825(Intermediate), Outlier=0.215(Intermediate), Normalization=0.770(Good), Sample=0.866(Intermediate), Good=2
+ssGSEA: Biology=0.733(Good), Aggregation=0.869(Intermediate), Outlier=0.218(Intermediate), Normalization=0.730(Intermediate), Sample=0.868(Intermediate), Good=1

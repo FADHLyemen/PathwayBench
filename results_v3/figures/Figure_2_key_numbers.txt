@@ -1,0 +1,15 @@
+Direction Accuracy ssGSEA: mean=0.7334
+Direction Accuracy GSVA: mean=0.7049
+Direction Accuracy zscore: mean=0.7727
+Direction Accuracy AUCell: mean=0.6048
+Direction Accuracy UCell: mean=0.6617
+AUROC ssGSEA: mean=0.5850
+AUROC GSVA: mean=0.5843
+AUROC zscore: mean=0.5998
+AUROC AUCell: mean=0.5865
+AUROC UCell: mean=0.5984
+Mean |Cohen's d| ssGSEA: mean=0.6626
+Mean |Cohen's d| GSVA: mean=0.6955
+Mean |Cohen's d| zscore: mean=0.6669
+Mean |Cohen's d| AUCell: mean=0.6842
+Mean |Cohen's d| UCell: mean=0.6416

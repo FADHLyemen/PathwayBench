@@ -1,0 +1,8 @@
+EXPECTED KEY NUMBERS:
+  n_datasets: 8
+  n_methods: 5
+  GSVA_Good_count: 4
+  UCell_Good_count: 4
+  AUCell_Good_count: 2
+  zscore_Good_count: 2
+  ssGSEA_Good_count: 1
