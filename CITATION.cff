@@ -3,7 +3,7 @@ message: "If you use PathwayBench, please cite this software and the accompanyin
 title: "PathwayBench: a multi-criterion benchmark of pseudobulk pathway activity scoring methods reveals rank-window competition as a mechanism of biological signal loss in single-cell RNA-seq"
 type: software
 version: "3.0"
-doi: 10.5281/zenodo.19601134
+doi: 10.5281/zenodo.19415048
 date-released: "2026-04-16"
 url: "https://github.com/fadhlyemen/PathwayBench"
 repository-code: "https://github.com/fadhlyemen/PathwayBench"
