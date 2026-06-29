@@ -4,7 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Snakemake](https://img.shields.io/badge/snakemake-%E2%89%A57.0-brightgreen.svg)](https://snakemake.readthedocs.io)
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.19601134-blue)](https://doi.org/10.5281/zenodo.19601134)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.19601134-blue)](https://doi.org/10.5281/zenodo.19415048)
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pathwaybench-xrdxczzdpeahvcinxwbrcq.streamlit.app)
 
 ## Try PathwayBench Advisor online
@@ -203,7 +203,7 @@ PathwayBench/
 ## Data Availability
 
 - **Raw data**: Downloaded programmatically from [CellxGene Discover](https://cellxgene.cziscience.com/) Census
-- **Processed data + results**: Available on [Zenodo](https://doi.org/10.5281/zenodo.19601134) 
+- **Processed data + results**: Available on [Zenodo](https://doi.org/10.5281/zenodo.19415048) 
 - **Pathway gene sets**: From [Reactome](https://reactome.org/) via MSigDB
 
 ## Citation
