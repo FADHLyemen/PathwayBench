@@ -1,36 +1,44 @@
 cff-version: 1.2.0
-title: >-
-  PathwayBench: Benchmarking Pathway Activity Scoring Methods
-  for Pseudobulk Single-Cell Transcriptomics
-message: >-
-  If you use this software, please cite it using the metadata
-  from this file.
+message: "If you use PathwayBench, please cite this software and the accompanying paper."
+title: "PathwayBench: a multi-criterion benchmark of pseudobulk pathway activity scoring methods reveals rank-window competition as a mechanism of biological signal loss in single-cell RNA-seq"
 type: software
-authors:
-  - family-names: Alakwaa
-    given-names: Fadhl M.
-    email: alakwaaf@umich.edu
-    affiliation: University of Michigan
-repository-code: https://github.com/fadhlyemen/PathwayBench
-url: https://github.com/fadhlyemen/PathwayBench
+version: "3.0"
+doi: 10.5281/zenodo.19601134
+date-released: "2026-04-16"
+url: "https://github.com/fadhlyemen/PathwayBench"
+repository-code: "https://github.com/fadhlyemen/PathwayBench"
 license: MIT
-version: 1.0.0
-date-released: '2026-04-04'
+abstract: >-
+  PathwayBench is a multi-criterion benchmark of pathway activity scoring methods for the pseudobulk
+  case-control regime of single-cell RNA-seq. It compares five methods (ssGSEA, GSVA, z-score, AUCell,
+  UCell) across eight pseudobulked scRNA-seq case-control datasets spanning five tissues (brain, heart,
+  kidney, lung, blood) and 682 donors, evaluating each method on five criteria (biological relevance
+  plus aggregation, outlier, normalization, and sample-size stability). It identifies rank-window
+  competition as a mechanism by which rank-based methods lose, and in extreme cases invert, biological
+  signal when competitor genes saturate the top-rank scoring window.
 keywords:
   - single-cell RNA-seq
-  - pseudobulk
-  - pathway activity
+  - pathway activity scoring
   - benchmarking
+  - pseudobulk
   - ssGSEA
   - GSVA
   - AUCell
   - UCell
-  - Snakemake
-abstract: >-
-  PathwayBench is a comprehensive benchmarking framework that
-  systematically evaluates five pathway activity scoring methods
-  (ssGSEA, GSVA, Z-score, AUCell, UCell) for pseudobulk data
-  derived from single-cell and single-nucleus RNA sequencing.
-  The benchmark assesses six robustness criteria across ten
-  disease datasets from CellxGene Discover, with literature-backed
-  ground truth pathways from Reactome.
+  - rank-window competition
+  - chronic kidney disease
+authors:
+  - family-names: Alakwaa
+    given-names: "Fadhl M."
+    affiliation: "Division of Nephrology, Department of Internal Medicine, University of Michigan, Ann Arbor, MI, USA"
+    orcid: "https://orcid.org/0000-0001-5349-7960"
+    email: "alakwaaf@umich.edu"
+  - family-names: Elbaz
+    given-names: Ahmed
+    affiliation: "American University in Cairo, Cairo, Egypt"
+  - family-names: "Al Azzam"
+    given-names: Sara
+    affiliation: "Jordan University of Science and Technology, Irbid, Jordan"
+  - family-names: Alshebani
+    given-names: Tasnim
+    affiliation: "Wayne State University, Detroit, MI, USA"

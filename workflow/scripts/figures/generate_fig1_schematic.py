@@ -64,7 +64,7 @@ arrow(7.75, 1.5, 7.0, 1.0)
 arrow(7.75, 1.5, 9.25, 1.0)
 
 # Dataset summary
-ax.text(0.2, 0.0, "4.3M cells · 682 donors · 4 tissues · CellxGene Census 2025-11-08",
+ax.text(0.2, 0.0, "4.3M cells · 682 donors · 5 tissues · CellxGene Census 2025-11-08",
         fontsize=7, color="grey", style="italic")
 
 for fmt in ("pdf", "png"):

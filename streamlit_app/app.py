@@ -2,7 +2,7 @@
 """
 PathwayBench Advisor - Streamlit App
 Recommends the best pathway scoring method for user data based on
-6 robustness criteria from the PathwayBench benchmark.
+5 robustness criteria from the PathwayBench benchmark.
 """
 
 from __future__ import annotations
@@ -19,7 +19,7 @@ import streamlit as st
 from scipy import stats
 
 APP_VERSION = "2.1.5"
-ZENODO_DOI = "10.5281/zenodo.19503595"
+ZENODO_DOI = "10.5281/zenodo.19601134"
 
 # ---------------------------------------------------------------------------
 # Constants
@@ -61,18 +61,18 @@ DEFAULT_WEIGHTS: dict[str, float] = {
     "sample_stability": 0.15,
 }
 
-# Benchmark reference — v2-corrected, averaged across 7 CellxGene datasets
-# (excluding ckd_kidney pending KPMP approval).
+# Benchmark reference — v2-corrected, 8 CellxGene datasets,
+# mean-of-dataset-means aggregation (each dataset weighted equally).
 # outlier_sensitivity is inverted to outlier_robustness (1 - value).
-# Source: validation_codex/v2_corrected_results.txt (8-dataset table)
+# Source: results_v3/figure1_validation/verified_numbers.json
 _BENCH_RAW = pd.DataFrame(
     {
         "method": ["ssGSEA", "GSVA", "zscore", "AUCell", "UCell"],
-        "bio_relevance": [0.643, 0.609, 0.698, 0.570, 0.587],
-        "calc_method_cor": [0.864, 0.728, 0.820, 0.840, 0.958],
-        "outlier_robustness": [1 - 0.213, 1 - 0.177, 1 - 0.220, 1 - 0.175, 1 - 0.164],
-        "norm_stability": [0.723, 0.849, 0.765, 0.670, 0.798],
-        "sample_stability": [0.855, 0.886, 0.860, 0.857, 0.856],
+        "bio_relevance": [0.7334, 0.7049, 0.7727, 0.6048, 0.6617],
+        "calc_method_cor": [0.8692, 0.7265, 0.8251, 0.8413, 0.9604],
+        "outlier_robustness": [1 - 0.2180, 1 - 0.1825, 1 - 0.2149, 1 - 0.1707, 1 - 0.1630],
+        "norm_stability": [0.7299, 0.8480, 0.7703, 0.6686, 0.7970],
+        "sample_stability": [0.8682, 0.8929, 0.8665, 0.8640, 0.8641],
     }
 )
 
@@ -330,7 +330,7 @@ def get_priority_based_recommendation(
             method = "Z-score"
             reason = (
                 "Z-score has the highest direction accuracy in PathwayBench "
-                "(0.694 across 8 datasets, wins outright on 3 of 8)."
+                "(0.773 across 8 datasets, wins outright on 3 of 8)."
             )
         elif sub_priority_bio and "Effect magnitude" in sub_priority_bio:
             method = "AUCell"
@@ -503,7 +503,7 @@ def plot_benchmark_ref(benchmark: pd.DataFrame) -> go.Figure:
     fig.update_layout(
         barmode="group",
         title=dict(
-            text="PathwayBench reference (10 disease datasets)",
+            text="PathwayBench reference (8 disease datasets)",
             font_size=16,
         ),
         annotations=[
@@ -851,8 +851,8 @@ def main() -> None:
 
     # -- Tab 3: Method comparison --
     with tab_compare:
-        st.markdown("#### Method performance across 6 criteria")
-        st.caption("Values from the PathwayBench benchmark (10 disease datasets).")
+        st.markdown("#### Method performance across 5 criteria")
+        st.caption("Values from the PathwayBench benchmark (8 disease datasets).")
 
         display_df = rec["metrics"].copy()
         display_df = display_df.set_index("method")
@@ -884,7 +884,7 @@ def main() -> None:
         fig = plot_benchmark_ref(_BENCH_RAW)
         st.plotly_chart(fig, use_container_width=True)
 
-        st.markdown("##### Raw benchmark values (averaged across 10 datasets)")
+        st.markdown("##### Raw benchmark values (averaged across 8 datasets)")
         bench_display = _BENCH_RAW.copy().set_index("method")
         bench_display.columns = [CRITERIA_SHORT.get(c, c) for c in bench_display.columns]
         st.dataframe(
@@ -896,9 +896,10 @@ def main() -> None:
     with tab_rankwin:
         st.markdown("### Rank-window competition: a novel failure mode")
         st.markdown(
-            "We discovered that rank-based methods (AUCell, UCell) can **invert** "
-            "the disease-vs-control direction when non-pathway genes are upregulated "
-            "more strongly, displacing pathway genes from the fixed top-N rank window."
+            "We identify rank-window competition: rank-based methods (AUCell, UCell) "
+            "**lose biological signal — and in extreme cases invert** the disease-vs-control "
+            "direction — when non-pathway genes are upregulated more strongly, displacing "
+            "pathway genes from the fixed top-N rank window."
         )
 
         sim_data = pd.DataFrame({
@@ -932,9 +933,9 @@ def main() -> None:
         st.plotly_chart(fig_sim, use_container_width=True)
 
         st.markdown(
-            "**Real-data validation (CKD kidney, ECM remodeling):** "
-            "ssGSEA d=+0.39, GSVA d=+0.40, zscore d=+0.44 (detect UP). "
-            "AUCell d=+0.03, UCell d=-0.05 (miss or invert)."
+            "**Real-data validation (CKD, ECM remodeling; mean across 3 normalizations):** "
+            "ssGSEA d=+0.35, GSVA d=+0.33, zscore d=+0.40 (detect UP). "
+            "AUCell d=-0.02, UCell d=-0.04 (near-zero / wrong direction)."
         )
         st.info(
             "**Recommendation:** When AUCell/UCell and magnitude methods disagree, "

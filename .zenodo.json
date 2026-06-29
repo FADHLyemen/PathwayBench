@@ -1,34 +1,29 @@
 {
-  "title": "PathwayBench: Benchmarking Pathway Activity Scoring Methods for Pseudobulk Single-Cell Transcriptomics",
-  "description": "PathwayBench is a comprehensive benchmarking framework that systematically evaluates five pathway activity scoring methods (ssGSEA, GSVA, Z-score, AUCell, UCell) for pseudobulk data derived from single-cell and single-nucleus RNA sequencing. The benchmark assesses six robustness criteria -- biological relevance, aggregation stability, low-abundance gene sensitivity, outlier robustness, normalization stability, and sample-size stability -- across ten disease datasets from CellxGene Discover, with literature-backed ground truth pathways from Reactome. Includes a Snakemake pipeline for full reproducibility and an interactive Shiny app (PathwayBench Advisor) for method recommendation.",
-  "creators": [
-    {
-      "name": "Alakwaa, Fadhl M.",
-      "affiliation": "University of Michigan",
-      "orcid": ""
-    }
-  ],
+  "title": "PathwayBench: a multi-criterion benchmark of pseudobulk pathway activity scoring methods reveals rank-window competition as a mechanism of biological signal loss in single-cell RNA-seq",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "version": "3.0",
+  "description": "PathwayBench is a multi-criterion benchmark of pathway activity scoring methods for the pseudobulk case-control regime of single-cell RNA-seq. It compares five widely used methods (ssGSEA, GSVA, z-score, AUCell, UCell) across eight pseudobulked scRNA-seq case-control datasets spanning five tissues (brain, heart, kidney, lung, blood) and 682 donors (4,256,380 cells; 5,923 pseudobulk samples; 1,864 pathway-level comparisons per method across 10 Reactome pathways). Each method is evaluated on five criteria: biological relevance (direction accuracy, AUROC, effect size) and four robustness axes (aggregation, outlier, normalization, and sample-size stability), with per-criterion performance discretized as Good/Intermediate/Poor against fixed thresholds. The benchmark identifies rank-window competition, a mechanism by which rank-based methods (AUCell, UCell) lose, and in extreme cases invert, biological signal when competitor genes saturate the top-rank scoring window, demonstrated in controlled simulations and confirmed in extracellular matrix remodeling in chronic kidney disease. PathwayBench ships per-dataset scores, evaluation code, a public Streamlit advisor application, and full reproducibility infrastructure. This record (v3.0) corresponds to the eight-dataset, five-criterion analysis.",
   "keywords": [
     "single-cell RNA-seq",
-    "pseudobulk",
-    "pathway activity",
+    "pathway activity scoring",
     "benchmarking",
+    "pseudobulk",
     "ssGSEA",
     "GSVA",
     "AUCell",
     "UCell",
-    "Snakemake",
-    "gene set enrichment"
+    "rank-window competition",
+    "chronic kidney disease"
   ],
-  "license": "MIT",
-  "upload_type": "software",
-  "access_right": "open",
+  "creators": [
+    { "name": "Alakwaa, Fadhl M.", "affiliation": "Division of Nephrology, Department of Internal Medicine, University of Michigan, Ann Arbor, MI, USA", "orcid": "0000-0001-5349-7960" },
+    { "name": "Elbaz, Ahmed", "affiliation": "American University in Cairo, Cairo, Egypt" },
+    { "name": "Al Azzam, Sara", "affiliation": "Jordan University of Science and Technology, Irbid, Jordan" },
+    { "name": "Alshebani, Tasnim", "affiliation": "Wayne State University, Detroit, MI, USA" }
+  ],
   "related_identifiers": [
-    {
-      "identifier": "https://github.com/fadhlyemen/PathwayBench",
-      "relation": "isSupplementTo",
-      "resource_type": "software"
-    }
-  ],
-  "notes": "Data files for Zenodo deposition:\n1. data/pathways/ - Gene set GMT files\n2. data/pseudobulk/ - Pseudobulk expression matrices (RDS)\n3. results/scores/ - Pathway activity scores per method\n4. results/evaluation/ - Criteria evaluation results (CSV + RDS)\n5. results/figures/ - Publication figures (PDF)"
+    { "relation": "isSupplementTo", "identifier": "https://github.com/fadhlyemen/PathwayBench", "scheme": "url" }
+  ]
 }

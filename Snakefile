@@ -10,7 +10,7 @@ from itertools import product
 # -- Load configs --
 configfile: "config/config.yaml"
 
-with open("config/datasets.yaml") as f:
+with open("config_v2/datasets.yaml") as f:
     datasets_config = yaml.safe_load(f)
 
 with open("config/pathways.yaml") as f:
@@ -59,7 +59,7 @@ rule download_cellxgene:
     shell:
         """
         python workflow/scripts/01_download_cellxgene.py \
-            --config config/datasets.yaml \
+            --config config_v2/datasets.yaml \
             --output-dir data/raw \
             --dataset {params.dataset_id} \
             2>&1 | tee {log}
@@ -109,7 +109,7 @@ rule generate_pseudobulk:
             --dataset-id {params.dataset_id} \
             --output-dir data/pseudobulk \
             --config config/config.yaml \
-            --datasets-config config/datasets.yaml \
+            --datasets-config config_v2/datasets.yaml \
             2>&1 | tee {log}
         """
 
@@ -221,10 +221,13 @@ rule fig3:
     shell: "Rscript workflow/scripts/figures/generate_fig3_simulation.R"
 
 rule fig4:
-    input: expand("results_v2/scores/ckd_kidney/{m}_sum_log2CPM_scores.rds",
-                   m=["ssGSEA","GSVA","zscore","AUCell","UCell"])
-    output: "results_v2_corrected/figures/Figure_4.pdf"
-    shell: "Rscript workflow/scripts/figures/generate_fig4_ckd_ecm.R"
+    input:
+        expand("results_v2/scores/ckd_kidney/{m}_sum_log2CPM_scores.rds",
+               m=["ssGSEA","GSVA","zscore","AUCell","UCell"])
+    output:
+        "results_v2_corrected/figures/Figure_4.pdf"
+    shell:
+        "Rscript workflow/scripts/figures/generate_fig4_ckd_ecm.R"
 
 rule fig5:
     input: "results_v2_corrected/evaluation/all_metrics.csv"
