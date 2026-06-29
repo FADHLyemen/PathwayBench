@@ -222,8 +222,9 @@ rule fig3:
 
 rule fig4:
     input:
-        expand("results_v2/scores/ckd_kidney/{m}_sum_log2CPM_scores.rds",
-               m=["ssGSEA","GSVA","zscore","AUCell","UCell"])
+        expand("results_v2/scores/ckd_kidney/{m}_sum_{norm}_scores.rds",
+               m=["ssGSEA","GSVA","zscore","AUCell","UCell"],
+               norm=["log2CPM","scran","sctransform"])
     output:
         "results_v2_corrected/figures/Figure_4.pdf"
     shell:
