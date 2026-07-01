@@ -1,0 +1,129 @@
+# PathwayBench v2 Dataset Configuration
+# =====================================
+# All 8 datasets validated against CellxGene Census release 2025-11-08
+# Each entry uses an EXACT dataset_id (UUID) and EXACT disease label string.
+# No substring matching, no fallback behavior.
+
+census_version: "2025-11-08"
+
+datasets:
+  # ---- KIDNEY ----
+  ckd_kidney:
+    name: "Chronic Kidney Disease (KPMP snRNA-seq)"
+    dataset_id: "a12ccb9b-4fbe-457d-8590-ac78053259ef"
+    title: "Single-nucleus RNA-seq of the Adult Human Kidney (Version 1.5)"
+    collection: "An atlas of healthy and injured cell states and niches in the human kidney (KPMP)"
+    tissue: "kidney"
+    disease_label_exact: "chronic kidney disease"
+    control_label_exact: "normal"
+    cell_types: "all"
+    min_cells_per_sample: 30
+    expected_donors_disease: 39
+    expected_donors_control: 25
+    notes: "Replaces v1 t2d_kidney and dkd_kidney. Highest quality dataset."
+
+  # ---- BLOOD / IMMUNE ----
+  sle_blood:
+    name: "Systemic Lupus Erythematosus (Perez et al.)"
+    dataset_id: "218acb0f-9f2f-4f76-b90b-15a4b7c7f629"
+    title: "multiplexed scRNA-seq of 1.2 million PBMCs from adult lupus samples"
+    collection: "Single-cell RNA-seq reveals the cell-type-specific molecular and genetic associations to lupus"
+    doi: "10.1126/science.abf1970"
+    tissue: "blood"
+    disease_label_exact: "systemic lupus erythematosus"
+    control_label_exact: "normal"
+    cell_types: "all"
+    min_cells_per_sample: 30
+    expected_donors_disease: 162
+    expected_donors_control: 99
+
+  # ---- LUNG (HLCA — used for both COVID-19 and IPF) ----
+  covid_lung:
+    name: "COVID-19 Lung (HLCA)"
+    dataset_id: "9f222629-9e39-47d0-b83f-e08d610c7479"
+    title: "An integrated cell atlas of the human lung in health and disease (full)"
+    collection: "The integrated Human Lung Cell Atlas"
+    doi: "10.1038/s41591-023-02327-2"
+    tissue: "lung"
+    disease_label_exact: "COVID-19"
+    control_label_exact: "normal"
+    cell_types: "all"
+    min_cells_per_sample: 30
+    expected_donors_disease: 60
+    expected_donors_control: 164
+    notes: "Same h5ad as ipf_lung — split by disease label after download."
+
+  ipf_lung:
+    name: "Pulmonary Fibrosis (HLCA)"
+    dataset_id: "9f222629-9e39-47d0-b83f-e08d610c7479"
+    title: "An integrated cell atlas of the human lung in health and disease (full)"
+    collection: "The integrated Human Lung Cell Atlas"
+    doi: "10.1038/s41591-023-02327-2"
+    tissue: "lung"
+    disease_label_exact: "pulmonary fibrosis"
+    control_label_exact: "normal"
+    cell_types: "all"
+    min_cells_per_sample: 30
+    expected_donors_disease: 55
+    expected_donors_control: 164
+    notes: "Same h5ad as covid_lung. Disease label is 'pulmonary fibrosis' (not 'idiopathic pulmonary fibrosis')."
+
+  # ---- BLOOD / VIRAL ----
+  covid_blood:
+    name: "COVID-19 PBMC (Schulte-Schrepping et al.)"
+    dataset_id: "5e717147-0f75-4de1-8bd2-6fda01b8d75f"
+    title: "Individual Single-Cell RNA-seq PBMC Data from Schulte-Schrepping et al."
+    doi: "10.1016/j.isci.2021.103115"
+    tissue: "blood"
+    disease_label_exact: "COVID-19"
+    control_label_exact: "normal"
+    cell_types: "all"
+    min_cells_per_sample: 30
+    expected_donors_disease: 18
+    expected_donors_control: 21
+
+  # ---- BRAIN — Neurodegenerative ----
+  ad_brain:
+    name: "Alzheimer's Disease Cortex (Otero-Garcia et al.)"
+    dataset_id: ["85c60876-7f35-40c5-a256-7808d84c6ba5",
+                  "9813a1d4-d107-459e-9b2e-7687be935f69"]
+    title: "Single-soma transcriptomics of tangle-bearing neurons (Excitatory + Inhibitory)"
+    collection: "Single-soma transcriptomics of tangle-bearing neurons in Alzheimer's disease"
+    doi: "10.1016/j.neuron.2022.06.021"
+    tissue: "prefrontal cortex"
+    disease_label_exact: "Alzheimer disease"
+    control_label_exact: "normal"
+    cell_types: "all"
+    min_cells_per_sample: 20
+    expected_donors_disease: 8
+    expected_donors_control: 8
+    notes: "TWO h5ad files (excitatory + inhibitory neurons) — concatenated at download."
+
+  pd_brain:
+    name: "Parkinson Disease (Macnair multi-region atlas)"
+    dataset_id: "d3cb449b-c2b1-4b50-a7f1-21203535fe61"
+    title: "A multi-region single nucleus transcriptomic atlas of Parkinson's disease"
+    doi: "10.1038/s41597-024-04117-y"
+    tissue: "brain"
+    disease_label_exact: "Parkinson disease"
+    control_label_exact: "normal"
+    cell_types: "all"
+    min_cells_per_sample: 20
+    expected_donors_disease: 70
+    expected_donors_control: 20
+    notes: "Replaces v1 ms_brain (which had only 1 control donor)."
+
+  # ---- HEART ----
+  dcm_heart:
+    name: "Dilated Cardiomyopathy (Reichart et al.)"
+    dataset_id: "65badd7a-9262-4fd1-9ce2-eb5dc0ca8039"
+    title: "DCM/ACM heart cell atlas: All cells"
+    doi: "10.1126/science.abo1984"
+    tissue: "heart"
+    disease_label_exact: "dilated cardiomyopathy"
+    control_label_exact: "normal"
+    cell_types: "all"
+    min_cells_per_sample: 30
+    expected_donors_disease: 53
+    expected_donors_control: 6
+    notes: "Only heart dataset with paired controls in the Census."
