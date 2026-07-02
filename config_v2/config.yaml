@@ -1,0 +1,30 @@
+# PathwayBench v2 master config
+project_dir: "/nfs/turbo/umms-alakwaaf/from_zug/PathwayBench/PathwayBench"
+
+methods:
+  - ssGSEA
+  - GSVA
+  - zscore
+  - AUCell
+  - UCell
+
+aggregation_methods:
+  - sum
+  - mean
+
+normalizations:
+  - log2CPM
+  - voom
+  - scran
+  - sctransform
+
+sample_fractions: [0.3, 0.5, 0.7, 0.9, 1.0]
+n_bootstrap: 50
+seed: 42
+threads: 8
+
+figure_params:
+  width: 10
+  height: 8
+  dpi: 300
+  format: pdf

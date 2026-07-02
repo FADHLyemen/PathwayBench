@@ -175,7 +175,7 @@ def create_pathway_gene_sets(pathway_config_path, output_dir):
 
 def main():
     parser = argparse.ArgumentParser(description="Download pathway gene sets")
-    parser.add_argument("--pathway-config", default="config/pathways.yaml")
+    parser.add_argument("--pathway-config", default="config_v2/pathway_definitions.yaml")
     parser.add_argument("--output-dir", default="data/pathways")
     args = parser.parse_args()
     

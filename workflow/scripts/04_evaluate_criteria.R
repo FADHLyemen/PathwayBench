@@ -21,7 +21,7 @@ option_list <- list(
   make_option("--dataset-id", type="character", help="Dataset ID"),
   make_option("--scores-dir", type="character", default="results/scores"),
   make_option("--pseudobulk-dir", type="character", default="data/pseudobulk"),
-  make_option("--pathway-config", type="character", default="config/pathways.yaml"),
+  make_option("--pathway-config", type="character", default="config_v2/ground_truth_pathways_corrected.yaml"),
   make_option("--config", type="character", default="config/config.yaml"),
   make_option("--output-dir", type="character", default="results/evaluation"),
   make_option("--gmt", type="character", default="data/pathways/pathwaybench_genesets.gmt")

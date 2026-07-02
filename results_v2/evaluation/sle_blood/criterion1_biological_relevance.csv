@@ -1,0 +1,721 @@
+"dataset","method","normalization","pathway","cell_type","p_value","cohens_d","mean_disease","mean_control","expected_direction","observed_direction","direction_correct","n_disease","n_control"
+"sle_blood","ssGSEA","log2CPM","interferon_signaling","CD4-positive, alpha-beta T cell",1.42333063804425e-29,1.95265254778548,2.33417150892503,2.30904249993123,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","log2CPM","interferon_signaling","classical monocyte",4.26450635960523e-25,1.75403509461497,2.37859881746641,2.35323154828367,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","log2CPM","interferon_signaling","CD8-positive, alpha-beta T cell",7.50373819738181e-29,1.92437477598513,2.33896924136597,2.3112424033197,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","log2CPM","interferon_signaling","B cell",3.87656114414475e-17,1.2629903880591,2.3422737518834,2.32139573488171,"UP","UP",TRUE,157,99
+"sle_blood","ssGSEA","log2CPM","interferon_signaling","natural killer cell",5.92830834979863e-23,1.56810249146276,2.34221226080103,2.31675032423211,"UP","UP",TRUE,155,98
+"sle_blood","ssGSEA","log2CPM","interferon_signaling","non-classical monocyte",1.24091324304627e-20,1.46299778004076,2.37110868044333,2.34800496690989,"UP","UP",TRUE,157,97
+"sle_blood","ssGSEA","log2CPM","interferon_signaling","conventional dendritic cell",2.4328863599619e-15,1.33399085483707,2.36350185678503,2.34028302876966,"UP","UP",TRUE,125,88
+"sle_blood","ssGSEA","log2CPM","interferon_signaling","lymphocyte",1.17469113374768e-06,1.76359415454436,2.36838769547202,2.34403738979017,"UP","UP",TRUE,74,16
+"sle_blood","ssGSEA","log2CPM","interferon_signaling","plasmacytoid dendritic cell",0.164298949845011,0.661806797967904,2.31960223910609,2.30820668948301,"UP","UP",TRUE,11,37
+"sle_blood","ssGSEA","log2CPM","jak_stat","CD4-positive, alpha-beta T cell",1.43615446484379e-15,1.18034290485911,2.23968223541515,2.22442381206564,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","log2CPM","jak_stat","classical monocyte",0.899812134724305,-0.0396573405272365,2.30051152295836,2.30093421386152,"UP","DOWN",FALSE,162,99
+"sle_blood","ssGSEA","log2CPM","jak_stat","CD8-positive, alpha-beta T cell",0.0134547266994614,0.346436266173122,2.24295960665673,2.23836666869696,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","log2CPM","jak_stat","B cell",0.232401041163241,0.184056967014443,2.23855365876141,2.23644573338013,"UP","UP",TRUE,157,99
+"sle_blood","ssGSEA","log2CPM","jak_stat","natural killer cell",2.41796222146544e-06,0.634179303581734,2.26243606694631,2.25603792195428,"UP","UP",TRUE,155,98
+"sle_blood","ssGSEA","log2CPM","jak_stat","non-classical monocyte",0.0103783060428432,0.34566107752853,2.29223175549108,2.28892680315196,"UP","UP",TRUE,157,97
+"sle_blood","ssGSEA","log2CPM","jak_stat","conventional dendritic cell",0.00118135451816511,0.492946201617514,2.30144123362755,2.29723178894546,"UP","UP",TRUE,125,88
+"sle_blood","ssGSEA","log2CPM","jak_stat","lymphocyte",0.437939195332941,0.213138551846816,2.25892496488084,2.25701669204612,"UP","UP",TRUE,74,16
+"sle_blood","ssGSEA","log2CPM","jak_stat","plasmacytoid dendritic cell",0.395943505624769,0.324859860326822,2.24629890168639,2.24416060765344,"UP","UP",TRUE,11,37
+"sle_blood","ssGSEA","log2CPM","nfkb_signaling","CD4-positive, alpha-beta T cell",2.91780293644741e-11,0.905623013644738,2.66576833999624,2.65849217238676,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","log2CPM","nfkb_signaling","classical monocyte",1.23445779836403e-16,1.14947296476193,2.6664056290039,2.65589748169131,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","log2CPM","nfkb_signaling","CD8-positive, alpha-beta T cell",1.21542355753845e-08,0.75762138112217,2.66717420966093,2.65960643407068,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","log2CPM","nfkb_signaling","B cell",0.568519508355101,-0.0858581064056574,2.6601677394417,2.66169006492502,"UP","DOWN",FALSE,157,99
+"sle_blood","ssGSEA","log2CPM","nfkb_signaling","natural killer cell",6.80265797631846e-06,0.523930116136869,2.67378329640543,2.66649416066262,"UP","UP",TRUE,155,98
+"sle_blood","ssGSEA","log2CPM","nfkb_signaling","non-classical monocyte",1.57409984279915e-08,0.757485180844788,2.66951765487916,2.65982032449003,"UP","UP",TRUE,157,97
+"sle_blood","ssGSEA","log2CPM","nfkb_signaling","conventional dendritic cell",2.59712185351376e-08,0.799317653405912,2.68151414246623,2.67193583129717,"UP","UP",TRUE,125,88
+"sle_blood","ssGSEA","log2CPM","nfkb_signaling","lymphocyte",0.00121800634837624,0.977138419650555,2.69649585856848,2.68345839208487,"UP","UP",TRUE,74,16
+"sle_blood","ssGSEA","log2CPM","nfkb_signaling","plasmacytoid dendritic cell",0.594413080355827,-0.225101003647295,2.64767019474127,2.65154605421707,"UP","DOWN",FALSE,11,37
+"sle_blood","ssGSEA","log2CPM","toll_like_receptor","CD4-positive, alpha-beta T cell",3.5326274511019e-07,0.682027384391655,2.32905416906178,2.32102144187744,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","log2CPM","toll_like_receptor","classical monocyte",2.84214770733124e-06,0.670718557094607,2.43238099708001,2.42581094419572,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","log2CPM","toll_like_receptor","CD8-positive, alpha-beta T cell",0.0219819371319259,0.342937684787551,2.32361039982759,2.31969099359134,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","log2CPM","toll_like_receptor","B cell",0.768261721737661,0.0948200493545437,2.36578344266923,2.36447882273968,"UP","UP",TRUE,157,99
+"sle_blood","ssGSEA","log2CPM","toll_like_receptor","natural killer cell",0.000629216197126211,0.458055758110309,2.33779959446622,2.33240674210904,"UP","UP",TRUE,155,98
+"sle_blood","ssGSEA","log2CPM","toll_like_receptor","non-classical monocyte",0.000344901520470573,0.535888245552827,2.42074987587742,2.41291566121416,"UP","UP",TRUE,157,97
+"sle_blood","ssGSEA","log2CPM","toll_like_receptor","conventional dendritic cell",0.607495472835116,0.213115306269334,2.40334724866934,2.40011351744691,"UP","UP",TRUE,125,88
+"sle_blood","ssGSEA","log2CPM","toll_like_receptor","lymphocyte",0.100784953765367,0.444717482326471,2.32463027251583,2.31860234206801,"UP","UP",TRUE,74,16
+"sle_blood","ssGSEA","log2CPM","toll_like_receptor","plasmacytoid dendritic cell",0.577714837461095,-0.102413852824957,2.36831154514691,2.36964383554622,"UP","DOWN",FALSE,11,37
+"sle_blood","ssGSEA","voom","interferon_signaling","CD4-positive, alpha-beta T cell",9.66736986423025e-27,1.76415885589256,0.313390699629644,0.244856288929253,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","voom","interferon_signaling","classical monocyte",1.39826004155337e-23,1.69628627931827,0.443379796588571,0.361253266675021,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","voom","interferon_signaling","CD8-positive, alpha-beta T cell",9.66529837063452e-28,1.8581834975242,0.318520462797616,0.249405060408212,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","voom","interferon_signaling","B cell",2.85922685082569e-16,1.28749014235024,0.349993155653961,0.296417107691511,"UP","UP",TRUE,157,99
+"sle_blood","ssGSEA","voom","interferon_signaling","natural killer cell",1.28979733645812e-20,1.5138346745056,0.314960248861762,0.250685782775135,"UP","UP",TRUE,155,98
+"sle_blood","ssGSEA","voom","interferon_signaling","non-classical monocyte",5.3887613418974e-24,1.74806990011125,0.431265663738733,0.349472169852606,"UP","UP",TRUE,157,97
+"sle_blood","ssGSEA","voom","interferon_signaling","conventional dendritic cell",1.79573183017028e-17,1.46213704859974,0.398863297472785,0.331834419888473,"UP","UP",TRUE,125,88
+"sle_blood","ssGSEA","voom","interferon_signaling","lymphocyte",4.19327450414175e-08,2.18130761986641,0.383903263331615,0.309713470737697,"UP","UP",TRUE,74,16
+"sle_blood","ssGSEA","voom","interferon_signaling","plasmacytoid dendritic cell",0.0458432234779818,0.738978823740649,0.29269049104205,0.263368942785253,"UP","UP",TRUE,11,37
+"sle_blood","ssGSEA","voom","jak_stat","CD4-positive, alpha-beta T cell",1.02658469996511e-08,0.786659453882156,0.295766631137899,0.280175744995013,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","voom","jak_stat","classical monocyte",0.1697349459115,0.161125764049749,0.460828854646072,0.457309941037788,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","voom","jak_stat","CD8-positive, alpha-beta T cell",7.14553696576689e-07,0.69289797303608,0.293016279919559,0.278717959954508,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","voom","jak_stat","B cell",0.140217859855958,-0.170583386777129,0.249067234023786,0.253271056306548,"UP","DOWN",FALSE,157,99
+"sle_blood","ssGSEA","voom","jak_stat","natural killer cell",2.07090275242354e-07,0.69766807519022,0.327846588210782,0.312340523501496,"UP","UP",TRUE,155,98
+"sle_blood","ssGSEA","voom","jak_stat","non-classical monocyte",0.0153467153554329,0.32820071633899,0.390250252745877,0.382275127630909,"UP","UP",TRUE,157,97
+"sle_blood","ssGSEA","voom","jak_stat","conventional dendritic cell",0.811726786931061,0.150464690498571,0.403238371664596,0.398816362359193,"UP","UP",TRUE,125,88
+"sle_blood","ssGSEA","voom","jak_stat","lymphocyte",0.318618841155062,0.367678280840592,0.314863713382352,0.306650520647618,"UP","UP",TRUE,74,16
+"sle_blood","ssGSEA","voom","jak_stat","plasmacytoid dendritic cell",0.382487757808937,0.26169751175466,0.24195331934384,0.235815641277148,"UP","UP",TRUE,11,37
+"sle_blood","ssGSEA","voom","nfkb_signaling","CD4-positive, alpha-beta T cell",3.08943687629819e-07,0.724610456008823,0.536304863160193,0.515544675034215,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","voom","nfkb_signaling","classical monocyte",6.02661176704452e-16,1.22377685055717,0.559712407094698,0.521297727309873,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","voom","nfkb_signaling","CD8-positive, alpha-beta T cell",1.4689580938079e-06,0.669000551113197,0.536688507514218,0.515422324448527,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","voom","nfkb_signaling","B cell",0.721057562353247,0.0320069419893657,0.530047934199094,0.528816570844262,"UP","UP",TRUE,157,99
+"sle_blood","ssGSEA","voom","nfkb_signaling","natural killer cell",2.67177235478894e-07,0.687955734941834,0.571373116804628,0.548491828603967,"UP","UP",TRUE,155,98
+"sle_blood","ssGSEA","voom","nfkb_signaling","non-classical monocyte",1.52430249316375e-09,0.875381982542485,0.581178506527121,0.551094732067588,"UP","UP",TRUE,157,97
+"sle_blood","ssGSEA","voom","nfkb_signaling","conventional dendritic cell",7.27328772368769e-11,1.04631310856777,0.62313423453986,0.589618297148404,"UP","UP",TRUE,125,88
+"sle_blood","ssGSEA","voom","nfkb_signaling","lymphocyte",0.000225644267880469,1.13023794671654,0.689274691673133,0.659043910313166,"UP","UP",TRUE,74,16
+"sle_blood","ssGSEA","voom","nfkb_signaling","plasmacytoid dendritic cell",0.205265163506515,0.462447564064075,0.543595323097024,0.528714844766267,"UP","UP",TRUE,11,37
+"sle_blood","ssGSEA","voom","toll_like_receptor","CD4-positive, alpha-beta T cell",0.000259445410717946,0.534045615193215,0.130491567075415,0.115614023258024,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","voom","toll_like_receptor","classical monocyte",0.913202870657463,0.100101028925835,0.38427954862036,0.381002805756367,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","voom","toll_like_receptor","CD8-positive, alpha-beta T cell",0.0145068316054234,0.377166830382439,0.122936614000518,0.112340933153381,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","voom","toll_like_receptor","B cell",0.363765464148809,0.0093144857495248,0.217844478043015,0.217521340567061,"UP","UP",TRUE,157,99
+"sle_blood","ssGSEA","voom","toll_like_receptor","natural killer cell",0.000487600599134558,0.500319858633654,0.15068465119363,0.136029104045549,"UP","UP",TRUE,155,98
+"sle_blood","ssGSEA","voom","toll_like_receptor","non-classical monocyte",0.259088741474053,0.232561193195367,0.302352136456679,0.29463461463145,"UP","UP",TRUE,157,97
+"sle_blood","ssGSEA","voom","toll_like_receptor","conventional dendritic cell",0.208128204236295,-0.0146326682645362,0.274716362225839,0.27522024267825,"UP","DOWN",FALSE,125,88
+"sle_blood","ssGSEA","voom","toll_like_receptor","lymphocyte",0.127266035165185,0.475823030043819,0.0940310847417277,0.0778972766279078,"UP","UP",TRUE,74,16
+"sle_blood","ssGSEA","voom","toll_like_receptor","plasmacytoid dendritic cell",0.129650394344314,-0.55823446446512,0.212439654493541,0.227139829763302,"UP","DOWN",FALSE,11,37
+"sle_blood","ssGSEA","scran","interferon_signaling","CD4-positive, alpha-beta T cell",9.66736986423025e-27,1.76415885589256,0.313390699629644,0.244856288929253,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","scran","interferon_signaling","classical monocyte",1.39826004155337e-23,1.69628627931827,0.443379796588571,0.361253266675021,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","scran","interferon_signaling","CD8-positive, alpha-beta T cell",9.66529837063452e-28,1.8581834975242,0.318520462797616,0.249405060408212,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","scran","interferon_signaling","B cell",2.85922685082569e-16,1.28749014235024,0.349993155653961,0.296417107691511,"UP","UP",TRUE,157,99
+"sle_blood","ssGSEA","scran","interferon_signaling","natural killer cell",1.28979733645812e-20,1.5138346745056,0.314960248861762,0.250685782775135,"UP","UP",TRUE,155,98
+"sle_blood","ssGSEA","scran","interferon_signaling","non-classical monocyte",5.3887613418974e-24,1.74806990011125,0.431265663738733,0.349472169852606,"UP","UP",TRUE,157,97
+"sle_blood","ssGSEA","scran","interferon_signaling","conventional dendritic cell",1.79573183017028e-17,1.46213704859974,0.398863297472785,0.331834419888473,"UP","UP",TRUE,125,88
+"sle_blood","ssGSEA","scran","interferon_signaling","lymphocyte",4.19327450414175e-08,2.18130761986641,0.383903263331615,0.309713470737697,"UP","UP",TRUE,74,16
+"sle_blood","ssGSEA","scran","interferon_signaling","plasmacytoid dendritic cell",0.0458432234779818,0.738978823740649,0.29269049104205,0.263368942785253,"UP","UP",TRUE,11,37
+"sle_blood","ssGSEA","scran","jak_stat","CD4-positive, alpha-beta T cell",1.02658469996511e-08,0.786659453882156,0.295766631137899,0.280175744995013,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","scran","jak_stat","classical monocyte",0.1697349459115,0.161125764049749,0.460828854646072,0.457309941037788,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","scran","jak_stat","CD8-positive, alpha-beta T cell",7.14553696576689e-07,0.69289797303608,0.293016279919559,0.278717959954508,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","scran","jak_stat","B cell",0.140217859855958,-0.170583386777129,0.249067234023786,0.253271056306548,"UP","DOWN",FALSE,157,99
+"sle_blood","ssGSEA","scran","jak_stat","natural killer cell",2.07090275242354e-07,0.69766807519022,0.327846588210782,0.312340523501496,"UP","UP",TRUE,155,98
+"sle_blood","ssGSEA","scran","jak_stat","non-classical monocyte",0.0153467153554329,0.32820071633899,0.390250252745877,0.382275127630909,"UP","UP",TRUE,157,97
+"sle_blood","ssGSEA","scran","jak_stat","conventional dendritic cell",0.811726786931061,0.150464690498571,0.403238371664596,0.398816362359193,"UP","UP",TRUE,125,88
+"sle_blood","ssGSEA","scran","jak_stat","lymphocyte",0.318618841155062,0.367678280840592,0.314863713382352,0.306650520647618,"UP","UP",TRUE,74,16
+"sle_blood","ssGSEA","scran","jak_stat","plasmacytoid dendritic cell",0.382487757808937,0.26169751175466,0.24195331934384,0.235815641277148,"UP","UP",TRUE,11,37
+"sle_blood","ssGSEA","scran","nfkb_signaling","CD4-positive, alpha-beta T cell",3.08943687629819e-07,0.724610456008823,0.536304863160193,0.515544675034215,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","scran","nfkb_signaling","classical monocyte",6.02661176704452e-16,1.22377685055717,0.559712407094698,0.521297727309873,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","scran","nfkb_signaling","CD8-positive, alpha-beta T cell",1.4689580938079e-06,0.669000551113197,0.536688507514218,0.515422324448527,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","scran","nfkb_signaling","B cell",0.721057562353247,0.0320069419893657,0.530047934199094,0.528816570844262,"UP","UP",TRUE,157,99
+"sle_blood","ssGSEA","scran","nfkb_signaling","natural killer cell",2.67177235478894e-07,0.687955734941834,0.571373116804628,0.548491828603967,"UP","UP",TRUE,155,98
+"sle_blood","ssGSEA","scran","nfkb_signaling","non-classical monocyte",1.52430249316375e-09,0.875381982542485,0.581178506527121,0.551094732067588,"UP","UP",TRUE,157,97
+"sle_blood","ssGSEA","scran","nfkb_signaling","conventional dendritic cell",7.27328772368769e-11,1.04631310856777,0.62313423453986,0.589618297148404,"UP","UP",TRUE,125,88
+"sle_blood","ssGSEA","scran","nfkb_signaling","lymphocyte",0.000225644267880469,1.13023794671654,0.689274691673133,0.659043910313166,"UP","UP",TRUE,74,16
+"sle_blood","ssGSEA","scran","nfkb_signaling","plasmacytoid dendritic cell",0.205265163506515,0.462447564064075,0.543595323097024,0.528714844766267,"UP","UP",TRUE,11,37
+"sle_blood","ssGSEA","scran","toll_like_receptor","CD4-positive, alpha-beta T cell",0.000259445410717946,0.534045615193215,0.130491567075415,0.115614023258024,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","scran","toll_like_receptor","classical monocyte",0.913202870657463,0.100101028925835,0.38427954862036,0.381002805756367,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","scran","toll_like_receptor","CD8-positive, alpha-beta T cell",0.0145068316054234,0.377166830382439,0.122936614000518,0.112340933153381,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","scran","toll_like_receptor","B cell",0.363765464148809,0.0093144857495248,0.217844478043015,0.217521340567061,"UP","UP",TRUE,157,99
+"sle_blood","ssGSEA","scran","toll_like_receptor","natural killer cell",0.000487600599134558,0.500319858633654,0.15068465119363,0.136029104045549,"UP","UP",TRUE,155,98
+"sle_blood","ssGSEA","scran","toll_like_receptor","non-classical monocyte",0.259088741474053,0.232561193195367,0.302352136456679,0.29463461463145,"UP","UP",TRUE,157,97
+"sle_blood","ssGSEA","scran","toll_like_receptor","conventional dendritic cell",0.208128204236295,-0.0146326682645362,0.274716362225839,0.27522024267825,"UP","DOWN",FALSE,125,88
+"sle_blood","ssGSEA","scran","toll_like_receptor","lymphocyte",0.127266035165185,0.475823030043819,0.0940310847417277,0.0778972766279078,"UP","UP",TRUE,74,16
+"sle_blood","ssGSEA","scran","toll_like_receptor","plasmacytoid dendritic cell",0.129650394344314,-0.55823446446512,0.212439654493541,0.227139829763302,"UP","DOWN",FALSE,11,37
+"sle_blood","ssGSEA","sctransform","interferon_signaling","CD4-positive, alpha-beta T cell",2.51204435908309e-15,1.18192972710792,0.0791626696379988,-0.0671051599529345,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","sctransform","interferon_signaling","classical monocyte",2.00300213711131e-13,1.0223353071981,0.316723336822023,0.245391397365979,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","sctransform","interferon_signaling","CD8-positive, alpha-beta T cell",5.68817025193896e-12,0.974722882363071,0.172957098438678,0.0550718376836785,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","sctransform","interferon_signaling","B cell",5.24022633267214e-06,0.678213133261988,0.1717279381285,0.101178003489886,"UP","UP",TRUE,157,99
+"sle_blood","ssGSEA","sctransform","interferon_signaling","natural killer cell",1.90311311829575e-09,0.899480551790969,0.318968185960325,0.246431034269562,"UP","UP",TRUE,155,98
+"sle_blood","ssGSEA","sctransform","interferon_signaling","non-classical monocyte",7.64141422114537e-12,1.00776737915342,0.323286733989875,0.252419621431957,"UP","UP",TRUE,157,97
+"sle_blood","ssGSEA","sctransform","interferon_signaling","conventional dendritic cell",1.82168361354932e-07,0.824011648543709,0.27774143306679,0.21120234546467,"UP","UP",TRUE,125,88
+"sle_blood","ssGSEA","sctransform","interferon_signaling","lymphocyte",0.000937959552071542,0.93933691875438,0.36663248709333,0.318539582130612,"UP","UP",TRUE,74,16
+"sle_blood","ssGSEA","sctransform","interferon_signaling","plasmacytoid dendritic cell",0.544977851997245,-0.0540933385512138,0.196944681637308,0.200473896191566,"UP","DOWN",FALSE,11,37
+"sle_blood","ssGSEA","sctransform","jak_stat","CD4-positive, alpha-beta T cell",2.13779666810049e-11,0.958320885017899,0.0125389396788087,-0.0714518839239132,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","sctransform","jak_stat","classical monocyte",0.00301067513726853,0.469746163584026,0.301875323165073,0.281388043968143,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","sctransform","jak_stat","CD8-positive, alpha-beta T cell",4.00865338668811e-06,0.599890525960289,0.0889627103302361,0.0305526222009122,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","sctransform","jak_stat","B cell",0.189501091856207,0.215223355203962,-0.00563925282118018,-0.0230097763228804,"UP","UP",TRUE,157,99
+"sle_blood","ssGSEA","sctransform","jak_stat","natural killer cell",0.000693227061702536,0.500467611748219,0.236980659080517,0.211529433056856,"UP","UP",TRUE,155,98
+"sle_blood","ssGSEA","sctransform","jak_stat","non-classical monocyte",0.00719306263912908,0.404247817332142,0.247341328454919,0.228182360719929,"UP","UP",TRUE,157,97
+"sle_blood","ssGSEA","sctransform","jak_stat","conventional dendritic cell",0.418270791401417,0.239259746371881,0.243046739660643,0.229783924844775,"UP","UP",TRUE,125,88
+"sle_blood","ssGSEA","sctransform","jak_stat","lymphocyte",0.812305829692555,0.132778593188425,0.258262530410038,0.253368985162126,"UP","UP",TRUE,74,16
+"sle_blood","ssGSEA","sctransform","jak_stat","plasmacytoid dendritic cell",0.942196731751505,-0.119829981347,0.0962178035849638,0.100958987221819,"UP","DOWN",FALSE,11,37
+"sle_blood","ssGSEA","sctransform","nfkb_signaling","CD4-positive, alpha-beta T cell",4.22340633071859e-12,0.95617948342098,-0.014344378704873,-0.173002594404095,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","sctransform","nfkb_signaling","classical monocyte",7.19376754126338e-20,1.3701176076358,0.392481111103663,0.256003474521057,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","sctransform","nfkb_signaling","CD8-positive, alpha-beta T cell",4.30435766607985e-11,0.954656727000525,0.128556920632872,-0.0494992635117079,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","sctransform","nfkb_signaling","B cell",0.00093138551481913,0.542040594411649,0.02496316046754,-0.0287737250096461,"UP","UP",TRUE,157,99
+"sle_blood","ssGSEA","sctransform","nfkb_signaling","natural killer cell",8.4317178492618e-06,0.596117809003808,0.38699569127973,0.322960068600961,"UP","UP",TRUE,155,98
+"sle_blood","ssGSEA","sctransform","nfkb_signaling","non-classical monocyte",7.67685990385833e-13,1.04331306094126,0.372364070310837,0.257437638743995,"UP","UP",TRUE,157,97
+"sle_blood","ssGSEA","sctransform","nfkb_signaling","conventional dendritic cell",1.05769949158972e-10,1.00933602451893,0.371239625062967,0.269600056129516,"UP","UP",TRUE,125,88
+"sle_blood","ssGSEA","sctransform","nfkb_signaling","lymphocyte",0.00657749710316643,0.787797712638519,0.515147437634651,0.479454378599068,"UP","UP",TRUE,74,16
+"sle_blood","ssGSEA","sctransform","nfkb_signaling","plasmacytoid dendritic cell",0.513162236543881,0.324930258351393,0.167183877627264,0.144219088132406,"UP","UP",TRUE,11,37
+"sle_blood","ssGSEA","sctransform","toll_like_receptor","CD4-positive, alpha-beta T cell",9.50682488797192e-08,0.713578720437404,-0.0064684739850559,-0.0979807036094735,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","sctransform","toll_like_receptor","classical monocyte",0.936021750483473,0.0742442681849383,0.39217285161774,0.387436478831665,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","sctransform","toll_like_receptor","CD8-positive, alpha-beta T cell",0.00030164484246282,0.442232782162441,0.0711393889485283,0.0154007424863691,"UP","UP",TRUE,162,99
+"sle_blood","ssGSEA","sctransform","toll_like_receptor","B cell",0.410345893440563,0.203290338547512,0.130706370166489,0.110246662390651,"UP","UP",TRUE,157,99
+"sle_blood","ssGSEA","sctransform","toll_like_receptor","natural killer cell",0.010003540800357,0.395463861284271,0.260209072792793,0.233590125073867,"UP","UP",TRUE,155,98
+"sle_blood","ssGSEA","sctransform","toll_like_receptor","non-classical monocyte",0.692459897939501,0.227027543845321,0.341864835893188,0.324845951817292,"UP","UP",TRUE,157,97
+"sle_blood","ssGSEA","sctransform","toll_like_receptor","conventional dendritic cell",0.27005313998664,0.0297539985975505,0.318531106070504,0.316269841239438,"UP","UP",TRUE,125,88
+"sle_blood","ssGSEA","sctransform","toll_like_receptor","lymphocyte",0.616168143304464,0.0750748891247467,0.217699274155848,0.212504349789439,"UP","UP",TRUE,74,16
+"sle_blood","ssGSEA","sctransform","toll_like_receptor","plasmacytoid dendritic cell",0.00858868303176624,-0.770668221907949,0.187243449047671,0.23512411167465,"UP","DOWN",FALSE,11,37
+"sle_blood","GSVA","log2CPM","interferon_signaling","CD4-positive, alpha-beta T cell",1.04115635985681e-27,1.77618403023603,-0.211342173764027,-0.439940857462632,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","log2CPM","interferon_signaling","classical monocyte",1.26915940188809e-21,1.53385706469351,0.137884415758463,-0.0340675955260287,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","log2CPM","interferon_signaling","CD8-positive, alpha-beta T cell",2.02830460182426e-24,1.68494506346534,-0.104341849018141,-0.341345646123375,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","log2CPM","interferon_signaling","B cell",3.25779978104278e-23,1.62809512534944,-0.0160109455217979,-0.20664340466065,"UP","UP",TRUE,157,99
+"sle_blood","GSVA","log2CPM","interferon_signaling","natural killer cell",1.51822923671424e-23,1.67218128045902,0.126243379066991,-0.0567203139052345,"UP","UP",TRUE,155,98
+"sle_blood","GSVA","log2CPM","interferon_signaling","non-classical monocyte",2.44017392343452e-20,1.45445289059736,0.261160149777424,0.13620957054227,"UP","UP",TRUE,157,97
+"sle_blood","GSVA","log2CPM","interferon_signaling","conventional dendritic cell",2.16986444175018e-20,1.67736727926919,0.173246983811043,-0.00433825944990081,"UP","UP",TRUE,125,88
+"sle_blood","GSVA","log2CPM","interferon_signaling","lymphocyte",1.10513959613775e-05,1.51335777192643,0.27978540611136,0.170130199782737,"UP","UP",TRUE,74,16
+"sle_blood","GSVA","log2CPM","interferon_signaling","plasmacytoid dendritic cell",0.00571147871663786,0.949320771942421,0.00986165360557613,-0.066079495896819,"UP","UP",TRUE,11,37
+"sle_blood","GSVA","log2CPM","jak_stat","CD4-positive, alpha-beta T cell",1.35479085100907e-20,1.40523992930802,-0.228954296510567,-0.346088813075757,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","log2CPM","jak_stat","classical monocyte",2.23470291973568e-08,0.749741914502593,0.208581421208652,0.168175516000388,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","log2CPM","jak_stat","CD8-positive, alpha-beta T cell",7.3853559354471e-08,0.755992388237373,-0.168966211744376,-0.251727529156147,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","log2CPM","jak_stat","B cell",0.00144414250662362,0.471896034753999,-0.253685471399643,-0.293251126846746,"UP","UP",TRUE,157,99
+"sle_blood","GSVA","log2CPM","jak_stat","natural killer cell",2.12464404653762e-11,0.937670928819676,0.0761915425436024,0.0107586073975972,"UP","UP",TRUE,155,98
+"sle_blood","GSVA","log2CPM","jak_stat","non-classical monocyte",1.43544749916379e-08,0.745810872622936,0.228523736606265,0.189727819484135,"UP","UP",TRUE,157,97
+"sle_blood","GSVA","log2CPM","jak_stat","conventional dendritic cell",4.14730702674963e-09,0.897335101545553,0.240767851543138,0.19221602356621,"UP","UP",TRUE,125,88
+"sle_blood","GSVA","log2CPM","jak_stat","lymphocyte",0.102994472758106,0.359758750564259,0.11666157484665,0.0977311277916028,"UP","UP",TRUE,74,16
+"sle_blood","GSVA","log2CPM","jak_stat","plasmacytoid dendritic cell",0.00524967329645766,0.994574808721705,-0.0345443483398905,-0.0842092362030001,"UP","UP",TRUE,11,37
+"sle_blood","GSVA","log2CPM","nfkb_signaling","CD4-positive, alpha-beta T cell",3.12670770343911e-19,1.20692939983785,-0.442747720613883,-0.617113589893653,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","log2CPM","nfkb_signaling","classical monocyte",6.9577486798304e-12,1.09189425333914,0.095683537045728,-0.149652989057808,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","log2CPM","nfkb_signaling","CD8-positive, alpha-beta T cell",2.27677344814612e-10,0.802654046236868,-0.267492489363191,-0.458428562963257,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","log2CPM","nfkb_signaling","B cell",4.22496854542518e-06,0.570256215814766,-0.31938666873965,-0.41303836500443,"UP","UP",TRUE,157,99
+"sle_blood","GSVA","log2CPM","nfkb_signaling","natural killer cell",5.81417710313362e-12,1.07107691103609,0.371441048487611,0.210203424918557,"UP","UP",TRUE,155,98
+"sle_blood","GSVA","log2CPM","nfkb_signaling","non-classical monocyte",1.70247392120325e-14,1.10924064877884,0.396500989931696,0.23062464331188,"UP","UP",TRUE,157,97
+"sle_blood","GSVA","log2CPM","nfkb_signaling","conventional dendritic cell",1.7238688484456e-16,1.3326330590526,0.443613061254278,0.26754908297636,"UP","UP",TRUE,125,88
+"sle_blood","GSVA","log2CPM","nfkb_signaling","lymphocyte",0.00146331331733502,1.00273379356048,0.547475365451703,0.485529532493892,"UP","UP",TRUE,74,16
+"sle_blood","GSVA","log2CPM","nfkb_signaling","plasmacytoid dendritic cell",0.00160435284527679,1.2257699543719,0.273404954857832,0.110449623522007,"UP","UP",TRUE,11,37
+"sle_blood","GSVA","log2CPM","toll_like_receptor","CD4-positive, alpha-beta T cell",8.50380400729864e-12,1.0251756514122,-0.299510196848942,-0.40110314005915,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","log2CPM","toll_like_receptor","classical monocyte",0.0471661462808682,0.220815785110201,0.27650766572404,0.261233068217279,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","log2CPM","toll_like_receptor","CD8-positive, alpha-beta T cell",0.000332541864197996,0.496354374148525,-0.291987990184227,-0.345170846688733,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","log2CPM","toll_like_receptor","B cell",0.00323204473590509,0.408758716770479,-0.0643191140656529,-0.105082288674394,"UP","UP",TRUE,157,99
+"sle_blood","GSVA","log2CPM","toll_like_receptor","natural killer cell",8.06432147071001e-05,0.503040490343313,-0.0384756650880827,-0.0830724340500281,"UP","UP",TRUE,155,98
+"sle_blood","GSVA","log2CPM","toll_like_receptor","non-classical monocyte",0.0057209724433006,0.433127018235094,0.265968107565807,0.229979657389135,"UP","UP",TRUE,157,97
+"sle_blood","GSVA","log2CPM","toll_like_receptor","conventional dendritic cell",0.172301410369325,0.26413796715062,0.206095960977177,0.184127848267561,"UP","UP",TRUE,125,88
+"sle_blood","GSVA","log2CPM","toll_like_receptor","lymphocyte",0.450506421915659,0.211338584367008,-0.0921935770306912,-0.109547731508695,"UP","UP",TRUE,74,16
+"sle_blood","GSVA","log2CPM","toll_like_receptor","plasmacytoid dendritic cell",1,-0.0348542418134692,0.0160987596643337,0.0184607247058209,"UP","DOWN",FALSE,11,37
+"sle_blood","GSVA","voom","interferon_signaling","CD4-positive, alpha-beta T cell",2.7621812277811e-28,1.82109440464396,-0.0752095425929209,-0.276364160816323,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","voom","interferon_signaling","classical monocyte",3.85433346102868e-29,2.11091464490185,0.210990505824053,-0.0248123995896826,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","voom","interferon_signaling","CD8-positive, alpha-beta T cell",3.27838172330641e-27,1.84403404868751,-0.0554087417310315,-0.268788817932034,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","voom","interferon_signaling","B cell",3.7883384921542e-25,1.68498046917652,0.0565530716374729,-0.123317185339066,"UP","UP",TRUE,157,99
+"sle_blood","GSVA","voom","interferon_signaling","natural killer cell",5.8250356574631e-23,1.65175328404384,-0.0070071283946174,-0.194553807116423,"UP","UP",TRUE,155,98
+"sle_blood","GSVA","voom","interferon_signaling","non-classical monocyte",1.40288005790234e-26,1.8864878475911,0.227147976259412,0.0289594725376624,"UP","UP",TRUE,157,97
+"sle_blood","GSVA","voom","interferon_signaling","conventional dendritic cell",1.58672309924902e-21,1.7211921919745,0.150392792805825,-0.0496536935877017,"UP","UP",TRUE,125,88
+"sle_blood","GSVA","voom","interferon_signaling","lymphocyte",5.2168430764421e-07,1.90109095438532,0.128924743245943,-0.0210213706081154,"UP","UP",TRUE,74,16
+"sle_blood","GSVA","voom","interferon_signaling","plasmacytoid dendritic cell",0.00620819544484599,0.992297943272647,-0.113112726077441,-0.199804899736744,"UP","UP",TRUE,11,37
+"sle_blood","GSVA","voom","jak_stat","CD4-positive, alpha-beta T cell",4.30812567344923e-13,1.03621353655161,-0.157438039363901,-0.225554742375565,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","voom","jak_stat","classical monocyte",2.65220848563797e-15,1.10928402928238,0.269939623008457,0.210626388167589,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","voom","jak_stat","CD8-positive, alpha-beta T cell",9.55644267177223e-10,0.848449487282949,-0.131709882282113,-0.194787439107048,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","voom","jak_stat","B cell",0.283329242547128,-0.122224679299157,-0.254983133104801,-0.248908553804858,"UP","DOWN",FALSE,157,99
+"sle_blood","GSVA","voom","jak_stat","natural killer cell",3.08365481835089e-11,0.88000640940521,0.00292557669143523,-0.0529445612334119,"UP","UP",TRUE,155,98
+"sle_blood","GSVA","voom","jak_stat","non-classical monocyte",2.02152236605364e-09,0.802171322261787,0.205094693902542,0.154101662617711,"UP","UP",TRUE,157,97
+"sle_blood","GSVA","voom","jak_stat","conventional dendritic cell",1.55418728155765e-07,0.755669419155219,0.198813572045939,0.146770167851149,"UP","UP",TRUE,125,88
+"sle_blood","GSVA","voom","jak_stat","lymphocyte",0.000746720646506927,1.03060458677835,0.108105873387073,0.0524800598313923,"UP","UP",TRUE,74,16
+"sle_blood","GSVA","voom","jak_stat","plasmacytoid dendritic cell",0.00214202844903933,1.13196511911356,-0.180169458710836,-0.226154203211226,"UP","UP",TRUE,11,37
+"sle_blood","GSVA","voom","nfkb_signaling","CD4-positive, alpha-beta T cell",2.09087560886033e-06,0.646695138391485,-0.139154143577359,-0.258378045481016,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","voom","nfkb_signaling","classical monocyte",4.81922822227125e-13,1.12947844921649,0.0774333933645843,-0.156158694625764,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","voom","nfkb_signaling","CD8-positive, alpha-beta T cell",1.98838982721742e-05,0.54505314132481,-0.145285373451042,-0.263602151710184,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","voom","nfkb_signaling","B cell",0.014601148860789,0.205651068351005,-0.158198433561411,-0.191892342428462,"UP","UP",TRUE,157,99
+"sle_blood","GSVA","voom","nfkb_signaling","natural killer cell",9.99086998493041e-08,0.773970798584132,0.0508466206077359,-0.109688303644097,"UP","UP",TRUE,155,98
+"sle_blood","GSVA","voom","nfkb_signaling","non-classical monocyte",3.41781636122974e-12,1.06354086990699,0.213077800802442,0.00107886342295239,"UP","UP",TRUE,157,97
+"sle_blood","GSVA","voom","nfkb_signaling","conventional dendritic cell",3.9528985584054e-14,1.25830840157415,0.328894815682703,0.109277154409785,"UP","UP",TRUE,125,88
+"sle_blood","GSVA","voom","nfkb_signaling","lymphocyte",0.0006400762931121,1.07687094798247,0.477568450252891,0.354875358835014,"UP","UP",TRUE,74,16
+"sle_blood","GSVA","voom","nfkb_signaling","plasmacytoid dendritic cell",0.0146635605174466,0.932646926451698,-0.028328127016865,-0.164908452374615,"UP","UP",TRUE,11,37
+"sle_blood","GSVA","voom","toll_like_receptor","CD4-positive, alpha-beta T cell",0.319972204058462,0.172912995299814,-0.197750452199306,-0.211615269098829,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","voom","toll_like_receptor","classical monocyte",2.98453163659777e-09,0.757080738644328,0.339118114925277,0.29734699736284,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","voom","toll_like_receptor","CD8-positive, alpha-beta T cell",0.727113741063654,0.110117237719478,-0.208447039535937,-0.216980237504716,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","voom","toll_like_receptor","B cell",0.0131928191949344,-0.280157173244717,0.0265445162617734,0.0534914925232805,"UP","DOWN",FALSE,157,99
+"sle_blood","GSVA","voom","toll_like_receptor","natural killer cell",0.183314002584148,0.197000261637738,-0.0866976013902858,-0.103315314331706,"UP","UP",TRUE,155,98
+"sle_blood","GSVA","voom","toll_like_receptor","non-classical monocyte",0.012868963920719,0.359968986573434,0.145322107873103,0.110314608772522,"UP","UP",TRUE,157,97
+"sle_blood","GSVA","voom","toll_like_receptor","conventional dendritic cell",0.263249001721939,0.213560403193205,0.10742301160734,0.088097650209355,"UP","UP",TRUE,125,88
+"sle_blood","GSVA","voom","toll_like_receptor","lymphocyte",0.34489737425761,0.315053333234559,-0.227118312138203,-0.252158929415132,"UP","UP",TRUE,74,16
+"sle_blood","GSVA","voom","toll_like_receptor","plasmacytoid dendritic cell",0.611322100757394,0.153950224076938,-0.0332015311311813,-0.0436221074297208,"UP","UP",TRUE,11,37
+"sle_blood","GSVA","scran","interferon_signaling","CD4-positive, alpha-beta T cell",1.09630468559953e-28,1.8249974487384,-0.0843327887074901,-0.285194581909296,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","scran","interferon_signaling","classical monocyte",4.01982852125689e-28,2.04109153705495,0.192182355849123,-0.0356429832949201,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","scran","interferon_signaling","CD8-positive, alpha-beta T cell",8.8241654485031e-27,1.81160497412671,-0.0630555431074965,-0.271429742671385,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","scran","interferon_signaling","B cell",1.79770989691753e-25,1.75501480161723,0.0610863988803796,-0.118988550206081,"UP","UP",TRUE,157,99
+"sle_blood","GSVA","scran","interferon_signaling","natural killer cell",4.23403272918953e-22,1.60450707310803,-0.00110385848085049,-0.187297030408612,"UP","UP",TRUE,155,98
+"sle_blood","GSVA","scran","interferon_signaling","non-classical monocyte",5.12491775361749e-27,1.89505746911311,0.228532136912414,0.0395954940555463,"UP","UP",TRUE,157,97
+"sle_blood","GSVA","scran","interferon_signaling","conventional dendritic cell",4.08063945511308e-22,1.76819537074653,0.159626286059532,-0.0423876488199585,"UP","UP",TRUE,125,88
+"sle_blood","GSVA","scran","interferon_signaling","lymphocyte",6.14826685990843e-07,1.84669482494372,0.138666780870862,-0.00458276149474033,"UP","UP",TRUE,74,16
+"sle_blood","GSVA","scran","interferon_signaling","plasmacytoid dendritic cell",0.000105769099679444,1.45580914284932,-0.0635930449402273,-0.18924754103819,"UP","UP",TRUE,11,37
+"sle_blood","GSVA","scran","jak_stat","CD4-positive, alpha-beta T cell",1.44057328866156e-13,1.06949063687529,-0.166517831579016,-0.236614982256285,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","scran","jak_stat","classical monocyte",2.18472093294203e-14,1.09501303197444,0.25585434295284,0.200594762416581,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","scran","jak_stat","CD8-positive, alpha-beta T cell",4.10119269274212e-09,0.8249170862204,-0.139414913948036,-0.201186490097473,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","scran","jak_stat","B cell",0.355583932030712,-0.076451659004214,-0.254719153100768,-0.250444093035112,"UP","DOWN",FALSE,157,99
+"sle_blood","GSVA","scran","jak_stat","natural killer cell",2.45548840322495e-12,0.955918576284244,0.00969022263661007,-0.0499230045885651,"UP","UP",TRUE,155,98
+"sle_blood","GSVA","scran","jak_stat","non-classical monocyte",2.56290018724961e-09,0.79147173042265,0.209053759460661,0.16333567703661,"UP","UP",TRUE,157,97
+"sle_blood","GSVA","scran","jak_stat","conventional dendritic cell",4.94962889358179e-09,0.851200964964841,0.209868973206136,0.15745686533893,"UP","UP",TRUE,125,88
+"sle_blood","GSVA","scran","jak_stat","lymphocyte",0.000869675317866892,0.999012774694654,0.106733260749592,0.0534868835192726,"UP","UP",TRUE,74,16
+"sle_blood","GSVA","scran","jak_stat","plasmacytoid dendritic cell",0.00176854169687264,1.19445330971106,-0.15113778286597,-0.212413817439965,"UP","UP",TRUE,11,37
+"sle_blood","GSVA","scran","nfkb_signaling","CD4-positive, alpha-beta T cell",1.54540152585158e-06,0.655148383169501,-0.162134709434876,-0.282073715167467,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","scran","nfkb_signaling","classical monocyte",1.47820221138689e-12,1.09244523198801,0.0629868446383803,-0.166322555680746,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","scran","nfkb_signaling","CD8-positive, alpha-beta T cell",8.49821013743672e-05,0.473624740863184,-0.165695092405472,-0.271493890173265,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","scran","nfkb_signaling","B cell",0.0135824010621226,0.199982090989024,-0.15708869732814,-0.191887454638758,"UP","UP",TRUE,157,99
+"sle_blood","GSVA","scran","nfkb_signaling","natural killer cell",1.44154246944207e-07,0.782668788109578,0.0646332072726203,-0.0997049819194861,"UP","UP",TRUE,155,98
+"sle_blood","GSVA","scran","nfkb_signaling","non-classical monocyte",2.30688023222331e-11,1.03873325871947,0.217295763184076,0.00833009541969626,"UP","UP",TRUE,157,97
+"sle_blood","GSVA","scran","nfkb_signaling","conventional dendritic cell",2.7903636499554e-14,1.26594206481888,0.335281504505401,0.113696589599375,"UP","UP",TRUE,125,88
+"sle_blood","GSVA","scran","nfkb_signaling","lymphocyte",0.000313357040949804,1.09693323282459,0.492079909807481,0.382183477627017,"UP","UP",TRUE,74,16
+"sle_blood","GSVA","scran","nfkb_signaling","plasmacytoid dendritic cell",0.00571147871663786,1.12617183194872,0.0403055287266088,-0.124532796490263,"UP","UP",TRUE,11,37
+"sle_blood","GSVA","scran","toll_like_receptor","CD4-positive, alpha-beta T cell",0.186611885326001,0.235434022594484,-0.204203203834272,-0.222771546073001,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","scran","toll_like_receptor","classical monocyte",7.04639410424042e-08,0.68252620866265,0.332230271724691,0.295478182400254,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","scran","toll_like_receptor","CD8-positive, alpha-beta T cell",0.563867859254566,0.134697479606023,-0.213804225432417,-0.224019284367717,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","scran","toll_like_receptor","B cell",0.0629198179266838,-0.223572451345611,0.0282562833869815,0.0489129097584113,"UP","DOWN",FALSE,157,99
+"sle_blood","GSVA","scran","toll_like_receptor","natural killer cell",0.124303361288639,0.22474142027094,-0.0871880614496492,-0.106134653531957,"UP","UP",TRUE,155,98
+"sle_blood","GSVA","scran","toll_like_receptor","non-classical monocyte",0.0227152911319052,0.297923897149506,0.150385979356218,0.124651489911942,"UP","UP",TRUE,157,97
+"sle_blood","GSVA","scran","toll_like_receptor","conventional dendritic cell",0.121687614586657,0.262836328272511,0.12091999013943,0.0986247105597402,"UP","UP",TRUE,125,88
+"sle_blood","GSVA","scran","toll_like_receptor","lymphocyte",0.401470129716292,0.268054204898908,-0.230112435846398,-0.251409056948691,"UP","UP",TRUE,74,16
+"sle_blood","GSVA","scran","toll_like_receptor","plasmacytoid dendritic cell",0.319380994479703,0.341724246604129,-0.00614134422407949,-0.0298160641597082,"UP","UP",TRUE,11,37
+"sle_blood","GSVA","sctransform","interferon_signaling","CD4-positive, alpha-beta T cell",3.40133911717611e-27,1.74936272433495,-0.137840504001413,-0.371307133748577,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","sctransform","interferon_signaling","classical monocyte",6.65911513536254e-28,1.93851773544282,0.241260708331511,0.0450903151056951,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","sctransform","interferon_signaling","CD8-positive, alpha-beta T cell",1.28910203151418e-24,1.71737487329686,-0.0322140212039861,-0.288384512836274,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","sctransform","interferon_signaling","B cell",1.90920136017494e-16,1.3042941298367,-0.0149551573679319,-0.178494062312345,"UP","UP",TRUE,157,99
+"sle_blood","GSVA","sctransform","interferon_signaling","natural killer cell",2.07484686885056e-19,1.41274472824025,0.0801759958938055,-0.0886174607815379,"UP","UP",TRUE,155,98
+"sle_blood","GSVA","sctransform","interferon_signaling","non-classical monocyte",2.5970632284117e-18,1.3036765951567,0.233314361639297,0.077177418366393,"UP","UP",TRUE,157,97
+"sle_blood","GSVA","sctransform","interferon_signaling","conventional dendritic cell",9.40013118967091e-17,1.42759808732475,0.118380598748692,-0.0521423895067262,"UP","UP",TRUE,125,88
+"sle_blood","GSVA","sctransform","interferon_signaling","lymphocyte",5.01012963272237e-06,1.63578282698322,0.227952706519051,0.0877770811709123,"UP","UP",TRUE,74,16
+"sle_blood","GSVA","sctransform","interferon_signaling","plasmacytoid dendritic cell",0.544977851997245,0.540005616288881,-0.112536371578819,-0.160550783525285,"UP","UP",TRUE,11,37
+"sle_blood","GSVA","sctransform","jak_stat","CD4-positive, alpha-beta T cell",2.94063928112996e-19,1.35850101156556,-0.16399663841794,-0.281375971734256,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","sctransform","jak_stat","classical monocyte",1.83679534153596e-15,1.0840015285036,0.282663271609447,0.226423622364164,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","sctransform","jak_stat","CD8-positive, alpha-beta T cell",1.32554319362735e-10,0.896079380698834,-0.10854645203893,-0.202480050637597,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","sctransform","jak_stat","B cell",0.0139147805860614,0.391700927317761,-0.250709206225677,-0.275373186174232,"UP","UP",TRUE,157,99
+"sle_blood","GSVA","sctransform","jak_stat","natural killer cell",4.00963976693586e-11,0.915500344215526,0.031289015583407,-0.0252872260685587,"UP","UP",TRUE,155,98
+"sle_blood","GSVA","sctransform","jak_stat","non-classical monocyte",8.74231712114271e-09,0.791647768718189,0.19516652574242,0.137579656551474,"UP","UP",TRUE,157,97
+"sle_blood","GSVA","sctransform","jak_stat","conventional dendritic cell",2.76964399672424e-05,0.609463580519718,0.179229938920747,0.133280769105651,"UP","UP",TRUE,125,88
+"sle_blood","GSVA","sctransform","jak_stat","lymphocyte",0.0343477956802593,0.506612253630453,0.0731044219227426,0.0454714356213052,"UP","UP",TRUE,74,16
+"sle_blood","GSVA","sctransform","jak_stat","plasmacytoid dendritic cell",0.771703400103258,0.0815647036965773,-0.185668744904746,-0.189163531011096,"UP","UP",TRUE,11,37
+"sle_blood","GSVA","sctransform","nfkb_signaling","CD4-positive, alpha-beta T cell",1.56537882924787e-10,0.907080842435312,-0.265539157945152,-0.45107440013729,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","sctransform","nfkb_signaling","classical monocyte",5.34230623294502e-23,1.56153935830454,0.345465658685287,0.0457626452165549,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","sctransform","nfkb_signaling","CD8-positive, alpha-beta T cell",5.95181821921075e-14,1.08335930427976,-0.11001187816342,-0.388365172235631,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","sctransform","nfkb_signaling","B cell",0.00124974179957393,0.5857240124916,-0.328113329425365,-0.410888055034275,"UP","UP",TRUE,157,99
+"sle_blood","GSVA","sctransform","nfkb_signaling","natural killer cell",1.19772044913109e-06,0.635224938109786,0.215404876073133,0.0661417801830765,"UP","UP",TRUE,155,98
+"sle_blood","GSVA","sctransform","nfkb_signaling","non-classical monocyte",4.52415954963575e-13,1.04476941773462,0.289450021614225,0.0489045182167798,"UP","UP",TRUE,157,97
+"sle_blood","GSVA","sctransform","nfkb_signaling","conventional dendritic cell",5.21788148407493e-11,1.05060316327509,0.285605749296432,0.0735799443521895,"UP","UP",TRUE,125,88
+"sle_blood","GSVA","sctransform","nfkb_signaling","lymphocyte",0.000415361919950287,1.04914074966892,0.507854738959064,0.415387713627275,"UP","UP",TRUE,74,16
+"sle_blood","GSVA","sctransform","nfkb_signaling","plasmacytoid dendritic cell",0.0335144960729122,0.714060936285328,-0.161202681799973,-0.243525896259477,"UP","UP",TRUE,11,37
+"sle_blood","GSVA","sctransform","toll_like_receptor","CD4-positive, alpha-beta T cell",1.31239748089984e-11,1.02620990705157,-0.249334219093698,-0.351581668420025,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","sctransform","toll_like_receptor","classical monocyte",2.72457140566698e-07,0.718689305845999,0.356908301176142,0.308020506247619,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","sctransform","toll_like_receptor","CD8-positive, alpha-beta T cell",6.60693894296598e-07,0.684332387130233,-0.230331655128256,-0.300438599818801,"UP","UP",TRUE,162,99
+"sle_blood","GSVA","sctransform","toll_like_receptor","B cell",0.620103065118983,0.140058938765846,-0.0510771323850172,-0.0655633826050612,"UP","UP",TRUE,157,99
+"sle_blood","GSVA","sctransform","toll_like_receptor","natural killer cell",6.17636660638712e-05,0.532012338653757,-0.058772413024933,-0.101926677308592,"UP","UP",TRUE,155,98
+"sle_blood","GSVA","sctransform","toll_like_receptor","non-classical monocyte",0.00385333088983729,0.51372578256731,0.255529150533995,0.196176586946963,"UP","UP",TRUE,157,97
+"sle_blood","GSVA","sctransform","toll_like_receptor","conventional dendritic cell",0.946895850508765,0.147603333347415,0.163212868096218,0.147112859586548,"UP","UP",TRUE,125,88
+"sle_blood","GSVA","sctransform","toll_like_receptor","lymphocyte",0.135355571405851,0.43780254748772,-0.141698088387696,-0.174336116014414,"UP","UP",TRUE,74,16
+"sle_blood","GSVA","sctransform","toll_like_receptor","plasmacytoid dendritic cell",0.223514576181961,-0.379284787689278,-0.0653484764684854,-0.0419204161476389,"UP","DOWN",FALSE,11,37
+"sle_blood","zscore","log2CPM","interferon_signaling","CD4-positive, alpha-beta T cell",3.19824936093995e-11,1.0165262057708,-0.162112064448284,-0.345258988254166,"UP","UP",TRUE,162,99
+"sle_blood","zscore","log2CPM","interferon_signaling","classical monocyte",1.78740988705972e-13,0.997801951840138,0.21572776481797,0.0567679081043873,"UP","UP",TRUE,162,99
+"sle_blood","zscore","log2CPM","interferon_signaling","CD8-positive, alpha-beta T cell",1.54503169482642e-11,0.970410158877435,-0.0382266275524209,-0.241283555521177,"UP","UP",TRUE,162,99
+"sle_blood","zscore","log2CPM","interferon_signaling","B cell",0.00396879757336216,0.474246197999585,-0.109759511285778,-0.233756052556007,"UP","UP",TRUE,157,99
+"sle_blood","zscore","log2CPM","interferon_signaling","natural killer cell",1.58623784371452e-05,0.686824131712553,0.20843046304965,0.0479720706158538,"UP","UP",TRUE,155,98
+"sle_blood","zscore","log2CPM","interferon_signaling","non-classical monocyte",1.12212674377188e-09,0.911947600473775,0.181597205656182,-0.0126342549701946,"UP","UP",TRUE,157,97
+"sle_blood","zscore","log2CPM","interferon_signaling","conventional dendritic cell",0.000437212278477363,0.648595296334065,0.0640801134326621,-0.084320622999289,"UP","UP",TRUE,125,88
+"sle_blood","zscore","log2CPM","interferon_signaling","lymphocyte",0.00657749710316643,0.72528126116138,0.414456733760945,0.278691225537852,"UP","UP",TRUE,74,16
+"sle_blood","zscore","log2CPM","interferon_signaling","plasmacytoid dendritic cell",0.0815277553638731,-0.393589001697888,-0.280921408421754,-0.180454393142896,"UP","DOWN",FALSE,11,37
+"sle_blood","zscore","log2CPM","jak_stat","CD4-positive, alpha-beta T cell",5.69439633762005e-07,0.770964067624881,-0.170633786148813,-0.278650884815026,"UP","UP",TRUE,162,99
+"sle_blood","zscore","log2CPM","jak_stat","classical monocyte",0.0839993163806046,0.303608585705216,0.26723627072135,0.232474111981282,"UP","UP",TRUE,162,99
+"sle_blood","zscore","log2CPM","jak_stat","CD8-positive, alpha-beta T cell",0.000127166542375861,0.553215128096828,-0.0785153945859265,-0.167209178658843,"UP","UP",TRUE,162,99
+"sle_blood","zscore","log2CPM","jak_stat","B cell",0.534930648813385,0.0722943860279003,-0.269455554460134,-0.284321104036891,"UP","UP",TRUE,157,99
+"sle_blood","zscore","log2CPM","jak_stat","natural killer cell",0.246949947612069,0.328921550560597,0.158600222083274,0.101635962346543,"UP","UP",TRUE,155,98
+"sle_blood","zscore","log2CPM","jak_stat","non-classical monocyte",0.0592698684533962,0.462172473807377,0.124060206735906,0.0508745373050486,"UP","UP",TRUE,157,97
+"sle_blood","zscore","log2CPM","jak_stat","conventional dendritic cell",0.695257694348544,0.189018362681989,0.0983093438878608,0.0660017649361921,"UP","UP",TRUE,125,88
+"sle_blood","zscore","log2CPM","jak_stat","lymphocyte",0.771648227063488,0.167706434608301,0.246063556363503,0.220197043394719,"UP","UP",TRUE,74,16
+"sle_blood","zscore","log2CPM","jak_stat","plasmacytoid dendritic cell",0.00160435284527679,-0.84857204810444,-0.331305978720297,-0.171290725755132,"UP","DOWN",FALSE,11,37
+"sle_blood","zscore","log2CPM","nfkb_signaling","CD4-positive, alpha-beta T cell",1.83169851838763e-20,1.41899919875166,-0.390701819650443,-0.640598351421657,"UP","UP",TRUE,162,99
+"sle_blood","zscore","log2CPM","nfkb_signaling","classical monocyte",2.48887754581215e-22,1.3017367534946,0.137435156845241,-0.0461828137444505,"UP","UP",TRUE,162,99
+"sle_blood","zscore","log2CPM","nfkb_signaling","CD8-positive, alpha-beta T cell",6.80924626073624e-15,1.14437774185973,-0.179718464825116,-0.424470803975389,"UP","UP",TRUE,162,99
+"sle_blood","zscore","log2CPM","nfkb_signaling","B cell",0.0200187097432291,0.340359967819162,-0.397730809040116,-0.492131324347708,"UP","UP",TRUE,157,99
+"sle_blood","zscore","log2CPM","nfkb_signaling","natural killer cell",5.36640180809889e-13,0.932648184151675,0.427672110071158,0.231313684360255,"UP","UP",TRUE,155,98
+"sle_blood","zscore","log2CPM","nfkb_signaling","non-classical monocyte",1.85103983584362e-17,1.20025651483353,0.277366578663204,0.0585626930196242,"UP","UP",TRUE,157,97
+"sle_blood","zscore","log2CPM","nfkb_signaling","conventional dendritic cell",1.17869722713419e-14,1.17810850215164,0.33716002555771,0.111479046709085,"UP","UP",TRUE,125,88
+"sle_blood","zscore","log2CPM","nfkb_signaling","lymphocyte",0.00012496501793103,1.20213994793507,1.14496922032748,0.903831423484179,"UP","UP",TRUE,74,16
+"sle_blood","zscore","log2CPM","nfkb_signaling","plasmacytoid dendritic cell",0.513162236543881,-0.0338372796027925,-0.0384825984293011,-0.0304106689267693,"UP","DOWN",FALSE,11,37
+"sle_blood","zscore","log2CPM","toll_like_receptor","CD4-positive, alpha-beta T cell",0.0015632620391036,0.52111628225516,-0.250906287561501,-0.337128440351399,"UP","UP",TRUE,162,99
+"sle_blood","zscore","log2CPM","toll_like_receptor","classical monocyte",0.38182912575745,0.218975304067542,0.404873473209178,0.372270498971189,"UP","UP",TRUE,162,99
+"sle_blood","zscore","log2CPM","toll_like_receptor","CD8-positive, alpha-beta T cell",0.00458497194222629,0.457853601828003,-0.178430635826474,-0.266405036131641,"UP","UP",TRUE,162,99
+"sle_blood","zscore","log2CPM","toll_like_receptor","B cell",0.510134634546983,0.0794131446508203,-0.136296574601202,-0.15760933517483,"UP","UP",TRUE,157,99
+"sle_blood","zscore","log2CPM","toll_like_receptor","natural killer cell",0.68048920443813,0.236299606141634,0.0630198858085354,0.0111787421647039,"UP","UP",TRUE,155,98
+"sle_blood","zscore","log2CPM","toll_like_receptor","non-classical monocyte",0.262068236034714,0.404283860818165,0.197115215370261,0.100953590564545,"UP","UP",TRUE,157,97
+"sle_blood","zscore","log2CPM","toll_like_receptor","conventional dendritic cell",0.260369471632955,0.0985323663690559,0.0903973856464917,0.0666497272803167,"UP","UP",TRUE,125,88
+"sle_blood","zscore","log2CPM","toll_like_receptor","lymphocyte",0.99578980582453,0.127329466629629,-0.0205850134799808,-0.0481524210405216,"UP","UP",TRUE,74,16
+"sle_blood","zscore","log2CPM","toll_like_receptor","plasmacytoid dendritic cell",0.000286409675267368,-1.02524278826165,-0.242950242257039,0.0200412095328564,"UP","DOWN",FALSE,11,37
+"sle_blood","zscore","voom","interferon_signaling","CD4-positive, alpha-beta T cell",2.05009015868187e-29,1.89647707364433,-0.0668576721500271,-0.260082629963101,"UP","UP",TRUE,162,99
+"sle_blood","zscore","voom","interferon_signaling","classical monocyte",2.1129898001385e-26,1.81966080561573,0.265581852600352,0.00930643464521313,"UP","UP",TRUE,162,99
+"sle_blood","zscore","voom","interferon_signaling","CD8-positive, alpha-beta T cell",2.93534231175785e-27,1.83133374285303,-0.0447839830902804,-0.237953894656994,"UP","UP",TRUE,162,99
+"sle_blood","zscore","voom","interferon_signaling","B cell",2.27612558067022e-20,1.45010262811163,0.0529118444360439,-0.124659710653813,"UP","UP",TRUE,157,99
+"sle_blood","zscore","voom","interferon_signaling","natural killer cell",7.98865130344985e-23,1.61234016527927,0.00934275090044079,-0.196166961691988,"UP","UP",TRUE,155,98
+"sle_blood","zscore","voom","interferon_signaling","non-classical monocyte",1.59956337403585e-23,1.59669213701919,0.263900368394103,0.00398431386972326,"UP","UP",TRUE,157,97
+"sle_blood","zscore","voom","interferon_signaling","conventional dendritic cell",7.76912309980648e-17,1.37272746048626,0.111768194059761,-0.108417955739891,"UP","UP",TRUE,125,88
+"sle_blood","zscore","voom","interferon_signaling","lymphocyte",2.20987732037103e-06,1.73133881371443,0.191720856056996,-0.0102119890823675,"UP","UP",TRUE,74,16
+"sle_blood","zscore","voom","interferon_signaling","plasmacytoid dendritic cell",0.284895411643114,0.538027322688526,-0.246684663833489,-0.321475295206155,"UP","UP",TRUE,11,37
+"sle_blood","zscore","voom","jak_stat","CD4-positive, alpha-beta T cell",3.07859682325199e-15,1.1410701722761,-0.149370719430912,-0.219798991906856,"UP","UP",TRUE,162,99
+"sle_blood","zscore","voom","jak_stat","classical monocyte",1.13364437449434e-16,0.972191367172516,0.321281691725055,0.25207799980295,"UP","UP",TRUE,162,99
+"sle_blood","zscore","voom","jak_stat","CD8-positive, alpha-beta T cell",3.17455731759787e-09,0.844688506598412,-0.114121279506238,-0.168947937845741,"UP","UP",TRUE,162,99
+"sle_blood","zscore","voom","jak_stat","B cell",0.487039048694004,0.106838492066283,-0.267287114438692,-0.275245317882449,"UP","UP",TRUE,157,99
+"sle_blood","zscore","voom","jak_stat","natural killer cell",2.68869092540132e-14,1.01597670154901,0.0150379825678079,-0.0511477506573825,"UP","UP",TRUE,155,98
+"sle_blood","zscore","voom","jak_stat","non-classical monocyte",2.90633980993253e-10,0.845375268532973,0.224545077287072,0.131860995016761,"UP","UP",TRUE,157,97
+"sle_blood","zscore","voom","jak_stat","conventional dendritic cell",6.40278016275266e-05,0.61144757057937,0.168123893493102,0.100802370586522,"UP","UP",TRUE,125,88
+"sle_blood","zscore","voom","jak_stat","lymphocyte",0.00679029396282458,0.829337663965558,0.175873562304709,0.100753668677275,"UP","UP",TRUE,74,16
+"sle_blood","zscore","voom","jak_stat","plasmacytoid dendritic cell",0.734944713901198,0.13342984276688,-0.319425829484152,-0.331775935215404,"UP","UP",TRUE,11,37
+"sle_blood","zscore","voom","nfkb_signaling","CD4-positive, alpha-beta T cell",9.58812118081094e-07,0.776043214896195,-0.121862671732065,-0.277319893618028,"UP","UP",TRUE,162,99
+"sle_blood","zscore","voom","nfkb_signaling","classical monocyte",2.39476863143558e-14,1.17410504411475,0.0933324183081885,-0.151668309653243,"UP","UP",TRUE,162,99
+"sle_blood","zscore","voom","nfkb_signaling","CD8-positive, alpha-beta T cell",2.51106140540763e-05,0.678173183349513,-0.105657158985874,-0.253509041925787,"UP","UP",TRUE,162,99
+"sle_blood","zscore","voom","nfkb_signaling","B cell",0.0283406698800537,0.267544844779444,-0.192412311593643,-0.250062578925344,"UP","UP",TRUE,157,99
+"sle_blood","zscore","voom","nfkb_signaling","natural killer cell",9.29618276291084e-09,0.833887139664342,0.0577501127563372,-0.127661649958897,"UP","UP",TRUE,155,98
+"sle_blood","zscore","voom","nfkb_signaling","non-classical monocyte",3.60156947600913e-14,1.10686156320718,0.226260996231821,-0.030363448273113,"UP","UP",TRUE,157,97
+"sle_blood","zscore","voom","nfkb_signaling","conventional dendritic cell",4.7012817414905e-14,1.21122214716749,0.328997370752855,0.0734447261589223,"UP","UP",TRUE,125,88
+"sle_blood","zscore","voom","nfkb_signaling","lymphocyte",5.42103748245348e-05,1.29765722740208,0.909300375628605,0.576305906589033,"UP","UP",TRUE,74,16
+"sle_blood","zscore","voom","nfkb_signaling","plasmacytoid dendritic cell",0.223514576181961,0.455451690077811,-0.18077427105687,-0.286021058070986,"UP","UP",TRUE,11,37
+"sle_blood","zscore","voom","toll_like_receptor","CD4-positive, alpha-beta T cell",0.0454987027700918,0.310966864035721,-0.200394222455907,-0.226669306644436,"UP","UP",TRUE,162,99
+"sle_blood","zscore","voom","toll_like_receptor","classical monocyte",0.00239793134733622,0.461172070890322,0.445290882945351,0.404024030379821,"UP","UP",TRUE,162,99
+"sle_blood","zscore","voom","toll_like_receptor","CD8-positive, alpha-beta T cell",0.693141683571929,0.120124213701433,-0.197287681886536,-0.207376932944534,"UP","UP",TRUE,162,99
+"sle_blood","zscore","voom","toll_like_receptor","B cell",0.583897063765865,0.0440516833711248,0.010418312218844,0.00565708381241161,"UP","UP",TRUE,157,99
+"sle_blood","zscore","voom","toll_like_receptor","natural killer cell",0.00258615474952341,0.430196032808448,-0.10439612523219,-0.144154612279693,"UP","UP",TRUE,155,98
+"sle_blood","zscore","voom","toll_like_receptor","non-classical monocyte",0.0522971131406424,0.438884726278711,0.168384737139587,0.103663115081414,"UP","UP",TRUE,157,97
+"sle_blood","zscore","voom","toll_like_receptor","conventional dendritic cell",0.979285402472322,0.220738038046892,0.0827043475231372,0.0531949047676764,"UP","UP",TRUE,125,88
+"sle_blood","zscore","voom","toll_like_receptor","lymphocyte",0.509516943715688,0.300297664019679,-0.245121009599326,-0.284956383972866,"UP","UP",TRUE,74,16
+"sle_blood","zscore","voom","toll_like_receptor","plasmacytoid dendritic cell",0.0815277553638731,-0.711171338535233,-0.134897040706298,-0.0665881057867315,"UP","DOWN",FALSE,11,37
+"sle_blood","zscore","scran","interferon_signaling","CD4-positive, alpha-beta T cell",2.05009015868187e-29,1.77294599769832,0.00308989383334847,-0.170135601500294,"UP","UP",TRUE,162,99
+"sle_blood","zscore","scran","interferon_signaling","classical monocyte",2.62792946073907e-27,1.29448173909614,0.302488364203606,0.0401679271609546,"UP","UP",TRUE,162,99
+"sle_blood","zscore","scran","interferon_signaling","CD8-positive, alpha-beta T cell",1.0298687510297e-25,1.30686815864734,0.0175209979798734,-0.18648639147434,"UP","UP",TRUE,162,99
+"sle_blood","zscore","scran","interferon_signaling","B cell",1.35097625806594e-11,0.566918269220008,0.0351457024018182,-0.132156786781172,"UP","UP",TRUE,157,99
+"sle_blood","zscore","scran","interferon_signaling","natural killer cell",3.35268226610455e-15,0.985660330631209,-0.0161111003564446,-0.222855577709837,"UP","UP",TRUE,155,98
+"sle_blood","zscore","scran","interferon_signaling","non-classical monocyte",1.07466843331417e-19,1.17587025969282,0.25824653857729,-0.0531540960619067,"UP","UP",TRUE,157,97
+"sle_blood","zscore","scran","interferon_signaling","conventional dendritic cell",1.73024398668984e-11,0.895441144176623,0.076181466621076,-0.156493146690199,"UP","UP",TRUE,125,88
+"sle_blood","zscore","scran","interferon_signaling","lymphocyte",8.09027192116291e-05,1.02863102341788,0.0999172755960703,-0.104548727166091,"UP","UP",TRUE,74,16
+"sle_blood","zscore","scran","interferon_signaling","plasmacytoid dendritic cell",0.369307834765557,-0.233622649967598,-0.595061539321839,-0.504831940586946,"UP","DOWN",FALSE,11,37
+"sle_blood","zscore","scran","jak_stat","CD4-positive, alpha-beta T cell",1.2208242171806e-13,0.939384015580339,-0.0758823717580568,-0.1381458733936,"UP","UP",TRUE,162,99
+"sle_blood","zscore","scran","jak_stat","classical monocyte",1.56384653435374e-19,0.575705692023737,0.357614819938105,0.267270031041851,"UP","UP",TRUE,162,99
+"sle_blood","zscore","scran","jak_stat","CD8-positive, alpha-beta T cell",5.28119399095275e-11,0.648829612572791,-0.0494389947772628,-0.12677821988401,"UP","UP",TRUE,162,99
+"sle_blood","zscore","scran","jak_stat","B cell",0.458194466953085,0.0322067345643083,-0.271637318872991,-0.280614805622125,"UP","UP",TRUE,157,99
+"sle_blood","zscore","scran","jak_stat","natural killer cell",7.71574487328831e-05,0.420230402646261,-0.00992745714478191,-0.080963327480572,"UP","UP",TRUE,155,98
+"sle_blood","zscore","scran","jak_stat","non-classical monocyte",3.49944220997463e-08,0.679348535775816,0.219229059182172,0.0681002435229401,"UP","UP",TRUE,157,97
+"sle_blood","zscore","scran","jak_stat","conventional dendritic cell",0.0179177338429733,0.378715455661786,0.134122225107283,0.052656775434649,"UP","UP",TRUE,125,88
+"sle_blood","zscore","scran","jak_stat","lymphocyte",0.119557760942212,0.442916570155497,0.0836856200000854,0.00140059761570826,"UP","UP",TRUE,74,16
+"sle_blood","zscore","scran","jak_stat","plasmacytoid dendritic cell",0.0487056073005035,-0.509950925393652,-0.664079815613022,-0.492400845656758,"UP","DOWN",FALSE,11,37
+"sle_blood","zscore","scran","nfkb_signaling","CD4-positive, alpha-beta T cell",2.21654295663509e-06,0.74841944120134,-0.0696319254862699,-0.212434303036109,"UP","UP",TRUE,162,99
+"sle_blood","zscore","scran","nfkb_signaling","classical monocyte",4.55340040012943e-15,0.979820712628009,0.142309892798272,-0.111668731391384,"UP","UP",TRUE,162,99
+"sle_blood","zscore","scran","nfkb_signaling","CD8-positive, alpha-beta T cell",1.90711674993979e-06,0.712622282435175,-0.054270779655439,-0.211790006112873,"UP","UP",TRUE,162,99
+"sle_blood","zscore","scran","nfkb_signaling","B cell",0.042749628258362,0.149953872141499,-0.20110126927025,-0.259635075865204,"UP","UP",TRUE,157,99
+"sle_blood","zscore","scran","nfkb_signaling","natural killer cell",2.16238087191867e-08,0.709047427392428,0.0382139043875021,-0.143958768618038,"UP","UP",TRUE,155,98
+"sle_blood","zscore","scran","nfkb_signaling","non-classical monocyte",5.39889429388515e-14,1.04149535973917,0.219979040972288,-0.0802268678325799,"UP","UP",TRUE,157,97
+"sle_blood","zscore","scran","nfkb_signaling","conventional dendritic cell",2.90432828432472e-12,1.00706259093304,0.281139447970484,0.0272029008641683,"UP","UP",TRUE,125,88
+"sle_blood","zscore","scran","nfkb_signaling","lymphocyte",0.000207640729530808,1.15126744131241,0.803411106652101,0.47581902058518,"UP","UP",TRUE,74,16
+"sle_blood","zscore","scran","nfkb_signaling","plasmacytoid dendritic cell",0.961446277890338,-0.0548904792714955,-0.415382769739695,-0.392829101183321,"UP","DOWN",FALSE,11,37
+"sle_blood","zscore","scran","toll_like_receptor","CD4-positive, alpha-beta T cell",0.088013806931372,0.278797116466617,-0.11888733876515,-0.14018560866911,"UP","UP",TRUE,162,99
+"sle_blood","zscore","scran","toll_like_receptor","classical monocyte",4.80137977314031e-05,0.435773278267158,0.482115546413399,0.422048828267109,"UP","UP",TRUE,162,99
+"sle_blood","zscore","scran","toll_like_receptor","CD8-positive, alpha-beta T cell",0.0641261281090474,0.284013706297232,-0.123319309311834,-0.162939036532714,"UP","UP",TRUE,162,99
+"sle_blood","zscore","scran","toll_like_receptor","B cell",0.193627080857911,0.0346724852483198,-0.00803435923968803,-0.0186374810676833,"UP","UP",TRUE,157,99
+"sle_blood","zscore","scran","toll_like_receptor","natural killer cell",0.482189020288605,0.244933325634132,-0.133913844538751,-0.179875844604057,"UP","UP",TRUE,155,98
+"sle_blood","zscore","scran","toll_like_receptor","non-classical monocyte",0.0350589522751363,0.513184067034345,0.174609828047585,0.0393371262784984,"UP","UP",TRUE,157,97
+"sle_blood","zscore","scran","toll_like_receptor","conventional dendritic cell",0.571678370119647,0.218014812269055,0.0536851150892907,-0.000939060519697575,"UP","UP",TRUE,125,88
+"sle_blood","zscore","scran","toll_like_receptor","lymphocyte",0.661409632410234,0.256590834682969,-0.334263942469291,-0.392061449459181,"UP","UP",TRUE,74,16
+"sle_blood","zscore","scran","toll_like_receptor","plasmacytoid dendritic cell",0.00310278372655146,-0.755437528038717,-0.497335170870801,-0.236315778829613,"UP","DOWN",FALSE,11,37
+"sle_blood","zscore","sctransform","interferon_signaling","CD4-positive, alpha-beta T cell",6.25462853015587e-13,1.08649530049991,-0.181810604737052,-0.377082508576779,"UP","UP",TRUE,162,99
+"sle_blood","zscore","sctransform","interferon_signaling","classical monocyte",4.58511327790302e-13,0.983091632521493,0.195994137810372,0.0443958451304657,"UP","UP",TRUE,162,99
+"sle_blood","zscore","sctransform","interferon_signaling","CD8-positive, alpha-beta T cell",2.43077735580168e-12,1.00375673541099,-0.0506315032651769,-0.256124271291978,"UP","UP",TRUE,162,99
+"sle_blood","zscore","sctransform","interferon_signaling","B cell",0.00150588338046839,0.512962502612147,-0.10993910262114,-0.23969478349218,"UP","UP",TRUE,157,99
+"sle_blood","zscore","sctransform","interferon_signaling","natural killer cell",2.75249435778778e-06,0.726122324476525,0.225159182403805,0.0603313653267317,"UP","UP",TRUE,155,98
+"sle_blood","zscore","sctransform","interferon_signaling","non-classical monocyte",7.0562065697928e-10,0.92729093402676,0.19223042853515,0.00153319655932982,"UP","UP",TRUE,157,97
+"sle_blood","zscore","sctransform","interferon_signaling","conventional dendritic cell",0.000174306588511209,0.680773269662197,0.0831278861024209,-0.0694940791702686,"UP","UP",TRUE,125,88
+"sle_blood","zscore","sctransform","interferon_signaling","lymphocyte",0.00524829918601087,0.73803480746612,0.445931550144843,0.311643413200807,"UP","UP",TRUE,74,16
+"sle_blood","zscore","sctransform","interferon_signaling","plasmacytoid dendritic cell",0.0956880451063411,-0.368744229708629,-0.246722384109019,-0.154202720316082,"UP","DOWN",FALSE,11,37
+"sle_blood","zscore","sctransform","jak_stat","CD4-positive, alpha-beta T cell",5.73551489633385e-09,0.863226577403015,-0.190528566705294,-0.311540852451203,"UP","UP",TRUE,162,99
+"sle_blood","zscore","sctransform","jak_stat","classical monocyte",0.164542504374888,0.249824156548965,0.249492486832906,0.222259432702599,"UP","UP",TRUE,162,99
+"sle_blood","zscore","sctransform","jak_stat","CD8-positive, alpha-beta T cell",3.85858691383245e-05,0.580529396543577,-0.0913662288968854,-0.182333899026892,"UP","UP",TRUE,162,99
+"sle_blood","zscore","sctransform","jak_stat","B cell",0.731463134044026,0.101222795221246,-0.274421914237372,-0.294346989341402,"UP","UP",TRUE,157,99
+"sle_blood","zscore","sctransform","jak_stat","natural killer cell",0.108719574551047,0.370130246579588,0.177292352691016,0.115837995270602,"UP","UP",TRUE,155,98
+"sle_blood","zscore","sctransform","jak_stat","non-classical monocyte",0.0481732223866094,0.460530126614501,0.134847073445785,0.065539383779627,"UP","UP",TRUE,157,97
+"sle_blood","zscore","sctransform","jak_stat","conventional dendritic cell",0.903855125051183,0.220892986842926,0.117816345622429,0.0813363388349786,"UP","UP",TRUE,125,88
+"sle_blood","zscore","sctransform","jak_stat","lymphocyte",0.771648227063488,0.161230406317299,0.280255000725406,0.256358737298734,"UP","UP",TRUE,74,16
+"sle_blood","zscore","sctransform","jak_stat","plasmacytoid dendritic cell",0.00194739552132127,-0.829075846789613,-0.298555172743902,-0.146484683678937,"UP","DOWN",FALSE,11,37
+"sle_blood","zscore","sctransform","nfkb_signaling","CD4-positive, alpha-beta T cell",5.03395507357443e-10,0.916934776907082,-0.286331073453203,-0.479746499742807,"UP","UP",TRUE,162,99
+"sle_blood","zscore","sctransform","nfkb_signaling","classical monocyte",3.38556840404915e-23,1.27945264033819,0.301582643701894,0.043868606145349,"UP","UP",TRUE,162,99
+"sle_blood","zscore","sctransform","nfkb_signaling","CD8-positive, alpha-beta T cell",2.91247541416302e-12,0.99947611251325,-0.105565957501293,-0.366121941137194,"UP","UP",TRUE,162,99
+"sle_blood","zscore","sctransform","nfkb_signaling","B cell",0.437461005359219,0.179940441372681,-0.434029117074552,-0.500930739865585,"UP","UP",TRUE,157,99
+"sle_blood","zscore","sctransform","nfkb_signaling","natural killer cell",6.4932537613252e-07,0.639876549116649,0.343420226085435,0.157818083535541,"UP","UP",TRUE,155,98
+"sle_blood","zscore","sctransform","nfkb_signaling","non-classical monocyte",2.72293272491864e-13,1.0191488345455,0.232921457562855,-0.0361600833580063,"UP","UP",TRUE,157,97
+"sle_blood","zscore","sctransform","nfkb_signaling","conventional dendritic cell",4.37963378812665e-09,0.882030637094669,0.230836562376816,0.0141275405083797,"UP","UP",TRUE,125,88
+"sle_blood","zscore","sctransform","nfkb_signaling","lymphocyte",0.00151753656945414,1.01307821623746,1.03840778865154,0.761853479811863,"UP","UP",TRUE,74,16
+"sle_blood","zscore","sctransform","nfkb_signaling","plasmacytoid dendritic cell",0.24285985344797,-0.22556358869818,-0.302860487145352,-0.235138546087846,"UP","DOWN",FALSE,11,37
+"sle_blood","zscore","sctransform","toll_like_receptor","CD4-positive, alpha-beta T cell",1.98863340702518e-06,0.686717512635854,-0.297619346102313,-0.409404519474778,"UP","UP",TRUE,162,99
+"sle_blood","zscore","sctransform","toll_like_receptor","classical monocyte",0.854518868056706,0.0749510718221187,0.353202825459383,0.343077248509907,"UP","UP",TRUE,162,99
+"sle_blood","zscore","sctransform","toll_like_receptor","CD8-positive, alpha-beta T cell",0.000679861478973322,0.495176255250021,-0.209033091171043,-0.297177858673093,"UP","UP",TRUE,162,99
+"sle_blood","zscore","sctransform","toll_like_receptor","B cell",0.913048935850759,0.137219130182435,-0.132650205666172,-0.165860945336302,"UP","UP",TRUE,157,99
+"sle_blood","zscore","sctransform","toll_like_receptor","natural killer cell",0.227366792371381,0.299477568979267,0.101958366271438,0.0423628165876481,"UP","UP",TRUE,155,98
+"sle_blood","zscore","sctransform","toll_like_receptor","non-classical monocyte",0.259831405775991,0.383158252516366,0.219299634807321,0.136400495379025,"UP","UP",TRUE,157,97
+"sle_blood","zscore","sctransform","toll_like_receptor","conventional dendritic cell",0.42348276017262,0.139547323920872,0.134582821727904,0.103425951056568,"UP","UP",TRUE,125,88
+"sle_blood","zscore","sctransform","toll_like_receptor","lymphocyte",0.787842927809161,0.0967775518461136,0.0391674912793657,0.0195038971239305,"UP","UP",TRUE,74,16
+"sle_blood","zscore","sctransform","toll_like_receptor","plasmacytoid dendritic cell",0.000405836365717153,-1.0204731460545,-0.152033718475767,0.0916783842130538,"UP","DOWN",FALSE,11,37
+"sle_blood","AUCell","log2CPM","interferon_signaling","CD4-positive, alpha-beta T cell",7.08791997876306e-29,1.81956394644991,0.220582226739914,0.198877531584045,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","log2CPM","interferon_signaling","classical monocyte",1.85927111193596e-24,1.71285628968965,0.257608073037822,0.227218662922654,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","log2CPM","interferon_signaling","CD8-positive, alpha-beta T cell",2.61070269928176e-28,1.91019980304305,0.222218337514299,0.201057950108336,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","log2CPM","interferon_signaling","B cell",1.48103262428806e-21,1.52048530388914,0.23137725712564,0.212107917194546,"UP","UP",TRUE,157,99
+"sle_blood","AUCell","log2CPM","interferon_signaling","natural killer cell",1.14819581246335e-20,1.52003748900784,0.22310803637762,0.204600625344574,"UP","UP",TRUE,155,98
+"sle_blood","AUCell","log2CPM","interferon_signaling","non-classical monocyte",6.80147537220452e-24,1.69622225499799,0.26052678478817,0.231530847710592,"UP","UP",TRUE,157,97
+"sle_blood","AUCell","log2CPM","interferon_signaling","conventional dendritic cell",4.27892965425082e-18,1.52489916255893,0.243405468976769,0.220106618045148,"UP","UP",TRUE,125,88
+"sle_blood","AUCell","log2CPM","interferon_signaling","lymphocyte",1.40749562390425e-08,2.53770646387463,0.242417779233156,0.216139577640653,"UP","UP",TRUE,74,16
+"sle_blood","AUCell","log2CPM","interferon_signaling","plasmacytoid dendritic cell",0.0146635605174466,0.943956124326707,0.216506338950263,0.204558851257347,"UP","UP",TRUE,11,37
+"sle_blood","AUCell","log2CPM","jak_stat","CD4-positive, alpha-beta T cell",2.75483928772607e-11,0.937268068629048,0.190771659841092,0.185896015748993,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","log2CPM","jak_stat","classical monocyte",0.100992104007571,0.0775066671839022,0.226635247588582,0.226152286189073,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","log2CPM","jak_stat","CD8-positive, alpha-beta T cell",6.80920954745489e-09,0.812368954122351,0.189711308994446,0.185685785624253,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","log2CPM","jak_stat","B cell",0.792202811117197,-0.0688163624477605,0.174406092706096,0.174813268451975,"UP","DOWN",FALSE,157,99
+"sle_blood","AUCell","log2CPM","jak_stat","natural killer cell",4.64780206081734e-07,0.651043675771162,0.200281808746334,0.196630946846149,"UP","UP",TRUE,155,98
+"sle_blood","AUCell","log2CPM","jak_stat","non-classical monocyte",0.000186068187988694,0.457169228908052,0.212941169432539,0.210442824361758,"UP","UP",TRUE,157,97
+"sle_blood","AUCell","log2CPM","jak_stat","conventional dendritic cell",0.0201031635224191,0.334681378510303,0.216045926976344,0.213700056455609,"UP","UP",TRUE,125,88
+"sle_blood","AUCell","log2CPM","jak_stat","lymphocyte",0.175061901913263,0.510819798114845,0.198330790659522,0.19579446630401,"UP","UP",TRUE,74,16
+"sle_blood","AUCell","log2CPM","jak_stat","plasmacytoid dendritic cell",0.0182171565330728,0.864855462521536,0.178665736046789,0.173038685605374,"UP","UP",TRUE,11,37
+"sle_blood","AUCell","log2CPM","nfkb_signaling","CD4-positive, alpha-beta T cell",9.02710607585041e-07,0.718395764150461,0.393104229519425,0.379149192529924,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","log2CPM","nfkb_signaling","classical monocyte",4.4045881026668e-09,0.895011214936208,0.395964670044821,0.377532196144902,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","log2CPM","nfkb_signaling","CD8-positive, alpha-beta T cell",1.26140133442499e-07,0.757238134657101,0.397365932557701,0.381379744026722,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","log2CPM","nfkb_signaling","B cell",0.13358516233838,0.172236650281122,0.384214047418198,0.380290432045058,"UP","UP",TRUE,157,99
+"sle_blood","AUCell","log2CPM","nfkb_signaling","natural killer cell",2.58236992689633e-08,0.777052408025524,0.41710221375415,0.40118748438214,"UP","UP",TRUE,155,98
+"sle_blood","AUCell","log2CPM","nfkb_signaling","non-classical monocyte",2.72317413465601e-08,0.769401800486449,0.422620725049885,0.405482996252852,"UP","UP",TRUE,157,97
+"sle_blood","AUCell","log2CPM","nfkb_signaling","conventional dendritic cell",4.02991416222827e-11,1.03663272040517,0.446838003220612,0.425227942537212,"UP","UP",TRUE,125,88
+"sle_blood","AUCell","log2CPM","nfkb_signaling","lymphocyte",0.000235172038857609,1.06068101197437,0.498878698222423,0.479200847689363,"UP","UP",TRUE,74,16
+"sle_blood","AUCell","log2CPM","nfkb_signaling","plasmacytoid dendritic cell",0.0294208122598225,0.884792047776719,0.392279370130067,0.375818804859002,"UP","UP",TRUE,11,37
+"sle_blood","AUCell","log2CPM","toll_like_receptor","CD4-positive, alpha-beta T cell",0.000337964462104096,0.552587109760067,0.149452216138232,0.146038645657901,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","log2CPM","toll_like_receptor","classical monocyte",0.710684844852525,-0.0310518485022248,0.216710204427673,0.216978696580833,"UP","DOWN",FALSE,162,99
+"sle_blood","AUCell","log2CPM","toll_like_receptor","CD8-positive, alpha-beta T cell",0.00703010215311134,0.409173838669188,0.149846709914135,0.147398843068983,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","log2CPM","toll_like_receptor","B cell",0.35064162623742,0.163995610663187,0.170371471876308,0.169192729117171,"UP","UP",TRUE,157,99
+"sle_blood","AUCell","log2CPM","toll_like_receptor","natural killer cell",1.19239032983575e-06,0.630169920293093,0.158672126636777,0.154885034796658,"UP","UP",TRUE,155,98
+"sle_blood","AUCell","log2CPM","toll_like_receptor","non-classical monocyte",0.00542015647132693,0.369685566777679,0.201814268009721,0.199243866571204,"UP","UP",TRUE,157,97
+"sle_blood","AUCell","log2CPM","toll_like_receptor","conventional dendritic cell",0.118991935660292,0.237484783079542,0.190492338872328,0.188849744158029,"UP","UP",TRUE,125,88
+"sle_blood","AUCell","log2CPM","toll_like_receptor","lymphocyte",0.261037870346574,0.347275520206196,0.138905698295917,0.136536333048021,"UP","UP",TRUE,74,16
+"sle_blood","AUCell","log2CPM","toll_like_receptor","plasmacytoid dendritic cell",0.611322100757394,0.199684353191358,0.185928110239671,0.184566119202051,"UP","UP",TRUE,11,37
+"sle_blood","AUCell","voom","interferon_signaling","CD4-positive, alpha-beta T cell",8.67383647847424e-19,1.29798605412875,0.0783516049602542,0.0707270798303316,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","voom","interferon_signaling","classical monocyte",7.86334364977058e-23,1.61139157077587,0.0896106586826018,0.0747968006086371,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","voom","interferon_signaling","CD8-positive, alpha-beta T cell",1.91059553827873e-19,1.32706859098589,0.0811380315004552,0.073102769779749,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","voom","interferon_signaling","B cell",1.64530611016814e-22,1.48268313999802,0.106599754772321,0.0987974067276967,"UP","UP",TRUE,157,99
+"sle_blood","AUCell","voom","interferon_signaling","natural killer cell",1.44225400765656e-12,1.15979896357643,0.0847647076139486,0.0776844735980261,"UP","UP",TRUE,155,98
+"sle_blood","AUCell","voom","interferon_signaling","non-classical monocyte",1.9469409950698e-27,1.84581127950504,0.106345425684374,0.0900286431306393,"UP","UP",TRUE,157,97
+"sle_blood","AUCell","voom","interferon_signaling","conventional dendritic cell",6.86048443467443e-17,1.44959094264215,0.112512096863941,0.0988782300963743,"UP","UP",TRUE,125,88
+"sle_blood","AUCell","voom","interferon_signaling","lymphocyte",7.04136702787255e-07,1.76948102677964,0.0920371059924578,0.0806564245810056,"UP","UP",TRUE,74,16
+"sle_blood","AUCell","voom","interferon_signaling","plasmacytoid dendritic cell",0.00110409924189878,1.38170209254911,0.100066974357522,0.0914884926547772,"UP","UP",TRUE,11,37
+"sle_blood","AUCell","voom","jak_stat","CD4-positive, alpha-beta T cell",1.0082242412512e-17,1.26373907432685,0.0815549583463344,0.0763943447519858,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","voom","jak_stat","classical monocyte",5.39014119201016e-12,1.03918961607293,0.0759406324825898,0.0716645575237839,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","voom","jak_stat","CD8-positive, alpha-beta T cell",3.62662683690225e-09,0.764646185646598,0.0810909469121264,0.0777866535634449,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","voom","jak_stat","B cell",2.56268796885838e-05,0.555617794995776,0.0677701467235736,0.0664161316031956,"UP","UP",TRUE,157,99
+"sle_blood","AUCell","voom","jak_stat","natural killer cell",9.63939163191006e-09,0.810798536325867,0.0831296663734735,0.0795578200480301,"UP","UP",TRUE,155,98
+"sle_blood","AUCell","voom","jak_stat","non-classical monocyte",5.61843223138032e-14,1.13740450202902,0.0716849294597094,0.0670494395222935,"UP","UP",TRUE,157,97
+"sle_blood","AUCell","voom","jak_stat","conventional dendritic cell",6.67770344084656e-16,1.365522687197,0.0695965938943745,0.064655271804923,"UP","UP",TRUE,125,88
+"sle_blood","AUCell","voom","jak_stat","lymphocyte",7.84256303910188e-06,1.50772362642753,0.0886246061261914,0.0829434278467252,"UP","UP",TRUE,74,16
+"sle_blood","AUCell","voom","jak_stat","plasmacytoid dendritic cell",0.00101227474567408,1.26520141505012,0.0594767312585956,0.0562746821465908,"UP","UP",TRUE,11,37
+"sle_blood","AUCell","voom","nfkb_signaling","CD4-positive, alpha-beta T cell",4.06501967079755e-13,1.10975347236284,0.0775844730097239,0.0730467912084394,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","voom","nfkb_signaling","classical monocyte",3.7386775869708e-15,1.13608587086656,0.0700772827767017,0.0657074709055692,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","voom","nfkb_signaling","CD8-positive, alpha-beta T cell",2.02900327023335e-06,0.700447440046839,0.0770781240828784,0.0743421537082393,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","voom","nfkb_signaling","B cell",0.668565738388729,-0.0588383455336156,0.077713870410934,0.0780361459283805,"UP","DOWN",FALSE,157,99
+"sle_blood","AUCell","voom","nfkb_signaling","natural killer cell",1.54181146807717e-05,0.604921694388924,0.0799100250498441,0.0770477699796242,"UP","UP",TRUE,155,98
+"sle_blood","AUCell","voom","nfkb_signaling","non-classical monocyte",1.18608002040942e-13,1.06068905490277,0.0737226321580345,0.0682470959204013,"UP","UP",TRUE,157,97
+"sle_blood","AUCell","voom","nfkb_signaling","conventional dendritic cell",7.38490960922112e-16,1.31262040272883,0.0704750554675119,0.0643502377179081,"UP","UP",TRUE,125,88
+"sle_blood","AUCell","voom","nfkb_signaling","lymphocyte",0.000239969781644175,1.13199528371293,0.0888593823617595,0.0809429477020602,"UP","UP",TRUE,74,16
+"sle_blood","AUCell","voom","nfkb_signaling","plasmacytoid dendritic cell",0.00865085765403692,0.919704395523745,0.0706411179945253,0.0674039491155181,"UP","UP",TRUE,11,37
+"sle_blood","AUCell","voom","toll_like_receptor","CD4-positive, alpha-beta T cell",0.00281766470940126,0.312037448701704,0.0654300082535019,0.0639801907182805,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","voom","toll_like_receptor","classical monocyte",0.834017281928024,0.0228364667560954,0.0974132326993052,0.0973159252165407,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","voom","toll_like_receptor","CD8-positive, alpha-beta T cell",0.586914185608895,-0.139766691620674,0.0643310824148147,0.0650278222651143,"UP","DOWN",FALSE,162,99
+"sle_blood","AUCell","voom","toll_like_receptor","B cell",0.327438636761372,-0.143559683429473,0.0758828559771996,0.0766451844637393,"UP","DOWN",FALSE,157,99
+"sle_blood","AUCell","voom","toll_like_receptor","natural killer cell",0.170315208708349,0.11564473866062,0.0678981364084712,0.06710158093652,"UP","UP",TRUE,155,98
+"sle_blood","AUCell","voom","toll_like_receptor","non-classical monocyte",2.14048400126721e-05,0.607816770917557,0.0688826881805848,0.0665341064928412,"UP","UP",TRUE,157,97
+"sle_blood","AUCell","voom","toll_like_receptor","conventional dendritic cell",0.000124441835736007,0.548262827286005,0.0730540232505129,0.0708779481289169,"UP","UP",TRUE,125,88
+"sle_blood","AUCell","voom","toll_like_receptor","lymphocyte",0.224869695665257,0.310446548400773,0.0503629097201014,0.0483103487576932,"UP","UP",TRUE,74,16
+"sle_blood","AUCell","voom","toll_like_receptor","plasmacytoid dendritic cell",0.117448624078517,0.610256381124314,0.0742719783066261,0.0707161295262503,"UP","UP",TRUE,11,37
+"sle_blood","AUCell","scran","interferon_signaling","CD4-positive, alpha-beta T cell",9.35691494803342e-19,1.29594446812339,0.0783528414791074,0.0707322507273541,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","scran","interferon_signaling","classical monocyte",7.6672385500005e-23,1.61155966209393,0.0896123073744061,0.0747882573874695,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","scran","interferon_signaling","CD8-positive, alpha-beta T cell",1.9104628696543e-19,1.3275595258719,0.0811362454176672,0.0730962499530685,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","scran","interferon_signaling","B cell",1.25085746741269e-22,1.48542010841941,0.106609536660319,0.098795832976429,"UP","UP",TRUE,157,99
+"sle_blood","AUCell","scran","interferon_signaling","natural killer cell",1.27758488350563e-12,1.1615045010654,0.0847721745923137,0.0776865176393957,"UP","UP",TRUE,155,98
+"sle_blood","AUCell","scran","interferon_signaling","non-classical monocyte",2.00375544273187e-27,1.84504628120175,0.106342165055042,0.0900151051613393,"UP","UP",TRUE,157,97
+"sle_blood","AUCell","scran","interferon_signaling","conventional dendritic cell",6.35453939612541e-17,1.45060138267168,0.112514411627234,0.0988779771720634,"UP","UP",TRUE,125,88
+"sle_blood","AUCell","scran","interferon_signaling","lymphocyte",6.49087152573446e-07,1.76652819571656,0.0920172548519496,0.0806592067484253,"UP","UP",TRUE,74,16
+"sle_blood","AUCell","scran","interferon_signaling","plasmacytoid dendritic cell",0.000705920360971415,1.37165636185408,0.100062927568548,0.0914999220993123,"UP","UP",TRUE,11,37
+"sle_blood","AUCell","scran","jak_stat","CD4-positive, alpha-beta T cell",9.86200901048058e-18,1.26508303494713,0.081559208149781,0.0763941617460958,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","scran","jak_stat","classical monocyte",4.87105511047032e-12,1.04172298666837,0.0759383957439337,0.0716550412175016,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","scran","jak_stat","CD8-positive, alpha-beta T cell",4.01760154250271e-09,0.763642423522751,0.0810837893484268,0.0777815293985237,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","scran","jak_stat","B cell",1.66684826393212e-05,0.572198271267427,0.0677818019840484,0.066388680719689,"UP","UP",TRUE,157,99
+"sle_blood","AUCell","scran","jak_stat","natural killer cell",1.06397573117073e-08,0.809495222239054,0.0831300170363725,0.079559853654298,"UP","UP",TRUE,155,98
+"sle_blood","AUCell","scran","jak_stat","non-classical monocyte",6.21387920789363e-14,1.13465827277353,0.0716889684113591,0.0670533618856482,"UP","UP",TRUE,157,97
+"sle_blood","AUCell","scran","jak_stat","conventional dendritic cell",7.88663573689866e-16,1.35938624751384,0.0695993477670079,0.064665565886238,"UP","UP",TRUE,125,88
+"sle_blood","AUCell","scran","jak_stat","lymphocyte",5.67555552593906e-06,1.53456503793008,0.0886412547160803,0.0829037956336625,"UP","UP",TRUE,74,16
+"sle_blood","AUCell","scran","jak_stat","plasmacytoid dendritic cell",0.00125520593596805,1.2652126016666,0.0595343781139596,0.0563069999975517,"UP","UP",TRUE,11,37
+"sle_blood","AUCell","scran","nfkb_signaling","CD4-positive, alpha-beta T cell",4.16764737309122e-13,1.1094977838655,0.0775895599773043,0.0730474315260369,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","scran","nfkb_signaling","classical monocyte",2.48889373605488e-15,1.14372229009448,0.0700784566922972,0.0656889016952408,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","scran","nfkb_signaling","CD8-positive, alpha-beta T cell",1.95413263312117e-06,0.700245376634154,0.077076167556886,0.0743427940258368,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","scran","nfkb_signaling","B cell",0.6799600530178,-0.0548398072765104,0.0777086214380167,0.0780079719540892,"UP","DOWN",FALSE,157,99
+"sle_blood","AUCell","scran","nfkb_signaling","natural killer cell",1.78643636776188e-05,0.603630681034804,0.0798953018761822,0.0770438888709208,"UP","UP",TRUE,155,98
+"sle_blood","AUCell","scran","nfkb_signaling","non-classical monocyte",1.00459673186042e-13,1.06483451646864,0.0737307075009842,0.0682301043998235,"UP","UP",TRUE,157,97
+"sle_blood","AUCell","scran","nfkb_signaling","conventional dendritic cell",8.55993523090263e-16,1.30769503557956,0.070468969889065,0.0643596023627719,"UP","UP",TRUE,125,88
+"sle_blood","AUCell","scran","nfkb_signaling","lymphocyte",0.000211870435866207,1.14994963480572,0.0888919347239474,0.0808320126782884,"UP","UP",TRUE,74,16
+"sle_blood","AUCell","scran","nfkb_signaling","plasmacytoid dendritic cell",0.00748770934352156,0.939967993406477,0.0707563751620804,0.067415942091061,"UP","UP",TRUE,11,37
+"sle_blood","AUCell","scran","toll_like_receptor","CD4-positive, alpha-beta T cell",0.00271788037720037,0.312025357182097,0.065430812296552,0.0639815064250897,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","scran","toll_like_receptor","classical monocyte",0.86580200027491,0.0192530381650734,0.0974150417961678,0.0973330294050604,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","scran","toll_like_receptor","CD8-positive, alpha-beta T cell",0.578796664759463,-0.14114021063641,0.064329675339477,0.0650330850923511,"UP","DOWN",FALSE,162,99
+"sle_blood","AUCell","scran","toll_like_receptor","B cell",0.33520329386073,-0.141060647129265,0.0758928117713992,0.0766415662700139,"UP","DOWN",FALSE,157,99
+"sle_blood","AUCell","scran","toll_like_receptor","natural killer cell",0.177856683042483,0.114534087959027,0.0678972960537995,0.0671068974660756,"UP","UP",TRUE,155,98
+"sle_blood","AUCell","scran","toll_like_receptor","non-classical monocyte",1.80690944890624e-05,0.61362989250191,0.0688994885832967,0.0665260494841332,"UP","UP",TRUE,157,97
+"sle_blood","AUCell","scran","toll_like_receptor","conventional dendritic cell",0.00013088259269174,0.544363165102084,0.0730615780390114,0.0708953401283011,"UP","UP",TRUE,125,88
+"sle_blood","AUCell","scran","toll_like_receptor","lymphocyte",0.218872590599463,0.310399313743854,0.0503514684048078,0.0482940668859292,"UP","UP",TRUE,74,16
+"sle_blood","AUCell","scran","toll_like_receptor","plasmacytoid dendritic cell",0.149707868171448,0.588974057933188,0.0742660576259847,0.0707962187333056,"UP","UP",TRUE,11,37
+"sle_blood","AUCell","sctransform","interferon_signaling","CD4-positive, alpha-beta T cell",1.61343464301026e-20,1.35263901110958,0.0775662952051799,0.0449081012205956,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","sctransform","interferon_signaling","classical monocyte",1.09631639602088e-25,1.85162240728706,0.164686183871768,0.107477185551984,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","sctransform","interferon_signaling","CD8-positive, alpha-beta T cell",7.23250833925616e-23,1.4062693019824,0.0824531882655192,0.045106248706525,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","sctransform","interferon_signaling","B cell",3.95522623671573e-09,0.9209374401354,0.101669222814417,0.0819088426023237,"UP","UP",TRUE,157,99
+"sle_blood","AUCell","sctransform","interferon_signaling","natural killer cell",6.54569561412556e-17,1.2406206322503,0.0812082704938914,0.0541991809485407,"UP","UP",TRUE,155,98
+"sle_blood","AUCell","sctransform","interferon_signaling","non-classical monocyte",5.49284973589523e-25,1.74532691470257,0.144591897097696,0.0881919815072953,"UP","UP",TRUE,157,97
+"sle_blood","AUCell","sctransform","interferon_signaling","conventional dendritic cell",1.27638898189534e-14,1.30456277299171,0.130251218608934,0.0984129080190246,"UP","UP",TRUE,125,88
+"sle_blood","AUCell","sctransform","interferon_signaling","lymphocyte",6.14826685990843e-07,1.7621968310591,0.126621576986409,0.0838610010109199,"UP","UP",TRUE,74,16
+"sle_blood","AUCell","sctransform","interferon_signaling","plasmacytoid dendritic cell",0.00339527371966344,1.07431125587819,0.0830026915402107,0.0707867808354251,"UP","UP",TRUE,11,37
+"sle_blood","AUCell","sctransform","jak_stat","CD4-positive, alpha-beta T cell",3.30605931118911e-17,1.22153623308,0.0853017394770969,0.0694495429479039,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","sctransform","jak_stat","classical monocyte",3.92314837487728e-13,0.918635971070685,0.188471315938571,0.175731107137241,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","sctransform","jak_stat","CD8-positive, alpha-beta T cell",3.60901390778286e-09,0.821691444089331,0.0872584887342738,0.0749344930339184,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","sctransform","jak_stat","B cell",0.756372002871092,0.122206790708979,0.0645902183227109,0.0636303516316266,"UP","UP",TRUE,157,99
+"sle_blood","AUCell","sctransform","jak_stat","natural killer cell",0.000127428734798044,0.493569190541564,0.088112631344127,0.0829412130420512,"UP","UP",TRUE,155,98
+"sle_blood","AUCell","sctransform","jak_stat","non-classical monocyte",4.22891439069941e-08,0.780881701501885,0.12904314355214,0.117045783697372,"UP","UP",TRUE,157,97
+"sle_blood","AUCell","sctransform","jak_stat","conventional dendritic cell",0.00138294149711944,0.455207229037486,0.127203233953263,0.121510175457754,"UP","UP",TRUE,125,88
+"sle_blood","AUCell","sctransform","jak_stat","lymphocyte",0.00188365527096795,1.02732106606075,0.0850392133164574,0.0708691692077951,"UP","UP",TRUE,74,16
+"sle_blood","AUCell","sctransform","jak_stat","plasmacytoid dendritic cell",0.395943505624769,0.210320828607001,0.0652515359956655,0.0637157293138063,"UP","UP",TRUE,11,37
+"sle_blood","AUCell","sctransform","nfkb_signaling","CD4-positive, alpha-beta T cell",0.510937996491513,0.0663748962233157,0.0301876664742402,0.0288620105592123,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","sctransform","nfkb_signaling","classical monocyte",1.7095988536103e-16,1.13569028873666,0.0666225548612447,0.0353791001498594,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","sctransform","nfkb_signaling","CD8-positive, alpha-beta T cell",1.21337497008224e-06,0.640953052565109,0.0360793307308869,0.0188972028184497,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","sctransform","nfkb_signaling","B cell",0.0147772655090244,-0.299409570485391,0.0429231978303735,0.0498983085802883,"UP","DOWN",FALSE,157,99
+"sle_blood","AUCell","sctransform","nfkb_signaling","natural killer cell",2.90785450575208e-05,0.512979893345231,0.0386238989790288,0.0290356084098027,"UP","UP",TRUE,155,98
+"sle_blood","AUCell","sctransform","nfkb_signaling","non-classical monocyte",7.25446516715631e-06,0.682703808705423,0.0385423760498872,0.0207149056823033,"UP","UP",TRUE,157,97
+"sle_blood","AUCell","sctransform","nfkb_signaling","conventional dendritic cell",2.84925132469541e-07,0.691557231951268,0.0330528119588005,0.0215026253787534,"UP","UP",TRUE,125,88
+"sle_blood","AUCell","sctransform","nfkb_signaling","lymphocyte",0.000161390050936543,1.11908024934936,0.096903055639725,0.0334818308874913,"UP","UP",TRUE,74,16
+"sle_blood","AUCell","sctransform","nfkb_signaling","plasmacytoid dendritic cell",1,-0.0451091966365747,0.0284176189016222,0.0289984816646014,"UP","DOWN",FALSE,11,37
+"sle_blood","AUCell","sctransform","toll_like_receptor","CD4-positive, alpha-beta T cell",1.66356863486744e-19,1.32896089666105,0.059989338137366,0.0436322931408673,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","sctransform","toll_like_receptor","classical monocyte",2.0351593438172e-09,0.86751581403423,0.238219789597651,0.221989560013821,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","sctransform","toll_like_receptor","CD8-positive, alpha-beta T cell",1.40526924670511e-14,1.12055129877683,0.0615462275796321,0.0452422456613596,"UP","UP",TRUE,162,99
+"sle_blood","AUCell","sctransform","toll_like_receptor","B cell",9.42360827078208e-05,0.603459560298515,0.102631459389742,0.0943229208746755,"UP","UP",TRUE,157,99
+"sle_blood","AUCell","sctransform","toll_like_receptor","natural killer cell",0.001777670732476,0.478589432342515,0.0825730664536504,0.075958371306375,"UP","UP",TRUE,155,98
+"sle_blood","AUCell","sctransform","toll_like_receptor","non-classical monocyte",3.57163687720976e-09,0.803914641093164,0.171873406554513,0.156795661711077,"UP","UP",TRUE,157,97
+"sle_blood","AUCell","sctransform","toll_like_receptor","conventional dendritic cell",0.0210909202060237,0.347297292755605,0.156126788859046,0.149437715605332,"UP","UP",TRUE,125,88
+"sle_blood","AUCell","sctransform","toll_like_receptor","lymphocyte",0.102994472758106,0.524372118500985,0.0615389156164222,0.0556206526765247,"UP","UP",TRUE,74,16
+"sle_blood","AUCell","sctransform","toll_like_receptor","plasmacytoid dendritic cell",0.264362334722,0.408960607325732,0.1251057846849,0.119768208337023,"UP","UP",TRUE,11,37
+"sle_blood","UCell","log2CPM","interferon_signaling","CD4-positive, alpha-beta T cell",1.75787168873748e-21,1.51082157918115,0.219560202268689,0.20557048964429,"UP","UP",TRUE,162,99
+"sle_blood","UCell","log2CPM","interferon_signaling","classical monocyte",5.30318126022282e-24,1.62804380112135,0.236671146341093,0.215961956589263,"UP","UP",TRUE,162,99
+"sle_blood","UCell","log2CPM","interferon_signaling","CD8-positive, alpha-beta T cell",8.29413200505399e-24,1.61413489780464,0.222620434908053,0.208777243530011,"UP","UP",TRUE,162,99
+"sle_blood","UCell","log2CPM","interferon_signaling","B cell",3.24845782086192e-19,1.43052852651845,0.234233561316505,0.220630350242896,"UP","UP",TRUE,157,99
+"sle_blood","UCell","log2CPM","interferon_signaling","natural killer cell",8.68949426488668e-17,1.37010839451568,0.221919620680078,0.20912713055702,"UP","UP",TRUE,155,98
+"sle_blood","UCell","log2CPM","interferon_signaling","non-classical monocyte",2.14990900964069e-25,1.66095609171963,0.247217289115566,0.226493678751221,"UP","UP",TRUE,157,97
+"sle_blood","UCell","log2CPM","interferon_signaling","conventional dendritic cell",1.78720646568314e-19,1.56410108613103,0.233054937269373,0.215711100861009,"UP","UP",TRUE,125,88
+"sle_blood","UCell","log2CPM","interferon_signaling","lymphocyte",3.54240399112156e-07,1.92414492976474,0.232173863900801,0.216965790282903,"UP","UP",TRUE,74,16
+"sle_blood","UCell","log2CPM","interferon_signaling","plasmacytoid dendritic cell",0.0136185604459518,1.02647490181768,0.217153080621715,0.208130048868056,"UP","UP",TRUE,11,37
+"sle_blood","UCell","log2CPM","jak_stat","CD4-positive, alpha-beta T cell",2.29857880715039e-16,1.24179302014812,0.263574365533022,0.258679800115318,"UP","UP",TRUE,162,99
+"sle_blood","UCell","log2CPM","jak_stat","classical monocyte",0.00036874778285264,0.357407590823667,0.279354392329845,0.278210726005652,"UP","UP",TRUE,162,99
+"sle_blood","UCell","log2CPM","jak_stat","CD8-positive, alpha-beta T cell",6.94766338046185e-09,0.820387080515371,0.263689304761656,0.260394174301151,"UP","UP",TRUE,162,99
+"sle_blood","UCell","log2CPM","jak_stat","B cell",0.80357830415605,-0.0481660855809404,0.249219195360508,0.249390486969768,"UP","DOWN",FALSE,157,99
+"sle_blood","UCell","log2CPM","jak_stat","natural killer cell",0.0064011236300412,0.346672356201675,0.268532269430994,0.267355596784168,"UP","UP",TRUE,155,98
+"sle_blood","UCell","log2CPM","jak_stat","non-classical monocyte",7.05189662211254e-05,0.458822138588659,0.276812871718219,0.275518231947865,"UP","UP",TRUE,157,97
+"sle_blood","UCell","log2CPM","jak_stat","conventional dendritic cell",2.34856761821308e-05,0.556470077468278,0.273985082452431,0.272084766801204,"UP","UP",TRUE,125,88
+"sle_blood","UCell","log2CPM","jak_stat","lymphocyte",0.00957337312305997,0.708056576660017,0.274344885054187,0.271865310077519,"UP","UP",TRUE,74,16
+"sle_blood","UCell","log2CPM","jak_stat","plasmacytoid dendritic cell",0.00929421755858447,1.01604390751355,0.254584342366583,0.250419290326267,"UP","UP",TRUE,11,37
+"sle_blood","UCell","log2CPM","nfkb_signaling","CD4-positive, alpha-beta T cell",1.17694598064115e-07,0.783839933819505,0.23141034141137,0.218666354907096,"UP","UP",TRUE,162,99
+"sle_blood","UCell","log2CPM","nfkb_signaling","classical monocyte",9.50673052800143e-08,0.801054004117564,0.248172534674592,0.235011784511785,"UP","UP",TRUE,162,99
+"sle_blood","UCell","log2CPM","nfkb_signaling","CD8-positive, alpha-beta T cell",1.93176321265237e-07,0.746110797995537,0.239902377686328,0.226708816560668,"UP","UP",TRUE,162,99
+"sle_blood","UCell","log2CPM","nfkb_signaling","B cell",0.0283405850517262,0.305823433924502,0.236441338365967,0.23097493453049,"UP","UP",TRUE,157,99
+"sle_blood","UCell","log2CPM","nfkb_signaling","natural killer cell",2.80015060900934e-07,0.711960217678724,0.262365392273994,0.247656147644243,"UP","UP",TRUE,155,98
+"sle_blood","UCell","log2CPM","nfkb_signaling","non-classical monocyte",0.000126127242719406,0.569654329647439,0.267438704096878,0.25606713758432,"UP","UP",TRUE,157,97
+"sle_blood","UCell","log2CPM","nfkb_signaling","conventional dendritic cell",5.72513326150229e-12,1.07072466658657,0.285897283950617,0.269473695286195,"UP","UP",TRUE,125,88
+"sle_blood","UCell","log2CPM","nfkb_signaling","lymphocyte",0.000383409796202311,1.04306100704208,0.339697447447447,0.319498070987654,"UP","UP",TRUE,74,16
+"sle_blood","UCell","log2CPM","nfkb_signaling","plasmacytoid dendritic cell",0.000567947607943071,1.41377903923028,0.248630751964085,0.227972639305973,"UP","UP",TRUE,11,37
+"sle_blood","UCell","log2CPM","toll_like_receptor","CD4-positive, alpha-beta T cell",1.035850104e-06,0.654006947464629,0.148309404502542,0.146552505446623,"UP","UP",TRUE,162,99
+"sle_blood","UCell","log2CPM","toll_like_receptor","classical monocyte",0.00652977821530809,-0.307316178445419,0.185812745098039,0.187154941572589,"UP","DOWN",FALSE,162,99
+"sle_blood","UCell","log2CPM","toll_like_receptor","CD8-positive, alpha-beta T cell",0.0338637077661755,0.257623395522527,0.148634834180586,0.147910615963557,"UP","UP",TRUE,162,99
+"sle_blood","UCell","log2CPM","toll_like_receptor","B cell",0.308136117332345,-0.0858015420802164,0.160998214062695,0.161295761536938,"UP","DOWN",FALSE,157,99
+"sle_blood","UCell","log2CPM","toll_like_receptor","natural killer cell",0.243368255671811,-0.172790219915395,0.15414293485136,0.154678871548619,"UP","DOWN",FALSE,155,98
+"sle_blood","UCell","log2CPM","toll_like_receptor","non-classical monocyte",6.52463420371276e-05,0.555682450968034,0.170677294866991,0.168009601778856,"UP","UP",TRUE,157,97
+"sle_blood","UCell","log2CPM","toll_like_receptor","conventional dendritic cell",0.000109388699888687,0.534212768945559,0.169246337254902,0.166966399286988,"UP","UP",TRUE,125,88
+"sle_blood","UCell","log2CPM","toll_like_receptor","lymphocyte",0.853475945063095,0.0644838332665129,0.138561208267091,0.138252696078431,"UP","UP",TRUE,74,16
+"sle_blood","UCell","log2CPM","toll_like_receptor","plasmacytoid dendritic cell",0.00858868303176624,1.12426279519138,0.17858449197861,0.173505352411235,"UP","UP",TRUE,11,37
+"sle_blood","UCell","voom","interferon_signaling","CD4-positive, alpha-beta T cell",1.50603893125398e-21,1.51324934648792,0.255248925213233,0.234034177905686,"UP","UP",TRUE,162,99
+"sle_blood","UCell","voom","interferon_signaling","classical monocyte",2.02830460182426e-24,1.6488913050316,0.281424029243396,0.249786167071083,"UP","UP",TRUE,162,99
+"sle_blood","UCell","voom","interferon_signaling","CD8-positive, alpha-beta T cell",8.96025540686265e-24,1.61479550860698,0.259935696714716,0.23894283618306,"UP","UP",TRUE,162,99
+"sle_blood","UCell","voom","interferon_signaling","B cell",1.41747706620978e-19,1.44349723758033,0.279617609033437,0.25864789421214,"UP","UP",TRUE,157,99
+"sle_blood","UCell","voom","interferon_signaling","natural killer cell",4.30281634338605e-17,1.38880154916393,0.259340037243948,0.23982231216509,"UP","UP",TRUE,155,98
+"sle_blood","UCell","voom","interferon_signaling","non-classical monocyte",1.3162883448386e-25,1.67802201900596,0.297751141633752,0.266015857474707,"UP","UP",TRUE,157,97
+"sle_blood","UCell","voom","interferon_signaling","conventional dendritic cell",1.03286625948326e-19,1.58102911351131,0.276127016759777,0.24960864228881,"UP","UP",TRUE,125,88
+"sle_blood","UCell","voom","interferon_signaling","lymphocyte",2.26132258801949e-07,1.92319090943699,0.275346318385425,0.252073440409683,"UP","UP",TRUE,74,16
+"sle_blood","UCell","voom","interferon_signaling","plasmacytoid dendritic cell",0.0117179251207249,1.0225767145052,0.252248010834603,0.238430620564699,"UP","UP",TRUE,11,37
+"sle_blood","UCell","voom","jak_stat","CD4-positive, alpha-beta T cell",2.62682022468031e-16,1.23925637400552,0.276773538785235,0.268123427255006,"UP","UP",TRUE,162,99
+"sle_blood","UCell","voom","jak_stat","classical monocyte",0.000411233177698341,0.388175811513006,0.304617276215229,0.30254299891142,"UP","UP",TRUE,162,99
+"sle_blood","UCell","voom","jak_stat","CD8-positive, alpha-beta T cell",6.09417600344438e-09,0.824991994978046,0.277106160462886,0.271219715956558,"UP","UP",TRUE,162,99
+"sle_blood","UCell","voom","jak_stat","B cell",0.423274445651388,-0.118355986989256,0.249603610938173,0.25036294017873,"UP","DOWN",FALSE,157,99
+"sle_blood","UCell","voom","jak_stat","natural killer cell",0.00331146553150249,0.377955029528057,0.286295213841054,0.284002966600174,"UP","UP",TRUE,155,98
+"sle_blood","UCell","voom","jak_stat","non-classical monocyte",5.79243915126028e-05,0.462342212351745,0.300640638219753,0.298347040281115,"UP","UP",TRUE,157,97
+"sle_blood","UCell","voom","jak_stat","conventional dendritic cell",2.98387774425603e-05,0.546702952287115,0.29570543358396,0.292395633971292,"UP","UP",TRUE,125,88
+"sle_blood","UCell","voom","jak_stat","lymphocyte",0.00657749710316643,0.74748863024022,0.295989856397751,0.291321036967419,"UP","UP",TRUE,74,16
+"sle_blood","UCell","voom","jak_stat","plasmacytoid dendritic cell",0.0100490827388975,0.968867992729459,0.258560719981773,0.251466063808169,"UP","UP",TRUE,11,37
+"sle_blood","UCell","voom","nfkb_signaling","CD4-positive, alpha-beta T cell",1.0336861645e-07,0.785391197624051,0.247291069958848,0.233485117845118,"UP","UP",TRUE,162,99
+"sle_blood","UCell","voom","nfkb_signaling","classical monocyte",6.75407863567477e-08,0.80849028726676,0.265829094650206,0.251465791245791,"UP","UP",TRUE,162,99
+"sle_blood","UCell","voom","nfkb_signaling","CD8-positive, alpha-beta T cell",1.75542286875319e-07,0.748574055683683,0.256551069958848,0.242253602693603,"UP","UP",TRUE,162,99
+"sle_blood","UCell","voom","nfkb_signaling","B cell",0.0269939486021146,0.313548411176979,0.255927515923567,0.249821279461279,"UP","UP",TRUE,157,99
+"sle_blood","UCell","voom","nfkb_signaling","natural killer cell",2.64675830989771e-07,0.713280464258912,0.281823440860215,0.26582619047619,"UP","UP",TRUE,155,98
+"sle_blood","UCell","voom","nfkb_signaling","non-classical monocyte",8.53619277809461e-05,0.580128252395321,0.287229893842887,0.274638900343643,"UP","UP",TRUE,157,97
+"sle_blood","UCell","voom","nfkb_signaling","conventional dendritic cell",5.16390819283094e-12,1.07376350885434,0.306881066666667,0.289049696969697,"UP","UP",TRUE,125,88
+"sle_blood","UCell","voom","nfkb_signaling","lymphocyte",0.000339790466850109,1.05524870702939,0.36692954954955,0.344757916666667,"UP","UP",TRUE,74,16
+"sle_blood","UCell","voom","nfkb_signaling","plasmacytoid dendritic cell",0.0011896794700732,1.34975401041836,0.272490909090909,0.25071027027027,"UP","UP",TRUE,11,37
+"sle_blood","UCell","voom","toll_like_receptor","CD4-positive, alpha-beta T cell",8.20899274383745e-07,0.658459186273149,0.181137360101535,0.178324207810189,"UP","UP",TRUE,162,99
+"sle_blood","UCell","voom","toll_like_receptor","classical monocyte",0.00831991459682949,-0.294793994618775,0.240981943002192,0.243049623965512,"UP","DOWN",FALSE,162,99
+"sle_blood","UCell","voom","toll_like_receptor","CD8-positive, alpha-beta T cell",0.0307947053383118,0.261644764561144,0.181684762124534,0.180515057113188,"UP","UP",TRUE,162,99
+"sle_blood","UCell","voom","toll_like_receptor","B cell",0.245181134582976,-0.0946900066288228,0.202161398495942,0.202683407281538,"UP","DOWN",FALSE,157,99
+"sle_blood","UCell","voom","toll_like_receptor","natural killer cell",0.296059017472051,-0.156400422889352,0.190794694000603,0.191567836480387,"UP","DOWN",FALSE,155,98
+"sle_blood","UCell","voom","toll_like_receptor","non-classical monocyte",0.0290809696499966,0.313380009250718,0.213359624580828,0.210964062048367,"UP","UP",TRUE,157,97
+"sle_blood","UCell","voom","toll_like_receptor","conventional dendritic cell",0.00012561852353657,0.521703368367994,0.214661308411215,0.211086236193713,"UP","UP",TRUE,125,88
+"sle_blood","UCell","voom","toll_like_receptor","lymphocyte",0.845206120054356,0.0747977949064417,0.166387597878252,0.165819119937695,"UP","UP",TRUE,74,16
+"sle_blood","UCell","voom","toll_like_receptor","plasmacytoid dendritic cell",0.0136185604459518,1.10601907979426,0.227876239025772,0.221047570935421,"UP","UP",TRUE,11,37
+"sle_blood","UCell","scran","interferon_signaling","CD4-positive, alpha-beta T cell",1.50603893125398e-21,1.51324934648792,0.255248925213233,0.234034177905686,"UP","UP",TRUE,162,99
+"sle_blood","UCell","scran","interferon_signaling","classical monocyte",2.02830460182426e-24,1.6488913050316,0.281424029243396,0.249786167071083,"UP","UP",TRUE,162,99
+"sle_blood","UCell","scran","interferon_signaling","CD8-positive, alpha-beta T cell",8.96025540686265e-24,1.61479550860698,0.259935696714716,0.23894283618306,"UP","UP",TRUE,162,99
+"sle_blood","UCell","scran","interferon_signaling","B cell",1.41747706620978e-19,1.44349723758033,0.279617609033437,0.25864789421214,"UP","UP",TRUE,157,99
+"sle_blood","UCell","scran","interferon_signaling","natural killer cell",4.30281634338605e-17,1.38880154916393,0.259340037243948,0.23982231216509,"UP","UP",TRUE,155,98
+"sle_blood","UCell","scran","interferon_signaling","non-classical monocyte",1.3162883448386e-25,1.67802201900596,0.297751141633752,0.266015857474707,"UP","UP",TRUE,157,97
+"sle_blood","UCell","scran","interferon_signaling","conventional dendritic cell",1.03286625948326e-19,1.58102911351131,0.276127016759777,0.24960864228881,"UP","UP",TRUE,125,88
+"sle_blood","UCell","scran","interferon_signaling","lymphocyte",2.26132258801949e-07,1.92319090943699,0.275346318385425,0.252073440409683,"UP","UP",TRUE,74,16
+"sle_blood","UCell","scran","interferon_signaling","plasmacytoid dendritic cell",0.0117179251207249,1.0225767145052,0.252248010834603,0.238430620564699,"UP","UP",TRUE,11,37
+"sle_blood","UCell","scran","jak_stat","CD4-positive, alpha-beta T cell",2.62682022468031e-16,1.23925637400552,0.276773538785235,0.268123427255006,"UP","UP",TRUE,162,99
+"sle_blood","UCell","scran","jak_stat","classical monocyte",0.000411233177698341,0.388175811513006,0.304617276215229,0.30254299891142,"UP","UP",TRUE,162,99
+"sle_blood","UCell","scran","jak_stat","CD8-positive, alpha-beta T cell",6.09417600344438e-09,0.824991994978046,0.277106160462886,0.271219715956558,"UP","UP",TRUE,162,99
+"sle_blood","UCell","scran","jak_stat","B cell",0.423274445651388,-0.118355986989256,0.249603610938173,0.25036294017873,"UP","DOWN",FALSE,157,99
+"sle_blood","UCell","scran","jak_stat","natural killer cell",0.00331146553150249,0.377955029528057,0.286295213841054,0.284002966600174,"UP","UP",TRUE,155,98
+"sle_blood","UCell","scran","jak_stat","non-classical monocyte",5.79243915126028e-05,0.462342212351745,0.300640638219753,0.298347040281115,"UP","UP",TRUE,157,97
+"sle_blood","UCell","scran","jak_stat","conventional dendritic cell",2.98387774425603e-05,0.546702952287115,0.29570543358396,0.292395633971292,"UP","UP",TRUE,125,88
+"sle_blood","UCell","scran","jak_stat","lymphocyte",0.00657749710316643,0.74748863024022,0.295989856397751,0.291321036967419,"UP","UP",TRUE,74,16
+"sle_blood","UCell","scran","jak_stat","plasmacytoid dendritic cell",0.0100490827388975,0.968867992729459,0.258560719981773,0.251466063808169,"UP","UP",TRUE,11,37
+"sle_blood","UCell","scran","nfkb_signaling","CD4-positive, alpha-beta T cell",1.0336861645e-07,0.785391197624051,0.247291069958848,0.233485117845118,"UP","UP",TRUE,162,99
+"sle_blood","UCell","scran","nfkb_signaling","classical monocyte",6.75407863567477e-08,0.80849028726676,0.265829094650206,0.251465791245791,"UP","UP",TRUE,162,99
+"sle_blood","UCell","scran","nfkb_signaling","CD8-positive, alpha-beta T cell",1.75542286875319e-07,0.748574055683683,0.256551069958848,0.242253602693603,"UP","UP",TRUE,162,99
+"sle_blood","UCell","scran","nfkb_signaling","B cell",0.0269939486021146,0.313548411176979,0.255927515923567,0.249821279461279,"UP","UP",TRUE,157,99
+"sle_blood","UCell","scran","nfkb_signaling","natural killer cell",2.64675830989771e-07,0.713280464258912,0.281823440860215,0.26582619047619,"UP","UP",TRUE,155,98
+"sle_blood","UCell","scran","nfkb_signaling","non-classical monocyte",8.53619277809461e-05,0.580128252395321,0.287229893842887,0.274638900343643,"UP","UP",TRUE,157,97
+"sle_blood","UCell","scran","nfkb_signaling","conventional dendritic cell",5.16390819283094e-12,1.07376350885434,0.306881066666667,0.289049696969697,"UP","UP",TRUE,125,88
+"sle_blood","UCell","scran","nfkb_signaling","lymphocyte",0.000339790466850109,1.05524870702939,0.36692954954955,0.344757916666667,"UP","UP",TRUE,74,16
+"sle_blood","UCell","scran","nfkb_signaling","plasmacytoid dendritic cell",0.0011896794700732,1.34975401041836,0.272490909090909,0.25071027027027,"UP","UP",TRUE,11,37
+"sle_blood","UCell","scran","toll_like_receptor","CD4-positive, alpha-beta T cell",8.20899274383745e-07,0.658459186273149,0.181137360101535,0.178324207810189,"UP","UP",TRUE,162,99
+"sle_blood","UCell","scran","toll_like_receptor","classical monocyte",0.00831991459682949,-0.294793994618775,0.240981943002192,0.243049623965512,"UP","DOWN",FALSE,162,99
+"sle_blood","UCell","scran","toll_like_receptor","CD8-positive, alpha-beta T cell",0.0307947053383118,0.261644764561144,0.181684762124534,0.180515057113188,"UP","UP",TRUE,162,99
+"sle_blood","UCell","scran","toll_like_receptor","B cell",0.245181134582976,-0.0946900066288228,0.202161398495942,0.202683407281538,"UP","DOWN",FALSE,157,99
+"sle_blood","UCell","scran","toll_like_receptor","natural killer cell",0.296059017472051,-0.156400422889352,0.190794694000603,0.191567836480387,"UP","DOWN",FALSE,155,98
+"sle_blood","UCell","scran","toll_like_receptor","non-classical monocyte",0.0290809696499966,0.313380009250718,0.213359624580828,0.210964062048367,"UP","UP",TRUE,157,97
+"sle_blood","UCell","scran","toll_like_receptor","conventional dendritic cell",0.00012561852353657,0.521703368367994,0.214661308411215,0.211086236193713,"UP","UP",TRUE,125,88
+"sle_blood","UCell","scran","toll_like_receptor","lymphocyte",0.845206120054356,0.0747977949064417,0.166387597878252,0.165819119937695,"UP","UP",TRUE,74,16
+"sle_blood","UCell","scran","toll_like_receptor","plasmacytoid dendritic cell",0.0136185604459518,1.10601907979426,0.227876239025772,0.221047570935421,"UP","UP",TRUE,11,37
+"sle_blood","UCell","sctransform","interferon_signaling","CD4-positive, alpha-beta T cell",1.54219202840057e-17,1.22955556777017,0.128843742881873,0.109151192117982,"UP","UP",TRUE,162,99
+"sle_blood","UCell","sctransform","interferon_signaling","classical monocyte",1.47175190204393e-23,1.65441254600742,0.182674244149849,0.145122790015779,"UP","UP",TRUE,162,99
+"sle_blood","UCell","sctransform","interferon_signaling","CD8-positive, alpha-beta T cell",2.44783170041907e-22,1.31587763784309,0.130674228964512,0.10936809671127,"UP","UP",TRUE,162,99
+"sle_blood","UCell","sctransform","interferon_signaling","B cell",1.64132216752975e-05,0.658745443029614,0.145464968152866,0.134715867158672,"UP","UP",TRUE,157,99
+"sle_blood","UCell","sctransform","interferon_signaling","natural killer cell",2.02452635290097e-10,0.963749484957443,0.126410284489942,0.114068855586515,"UP","UP",TRUE,155,98
+"sle_blood","UCell","sctransform","interferon_signaling","non-classical monocyte",1.18222968940777e-24,1.69443938029683,0.170150578575849,0.128159394377449,"UP","UP",TRUE,157,97
+"sle_blood","UCell","sctransform","interferon_signaling","conventional dendritic cell",1.06422750971958e-08,0.937043583994296,0.164262455104551,0.147319970926982,"UP","UP",TRUE,125,88
+"sle_blood","UCell","sctransform","interferon_signaling","lymphocyte",1.16009957260352e-05,1.4744738231567,0.151154050729696,0.126392527675277,"UP","UP",TRUE,74,16
+"sle_blood","UCell","sctransform","interferon_signaling","plasmacytoid dendritic cell",0.343783063548357,0.44187420482583,0.127244325170524,0.12464971244307,"UP","UP",TRUE,11,37
+"sle_blood","UCell","sctransform","jak_stat","CD4-positive, alpha-beta T cell",2.40407598123632e-17,1.24320988515313,0.207064729987211,0.197346630505193,"UP","UP",TRUE,162,99
+"sle_blood","UCell","sctransform","jak_stat","classical monocyte",9.754392456689e-07,0.590534167670465,0.265868704269221,0.260307728447263,"UP","UP",TRUE,162,99
+"sle_blood","UCell","sctransform","jak_stat","CD8-positive, alpha-beta T cell",1.41184075241886e-09,0.836665593080297,0.207596951426409,0.20004454694941,"UP","UP",TRUE,162,99
+"sle_blood","UCell","sctransform","jak_stat","B cell",0.875357153581326,0.0286865078926914,0.191173814878155,0.191045593354261,"UP","UP",TRUE,157,99
+"sle_blood","UCell","sctransform","jak_stat","natural killer cell",0.00021115749359801,0.501177117904471,0.206011120962059,0.202003048999727,"UP","UP",TRUE,155,98
+"sle_blood","UCell","sctransform","jak_stat","non-classical monocyte",6.1271283010074e-09,0.787556614972382,0.225233460362775,0.217008725470965,"UP","UP",TRUE,157,97
+"sle_blood","UCell","sctransform","jak_stat","conventional dendritic cell",0.0423797379062654,0.277674562658793,0.227156611698379,0.22419173233391,"UP","UP",TRUE,125,88
+"sle_blood","UCell","sctransform","jak_stat","lymphocyte",0.0490431098771299,0.669843187963086,0.194382282917167,0.189582364341085,"UP","UP",TRUE,74,16
+"sle_blood","UCell","sctransform","jak_stat","plasmacytoid dendritic cell",0.980717672651532,0.0603756134091964,0.190732013581908,0.190532350532351,"UP","UP",TRUE,11,37
+"sle_blood","UCell","sctransform","nfkb_signaling","CD4-positive, alpha-beta T cell",0.00359125236249178,-0.334723914205796,0.0256778692272519,0.0279869060980172,"UP","DOWN",FALSE,162,99
+"sle_blood","UCell","sctransform","nfkb_signaling","classical monocyte",8.20498777416293e-15,1.0553075032589,0.0342813595488493,0.0245060481356778,"UP","UP",TRUE,162,99
+"sle_blood","UCell","sctransform","nfkb_signaling","CD8-positive, alpha-beta T cell",3.16299451627025e-05,0.592695470187811,0.0309441396128639,0.0249716922309515,"UP","UP",TRUE,162,99
+"sle_blood","UCell","sctransform","nfkb_signaling","B cell",0.055352587189233,-0.342457169534902,0.0303411968231501,0.0349195660306771,"UP","DOWN",FALSE,157,99
+"sle_blood","UCell","sctransform","nfkb_signaling","natural killer cell",0.0102303787806616,0.333627798951884,0.0333851055356432,0.0303654572940287,"UP","UP",TRUE,155,98
+"sle_blood","UCell","sctransform","nfkb_signaling","non-classical monocyte",0.000291160832851861,0.508503782952405,0.0250747817881576,0.0213603156421026,"UP","UP",TRUE,157,97
+"sle_blood","UCell","sctransform","nfkb_signaling","conventional dendritic cell",1.2230927097212e-06,0.559260246074088,0.025750024691358,0.0219500561167228,"UP","UP",TRUE,125,88
+"sle_blood","UCell","sctransform","nfkb_signaling","lymphocyte",0.000356235382710704,0.893624505385169,0.0384274274274274,0.0205470679012346,"UP","UP",TRUE,74,16
+"sle_blood","UCell","sctransform","nfkb_signaling","plasmacytoid dendritic cell",0.854025954079928,-0.0372318436318506,0.0308843995510662,0.0311074407741074,"UP","DOWN",FALSE,11,37
+"sle_blood","UCell","sctransform","toll_like_receptor","CD4-positive, alpha-beta T cell",6.39836755420729e-20,1.42673081339418,0.0874446865165819,0.0760298276886512,"UP","UP",TRUE,162,99
+"sle_blood","UCell","sctransform","toll_like_receptor","classical monocyte",1.27680244850597e-12,0.960988456684177,0.20613660130719,0.194178688849277,"UP","UP",TRUE,162,99
+"sle_blood","UCell","sctransform","toll_like_receptor","CD8-positive, alpha-beta T cell",7.98491194396583e-19,1.34176627774373,0.0881281771968046,0.0776433353139235,"UP","UP",TRUE,162,99
+"sle_blood","UCell","sctransform","toll_like_receptor","B cell",0.00144413682007825,0.491396615396399,0.115324091420007,0.110367637155872,"UP","UP",TRUE,157,99
+"sle_blood","UCell","sctransform","toll_like_receptor","natural killer cell",6.95692120641694e-05,0.533977804165354,0.0963378368121442,0.0912794717887155,"UP","UP",TRUE,155,98
+"sle_blood","UCell","sctransform","toll_like_receptor","non-classical monocyte",2.11187773148251e-07,0.705277243792447,0.155353815411515,0.143748130179907,"UP","UP",TRUE,157,97
+"sle_blood","UCell","sctransform","toll_like_receptor","conventional dendritic cell",0.641045215548914,0.104455257113879,0.134095717647059,0.132407352941176,"UP","UP",TRUE,125,88
+"sle_blood","UCell","sctransform","toll_like_receptor","lymphocyte",0.22690537212201,0.313953279980743,0.0814227344992051,0.0791857843137255,"UP","UP",TRUE,74,16
+"sle_blood","UCell","sctransform","toll_like_receptor","plasmacytoid dendritic cell",0.395943505624769,0.242945041853278,0.127768270944742,0.125051510333863,"UP","UP",TRUE,11,37

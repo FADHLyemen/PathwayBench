@@ -1,0 +1,121 @@
+"dataset","method","normalization","pathway","cell_type","p_value","cohens_d","mean_disease","mean_control","expected_direction","observed_direction","direction_correct","n_disease","n_control"
+"ad_brain","ssGSEA","log2CPM","nfkb_signaling","neuron",0.0649572649572649,1.17302939123261,2.59820683629874,2.51954279104336,"UP","UP",TRUE,8,8
+"ad_brain","ssGSEA","log2CPM","nfkb_signaling","inhibitory interneuron",0.234498834498834,0.702465424175879,2.57730893817724,2.52899369152196,"UP","UP",TRUE,8,8
+"ad_brain","ssGSEA","log2CPM","toll_like_receptor","neuron",0.160528360528361,0.584996824337514,2.16251991969718,2.15119486047569,"UP","UP",TRUE,8,8
+"ad_brain","ssGSEA","log2CPM","toll_like_receptor","inhibitory interneuron",0.573737373737374,0.31096025026175,2.18889921084781,2.18396222105801,"UP","UP",TRUE,8,8
+"ad_brain","ssGSEA","log2CPM","oxidative_stress","neuron",0.082983682983683,1.11091775677845,1.89231827237039,1.82904793343955,"UP","UP",TRUE,8,8
+"ad_brain","ssGSEA","log2CPM","oxidative_stress","inhibitory interneuron",0.441802641802642,0.476704585497238,1.92620945441796,1.89353154488523,"UP","UP",TRUE,8,8
+"ad_brain","ssGSEA","voom","nfkb_signaling","neuron",0.0649572649572649,1.14686320115062,0.682843282505112,0.556890587822669,"UP","UP",TRUE,8,8
+"ad_brain","ssGSEA","voom","nfkb_signaling","inhibitory interneuron",0.234498834498834,0.686334798075897,0.632548158413724,0.555151807396528,"UP","UP",TRUE,8,8
+"ad_brain","ssGSEA","voom","toll_like_receptor","neuron",0.104895104895105,0.964434485602661,0.434619982262031,0.413987273992654,"UP","UP",TRUE,8,8
+"ad_brain","ssGSEA","voom","toll_like_receptor","inhibitory interneuron",0.720901320901321,-0.306059363687568,0.399658933040294,0.405645032869865,"UP","DOWN",FALSE,8,8
+"ad_brain","ssGSEA","voom","oxidative_stress","neuron",0.082983682983683,1.10951435265441,0.413593825649472,0.25359223878813,"UP","UP",TRUE,8,8
+"ad_brain","ssGSEA","voom","oxidative_stress","inhibitory interneuron",0.278632478632479,0.636079296662934,0.360434816599953,0.263269404897713,"UP","UP",TRUE,8,8
+"ad_brain","ssGSEA","scran","nfkb_signaling","neuron",0.0649572649572649,1.14686320115062,0.682843282505112,0.556890587822669,"UP","UP",TRUE,8,8
+"ad_brain","ssGSEA","scran","nfkb_signaling","inhibitory interneuron",0.234498834498834,0.686334798075897,0.632548158413724,0.555151807396528,"UP","UP",TRUE,8,8
+"ad_brain","ssGSEA","scran","toll_like_receptor","neuron",0.104895104895105,0.964434485602661,0.434619982262031,0.413987273992654,"UP","UP",TRUE,8,8
+"ad_brain","ssGSEA","scran","toll_like_receptor","inhibitory interneuron",0.720901320901321,-0.306059363687568,0.399658933040294,0.405645032869865,"UP","DOWN",FALSE,8,8
+"ad_brain","ssGSEA","scran","oxidative_stress","neuron",0.082983682983683,1.10951435265441,0.413593825649472,0.25359223878813,"UP","UP",TRUE,8,8
+"ad_brain","ssGSEA","scran","oxidative_stress","inhibitory interneuron",0.278632478632479,0.636079296662934,0.360434816599953,0.263269404897713,"UP","UP",TRUE,8,8
+"ad_brain","ssGSEA","sctransform","nfkb_signaling","neuron",0.0379176379176379,1.49591554045514,0.469259768313632,0.0953159405826703,"UP","UP",TRUE,8,8
+"ad_brain","ssGSEA","sctransform","nfkb_signaling","inhibitory interneuron",0.645376845376845,0.184573993583218,0.135306091087447,0.0784248655942731,"UP","UP",TRUE,8,8
+"ad_brain","ssGSEA","sctransform","toll_like_receptor","neuron",0.0379176379176379,1.16996141657162,0.257880455258909,0.148174572462829,"UP","UP",TRUE,8,8
+"ad_brain","ssGSEA","sctransform","toll_like_receptor","inhibitory interneuron",1,0.00122705076061435,0.177892165666783,0.177755459812099,"UP","UP",TRUE,8,8
+"ad_brain","ssGSEA","sctransform","oxidative_stress","neuron",0.0649572649572649,1.2673499396106,0.363930113710957,0.169994685813514,"UP","UP",TRUE,8,8
+"ad_brain","ssGSEA","sctransform","oxidative_stress","inhibitory interneuron",0.878477078477078,0.104683082375394,0.151588112744515,0.126324173053901,"UP","UP",TRUE,8,8
+"ad_brain","GSVA","log2CPM","nfkb_signaling","neuron",0.104895104895105,0.968268609615769,0.155556925597006,-0.175312785290694,"UP","UP",TRUE,8,8
+"ad_brain","GSVA","log2CPM","nfkb_signaling","inhibitory interneuron",0.573737373737374,0.314876411983172,0.0127862343718121,-0.0924714494363906,"UP","UP",TRUE,8,8
+"ad_brain","GSVA","log2CPM","toll_like_receptor","neuron",0.278632478632479,0.292484789140392,-0.01785926811485,-0.057357435566593,"UP","UP",TRUE,8,8
+"ad_brain","GSVA","log2CPM","toll_like_receptor","inhibitory interneuron",0.878477078477078,-0.196444795256828,-0.0276408635039767,-0.0049804075360126,"UP","DOWN",FALSE,8,8
+"ad_brain","GSVA","log2CPM","oxidative_stress","neuron",0.082983682983683,1.02712966857167,0.0961560204379316,-0.17900541470717,"UP","UP",TRUE,8,8
+"ad_brain","GSVA","log2CPM","oxidative_stress","inhibitory interneuron",0.573737373737374,0.223895672470093,0.0200320452280202,-0.049187767707091,"UP","UP",TRUE,8,8
+"ad_brain","GSVA","voom","nfkb_signaling","neuron",0.082983682983683,0.973913935261941,0.221403133729529,-0.087781227930187,"UP","UP",TRUE,8,8
+"ad_brain","GSVA","voom","nfkb_signaling","inhibitory interneuron",0.505361305361305,0.198241424587536,-0.0721214106963002,-0.133922255991073,"UP","UP",TRUE,8,8
+"ad_brain","GSVA","voom","toll_like_receptor","neuron",0.798445998445998,0.0891085105654725,0.0373115238075003,0.025015435951272,"UP","UP",TRUE,8,8
+"ad_brain","GSVA","voom","toll_like_receptor","inhibitory interneuron",0.13038073038073,-0.690760700479394,-0.105898046913362,-0.00853143172519704,"UP","DOWN",FALSE,8,8
+"ad_brain","GSVA","voom","oxidative_stress","neuron",0.104895104895105,0.97668316726537,0.147507442627292,-0.166603509063327,"UP","UP",TRUE,8,8
+"ad_brain","GSVA","voom","oxidative_stress","inhibitory interneuron",0.645376845376845,0.0394680850078235,-0.0226365542529358,-0.0365588009002384,"UP","UP",TRUE,8,8
+"ad_brain","GSVA","scran","nfkb_signaling","neuron",0.082983682983683,0.982006157949575,0.214804074639093,-0.0981845195619502,"UP","UP",TRUE,8,8
+"ad_brain","GSVA","scran","nfkb_signaling","inhibitory interneuron",0.441802641802642,0.233417191161594,-0.0530277479332195,-0.126119028374418,"UP","UP",TRUE,8,8
+"ad_brain","GSVA","scran","toll_like_receptor","neuron",0.720901320901321,0.0954237241743549,0.0328359809830723,0.0196296330591731,"UP","UP",TRUE,8,8
+"ad_brain","GSVA","scran","toll_like_receptor","inhibitory interneuron",0.13038073038073,-0.697009813449969,-0.0985735880975154,-0.00173462387268199,"UP","DOWN",FALSE,8,8
+"ad_brain","GSVA","scran","oxidative_stress","neuron",0.104895104895105,0.978604049721997,0.142982365922121,-0.177479081379392,"UP","UP",TRUE,8,8
+"ad_brain","GSVA","scran","oxidative_stress","inhibitory interneuron",0.573737373737374,0.0673117519860711,-0.0100336458593702,-0.033855914450859,"UP","UP",TRUE,8,8
+"ad_brain","GSVA","sctransform","nfkb_signaling","neuron",0.0649572649572649,1.05521007520308,0.223756844359339,-0.126463815164997,"UP","UP",TRUE,8,8
+"ad_brain","GSVA","sctransform","nfkb_signaling","inhibitory interneuron",0.645376845376845,0.115002521372515,-0.0749262081910935,-0.113716845895169,"UP","UP",TRUE,8,8
+"ad_brain","GSVA","sctransform","toll_like_receptor","neuron",0.234498834498834,0.354000992429815,0.000786830953965752,-0.0479655868984455,"UP","UP",TRUE,8,8
+"ad_brain","GSVA","sctransform","toll_like_receptor","inhibitory interneuron",0.878477078477078,0.00668298086655662,0.00398105743132072,0.00313166269352734,"UP","UP",TRUE,8,8
+"ad_brain","GSVA","sctransform","oxidative_stress","neuron",0.104895104895105,1.19948750235131,0.237295874232251,-0.0752165623687135,"UP","UP",TRUE,8,8
+"ad_brain","GSVA","sctransform","oxidative_stress","inhibitory interneuron",0.798445998445998,0.0957947039648531,-0.0557260245498674,-0.0860251717467921,"UP","UP",TRUE,8,8
+"ad_brain","zscore","log2CPM","nfkb_signaling","neuron",0.0498834498834499,1.01021507427136,0.31685509537149,-0.171250471243646,"UP","UP",TRUE,8,8
+"ad_brain","zscore","log2CPM","nfkb_signaling","inhibitory interneuron",0.798445998445998,0.396965470230136,0.0286786321041335,-0.174283256231978,"UP","UP",TRUE,8,8
+"ad_brain","zscore","log2CPM","toll_like_receptor","neuron",0.234498834498834,0.703352228273201,0.102068939397659,-0.0327765177353046,"UP","UP",TRUE,8,8
+"ad_brain","zscore","log2CPM","toll_like_receptor","inhibitory interneuron",0.720901320901321,0.0920798740676831,-0.0244759360973705,-0.0448164855649843,"UP","UP",TRUE,8,8
+"ad_brain","zscore","log2CPM","oxidative_stress","neuron",0.0206682206682207,1.04308966753884,0.171722876013176,-0.162794591941291,"UP","UP",TRUE,8,8
+"ad_brain","zscore","log2CPM","oxidative_stress","inhibitory interneuron",0.720901320901321,0.301585091764092,0.05791998252669,-0.0668482665985755,"UP","UP",TRUE,8,8
+"ad_brain","zscore","voom","nfkb_signaling","neuron",0.104895104895105,0.871143845744334,0.279153901268959,-0.119559794607561,"UP","UP",TRUE,8,8
+"ad_brain","zscore","voom","nfkb_signaling","inhibitory interneuron",0.382284382284382,0.340381093649224,-0.0106114179810568,-0.148982688680341,"UP","UP",TRUE,8,8
+"ad_brain","zscore","voom","toll_like_receptor","neuron",0.720901320901321,0.121488799411504,0.0476760736362199,0.0292182909157978,"UP","UP",TRUE,8,8
+"ad_brain","zscore","voom","toll_like_receptor","inhibitory interneuron",0.234498834498834,-0.700269171804977,-0.0906670964220937,0.0137727318700762,"UP","DOWN",FALSE,8,8
+"ad_brain","zscore","voom","oxidative_stress","neuron",0.082983682983683,0.847453709860273,0.209610085810795,-0.182847506488253,"UP","UP",TRUE,8,8
+"ad_brain","zscore","voom","oxidative_stress","inhibitory interneuron",0.573737373737374,0.146486654559199,0.0217909454836717,-0.0485535248062132,"UP","UP",TRUE,8,8
+"ad_brain","zscore","scran","nfkb_signaling","neuron",0.104895104895105,0.870745706035521,0.284809592640213,-0.112727964600584,"UP","UP",TRUE,8,8
+"ad_brain","zscore","scran","nfkb_signaling","inhibitory interneuron",0.382284382284382,0.331470317387723,-0.0186696936985531,-0.153411934341076,"UP","UP",TRUE,8,8
+"ad_brain","zscore","scran","toll_like_receptor","neuron",0.959129759129759,0.0919996377056767,0.0604555790266063,0.0465575947824106,"UP","UP",TRUE,8,8
+"ad_brain","zscore","scran","toll_like_receptor","inhibitory interneuron",0.234498834498834,-0.701719219537201,-0.112112845986031,0.00509967217701373,"UP","DOWN",FALSE,8,8
+"ad_brain","zscore","scran","oxidative_stress","neuron",0.082983682983683,0.847210240678599,0.223070694371774,-0.169995119231106,"UP","UP",TRUE,8,8
+"ad_brain","zscore","scran","oxidative_stress","inhibitory interneuron",0.645376845376845,0.125636777138419,0.00369161568432988,-0.056767190824996,"UP","UP",TRUE,8,8
+"ad_brain","zscore","sctransform","nfkb_signaling","neuron",0.082983682983683,1.00001216509606,0.353663176825421,-0.137448881086491,"UP","UP",TRUE,8,8
+"ad_brain","zscore","sctransform","nfkb_signaling","inhibitory interneuron",0.878477078477078,0.363751083245414,-0.0140401879576627,-0.202174107781267,"UP","UP",TRUE,8,8
+"ad_brain","zscore","sctransform","toll_like_receptor","neuron",0.160528360528361,0.683365635897638,0.0861589084980725,-0.0576798603756524,"UP","UP",TRUE,8,8
+"ad_brain","zscore","sctransform","toll_like_receptor","inhibitory interneuron",0.645376845376845,0.133972387749944,0.00127566942537545,-0.0297547175477955,"UP","UP",TRUE,8,8
+"ad_brain","zscore","sctransform","oxidative_stress","neuron",0.0379176379176379,1.01451856336269,0.233153835790664,-0.102267789871625,"UP","UP",TRUE,8,8
+"ad_brain","zscore","sctransform","oxidative_stress","inhibitory interneuron",0.720901320901321,0.272485830381063,-0.00759366982235109,-0.123292376096688,"UP","UP",TRUE,8,8
+"ad_brain","AUCell","log2CPM","nfkb_signaling","neuron",0.0498834498834499,1.153157039652,0.103582930756844,0.0816698568954516,"UP","UP",TRUE,8,8
+"ad_brain","AUCell","log2CPM","nfkb_signaling","inhibitory interneuron",0.160528360528361,0.646057262198727,0.100082794032753,0.0879310606751132,"UP","UP",TRUE,8,8
+"ad_brain","AUCell","log2CPM","toll_like_receptor","neuron",0.0104118104118104,1.77209184921771,0.127464508131401,0.114974223507767,"UP","UP",TRUE,8,8
+"ad_brain","AUCell","log2CPM","toll_like_receptor","inhibitory interneuron",0.505361305361305,0.30464297786424,0.112686067904332,0.110427919286129,"UP","UP",TRUE,8,8
+"ad_brain","AUCell","log2CPM","oxidative_stress","neuron",0.082896409882224,0.622121289937129,0.0333471151124947,0.0195008490165558,"UP","UP",TRUE,8,8
+"ad_brain","AUCell","log2CPM","oxidative_stress","inhibitory interneuron",0.430557887644654,0.28092596543059,0.0400994499080232,0.0316070733691807,"UP","UP",TRUE,8,8
+"ad_brain","AUCell","voom","nfkb_signaling","neuron",0.0206682206682207,0.636402160418676,0.0247951000751116,0.0201779481288384,"UP","UP",TRUE,8,8
+"ad_brain","AUCell","voom","nfkb_signaling","inhibitory interneuron",0.082983682983683,-0.422974427867408,0.010126253700349,0.0136360623867804,"UP","DOWN",FALSE,8,8
+"ad_brain","AUCell","voom","toll_like_receptor","neuron",0.0498834498834499,1.10349334282025,0.0481213834356917,0.0415760676630338,"UP","UP",TRUE,8,8
+"ad_brain","AUCell","voom","toll_like_receptor","inhibitory interneuron",0.0379176379176379,0.50562295661438,0.0488058681529341,0.0459226010863005,"UP","UP",TRUE,8,8
+"ad_brain","AUCell","voom","oxidative_stress","neuron",1,0.398284843775647,0.00171947924342913,0.000325472856791943,"UP","UP",TRUE,8,8
+"ad_brain","AUCell","voom","oxidative_stress","inhibitory interneuron",1,-0.219015710833384,0.00264676983542127,0.00426185212478507,"UP","DOWN",FALSE,8,8
+"ad_brain","AUCell","scran","nfkb_signaling","neuron",0.0206682206682207,0.636624817300507,0.0247951000751116,0.0201779481288384,"UP","UP",TRUE,8,8
+"ad_brain","AUCell","scran","nfkb_signaling","inhibitory interneuron",0.082983682983683,-0.423520731405284,0.0101207307913224,0.013641585295807,"UP","DOWN",FALSE,8,8
+"ad_brain","AUCell","scran","toll_like_receptor","neuron",0.0498834498834499,1.10275041394726,0.0481191646845823,0.0415782864141432,"UP","UP",TRUE,8,8
+"ad_brain","AUCell","scran","toll_like_receptor","inhibitory interneuron",0.0379176379176379,0.504195501602237,0.0488103056551528,0.0459359135929568,"UP","UP",TRUE,8,8
+"ad_brain","AUCell","scran","oxidative_stress","neuron",1,0.398284843775647,0.00171947924342913,0.000325472856791943,"UP","UP",TRUE,8,8
+"ad_brain","AUCell","scran","oxidative_stress","inhibitory interneuron",1,-0.219015710833384,0.00264676983542127,0.00426185212478507,"UP","DOWN",FALSE,8,8
+"ad_brain","AUCell","sctransform","nfkb_signaling","neuron",0.0649572649572649,0.783209054584569,0.147854950931243,0.0737474554127548,"UP","UP",TRUE,8,8
+"ad_brain","AUCell","sctransform","nfkb_signaling","inhibitory interneuron",0.959129759129759,-0.066721213585895,0.0571795339227661,0.063702032631483,"UP","DOWN",FALSE,8,8
+"ad_brain","AUCell","sctransform","toll_like_receptor","neuron",0.0498834498834499,1.11168374497198,0.0712609328728983,0.0491765296183702,"UP","UP",TRUE,8,8
+"ad_brain","AUCell","sctransform","toll_like_receptor","inhibitory interneuron",0.798445998445998,-0.162216073960585,0.0460902373995258,0.049194730576626,"UP","DOWN",FALSE,8,8
+"ad_brain","AUCell","sctransform","oxidative_stress","neuron",0.104895104895105,0.766402683405006,0.134154565232772,0.0758487954577614,"UP","UP",TRUE,8,8
+"ad_brain","AUCell","sctransform","oxidative_stress","inhibitory interneuron",0.959129759129759,-0.0721300723701749,0.0780022905759162,0.0831737742323475,"UP","DOWN",FALSE,8,8
+"ad_brain","UCell","log2CPM","nfkb_signaling","neuron",0.0206682206682207,1.13645682182746,0.0568163580246914,0.0454513888888889,"UP","UP",TRUE,8,8
+"ad_brain","UCell","log2CPM","nfkb_signaling","inhibitory interneuron",0.13038073038073,0.425735755400371,0.0486527777777778,0.0436180555555555,"UP","UP",TRUE,8,8
+"ad_brain","UCell","log2CPM","toll_like_receptor","neuron",0.0104118104118104,1.51159374980623,0.117016176470588,0.109776960784314,"UP","UP",TRUE,8,8
+"ad_brain","UCell","log2CPM","toll_like_receptor","inhibitory interneuron",0.0379176379176379,0.891270080564352,0.114477205882353,0.109567401960784,"UP","UP",TRUE,8,8
+"ad_brain","UCell","log2CPM","oxidative_stress","neuron",0.325270979974212,0.331016766054257,0.020204954954955,0.0172759009009009,"UP","UP",TRUE,8,8
+"ad_brain","UCell","log2CPM","oxidative_stress","inhibitory interneuron",0.48837084853161,0.150373245853849,0.025286036036036,0.0229042792792793,"UP","UP",TRUE,8,8
+"ad_brain","UCell","voom","nfkb_signaling","neuron",0.0206682206682207,1.13645682182747,0.0576298076923077,0.0458277243589744,"UP","UP",TRUE,8,8
+"ad_brain","UCell","voom","nfkb_signaling","inhibitory interneuron",0.13038073038073,0.425735755400369,0.0491522435897436,0.0439238782051282,"UP","UP",TRUE,8,8
+"ad_brain","UCell","voom","toll_like_receptor","neuron",0.0104118104118104,1.51159374980623,0.120686887254902,0.111637867647059,"UP","UP",TRUE,8,8
+"ad_brain","UCell","voom","toll_like_receptor","inhibitory interneuron",0.0379176379176379,0.891270080564357,0.117513174019608,0.111375919117647,"UP","UP",TRUE,8,8
+"ad_brain","UCell","voom","oxidative_stress","neuron",0.325270979974212,0.331016766054256,0.0201268115942029,0.0154148550724638,"UP","UP",TRUE,8,8
+"ad_brain","UCell","voom","oxidative_stress","inhibitory interneuron",0.48837084853161,0.150373245853849,0.0283007246376812,0.0244692028985507,"UP","UP",TRUE,8,8
+"ad_brain","UCell","scran","nfkb_signaling","neuron",0.0206682206682207,1.13645682182747,0.0576298076923077,0.0458277243589744,"UP","UP",TRUE,8,8
+"ad_brain","UCell","scran","nfkb_signaling","inhibitory interneuron",0.13038073038073,0.425735755400369,0.0491522435897436,0.0439238782051282,"UP","UP",TRUE,8,8
+"ad_brain","UCell","scran","toll_like_receptor","neuron",0.0104118104118104,1.51159374980623,0.120686887254902,0.111637867647059,"UP","UP",TRUE,8,8
+"ad_brain","UCell","scran","toll_like_receptor","inhibitory interneuron",0.0379176379176379,0.891270080564357,0.117513174019608,0.111375919117647,"UP","UP",TRUE,8,8
+"ad_brain","UCell","scran","oxidative_stress","neuron",0.325270979974212,0.331016766054256,0.0201268115942029,0.0154148550724638,"UP","UP",TRUE,8,8
+"ad_brain","UCell","scran","oxidative_stress","inhibitory interneuron",0.48837084853161,0.150373245853849,0.0283007246376812,0.0244692028985507,"UP","UP",TRUE,8,8
+"ad_brain","UCell","sctransform","nfkb_signaling","neuron",0.0808578101401583,0.600258674269182,0.089483024691358,0.0551898148148148,"UP","UP",TRUE,8,8
+"ad_brain","UCell","sctransform","nfkb_signaling","inhibitory interneuron",1,-0.0187537205242566,0.0463595679012345,0.0475200617283951,"UP","DOWN",FALSE,8,8
+"ad_brain","UCell","sctransform","toll_like_receptor","neuron",0.0498834498834499,0.779557234857296,0.0898367647058824,0.0807539215686275,"UP","UP",TRUE,8,8
+"ad_brain","UCell","sctransform","toll_like_receptor","inhibitory interneuron",0.382284382284382,-0.502721756542772,0.0750617647058824,0.0806210784313726,"UP","DOWN",FALSE,8,8
+"ad_brain","UCell","sctransform","oxidative_stress","neuron",0.103307970131365,0.587036453431469,0.09125,0.0580653153153153,"UP","UP",TRUE,8,8
+"ad_brain","UCell","sctransform","oxidative_stress","inhibitory interneuron",0.441802641802642,0.0621306593611362,0.0615563063063063,0.0581531531531532,"UP","UP",TRUE,8,8

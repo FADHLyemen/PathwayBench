@@ -8,12 +8,12 @@ import os
 from itertools import product
 
 # -- Load configs --
-configfile: "config/config.yaml"
+configfile: "config_v2/config.yaml"
 
 with open("config_v2/datasets.yaml") as f:
     datasets_config = yaml.safe_load(f)
 
-with open("config/pathways.yaml") as f:
+with open("config_v2/ground_truth_pathways_corrected.yaml") as f:
     pathways_config = yaml.safe_load(f)
 
 # -- Variables --
@@ -79,7 +79,7 @@ rule download_pathways:
     shell:
         """
         python workflow/scripts/01b_download_pathways.py \
-            --pathway-config config/pathways.yaml \
+            --pathway-config config_v2/pathway_definitions.yaml \
             --output-dir data/pathways \
             2>&1 | tee {log}
         """
@@ -108,7 +108,7 @@ rule generate_pseudobulk:
             --input {input.h5ad} \
             --dataset-id {params.dataset_id} \
             --output-dir data/pseudobulk \
-            --config config/config.yaml \
+            --config config_v2/config.yaml \
             --datasets-config config_v2/datasets.yaml \
             2>&1 | tee {log}
         """
@@ -138,7 +138,7 @@ rule run_scoring:
             --dataset-id {params.dataset_id} \
             --gmt {input.gmt} \
             --output-dir results/scores \
-            --config config/config.yaml \
+            --config config_v2/config.yaml \
             --methods {params.methods} \
             --threads {threads} \
             2>&1 | tee {log}
@@ -169,8 +169,8 @@ rule evaluate_criteria:
             --dataset-id {params.dataset_id} \
             --scores-dir results/scores \
             --pseudobulk-dir data/pseudobulk \
-            --pathway-config config/pathways.yaml \
-            --config config/config.yaml \
+            --pathway-config config_v2/ground_truth_pathways_corrected.yaml \
+            --config config_v2/config.yaml \
             --output-dir results/evaluation \
             --gmt data/pathways/pathwaybench_genesets.gmt \
             2>&1 | tee {log}
@@ -194,7 +194,7 @@ rule generate_figures:
         Rscript workflow/scripts/05_generate_figures.R \
             --eval-dir results/evaluation \
             --output-dir results/figures \
-            --config config/config.yaml \
+            --config config_v2/config.yaml \
             2>&1 | tee {log}
         """
 

@@ -1,0 +1,1121 @@
+"dataset","method","normalization","pathway","cell_type","p_value","cohens_d","mean_disease","mean_control","expected_direction","observed_direction","direction_correct","n_disease","n_control"
+"covid_blood","ssGSEA","log2CPM","interferon_signaling","classical monocyte",0.00946568947602387,-0.904639994274591,2.17535938152756,2.19170287467494,"UP","DOWN",FALSE,17,21
+"covid_blood","ssGSEA","log2CPM","interferon_signaling","central memory CD4-positive, alpha-beta T cell",0.0503525626580498,-0.569954572489794,2.13888326217156,2.15029786526702,"UP","DOWN",FALSE,16,18
+"covid_blood","ssGSEA","log2CPM","interferon_signaling","naive B cell",0.732960117685518,0.268335143655168,2.15110364908159,2.1459391862141,"UP","UP",TRUE,11,13
+"covid_blood","ssGSEA","log2CPM","interferon_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.0236930117936983,-0.936158956583038,2.11881171984502,2.13840803390976,"UP","DOWN",FALSE,15,11
+"covid_blood","ssGSEA","log2CPM","interferon_signaling","effector memory CD8-positive, alpha-beta T cell",0.411354930203263,0.37828252773839,2.16434148757716,2.15801938646022,"UP","UP",TRUE,17,15
+"covid_blood","ssGSEA","log2CPM","interferon_signaling","mucosal invariant T cell",0.0973193473193473,0.977808702405245,2.14773659741012,2.12652983110205,"UP","UP",TRUE,7,7
+"covid_blood","ssGSEA","log2CPM","interferon_signaling","natural killer cell",0.215439773939238,0.486910298684844,2.16099731529716,2.15120074595444,"UP","UP",TRUE,18,15
+"covid_blood","ssGSEA","log2CPM","interferon_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.035964035964036,-0.824814422676929,2.12284755425828,2.1371950920869,"UP","DOWN",FALSE,9,6
+"covid_blood","ssGSEA","log2CPM","interferon_signaling","non-classical monocyte",0.0151782250732775,1.0391123826658,2.19581618103507,2.17822626840166,"UP","UP",TRUE,9,20
+"covid_blood","ssGSEA","log2CPM","interferon_signaling","memory B cell",0.221052631578947,1.0335011989008,2.17722087216563,2.15267839029721,"UP","UP",TRUE,3,18
+"covid_blood","ssGSEA","log2CPM","interferon_signaling","transitional stage B cell",0.0548951048951049,1.04605427614753,2.16815749544857,2.14891665470249,"UP","UP",TRUE,7,9
+"covid_blood","ssGSEA","log2CPM","interferon_signaling","gamma-delta T cell",0.177489177489177,1.28410157551484,2.16767361646183,2.13162386960117,"UP","UP",TRUE,6,5
+"covid_blood","ssGSEA","log2CPM","interferon_signaling","conventional dendritic cell",0.2,1.56992034910115,2.20971852111238,2.18295780819955,"UP","UP",TRUE,3,2
+"covid_blood","ssGSEA","log2CPM","interferon_signaling","regulatory T cell",0.11492673992674,-0.575898809692069,2.15825323422309,2.16572684766945,"UP","DOWN",FALSE,11,5
+"covid_blood","ssGSEA","log2CPM","jak_stat","classical monocyte",0.467491147879477,0.0292836163707661,2.14574081306372,2.14533819978067,"UP","UP",TRUE,17,21
+"covid_blood","ssGSEA","log2CPM","jak_stat","central memory CD4-positive, alpha-beta T cell",2.44741125074952e-06,-2.21486301255777,2.07205183375404,2.10723173895219,"UP","DOWN",FALSE,16,18
+"covid_blood","ssGSEA","log2CPM","jak_stat","naive B cell",0.00482744585248287,-1.33829542283725,2.07072667183775,2.08770956665824,"UP","DOWN",FALSE,11,13
+"covid_blood","ssGSEA","log2CPM","jak_stat","naive thymus-derived CD4-positive, alpha-beta T cell",0.00103803182952463,-1.69053107828955,2.04694793866175,2.08475481670741,"UP","DOWN",FALSE,15,11
+"covid_blood","ssGSEA","log2CPM","jak_stat","effector memory CD8-positive, alpha-beta T cell",0.000346827152354779,-1.39085801003776,2.08529204975908,2.10511922494726,"UP","DOWN",FALSE,17,15
+"covid_blood","ssGSEA","log2CPM","jak_stat","mucosal invariant T cell",0.71037296037296,-0.289938435933118,2.10515804811662,2.10871178724359,"UP","DOWN",FALSE,7,7
+"covid_blood","ssGSEA","log2CPM","jak_stat","natural killer cell",0.000134081747519511,-1.55967643473992,2.09044009601479,2.11133881576213,"UP","DOWN",FALSE,18,15
+"covid_blood","ssGSEA","log2CPM","jak_stat","naive thymus-derived CD8-positive, alpha-beta T cell",0.181018981018981,-0.968784601632468,2.05959923669834,2.07878381184956,"UP","DOWN",FALSE,9,6
+"covid_blood","ssGSEA","log2CPM","jak_stat","non-classical monocyte",0.835146063331971,0.193485910024088,2.12866862702378,2.12626247391612,"UP","UP",TRUE,9,20
+"covid_blood","ssGSEA","log2CPM","jak_stat","memory B cell",0.306766917293233,-0.964604449330087,2.09035913709572,2.10035256838101,"UP","DOWN",FALSE,3,18
+"covid_blood","ssGSEA","log2CPM","jak_stat","transitional stage B cell",0.141608391608392,-0.807281528421361,2.08268623496002,2.09392452721011,"UP","DOWN",FALSE,7,9
+"covid_blood","ssGSEA","log2CPM","jak_stat","gamma-delta T cell",0.930735930735931,0.20646254347584,2.09049293579471,2.08774751800046,"UP","UP",TRUE,6,5
+"covid_blood","ssGSEA","log2CPM","jak_stat","conventional dendritic cell",1,0.236036631374435,2.13838033831826,2.13518736670808,"UP","UP",TRUE,3,2
+"covid_blood","ssGSEA","log2CPM","jak_stat","regulatory T cell",0.0686813186813187,-1.04695205468777,2.08792404841506,2.10094513803649,"UP","DOWN",FALSE,11,5
+"covid_blood","ssGSEA","log2CPM","nfkb_signaling","classical monocyte",1.2481783480834e-06,2.01357615860208,2.50902859560801,2.46802869954266,"UP","UP",TRUE,17,21
+"covid_blood","ssGSEA","log2CPM","nfkb_signaling","central memory CD4-positive, alpha-beta T cell",6.49820809250732e-05,1.37983032328447,2.5181688067927,2.47421199914603,"UP","UP",TRUE,16,18
+"covid_blood","ssGSEA","log2CPM","nfkb_signaling","naive B cell",0.167410213513323,0.787597082867108,2.49370611255217,2.46053342874906,"UP","UP",TRUE,11,13
+"covid_blood","ssGSEA","log2CPM","nfkb_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.0687368628141276,0.880997027439189,2.49251521191301,2.46990748665527,"UP","UP",TRUE,15,11
+"covid_blood","ssGSEA","log2CPM","nfkb_signaling","effector memory CD8-positive, alpha-beta T cell",0.000413531208362995,1.64474742890441,2.52034821734589,2.47932907335219,"UP","UP",TRUE,17,15
+"covid_blood","ssGSEA","log2CPM","nfkb_signaling","mucosal invariant T cell",0.0973193473193473,1.31034252116669,2.51077368459405,2.44204350350842,"UP","UP",TRUE,7,7
+"covid_blood","ssGSEA","log2CPM","nfkb_signaling","natural killer cell",0.000274671662470972,1.49467412944078,2.52763866767237,2.49430040954232,"UP","UP",TRUE,18,15
+"covid_blood","ssGSEA","log2CPM","nfkb_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.688911088911089,0.294734728643214,2.48036635817576,2.47129773535711,"UP","UP",TRUE,9,6
+"covid_blood","ssGSEA","log2CPM","nfkb_signaling","non-classical monocyte",0.0201303943432879,1.18118694394388,2.50862335363095,2.47372759388388,"UP","UP",TRUE,9,20
+"covid_blood","ssGSEA","log2CPM","nfkb_signaling","memory B cell",0.0796992481203008,1.39672547180271,2.50260099341761,2.45392721823991,"UP","UP",TRUE,3,18
+"covid_blood","ssGSEA","log2CPM","nfkb_signaling","transitional stage B cell",0.469755244755245,0.636961627193714,2.49575629168783,2.47240282357428,"UP","UP",TRUE,7,9
+"covid_blood","ssGSEA","log2CPM","nfkb_signaling","gamma-delta T cell",0.246753246753247,1.04630970424376,2.50916516950163,2.47259999206661,"UP","UP",TRUE,6,5
+"covid_blood","ssGSEA","log2CPM","nfkb_signaling","conventional dendritic cell",1,0.333634208915281,2.52692273777409,2.52308488698665,"UP","UP",TRUE,3,2
+"covid_blood","ssGSEA","log2CPM","nfkb_signaling","regulatory T cell",0.18040293040293,0.919739331273322,2.51384806466713,2.49902851808428,"UP","UP",TRUE,11,5
+"covid_blood","ssGSEA","log2CPM","toll_like_receptor","classical monocyte",0.0264400728613444,0.777574267328514,2.27629666596939,2.27001272719208,"UP","UP",TRUE,17,21
+"covid_blood","ssGSEA","log2CPM","toll_like_receptor","central memory CD4-positive, alpha-beta T cell",0.000189740162558108,-1.6957951286459,2.1577686242592,2.19053718876091,"UP","DOWN",FALSE,16,18
+"covid_blood","ssGSEA","log2CPM","toll_like_receptor","naive B cell",0.954685306616926,0.137578541838866,2.19947900583402,2.19690411826761,"UP","UP",TRUE,11,13
+"covid_blood","ssGSEA","log2CPM","toll_like_receptor","naive thymus-derived CD4-positive, alpha-beta T cell",0.0175303126003086,-1.21688023382316,2.1436801239062,2.17137917426231,"UP","DOWN",FALSE,15,11
+"covid_blood","ssGSEA","log2CPM","toll_like_receptor","effector memory CD8-positive, alpha-beta T cell",4.89285634488924e-05,-1.81918401931624,2.15288862754591,2.18233348923925,"UP","DOWN",FALSE,17,15
+"covid_blood","ssGSEA","log2CPM","toll_like_receptor","mucosal invariant T cell",0.534965034965035,0.168863350026908,2.16923205621422,2.1658946708131,"UP","UP",TRUE,7,7
+"covid_blood","ssGSEA","log2CPM","toll_like_receptor","natural killer cell",0.000134081747519511,-1.73028264086326,2.15793694016316,2.18628778475974,"UP","DOWN",FALSE,18,15
+"covid_blood","ssGSEA","log2CPM","toll_like_receptor","naive thymus-derived CD8-positive, alpha-beta T cell",0.388411588411588,-0.754057016478915,2.14937001292892,2.16543454655082,"UP","DOWN",FALSE,9,6
+"covid_blood","ssGSEA","log2CPM","toll_like_receptor","non-classical monocyte",0.000898851273663867,1.42066591053053,2.27283901575969,2.24975984745771,"UP","UP",TRUE,9,20
+"covid_blood","ssGSEA","log2CPM","toll_like_receptor","memory B cell",0.669172932330827,0.15708979701878,2.21409539813257,2.21151823957555,"UP","UP",TRUE,3,18
+"covid_blood","ssGSEA","log2CPM","toll_like_receptor","transitional stage B cell",0.757692307692308,-0.101225779831401,2.20639532047533,2.20818208741528,"UP","DOWN",FALSE,7,9
+"covid_blood","ssGSEA","log2CPM","toll_like_receptor","gamma-delta T cell",0.792207792207792,-0.121542336593772,2.15926559489835,2.16123693668063,"UP","DOWN",FALSE,6,5
+"covid_blood","ssGSEA","log2CPM","toll_like_receptor","conventional dendritic cell",0.8,0.53771920537794,2.26837927184717,2.26300355608227,"UP","UP",TRUE,3,2
+"covid_blood","ssGSEA","log2CPM","toll_like_receptor","regulatory T cell",0.31959706959707,-0.676952001765247,2.1660645850151,2.17639293049066,"UP","DOWN",FALSE,11,5
+"covid_blood","ssGSEA","voom","interferon_signaling","classical monocyte",0.198931044552546,0.690088987552022,0.38505750714811,0.344005392315502,"UP","UP",TRUE,17,21
+"covid_blood","ssGSEA","voom","interferon_signaling","central memory CD4-positive, alpha-beta T cell",0.198455405818967,0.633584033398455,0.290268107999707,0.26164368158879,"UP","UP",TRUE,16,18
+"covid_blood","ssGSEA","voom","interferon_signaling","naive B cell",0.251772333647418,0.69789453132771,0.316768561090378,0.285591947540448,"UP","UP",TRUE,11,13
+"covid_blood","ssGSEA","voom","interferon_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.474226523913561,0.0749387076315383,0.262932910872102,0.2593374590535,"UP","UP",TRUE,15,11
+"covid_blood","ssGSEA","voom","interferon_signaling","effector memory CD8-positive, alpha-beta T cell",0.017682736871519,0.912131696750658,0.320967059055918,0.275148820567375,"UP","UP",TRUE,17,15
+"covid_blood","ssGSEA","voom","interferon_signaling","mucosal invariant T cell",0.208624708624709,0.769902717852749,0.280502158213676,0.233794906065947,"UP","UP",TRUE,7,7
+"covid_blood","ssGSEA","voom","interferon_signaling","natural killer cell",0.000859215013576712,1.28624780856369,0.322291630718467,0.25951947624218,"UP","UP",TRUE,18,15
+"covid_blood","ssGSEA","voom","interferon_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.144655344655345,-0.528032780605889,0.242698840479126,0.264407139064128,"UP","DOWN",FALSE,9,6
+"covid_blood","ssGSEA","voom","interferon_signaling","non-classical monocyte",0.000281577492971796,1.66798753079801,0.418123126416122,0.348536705662283,"UP","UP",TRUE,9,20
+"covid_blood","ssGSEA","voom","interferon_signaling","memory B cell",0.184962406015038,1.08807671035318,0.363981764802082,0.29531965528621,"UP","UP",TRUE,3,18
+"covid_blood","ssGSEA","voom","interferon_signaling","transitional stage B cell",0.0548951048951049,1.08379307664097,0.351288337170636,0.302018444761772,"UP","UP",TRUE,7,9
+"covid_blood","ssGSEA","voom","interferon_signaling","gamma-delta T cell",0.177489177489177,1.13285142490743,0.34518969658555,0.264947961344868,"UP","UP",TRUE,6,5
+"covid_blood","ssGSEA","voom","interferon_signaling","conventional dendritic cell",0.2,1.83082695471867,0.460550792656954,0.386256371143429,"UP","UP",TRUE,3,2
+"covid_blood","ssGSEA","voom","interferon_signaling","regulatory T cell",0.377289377289377,-0.0158059697238082,0.335981301066014,0.336612682612598,"UP","DOWN",FALSE,11,5
+"covid_blood","ssGSEA","voom","jak_stat","classical monocyte",6.36666853643255e-07,2.56562012636206,0.44799010732271,0.391162990027578,"UP","UP",TRUE,17,21
+"covid_blood","ssGSEA","voom","jak_stat","central memory CD4-positive, alpha-beta T cell",6.49820809250732e-05,1.44066102416524,0.363974689088808,0.319899044078787,"UP","UP",TRUE,16,18
+"covid_blood","ssGSEA","voom","jak_stat","naive B cell",0.0547500464716779,-0.559488372992386,0.251638451756188,0.26643887014943,"UP","DOWN",FALSE,11,13
+"covid_blood","ssGSEA","voom","jak_stat","naive thymus-derived CD4-positive, alpha-beta T cell",0.25857735278586,-0.271581505817493,0.295601203227047,0.301135394014401,"UP","DOWN",FALSE,15,11
+"covid_blood","ssGSEA","voom","jak_stat","effector memory CD8-positive, alpha-beta T cell",0.0197173625977051,0.82224498515497,0.336615491897505,0.312508866532992,"UP","UP",TRUE,17,15
+"covid_blood","ssGSEA","voom","jak_stat","mucosal invariant T cell",1,0.192927277315031,0.331855372969919,0.323456810778728,"UP","UP",TRUE,7,7
+"covid_blood","ssGSEA","voom","jak_stat","natural killer cell",0.0398937608676754,0.771963796694105,0.371651911217616,0.346637347170167,"UP","UP",TRUE,18,15
+"covid_blood","ssGSEA","voom","jak_stat","naive thymus-derived CD8-positive, alpha-beta T cell",0.223776223776224,-0.763711589016475,0.267472150891951,0.28388921867647,"UP","DOWN",FALSE,9,6
+"covid_blood","ssGSEA","voom","jak_stat","non-classical monocyte",0.000127608523410622,1.69635598340946,0.403081314311813,0.351307580623668,"UP","UP",TRUE,9,20
+"covid_blood","ssGSEA","voom","jak_stat","memory B cell",0.261654135338346,-0.487191437645499,0.258252487133812,0.273857136000841,"UP","DOWN",FALSE,3,18
+"covid_blood","ssGSEA","voom","jak_stat","transitional stage B cell",0.536013986013986,0.0511672842458474,0.27290429584164,0.271644567070612,"UP","UP",TRUE,7,9
+"covid_blood","ssGSEA","voom","jak_stat","gamma-delta T cell",0.246753246753247,0.764610778834053,0.343393938409315,0.315796699951735,"UP","UP",TRUE,6,5
+"covid_blood","ssGSEA","voom","jak_stat","conventional dendritic cell",0.4,-1.16383238872593,0.415002960302132,0.432960756183889,"UP","DOWN",FALSE,3,2
+"covid_blood","ssGSEA","voom","jak_stat","regulatory T cell",0.913003663003663,0.132046080820205,0.351072910872243,0.347794062775105,"UP","UP",TRUE,11,5
+"covid_blood","ssGSEA","voom","nfkb_signaling","classical monocyte",0.000382905983077035,1.51978721849439,0.469259155055715,0.358817088331125,"UP","UP",TRUE,17,21
+"covid_blood","ssGSEA","voom","nfkb_signaling","central memory CD4-positive, alpha-beta T cell",0.0270850728998465,0.924282481648727,0.453031103769461,0.385628926835231,"UP","UP",TRUE,16,18
+"covid_blood","ssGSEA","voom","nfkb_signaling","naive B cell",0.0547500464716779,-0.608953071173631,0.371092344831471,0.41564559822714,"UP","DOWN",FALSE,11,13
+"covid_blood","ssGSEA","voom","nfkb_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.330175662942523,-0.366103587413825,0.372134588419971,0.393421778491554,"UP","DOWN",FALSE,15,11
+"covid_blood","ssGSEA","voom","nfkb_signaling","effector memory CD8-positive, alpha-beta T cell",0.0894329822921024,0.835250758716761,0.449365516887107,0.39280010293139,"UP","UP",TRUE,17,15
+"covid_blood","ssGSEA","voom","nfkb_signaling","mucosal invariant T cell",0.317599067599068,0.736165797592955,0.420430626420085,0.349831929787919,"UP","UP",TRUE,7,7
+"covid_blood","ssGSEA","voom","nfkb_signaling","natural killer cell",0.290442502548695,0.56059167640098,0.480868038036838,0.443456408435169,"UP","UP",TRUE,18,15
+"covid_blood","ssGSEA","voom","nfkb_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.272127872127872,-0.484372007479866,0.357189314880673,0.386773621093724,"UP","DOWN",FALSE,9,6
+"covid_blood","ssGSEA","voom","nfkb_signaling","non-classical monocyte",0.167379646839917,0.802316863917365,0.461218459261873,0.405126898838688,"UP","UP",TRUE,9,20
+"covid_blood","ssGSEA","voom","nfkb_signaling","memory B cell",0.356390977443609,0.818290480348926,0.441273513004573,0.380300332753973,"UP","UP",TRUE,3,18
+"covid_blood","ssGSEA","voom","nfkb_signaling","transitional stage B cell",0.469755244755245,-0.117098012075792,0.389407111681349,0.397544716866635,"UP","DOWN",FALSE,7,9
+"covid_blood","ssGSEA","voom","nfkb_signaling","gamma-delta T cell",0.792207792207792,0.205941683777283,0.420052183827034,0.403744732107323,"UP","UP",TRUE,6,5
+"covid_blood","ssGSEA","voom","nfkb_signaling","conventional dendritic cell",0.8,-0.435699518883604,0.525812713979362,0.539499006011836,"UP","DOWN",FALSE,3,2
+"covid_blood","ssGSEA","voom","nfkb_signaling","regulatory T cell",1,-0.0115251129260026,0.462743315216415,0.46321339511656,"UP","DOWN",FALSE,11,5
+"covid_blood","ssGSEA","voom","toll_like_receptor","classical monocyte",1.00155854197339e-06,2.1425944340528,0.375416514323021,0.319199683799206,"UP","UP",TRUE,17,21
+"covid_blood","ssGSEA","voom","toll_like_receptor","central memory CD4-positive, alpha-beta T cell",0.0753588351135528,0.485685288513385,0.165472960381503,0.151421823528531,"UP","UP",TRUE,16,18
+"covid_blood","ssGSEA","voom","toll_like_receptor","naive B cell",0.391812331339859,0.263879570059909,0.225082648897241,0.21790245995778,"UP","UP",TRUE,11,13
+"covid_blood","ssGSEA","voom","toll_like_receptor","naive thymus-derived CD4-positive, alpha-beta T cell",0.646083694875592,-0.161634029883839,0.120586142570908,0.124725103568656,"UP","DOWN",FALSE,15,11
+"covid_blood","ssGSEA","voom","toll_like_receptor","effector memory CD8-positive, alpha-beta T cell",0.73749247687984,-0.0927112084010142,0.119000458902439,0.122420785483685,"UP","DOWN",FALSE,17,15
+"covid_blood","ssGSEA","voom","toll_like_receptor","mucosal invariant T cell",0.534965034965035,0.273521226683071,0.126168804024417,0.11505494885904,"UP","UP",TRUE,7,7
+"covid_blood","ssGSEA","voom","toll_like_receptor","natural killer cell",0.400613763576616,-0.1162514064139,0.144754539630678,0.14867678569292,"UP","DOWN",FALSE,18,15
+"covid_blood","ssGSEA","voom","toll_like_receptor","naive thymus-derived CD8-positive, alpha-beta T cell",1,-0.23664983842617,0.0835306635171582,0.0909949800082832,"UP","DOWN",FALSE,9,6
+"covid_blood","ssGSEA","voom","toll_like_receptor","non-classical monocyte",0.00111233094741341,1.51440494830184,0.310754977457238,0.263272734218026,"UP","UP",TRUE,9,20
+"covid_blood","ssGSEA","voom","toll_like_receptor","memory B cell",0.356390977443609,0.626113596677918,0.251971957520348,0.234103103990622,"UP","UP",TRUE,3,18
+"covid_blood","ssGSEA","voom","toll_like_receptor","transitional stage B cell",0.757692307692308,0.329920251065443,0.242528953270149,0.231362394561256,"UP","UP",TRUE,7,9
+"covid_blood","ssGSEA","voom","toll_like_receptor","gamma-delta T cell",0.0822510822510823,1.43401409636968,0.140198755287327,0.108535107944395,"UP","UP",TRUE,6,5
+"covid_blood","ssGSEA","voom","toll_like_receptor","conventional dendritic cell",1,0.124698738448324,0.328668164463936,0.32634786647061,"UP","UP",TRUE,3,2
+"covid_blood","ssGSEA","voom","toll_like_receptor","regulatory T cell",0.913003663003663,-0.163060990669719,0.139344310433383,0.143417436506464,"UP","DOWN",FALSE,11,5
+"covid_blood","ssGSEA","scran","interferon_signaling","classical monocyte",0.198931044552546,0.690088987552022,0.38505750714811,0.344005392315502,"UP","UP",TRUE,17,21
+"covid_blood","ssGSEA","scran","interferon_signaling","central memory CD4-positive, alpha-beta T cell",0.198455405818967,0.633584033398455,0.290268107999707,0.26164368158879,"UP","UP",TRUE,16,18
+"covid_blood","ssGSEA","scran","interferon_signaling","naive B cell",0.251772333647418,0.69789453132771,0.316768561090378,0.285591947540448,"UP","UP",TRUE,11,13
+"covid_blood","ssGSEA","scran","interferon_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.474226523913561,0.0749387076315383,0.262932910872102,0.2593374590535,"UP","UP",TRUE,15,11
+"covid_blood","ssGSEA","scran","interferon_signaling","effector memory CD8-positive, alpha-beta T cell",0.017682736871519,0.912131696750658,0.320967059055918,0.275148820567375,"UP","UP",TRUE,17,15
+"covid_blood","ssGSEA","scran","interferon_signaling","mucosal invariant T cell",0.208624708624709,0.769902717852749,0.280502158213676,0.233794906065947,"UP","UP",TRUE,7,7
+"covid_blood","ssGSEA","scran","interferon_signaling","natural killer cell",0.000859215013576712,1.28624780856369,0.322291630718467,0.25951947624218,"UP","UP",TRUE,18,15
+"covid_blood","ssGSEA","scran","interferon_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.144655344655345,-0.528032780605889,0.242698840479126,0.264407139064128,"UP","DOWN",FALSE,9,6
+"covid_blood","ssGSEA","scran","interferon_signaling","non-classical monocyte",0.000281577492971796,1.66798753079801,0.418123126416122,0.348536705662283,"UP","UP",TRUE,9,20
+"covid_blood","ssGSEA","scran","interferon_signaling","memory B cell",0.184962406015038,1.08807671035318,0.363981764802082,0.29531965528621,"UP","UP",TRUE,3,18
+"covid_blood","ssGSEA","scran","interferon_signaling","transitional stage B cell",0.0548951048951049,1.08379307664097,0.351288337170636,0.302018444761772,"UP","UP",TRUE,7,9
+"covid_blood","ssGSEA","scran","interferon_signaling","gamma-delta T cell",0.177489177489177,1.13285142490743,0.34518969658555,0.264947961344868,"UP","UP",TRUE,6,5
+"covid_blood","ssGSEA","scran","interferon_signaling","conventional dendritic cell",0.2,1.83082695471867,0.460550792656954,0.386256371143429,"UP","UP",TRUE,3,2
+"covid_blood","ssGSEA","scran","interferon_signaling","regulatory T cell",0.377289377289377,-0.0158059697238082,0.335981301066014,0.336612682612598,"UP","DOWN",FALSE,11,5
+"covid_blood","ssGSEA","scran","jak_stat","classical monocyte",6.36666853643255e-07,2.56562012636206,0.44799010732271,0.391162990027578,"UP","UP",TRUE,17,21
+"covid_blood","ssGSEA","scran","jak_stat","central memory CD4-positive, alpha-beta T cell",6.49820809250732e-05,1.44066102416524,0.363974689088808,0.319899044078787,"UP","UP",TRUE,16,18
+"covid_blood","ssGSEA","scran","jak_stat","naive B cell",0.0547500464716779,-0.559488372992386,0.251638451756188,0.26643887014943,"UP","DOWN",FALSE,11,13
+"covid_blood","ssGSEA","scran","jak_stat","naive thymus-derived CD4-positive, alpha-beta T cell",0.25857735278586,-0.271581505817493,0.295601203227047,0.301135394014401,"UP","DOWN",FALSE,15,11
+"covid_blood","ssGSEA","scran","jak_stat","effector memory CD8-positive, alpha-beta T cell",0.0197173625977051,0.82224498515497,0.336615491897505,0.312508866532992,"UP","UP",TRUE,17,15
+"covid_blood","ssGSEA","scran","jak_stat","mucosal invariant T cell",1,0.192927277315031,0.331855372969919,0.323456810778728,"UP","UP",TRUE,7,7
+"covid_blood","ssGSEA","scran","jak_stat","natural killer cell",0.0398937608676754,0.771963796694105,0.371651911217616,0.346637347170167,"UP","UP",TRUE,18,15
+"covid_blood","ssGSEA","scran","jak_stat","naive thymus-derived CD8-positive, alpha-beta T cell",0.223776223776224,-0.763711589016475,0.267472150891951,0.28388921867647,"UP","DOWN",FALSE,9,6
+"covid_blood","ssGSEA","scran","jak_stat","non-classical monocyte",0.000127608523410622,1.69635598340946,0.403081314311813,0.351307580623668,"UP","UP",TRUE,9,20
+"covid_blood","ssGSEA","scran","jak_stat","memory B cell",0.261654135338346,-0.487191437645499,0.258252487133812,0.273857136000841,"UP","DOWN",FALSE,3,18
+"covid_blood","ssGSEA","scran","jak_stat","transitional stage B cell",0.536013986013986,0.0511672842458474,0.27290429584164,0.271644567070612,"UP","UP",TRUE,7,9
+"covid_blood","ssGSEA","scran","jak_stat","gamma-delta T cell",0.246753246753247,0.764610778834053,0.343393938409315,0.315796699951735,"UP","UP",TRUE,6,5
+"covid_blood","ssGSEA","scran","jak_stat","conventional dendritic cell",0.4,-1.16383238872593,0.415002960302132,0.432960756183889,"UP","DOWN",FALSE,3,2
+"covid_blood","ssGSEA","scran","jak_stat","regulatory T cell",0.913003663003663,0.132046080820205,0.351072910872243,0.347794062775105,"UP","UP",TRUE,11,5
+"covid_blood","ssGSEA","scran","nfkb_signaling","classical monocyte",0.000382905983077035,1.51978721849439,0.469259155055715,0.358817088331125,"UP","UP",TRUE,17,21
+"covid_blood","ssGSEA","scran","nfkb_signaling","central memory CD4-positive, alpha-beta T cell",0.0270850728998465,0.924282481648727,0.453031103769461,0.385628926835231,"UP","UP",TRUE,16,18
+"covid_blood","ssGSEA","scran","nfkb_signaling","naive B cell",0.0547500464716779,-0.608953071173631,0.371092344831471,0.41564559822714,"UP","DOWN",FALSE,11,13
+"covid_blood","ssGSEA","scran","nfkb_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.330175662942523,-0.366103587413825,0.372134588419971,0.393421778491554,"UP","DOWN",FALSE,15,11
+"covid_blood","ssGSEA","scran","nfkb_signaling","effector memory CD8-positive, alpha-beta T cell",0.0894329822921024,0.835250758716761,0.449365516887107,0.39280010293139,"UP","UP",TRUE,17,15
+"covid_blood","ssGSEA","scran","nfkb_signaling","mucosal invariant T cell",0.317599067599068,0.736165797592955,0.420430626420085,0.349831929787919,"UP","UP",TRUE,7,7
+"covid_blood","ssGSEA","scran","nfkb_signaling","natural killer cell",0.290442502548695,0.56059167640098,0.480868038036838,0.443456408435169,"UP","UP",TRUE,18,15
+"covid_blood","ssGSEA","scran","nfkb_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.272127872127872,-0.484372007479866,0.357189314880673,0.386773621093724,"UP","DOWN",FALSE,9,6
+"covid_blood","ssGSEA","scran","nfkb_signaling","non-classical monocyte",0.167379646839917,0.802316863917365,0.461218459261873,0.405126898838688,"UP","UP",TRUE,9,20
+"covid_blood","ssGSEA","scran","nfkb_signaling","memory B cell",0.356390977443609,0.818290480348926,0.441273513004573,0.380300332753973,"UP","UP",TRUE,3,18
+"covid_blood","ssGSEA","scran","nfkb_signaling","transitional stage B cell",0.469755244755245,-0.117098012075792,0.389407111681349,0.397544716866635,"UP","DOWN",FALSE,7,9
+"covid_blood","ssGSEA","scran","nfkb_signaling","gamma-delta T cell",0.792207792207792,0.205941683777283,0.420052183827034,0.403744732107323,"UP","UP",TRUE,6,5
+"covid_blood","ssGSEA","scran","nfkb_signaling","conventional dendritic cell",0.8,-0.435699518883604,0.525812713979362,0.539499006011836,"UP","DOWN",FALSE,3,2
+"covid_blood","ssGSEA","scran","nfkb_signaling","regulatory T cell",1,-0.0115251129260026,0.462743315216415,0.46321339511656,"UP","DOWN",FALSE,11,5
+"covid_blood","ssGSEA","scran","toll_like_receptor","classical monocyte",1.00155854197339e-06,2.1425944340528,0.375416514323021,0.319199683799206,"UP","UP",TRUE,17,21
+"covid_blood","ssGSEA","scran","toll_like_receptor","central memory CD4-positive, alpha-beta T cell",0.0753588351135528,0.485685288513385,0.165472960381503,0.151421823528531,"UP","UP",TRUE,16,18
+"covid_blood","ssGSEA","scran","toll_like_receptor","naive B cell",0.391812331339859,0.263879570059909,0.225082648897241,0.21790245995778,"UP","UP",TRUE,11,13
+"covid_blood","ssGSEA","scran","toll_like_receptor","naive thymus-derived CD4-positive, alpha-beta T cell",0.646083694875592,-0.161634029883839,0.120586142570908,0.124725103568656,"UP","DOWN",FALSE,15,11
+"covid_blood","ssGSEA","scran","toll_like_receptor","effector memory CD8-positive, alpha-beta T cell",0.73749247687984,-0.0927112084010142,0.119000458902439,0.122420785483685,"UP","DOWN",FALSE,17,15
+"covid_blood","ssGSEA","scran","toll_like_receptor","mucosal invariant T cell",0.534965034965035,0.273521226683071,0.126168804024417,0.11505494885904,"UP","UP",TRUE,7,7
+"covid_blood","ssGSEA","scran","toll_like_receptor","natural killer cell",0.400613763576616,-0.1162514064139,0.144754539630678,0.14867678569292,"UP","DOWN",FALSE,18,15
+"covid_blood","ssGSEA","scran","toll_like_receptor","naive thymus-derived CD8-positive, alpha-beta T cell",1,-0.23664983842617,0.0835306635171582,0.0909949800082832,"UP","DOWN",FALSE,9,6
+"covid_blood","ssGSEA","scran","toll_like_receptor","non-classical monocyte",0.00111233094741341,1.51440494830184,0.310754977457238,0.263272734218026,"UP","UP",TRUE,9,20
+"covid_blood","ssGSEA","scran","toll_like_receptor","memory B cell",0.356390977443609,0.626113596677918,0.251971957520348,0.234103103990622,"UP","UP",TRUE,3,18
+"covid_blood","ssGSEA","scran","toll_like_receptor","transitional stage B cell",0.757692307692308,0.329920251065443,0.242528953270149,0.231362394561256,"UP","UP",TRUE,7,9
+"covid_blood","ssGSEA","scran","toll_like_receptor","gamma-delta T cell",0.0822510822510823,1.43401409636968,0.140198755287327,0.108535107944395,"UP","UP",TRUE,6,5
+"covid_blood","ssGSEA","scran","toll_like_receptor","conventional dendritic cell",1,0.124698738448324,0.328668164463936,0.32634786647061,"UP","UP",TRUE,3,2
+"covid_blood","ssGSEA","scran","toll_like_receptor","regulatory T cell",0.913003663003663,-0.163060990669719,0.139344310433383,0.143417436506464,"UP","DOWN",FALSE,11,5
+"covid_blood","ssGSEA","sctransform","interferon_signaling","classical monocyte",0.621659959222927,0.149571927553332,0.164536368629807,0.143893107790119,"UP","UP",TRUE,17,21
+"covid_blood","ssGSEA","sctransform","interferon_signaling","central memory CD4-positive, alpha-beta T cell",0.746302420546443,0.0267321605354456,0.0834328144922619,0.0789975145349986,"UP","UP",TRUE,16,18
+"covid_blood","ssGSEA","sctransform","interferon_signaling","naive B cell",0.0351950848989481,1.09098744514429,0.265542260762324,0.185732217856889,"UP","UP",TRUE,11,13
+"covid_blood","ssGSEA","sctransform","interferon_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.838442641622747,0.222718248336142,0.0486690399593764,0.0160409946423786,"UP","UP",TRUE,15,11
+"covid_blood","ssGSEA","sctransform","interferon_signaling","effector memory CD8-positive, alpha-beta T cell",0.00130105433983631,1.2464600469714,0.349457944751308,0.222248918941968,"UP","UP",TRUE,17,15
+"covid_blood","ssGSEA","sctransform","interferon_signaling","mucosal invariant T cell",0.00116550116550117,2.89424656664405,0.339299801484518,0.149661583278933,"UP","UP",TRUE,7,7
+"covid_blood","ssGSEA","sctransform","interferon_signaling","natural killer cell",0.00116201160108324,1.38814192017262,0.383969602741485,0.298721555306946,"UP","UP",TRUE,18,15
+"covid_blood","ssGSEA","sctransform","interferon_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.528671328671329,0.41776801996068,0.114898739658893,0.0647415468056744,"UP","UP",TRUE,9,6
+"covid_blood","ssGSEA","sctransform","interferon_signaling","non-classical monocyte",0.00246490141542615,1.18345142936651,0.351853805714381,0.264920464811402,"UP","UP",TRUE,9,20
+"covid_blood","ssGSEA","sctransform","interferon_signaling","memory B cell",0.0165413533834586,1.92902506699757,0.355275496816722,0.204306548460366,"UP","UP",TRUE,3,18
+"covid_blood","ssGSEA","sctransform","interferon_signaling","transitional stage B cell",0.0311188811188811,1.23302138087495,0.320927246568197,0.219759044553014,"UP","UP",TRUE,7,9
+"covid_blood","ssGSEA","sctransform","interferon_signaling","gamma-delta T cell",0.00865800865800866,2.48771931022623,0.400481535009798,0.223753217720053,"UP","UP",TRUE,6,5
+"covid_blood","ssGSEA","sctransform","interferon_signaling","conventional dendritic cell",0.2,2.37336450058529,0.398236928774952,0.237527795472802,"UP","UP",TRUE,3,2
+"covid_blood","ssGSEA","sctransform","interferon_signaling","regulatory T cell",0.31959706959707,0.428825133299941,0.353451423749072,0.333046930811401,"UP","UP",TRUE,11,5
+"covid_blood","ssGSEA","sctransform","jak_stat","classical monocyte",0.0388317305967988,0.916186222097465,0.221297134308351,0.143223926442403,"UP","UP",TRUE,17,21
+"covid_blood","ssGSEA","sctransform","jak_stat","central memory CD4-positive, alpha-beta T cell",0.72063474087203,0.20767842341948,0.109903406313959,0.0871549595227216,"UP","UP",TRUE,16,18
+"covid_blood","ssGSEA","sctransform","jak_stat","naive B cell",0.494033196802749,0.470832108696465,0.121799870484452,0.0925218657287018,"UP","UP",TRUE,11,13
+"covid_blood","ssGSEA","sctransform","jak_stat","naive thymus-derived CD4-positive, alpha-beta T cell",0.759662238421156,0.169122781422582,-0.00586600601136805,-0.024390211551596,"UP","UP",TRUE,15,11
+"covid_blood","ssGSEA","sctransform","jak_stat","effector memory CD8-positive, alpha-beta T cell",0.00535073790212986,1.15158676419873,0.26840661603703,0.188283102112653,"UP","UP",TRUE,17,15
+"covid_blood","ssGSEA","sctransform","jak_stat","mucosal invariant T cell",0.00116550116550117,2.23665512914948,0.271018568522698,0.150098786907348,"UP","UP",TRUE,7,7
+"covid_blood","ssGSEA","sctransform","jak_stat","natural killer cell",0.0027150898235093,1.08324160404796,0.313774160492092,0.26972933624121,"UP","UP",TRUE,18,15
+"covid_blood","ssGSEA","sctransform","jak_stat","naive thymus-derived CD8-positive, alpha-beta T cell",0.223776223776224,0.598120941734118,0.0388654419397881,-0.0194671722654466,"UP","UP",TRUE,9,6
+"covid_blood","ssGSEA","sctransform","jak_stat","non-classical monocyte",1.33799234249009e-05,1.84453866189073,0.302468373693698,0.209476029378631,"UP","UP",TRUE,9,20
+"covid_blood","ssGSEA","sctransform","jak_stat","memory B cell",0.0616541353383459,1.33581562143702,0.203437338184492,0.114728285466596,"UP","UP",TRUE,3,18
+"covid_blood","ssGSEA","sctransform","jak_stat","transitional stage B cell",0.00786713286713287,1.46268900891935,0.191643922234521,0.106249478219655,"UP","UP",TRUE,7,9
+"covid_blood","ssGSEA","sctransform","jak_stat","gamma-delta T cell",0.00432900432900433,2.43134902511534,0.298456026349639,0.178704398717139,"UP","UP",TRUE,6,5
+"covid_blood","ssGSEA","sctransform","jak_stat","conventional dendritic cell",0.2,1.8136439894425,0.355125409350335,0.25316261937292,"UP","UP",TRUE,3,2
+"covid_blood","ssGSEA","sctransform","jak_stat","regulatory T cell",0.377289377289377,0.46130993097573,0.275394782239806,0.262320171080781,"UP","UP",TRUE,11,5
+"covid_blood","ssGSEA","sctransform","nfkb_signaling","classical monocyte",0.00862781372933767,0.929141948348739,0.127891804998726,-0.0652576152784238,"UP","UP",TRUE,17,21
+"covid_blood","ssGSEA","sctransform","nfkb_signaling","central memory CD4-positive, alpha-beta T cell",0.72063474087203,-0.0668442040730686,0.0281361926660586,0.0440893684075128,"UP","DOWN",FALSE,16,18
+"covid_blood","ssGSEA","sctransform","nfkb_signaling","naive B cell",0.0217543539154792,-0.637963114917207,0.180242866325627,0.273189346841238,"UP","DOWN",FALSE,11,13
+"covid_blood","ssGSEA","sctransform","nfkb_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.305054257224805,-0.477079778208224,-0.0934391296793377,0.0125346755204996,"UP","DOWN",FALSE,15,11
+"covid_blood","ssGSEA","sctransform","nfkb_signaling","effector memory CD8-positive, alpha-beta T cell",0.0243833021236976,0.817415592089971,0.409896703360492,0.273095402496991,"UP","UP",TRUE,17,15
+"covid_blood","ssGSEA","sctransform","nfkb_signaling","mucosal invariant T cell",0.00233100233100233,1.85487937582486,0.441356745327065,0.161184057876049,"UP","UP",TRUE,7,7
+"covid_blood","ssGSEA","sctransform","nfkb_signaling","natural killer cell",0.000385863944089076,1.34614930007491,0.523518391184946,0.449185994503008,"UP","UP",TRUE,18,15
+"covid_blood","ssGSEA","sctransform","nfkb_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.954645354645355,-0.0420234518789052,0.0321352137709384,0.041174153182946,"UP","DOWN",FALSE,9,6
+"covid_blood","ssGSEA","sctransform","nfkb_signaling","non-classical monocyte",0.0490905396452623,1.0745911222745,0.39482634792398,0.269964941183893,"UP","UP",TRUE,9,20
+"covid_blood","ssGSEA","sctransform","nfkb_signaling","memory B cell",0.124812030075188,1.25294990346735,0.391718082486657,0.224787193853022,"UP","UP",TRUE,3,18
+"covid_blood","ssGSEA","sctransform","nfkb_signaling","transitional stage B cell",0.918181818181818,0.175134164497341,0.301157290369968,0.278939086633044,"UP","UP",TRUE,7,9
+"covid_blood","ssGSEA","sctransform","nfkb_signaling","gamma-delta T cell",0.0822510822510823,1.39405680056005,0.471215967115149,0.295830699225357,"UP","UP",TRUE,6,5
+"covid_blood","ssGSEA","sctransform","nfkb_signaling","conventional dendritic cell",0.2,2.16716453245854,0.470659209065592,0.305436119442807,"UP","UP",TRUE,3,2
+"covid_blood","ssGSEA","sctransform","nfkb_signaling","regulatory T cell",0.826923076923077,0.244449773571439,0.487001082927409,0.469835723450751,"UP","UP",TRUE,11,5
+"covid_blood","ssGSEA","sctransform","toll_like_receptor","classical monocyte",0.280994482506205,0.420525428564987,0.306117630139472,0.256400841745153,"UP","UP",TRUE,17,21
+"covid_blood","ssGSEA","sctransform","toll_like_receptor","central memory CD4-positive, alpha-beta T cell",0.528148189054289,-0.23270791610791,0.0738775315433887,0.113535436760931,"UP","DOWN",FALSE,16,18
+"covid_blood","ssGSEA","sctransform","toll_like_receptor","naive B cell",0.0256547699171202,1.12795651125448,0.297368068518853,0.2007005365121,"UP","UP",TRUE,11,13
+"covid_blood","ssGSEA","sctransform","toll_like_receptor","naive thymus-derived CD4-positive, alpha-beta T cell",0.838442641622747,0.100542964221393,0.0420697127597717,0.0256787203478157,"UP","UP",TRUE,15,11
+"covid_blood","ssGSEA","sctransform","toll_like_receptor","effector memory CD8-positive, alpha-beta T cell",0.0636809813825402,0.624455863805788,0.274739892626592,0.218805636583258,"UP","UP",TRUE,17,15
+"covid_blood","ssGSEA","sctransform","toll_like_receptor","mucosal invariant T cell",0.00407925407925408,1.77124188543229,0.301570750172013,0.149551523642297,"UP","UP",TRUE,7,7
+"covid_blood","ssGSEA","sctransform","toll_like_receptor","natural killer cell",0.274224876294682,0.332877361673183,0.327647387877104,0.307764533961006,"UP","UP",TRUE,18,15
+"covid_blood","ssGSEA","sctransform","toll_like_receptor","naive thymus-derived CD8-positive, alpha-beta T cell",0.144655344655345,0.47547874519497,0.0819928615792132,0.0239078738547005,"UP","UP",TRUE,9,6
+"covid_blood","ssGSEA","sctransform","toll_like_receptor","non-classical monocyte",0.00598082577093072,1.26039568026325,0.410921383557298,0.327541867991834,"UP","UP",TRUE,9,20
+"covid_blood","ssGSEA","sctransform","toll_like_receptor","memory B cell",0.00300751879699248,1.88913432201153,0.356613442564122,0.240869005805242,"UP","UP",TRUE,3,18
+"covid_blood","ssGSEA","sctransform","toll_like_receptor","transitional stage B cell",0.0229020979020979,1.45183445834378,0.342253107725609,0.240968087018088,"UP","UP",TRUE,7,9
+"covid_blood","ssGSEA","sctransform","toll_like_receptor","gamma-delta T cell",0.00432900432900433,3.20906646682613,0.347158630236513,0.189213115530878,"UP","UP",TRUE,6,5
+"covid_blood","ssGSEA","sctransform","toll_like_receptor","conventional dendritic cell",0.4,1.62525332758537,0.460906074964034,0.341578437386084,"UP","UP",TRUE,3,2
+"covid_blood","ssGSEA","sctransform","toll_like_receptor","regulatory T cell",0.826923076923077,-0.220525280740029,0.301552849215388,0.312710284070627,"UP","DOWN",FALSE,11,5
+"covid_blood","GSVA","log2CPM","interferon_signaling","classical monocyte",0.398980386442173,-0.290553358164718,-0.0129268915587184,0.0309209003886623,"UP","DOWN",FALSE,17,21
+"covid_blood","GSVA","log2CPM","interferon_signaling","central memory CD4-positive, alpha-beta T cell",0.144123514901983,-0.325365990060325,-0.209197263777751,-0.1553462569848,"UP","DOWN",FALSE,16,18
+"covid_blood","GSVA","log2CPM","interferon_signaling","naive B cell",0.690511444852541,0.0472795501385124,-0.0495675438211594,-0.0539403156493039,"UP","UP",TRUE,11,13
+"covid_blood","GSVA","log2CPM","interferon_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.0537162057218592,-0.596502104402675,-0.30305517389918,-0.231882828508941,"UP","DOWN",FALSE,15,11
+"covid_blood","GSVA","log2CPM","interferon_signaling","effector memory CD8-positive, alpha-beta T cell",0.0694811762200394,0.678710194842462,0.100943193189432,-0.00223692133150132,"UP","UP",TRUE,17,15
+"covid_blood","GSVA","log2CPM","interferon_signaling","mucosal invariant T cell",0.00699300699300699,1.77234541441114,0.0625179479583128,-0.132841491731869,"UP","UP",TRUE,7,7
+"covid_blood","GSVA","log2CPM","interferon_signaling","natural killer cell",0.0793965476746115,0.649741387860219,0.120325905046261,0.0471111805489867,"UP","UP",TRUE,18,15
+"covid_blood","GSVA","log2CPM","interferon_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.863936063936064,-0.260447904159098,-0.247022330263625,-0.206613827160038,"UP","DOWN",FALSE,9,6
+"covid_blood","GSVA","log2CPM","interferon_signaling","non-classical monocyte",0.00136774769458428,1.5670824825806,0.230178278676282,0.111413853506334,"UP","UP",TRUE,9,20
+"covid_blood","GSVA","log2CPM","interferon_signaling","memory B cell",0.0796992481203008,1.33795371735872,0.142283119781099,-0.0288503375022384,"UP","UP",TRUE,3,18
+"covid_blood","GSVA","log2CPM","interferon_signaling","transitional stage B cell",0.299125874125874,0.674415619983031,0.0413465251786721,-0.032900956617727,"UP","UP",TRUE,7,9
+"covid_blood","GSVA","log2CPM","interferon_signaling","gamma-delta T cell",0.051948051948052,1.35520101671424,0.134669640453584,-0.058465287691202,"UP","UP",TRUE,6,5
+"covid_blood","GSVA","log2CPM","interferon_signaling","conventional dendritic cell",0.2,1.65350700324086,0.256721804432746,0.0447679354816144,"UP","UP",TRUE,3,2
+"covid_blood","GSVA","log2CPM","interferon_signaling","regulatory T cell",0.18040293040293,-0.371526164089542,0.102463912124195,0.12983294242579,"UP","DOWN",FALSE,11,5
+"covid_blood","GSVA","log2CPM","jak_stat","classical monocyte",0.00588669552710452,0.99055152775344,0.1879352802549,0.119663913651861,"UP","UP",TRUE,17,21
+"covid_blood","GSVA","log2CPM","jak_stat","central memory CD4-positive, alpha-beta T cell",0.00443395055239238,-0.890247550495511,-0.126948537459297,-0.0440399935638353,"UP","DOWN",FALSE,16,18
+"covid_blood","GSVA","log2CPM","jak_stat","naive B cell",0.00312321725028684,-1.31911827337748,-0.229034956386154,-0.120574460793163,"UP","DOWN",FALSE,11,13
+"covid_blood","GSVA","log2CPM","jak_stat","naive thymus-derived CD4-positive, alpha-beta T cell",0.00770059123807946,-1.31430270343399,-0.328601722184198,-0.202226938568782,"UP","DOWN",FALSE,15,11
+"covid_blood","GSVA","log2CPM","jak_stat","effector memory CD8-positive, alpha-beta T cell",0.601823508166686,-0.22913801495815,-0.0141887344620066,0.00750034581697701,"UP","DOWN",FALSE,17,15
+"covid_blood","GSVA","log2CPM","jak_stat","mucosal invariant T cell",0.053030303030303,1.12351279964735,0.0715701733794972,-0.0137098033848831,"UP","UP",TRUE,7,7
+"covid_blood","GSVA","log2CPM","jak_stat","natural killer cell",0.0363656071331521,-0.811386904320688,0.0274808379153568,0.083476094908452,"UP","DOWN",FALSE,18,15
+"covid_blood","GSVA","log2CPM","jak_stat","naive thymus-derived CD8-positive, alpha-beta T cell",0.688911088911089,-0.328829163529745,-0.274119439272361,-0.236777305358025,"UP","DOWN",FALSE,9,6
+"covid_blood","GSVA","log2CPM","jak_stat","non-classical monocyte",0.00425062194177636,1.29143684639286,0.198226061516628,0.119799835656939,"UP","UP",TRUE,9,20
+"covid_blood","GSVA","log2CPM","jak_stat","memory B cell",0.887218045112782,0.222773426959393,-0.0633873743973677,-0.0828151515259113,"UP","UP",TRUE,3,18
+"covid_blood","GSVA","log2CPM","jak_stat","transitional stage B cell",0.536013986013986,-0.357229400883492,-0.150908186205005,-0.115293469417049,"UP","DOWN",FALSE,7,9
+"covid_blood","GSVA","log2CPM","jak_stat","gamma-delta T cell",0.329004329004329,0.784219668127123,0.0268595152167624,-0.0651870594714151,"UP","UP",TRUE,6,5
+"covid_blood","GSVA","log2CPM","jak_stat","conventional dendritic cell",0.4,1.59486790235675,0.201667596368026,0.107763072791346,"UP","UP",TRUE,3,2
+"covid_blood","GSVA","log2CPM","jak_stat","regulatory T cell",0.377289377289377,-0.496583102081931,0.0107782045422896,0.0547463357862578,"UP","DOWN",FALSE,11,5
+"covid_blood","GSVA","log2CPM","nfkb_signaling","classical monocyte",0.00166045911967518,1.31382956752455,0.0892508066501926,-0.290709495585938,"UP","UP",TRUE,17,21
+"covid_blood","GSVA","log2CPM","nfkb_signaling","central memory CD4-positive, alpha-beta T cell",0.134737141021565,0.506097187701311,-0.109717682127718,-0.237353027480754,"UP","UP",TRUE,16,18
+"covid_blood","GSVA","log2CPM","nfkb_signaling","naive B cell",0.00312321725028684,-1.3960794809964,-0.264397676201081,-0.0170031004634101,"UP","DOWN",FALSE,11,13
+"covid_blood","GSVA","log2CPM","nfkb_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.134105946550421,-0.875006364727903,-0.473529951713288,-0.309184360093255,"UP","DOWN",FALSE,15,11
+"covid_blood","GSVA","log2CPM","nfkb_signaling","effector memory CD8-positive, alpha-beta T cell",0.0126127159962746,1.04642628960899,0.249982108509236,-0.037508931505532,"UP","UP",TRUE,17,15
+"covid_blood","GSVA","log2CPM","nfkb_signaling","mucosal invariant T cell",0.00233100233100233,2.90025048125397,0.270994094306584,-0.232450781726438,"UP","UP",TRUE,7,7
+"covid_blood","GSVA","log2CPM","nfkb_signaling","natural killer cell",0.00134634025786921,1.24933694019133,0.422575422379229,0.230895485328651,"UP","UP",TRUE,18,15
+"covid_blood","GSVA","log2CPM","nfkb_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.954645354645355,-0.263175860261942,-0.403426935195552,-0.351173385896016,"UP","DOWN",FALSE,9,6
+"covid_blood","GSVA","log2CPM","nfkb_signaling","non-classical monocyte",0.0435955848249701,1.18616587470981,0.286094323159102,0.0201710771252321,"UP","UP",TRUE,9,20
+"covid_blood","GSVA","log2CPM","nfkb_signaling","memory B cell",0.100751879699248,1.10227934316259,0.157883588838166,-0.127531067511454,"UP","UP",TRUE,3,18
+"covid_blood","GSVA","log2CPM","nfkb_signaling","transitional stage B cell",0.680594405594406,-0.311793196358485,-0.104963355809435,-0.032900596976417,"UP","DOWN",FALSE,7,9
+"covid_blood","GSVA","log2CPM","nfkb_signaling","gamma-delta T cell",0.125541125541126,1.1483938826134,0.26256988825252,-0.0223876903600148,"UP","UP",TRUE,6,5
+"covid_blood","GSVA","log2CPM","nfkb_signaling","conventional dendritic cell",0.4,0.898640427636065,0.337202261765909,0.235298954263125,"UP","UP",TRUE,3,2
+"covid_blood","GSVA","log2CPM","nfkb_signaling","regulatory T cell",0.509615384615385,0.387900314635145,0.341761809479991,0.287290209169965,"UP","UP",TRUE,11,5
+"covid_blood","GSVA","log2CPM","toll_like_receptor","classical monocyte",0.0286090292219655,0.776491264629933,0.263791745374974,0.209136589781246,"UP","UP",TRUE,17,21
+"covid_blood","GSVA","log2CPM","toll_like_receptor","central memory CD4-positive, alpha-beta T cell",0.000677255046155685,-1.38563809758378,-0.268144374109561,-0.0911049989455153,"UP","DOWN",FALSE,16,18
+"covid_blood","GSVA","log2CPM","toll_like_receptor","naive B cell",0.530912479408239,0.253156742204989,-0.00267641626960557,-0.0248066920838658,"UP","UP",TRUE,11,13
+"covid_blood","GSVA","log2CPM","toll_like_receptor","naive thymus-derived CD4-positive, alpha-beta T cell",0.0273929092848194,-1.05497980320632,-0.334609456259042,-0.216508038814355,"UP","DOWN",FALSE,15,11
+"covid_blood","GSVA","log2CPM","toll_like_receptor","effector memory CD8-positive, alpha-beta T cell",0.0197173625977051,-0.900835746025977,-0.178804999647635,-0.0837476130800804,"UP","DOWN",FALSE,17,15
+"covid_blood","GSVA","log2CPM","toll_like_receptor","mucosal invariant T cell",0.382867132867133,0.414597733085796,-0.0879630021804057,-0.13741744641715,"UP","UP",TRUE,7,7
+"covid_blood","GSVA","log2CPM","toll_like_receptor","natural killer cell",0.0023703092889425,-1.10267090689978,-0.0923866586236702,0.00569027674563959,"UP","DOWN",FALSE,18,15
+"covid_blood","GSVA","log2CPM","toll_like_receptor","naive thymus-derived CD8-positive, alpha-beta T cell",0.775624375624376,-0.238283328268475,-0.301822824507912,-0.276977790331383,"UP","DOWN",FALSE,9,6
+"covid_blood","GSVA","log2CPM","toll_like_receptor","non-classical monocyte",7.1692425515514e-05,2.13832028187223,0.294342414998819,0.158552002832109,"UP","UP",TRUE,9,20
+"covid_blood","GSVA","log2CPM","toll_like_receptor","memory B cell",0.184962406015038,0.922605362014892,0.0986451090746075,0.0318393799851595,"UP","UP",TRUE,3,18
+"covid_blood","GSVA","log2CPM","toll_like_receptor","transitional stage B cell",0.918181818181818,-0.0849802418177785,0.0151898874682131,0.0224787974445484,"UP","DOWN",FALSE,7,9
+"covid_blood","GSVA","log2CPM","toll_like_receptor","gamma-delta T cell",0.428571428571429,0.508202076267632,-0.111375052687146,-0.16842092533152,"UP","UP",TRUE,6,5
+"covid_blood","GSVA","log2CPM","toll_like_receptor","conventional dendritic cell",0.4,1.15337703782923,0.275241065228662,0.198698209994005,"UP","UP",TRUE,3,2
+"covid_blood","GSVA","log2CPM","toll_like_receptor","regulatory T cell",0.14514652014652,-1.10140525340665,-0.108127086340833,-0.0214626202413332,"UP","DOWN",FALSE,11,5
+"covid_blood","GSVA","voom","interferon_signaling","classical monocyte",0.294323641495302,0.50163502710032,0.109572191250806,0.0420682801518653,"UP","UP",TRUE,17,21
+"covid_blood","GSVA","voom","interferon_signaling","central memory CD4-positive, alpha-beta T cell",0.905162030898154,0.116196104507743,-0.0946047283981273,-0.111004672517372,"UP","UP",TRUE,16,18
+"covid_blood","GSVA","voom","interferon_signaling","naive B cell",0.690511444852541,0.245422057296602,-0.0201400962986507,-0.048201734340163,"UP","UP",TRUE,11,13
+"covid_blood","GSVA","voom","interferon_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.0472615115400147,-0.389218369569074,-0.151334299813108,-0.107844395938183,"UP","DOWN",FALSE,15,11
+"covid_blood","GSVA","voom","interferon_signaling","effector memory CD8-positive, alpha-beta T cell",0.164528622785381,0.619338687526053,0.0128738393540144,-0.0770494224721589,"UP","UP",TRUE,17,15
+"covid_blood","GSVA","voom","interferon_signaling","mucosal invariant T cell",0.259324009324009,0.546672444649901,-0.0734443931805457,-0.160949569454335,"UP","UP",TRUE,7,7
+"covid_blood","GSVA","voom","interferon_signaling","natural killer cell",0.0674178750260616,0.772801380561172,0.0290464748603409,-0.0783304719370988,"UP","UP",TRUE,18,15
+"covid_blood","GSVA","voom","interferon_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.035964035964036,-1.09047623364343,-0.193454228509779,-0.0575695381127307,"UP","DOWN",FALSE,9,6
+"covid_blood","GSVA","voom","interferon_signaling","non-classical monocyte",0.000360059730374573,1.8804768241616,0.263873076704587,0.0910340521422937,"UP","UP",TRUE,9,20
+"covid_blood","GSVA","voom","interferon_signaling","memory B cell",0.153383458646617,1.05260158886667,0.108807322503538,-0.0195550772654518,"UP","UP",TRUE,3,18
+"covid_blood","GSVA","voom","interferon_signaling","transitional stage B cell",0.114160839160839,0.717628626124285,0.0635945650566185,-0.0165011544922373,"UP","UP",TRUE,7,9
+"covid_blood","GSVA","voom","interferon_signaling","gamma-delta T cell",0.329004329004329,0.763085204592841,0.06034161214557,-0.0818775075808019,"UP","UP",TRUE,6,5
+"covid_blood","GSVA","voom","interferon_signaling","conventional dendritic cell",0.8,1.01855222139118,0.296432631545239,0.161085744006358,"UP","UP",TRUE,3,2
+"covid_blood","GSVA","voom","interferon_signaling","regulatory T cell",0.31959706959707,-0.311224886209349,0.0546920250034062,0.0887859217208519,"UP","DOWN",FALSE,11,5
+"covid_blood","GSVA","voom","jak_stat","classical monocyte",6.33630143153819e-06,1.86673756305796,0.236901838653407,0.104115852907965,"UP","UP",TRUE,17,21
+"covid_blood","GSVA","voom","jak_stat","central memory CD4-positive, alpha-beta T cell",0.0945518361453358,0.622024373505913,0.0246883264391031,-0.033222207217404,"UP","UP",TRUE,16,18
+"covid_blood","GSVA","voom","jak_stat","naive B cell",0.010705311873033,-1.13407507728184,-0.225809360647421,-0.180176836040189,"UP","DOWN",FALSE,11,13
+"covid_blood","GSVA","voom","jak_stat","naive thymus-derived CD4-positive, alpha-beta T cell",0.0273929092848194,-1.06789241096258,-0.204573904481277,-0.132856771810876,"UP","DOWN",FALSE,15,11
+"covid_blood","GSVA","voom","jak_stat","effector memory CD8-positive, alpha-beta T cell",0.202162267762553,0.430768983415044,-0.0105790196940835,-0.0541813382530773,"UP","UP",TRUE,17,15
+"covid_blood","GSVA","voom","jak_stat","mucosal invariant T cell",0.259324009324009,0.655360297433489,0.0061741692191267,-0.0639232209682315,"UP","UP",TRUE,7,7
+"covid_blood","GSVA","voom","jak_stat","natural killer cell",0.290442502548695,0.471010481062517,0.0774672407264435,0.0326450382872737,"UP","UP",TRUE,18,15
+"covid_blood","GSVA","voom","jak_stat","naive thymus-derived CD8-positive, alpha-beta T cell",0.528671328671329,-0.55662574310664,-0.227921559016712,-0.192562582485939,"UP","DOWN",FALSE,9,6
+"covid_blood","GSVA","voom","jak_stat","non-classical monocyte",0.0201303943432879,1.27571811713282,0.190708088503604,0.0784643011124836,"UP","UP",TRUE,9,20
+"covid_blood","GSVA","voom","jak_stat","memory B cell",0.306766917293233,-0.676814042793752,-0.193648884693553,-0.139581513773746,"UP","DOWN",FALSE,3,18
+"covid_blood","GSVA","voom","jak_stat","transitional stage B cell",0.351048951048951,-0.705444203483099,-0.195984475974107,-0.151916023879005,"UP","DOWN",FALSE,7,9
+"covid_blood","GSVA","voom","jak_stat","gamma-delta T cell",1,0.370798910880364,-0.0350452273739304,-0.0667076179634873,"UP","UP",TRUE,6,5
+"covid_blood","GSVA","voom","jak_stat","conventional dendritic cell",1,0.25719186729458,0.17092496915262,0.159328577051581,"UP","UP",TRUE,3,2
+"covid_blood","GSVA","voom","jak_stat","regulatory T cell",0.742673992673993,-0.343996626686425,0.0193411784737906,0.0478973824874303,"UP","DOWN",FALSE,11,5
+"covid_blood","GSVA","voom","nfkb_signaling","classical monocyte",0.00104307503019013,1.14635581109425,0.181722475265612,-0.135007264233903,"UP","UP",TRUE,17,21
+"covid_blood","GSVA","voom","nfkb_signaling","central memory CD4-positive, alpha-beta T cell",0.44255238259773,0.311752590915157,0.0234282030153564,-0.0586410437825214,"UP","UP",TRUE,16,18
+"covid_blood","GSVA","voom","nfkb_signaling","naive B cell",0.0474483843880802,-1.00861458281234,-0.215523222307249,-0.0261866809393447,"UP","DOWN",FALSE,11,13
+"covid_blood","GSVA","voom","nfkb_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.0362270519896041,-0.996272020913058,-0.23801869407009,-0.0550266454847612,"UP","DOWN",FALSE,15,11
+"covid_blood","GSVA","voom","nfkb_signaling","effector memory CD8-positive, alpha-beta T cell",0.911083111528559,-0.0639149302077614,-0.0569831162004458,-0.0399381805292767,"UP","DOWN",FALSE,17,15
+"covid_blood","GSVA","voom","nfkb_signaling","mucosal invariant T cell",0.259324009324009,0.454279677342994,-0.0589341153552976,-0.162050608323365,"UP","UP",TRUE,7,7
+"covid_blood","GSVA","voom","nfkb_signaling","natural killer cell",0.957352530325361,0.0970467602855627,0.117052490982836,0.0929396248598208,"UP","UP",TRUE,18,15
+"covid_blood","GSVA","voom","nfkb_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.0175824175824176,-1.39217660956114,-0.300148319072819,-0.116656596939247,"UP","DOWN",FALSE,9,6
+"covid_blood","GSVA","voom","nfkb_signaling","non-classical monocyte",0.36479502506489,0.441300250828969,0.146673899517099,0.0341598082845411,"UP","UP",TRUE,9,20
+"covid_blood","GSVA","voom","nfkb_signaling","memory B cell",0.813533834586466,0.0333631786336251,-0.0543679478383136,-0.0613072453030466,"UP","UP",TRUE,3,18
+"covid_blood","GSVA","voom","nfkb_signaling","transitional stage B cell",0.114160839160839,-0.725496021991177,-0.180069565262436,-0.0529207512653435,"UP","DOWN",FALSE,7,9
+"covid_blood","GSVA","voom","nfkb_signaling","gamma-delta T cell",0.329004329004329,-0.603058079117941,-0.160998136415273,-0.0458390158732591,"UP","DOWN",FALSE,6,5
+"covid_blood","GSVA","voom","nfkb_signaling","conventional dendritic cell",0.8,-0.805949214437784,0.198549858751026,0.318907471478525,"UP","DOWN",FALSE,3,2
+"covid_blood","GSVA","voom","nfkb_signaling","regulatory T cell",0.826923076923077,-0.407349601513578,0.0884249815855898,0.165707734881526,"UP","DOWN",FALSE,11,5
+"covid_blood","GSVA","voom","toll_like_receptor","classical monocyte",0.000564204131350948,1.31694263451746,0.301226153985767,0.229780064154693,"UP","UP",TRUE,17,21
+"covid_blood","GSVA","voom","toll_like_receptor","central memory CD4-positive, alpha-beta T cell",0.463197195787587,-0.265102665149411,-0.0930183520504386,-0.0731672111181801,"UP","DOWN",FALSE,16,18
+"covid_blood","GSVA","voom","toll_like_receptor","naive B cell",0.0011986487959028,1.30840325800613,0.0987441278925272,0.00404117745775294,"UP","UP",TRUE,11,13
+"covid_blood","GSVA","voom","toll_like_receptor","naive thymus-derived CD4-positive, alpha-beta T cell",0.00162072750240741,-1.14734787839788,-0.218949103818537,-0.126846476539565,"UP","DOWN",FALSE,15,11
+"covid_blood","GSVA","voom","toll_like_receptor","effector memory CD8-positive, alpha-beta T cell",0.261270227930743,-0.464536318869252,-0.186525300201027,-0.150080630344437,"UP","DOWN",FALSE,17,15
+"covid_blood","GSVA","voom","toll_like_receptor","mucosal invariant T cell",0.62004662004662,0.31605578424821,-0.111520572161778,-0.142905053551632,"UP","UP",TRUE,7,7
+"covid_blood","GSVA","voom","toll_like_receptor","natural killer cell",0.0436984220499721,-0.668797994322207,-0.0977214799316781,-0.0589789491080036,"UP","DOWN",FALSE,18,15
+"covid_blood","GSVA","voom","toll_like_receptor","naive thymus-derived CD8-positive, alpha-beta T cell",0.0879120879120879,-1.11969635153521,-0.230657659041918,-0.156727806794785,"UP","DOWN",FALSE,9,6
+"covid_blood","GSVA","voom","toll_like_receptor","non-classical monocyte",0.00246490141542615,1.17699390752229,0.146122662628114,0.0492428327001907,"UP","UP",TRUE,9,20
+"covid_blood","GSVA","voom","toll_like_receptor","memory B cell",0.221052631578947,1.0444155136752,0.125767051646184,0.0467923498304269,"UP","UP",TRUE,3,18
+"covid_blood","GSVA","voom","toll_like_receptor","transitional stage B cell",1,-0.199532466673418,0.0580008104078662,0.0783531814428548,"UP","DOWN",FALSE,7,9
+"covid_blood","GSVA","voom","toll_like_receptor","gamma-delta T cell",0.329004329004329,-0.7277147715376,-0.171386919082379,-0.13539515973078,"UP","DOWN",FALSE,6,5
+"covid_blood","GSVA","voom","toll_like_receptor","conventional dendritic cell",0.8,-0.763762837606757,0.144624187777762,0.195631717836653,"UP","DOWN",FALSE,3,2
+"covid_blood","GSVA","voom","toll_like_receptor","regulatory T cell",0.0686813186813187,-1.04431961812378,-0.138870239091638,-0.0586880606705602,"UP","DOWN",FALSE,11,5
+"covid_blood","GSVA","scran","interferon_signaling","classical monocyte",0.322202429888315,0.503769834414877,0.0835709069937971,0.0149861497240887,"UP","UP",TRUE,17,21
+"covid_blood","GSVA","scran","interferon_signaling","central memory CD4-positive, alpha-beta T cell",0.347336386916717,-0.0653414286176336,-0.118650159685245,-0.109637183037265,"UP","DOWN",FALSE,16,18
+"covid_blood","GSVA","scran","interferon_signaling","naive B cell",0.494033196802749,-0.149360292917653,-0.0234119551877196,-0.00875439389915292,"UP","DOWN",FALSE,11,13
+"covid_blood","GSVA","scran","interferon_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.0972622881224308,-0.422798511135911,-0.157836552668577,-0.110079070625786,"UP","DOWN",FALSE,15,11
+"covid_blood","GSVA","scran","interferon_signaling","effector memory CD8-positive, alpha-beta T cell",0.215963732197286,0.571944484943964,0.00327498558670175,-0.0815197130517704,"UP","UP",TRUE,17,15
+"covid_blood","GSVA","scran","interferon_signaling","mucosal invariant T cell",0.534965034965035,0.508649931349779,-0.0668132230303953,-0.145491328796878,"UP","UP",TRUE,7,7
+"covid_blood","GSVA","scran","interferon_signaling","natural killer cell",0.108340105684154,0.719348578740468,0.0150080890586889,-0.0835179340056273,"UP","UP",TRUE,18,15
+"covid_blood","GSVA","scran","interferon_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.0495504495504496,-0.989887547494603,-0.193292029792371,-0.0684039880685138,"UP","DOWN",FALSE,9,6
+"covid_blood","GSVA","scran","interferon_signaling","non-classical monocyte",0.000218072781790923,1.97259989435115,0.255967754026682,0.100086073356927,"UP","UP",TRUE,9,20
+"covid_blood","GSVA","scran","interferon_signaling","memory B cell",0.356390977443609,0.837169496936717,0.126320753591922,0.0247280636458019,"UP","UP",TRUE,3,18
+"covid_blood","GSVA","scran","interferon_signaling","transitional stage B cell",0.407867132867133,0.452611251807104,0.0584622039921652,0.0130444479769082,"UP","UP",TRUE,7,9
+"covid_blood","GSVA","scran","interferon_signaling","gamma-delta T cell",0.329004329004329,0.810393744635481,0.0588971221049243,-0.088192168998184,"UP","UP",TRUE,6,5
+"covid_blood","GSVA","scran","interferon_signaling","conventional dendritic cell",0.4,1.19014995123185,0.281972256796104,0.130512964299472,"UP","UP",TRUE,3,2
+"covid_blood","GSVA","scran","interferon_signaling","regulatory T cell",0.14514652014652,-0.478936126792652,0.0530244726589899,0.10170721864733,"UP","DOWN",FALSE,11,5
+"covid_blood","GSVA","scran","jak_stat","classical monocyte",1.54872234961223e-06,2.00088060948999,0.22203556254321,0.0758246125281692,"UP","UP",TRUE,17,21
+"covid_blood","GSVA","scran","jak_stat","central memory CD4-positive, alpha-beta T cell",0.281117849689411,0.331949385327408,-0.00135708329607733,-0.0272324823041574,"UP","UP",TRUE,16,18
+"covid_blood","GSVA","scran","jak_stat","naive B cell",0.00389480735085796,-1.23716510721889,-0.232243254784238,-0.152671497019042,"UP","DOWN",FALSE,11,13
+"covid_blood","GSVA","scran","jak_stat","naive thymus-derived CD4-positive, alpha-beta T cell",0.00644822266171035,-1.39544551564018,-0.220152958747143,-0.121861123626333,"UP","DOWN",FALSE,15,11
+"covid_blood","GSVA","scran","jak_stat","effector memory CD8-positive, alpha-beta T cell",0.455419838892099,0.250536761395426,-0.0230087537442553,-0.0472377318978038,"UP","UP",TRUE,17,15
+"covid_blood","GSVA","scran","jak_stat","mucosal invariant T cell",0.317599067599068,0.373425525950881,0.00935189258714482,-0.0249904750741762,"UP","UP",TRUE,7,7
+"covid_blood","GSVA","scran","jak_stat","natural killer cell",0.463774167091481,0.348927893357042,0.062295902497457,0.0315418010704556,"UP","UP",TRUE,18,15
+"covid_blood","GSVA","scran","jak_stat","naive thymus-derived CD8-positive, alpha-beta T cell",0.181018981018981,-0.830095353714326,-0.230895799282446,-0.170972591809796,"UP","DOWN",FALSE,9,6
+"covid_blood","GSVA","scran","jak_stat","non-classical monocyte",0.0151782250732775,1.36914011268615,0.18175224786525,0.077499167431677,"UP","UP",TRUE,9,20
+"covid_blood","GSVA","scran","jak_stat","memory B cell",0.221052631578947,-1.05848935427951,-0.193979856213681,-0.104985674010242,"UP","DOWN",FALSE,3,18
+"covid_blood","GSVA","scran","jak_stat","transitional stage B cell",0.0711538461538462,-1.09628796152894,-0.202696270118815,-0.12560092725964,"UP","DOWN",FALSE,7,9
+"covid_blood","GSVA","scran","jak_stat","gamma-delta T cell",0.930735930735931,0.100562635751342,-0.0384883248316004,-0.0462783352789843,"UP","UP",TRUE,6,5
+"covid_blood","GSVA","scran","jak_stat","conventional dendritic cell",0.8,0.557076527898523,0.15573005513232,0.132519849596416,"UP","UP",TRUE,3,2
+"covid_blood","GSVA","scran","jak_stat","regulatory T cell",0.661172161172161,-0.509987395948946,0.0124004441266219,0.0609661538189678,"UP","DOWN",FALSE,11,5
+"covid_blood","GSVA","scran","nfkb_signaling","classical monocyte",0.0018585444398005,1.09575713179038,0.167695706118492,-0.145985310827592,"UP","UP",TRUE,17,21
+"covid_blood","GSVA","scran","nfkb_signaling","central memory CD4-positive, alpha-beta T cell",0.645547628299466,0.179226890190425,-0.0107323658986159,-0.0559079166027855,"UP","UP",TRUE,16,18
+"covid_blood","GSVA","scran","nfkb_signaling","naive B cell",0.00389480735085796,-1.45643043409095,-0.222101781149571,0.0256415648880269,"UP","DOWN",FALSE,11,13
+"covid_blood","GSVA","scran","nfkb_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.0127716744152334,-1.18323157449667,-0.265506043182737,-0.0573830506077561,"UP","DOWN",FALSE,15,11
+"covid_blood","GSVA","scran","nfkb_signaling","effector memory CD8-positive, alpha-beta T cell",0.654812590874908,-0.1789267440803,-0.0795312931772755,-0.0324422015894254,"UP","DOWN",FALSE,17,15
+"covid_blood","GSVA","scran","nfkb_signaling","mucosal invariant T cell",0.317599067599068,0.52203683232,-0.0389884097281593,-0.155051686007083,"UP","UP",TRUE,7,7
+"covid_blood","GSVA","scran","nfkb_signaling","natural killer cell",0.872530658578721,-0.0098350124477157,0.092479718347353,0.0948327422780649,"UP","DOWN",FALSE,18,15
+"covid_blood","GSVA","scran","nfkb_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.0175824175824176,-1.48072017205909,-0.297903600465603,-0.103179836068519,"UP","DOWN",FALSE,9,6
+"covid_blood","GSVA","scran","nfkb_signaling","non-classical monocyte",0.390153574561371,0.374404561761739,0.136021659993355,0.0414721022155934,"UP","UP",TRUE,9,20
+"covid_blood","GSVA","scran","nfkb_signaling","memory B cell",0.813533834586466,-0.107220897396882,-0.0516115330586427,-0.0307007983331783,"UP","DOWN",FALSE,3,18
+"covid_blood","GSVA","scran","nfkb_signaling","transitional stage B cell",0.173776223776224,-0.739960463214962,-0.172117101311028,-0.0358838072815336,"UP","DOWN",FALSE,7,9
+"covid_blood","GSVA","scran","nfkb_signaling","gamma-delta T cell",0.125541125541126,-0.908210866853522,-0.167009803643706,-0.00497665834640999,"UP","DOWN",FALSE,6,5
+"covid_blood","GSVA","scran","nfkb_signaling","conventional dendritic cell",0.8,-0.862023693418977,0.185933944002228,0.305442007059445,"UP","DOWN",FALSE,3,2
+"covid_blood","GSVA","scran","nfkb_signaling","regulatory T cell",0.661172161172161,-0.355266629837611,0.088271148998715,0.160438462215512,"UP","DOWN",FALSE,11,5
+"covid_blood","GSVA","scran","toll_like_receptor","classical monocyte",0.000255974542176093,1.47164992136642,0.290185570700715,0.208941116491665,"UP","UP",TRUE,17,21
+"covid_blood","GSVA","scran","toll_like_receptor","central memory CD4-positive, alpha-beta T cell",0.15398890805453,-0.459312732633116,-0.109641279825402,-0.0779165295763291,"UP","DOWN",FALSE,16,18
+"covid_blood","GSVA","scran","toll_like_receptor","naive B cell",0.0217543539154792,1.04532680963672,0.0895563142539438,0.0231363452057309,"UP","UP",TRUE,11,13
+"covid_blood","GSVA","scran","toll_like_receptor","naive thymus-derived CD4-positive, alpha-beta T cell",0.0036812595131346,-1.11581276200169,-0.22637986846754,-0.142427624157002,"UP","DOWN",FALSE,15,11
+"covid_blood","GSVA","scran","toll_like_receptor","effector memory CD8-positive, alpha-beta T cell",0.294788506991552,-0.471470356118954,-0.191776660518208,-0.149645928218824,"UP","DOWN",FALSE,17,15
+"covid_blood","GSVA","scran","toll_like_receptor","mucosal invariant T cell",1,0.133743637293421,-0.122073297689742,-0.13536171081699,"UP","UP",TRUE,7,7
+"covid_blood","GSVA","scran","toll_like_receptor","natural killer cell",0.0859847472466884,-0.55663873493036,-0.108179522539173,-0.0748320882820717,"UP","DOWN",FALSE,18,15
+"covid_blood","GSVA","scran","toll_like_receptor","naive thymus-derived CD8-positive, alpha-beta T cell",0.0879120879120879,-1.24243738365485,-0.240956787298492,-0.156411646888801,"UP","DOWN",FALSE,9,6
+"covid_blood","GSVA","scran","toll_like_receptor","non-classical monocyte",0.00111233094741341,1.24509377959328,0.147058844679148,0.0483635066348703,"UP","UP",TRUE,9,20
+"covid_blood","GSVA","scran","toll_like_receptor","memory B cell",0.306766917293233,0.909939565817632,0.135639109758417,0.0656473076515645,"UP","UP",TRUE,3,18
+"covid_blood","GSVA","scran","toll_like_receptor","transitional stage B cell",0.407867132867133,-0.45533488933602,0.0470694248084086,0.0905991783969055,"UP","DOWN",FALSE,7,9
+"covid_blood","GSVA","scran","toll_like_receptor","gamma-delta T cell",0.329004329004329,-0.70223412525932,-0.178736839012258,-0.14215176370366,"UP","DOWN",FALSE,6,5
+"covid_blood","GSVA","scran","toll_like_receptor","conventional dendritic cell",0.8,-0.252371266235711,0.14560616912523,0.164532731806064,"UP","DOWN",FALSE,3,2
+"covid_blood","GSVA","scran","toll_like_receptor","regulatory T cell",0.18040293040293,-0.914072713976333,-0.14084846927638,-0.0601998594890593,"UP","DOWN",FALSE,11,5
+"covid_blood","GSVA","sctransform","interferon_signaling","classical monocyte",0.336751789115336,-0.325258805931962,0.0393471772922076,0.084583933392018,"UP","DOWN",FALSE,17,21
+"covid_blood","GSVA","sctransform","interferon_signaling","central memory CD4-positive, alpha-beta T cell",0.484353042421437,-0.0928788262996424,-0.140338525426079,-0.124874399317661,"UP","DOWN",FALSE,16,18
+"covid_blood","GSVA","sctransform","interferon_signaling","naive B cell",0.303119531565487,0.523464211480988,-0.0197529941477829,-0.0716000877863472,"UP","UP",TRUE,11,13
+"covid_blood","GSVA","sctransform","interferon_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.14844424655974,-0.37467497111513,-0.262389322640111,-0.21391995622463,"UP","DOWN",FALSE,15,11
+"covid_blood","GSVA","sctransform","interferon_signaling","effector memory CD8-positive, alpha-beta T cell",0.0126127159962746,0.96886470960091,0.155715831464036,0.0137297839639078,"UP","UP",TRUE,17,15
+"covid_blood","GSVA","sctransform","interferon_signaling","mucosal invariant T cell",0.00699300699300699,2.13581305059983,0.0702051193087744,-0.16477568396782,"UP","UP",TRUE,7,7
+"covid_blood","GSVA","sctransform","interferon_signaling","natural killer cell",0.0674178750260616,0.964847717507279,0.184340060957013,0.0685943907578235,"UP","UP",TRUE,18,15
+"covid_blood","GSVA","sctransform","interferon_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.775624375624376,-0.160183453144943,-0.215944238270306,-0.192947954508853,"UP","DOWN",FALSE,9,6
+"covid_blood","GSVA","sctransform","interferon_signaling","non-classical monocyte",0.00167328922951112,1.64747112763899,0.273156114188708,0.134779232605197,"UP","UP",TRUE,9,20
+"covid_blood","GSVA","sctransform","interferon_signaling","memory B cell",0.0345864661654135,1.59864749098257,0.150782451492139,-0.0504300041904664,"UP","UP",TRUE,3,18
+"covid_blood","GSVA","sctransform","interferon_signaling","transitional stage B cell",0.0907342657342657,0.980232859641739,0.0656640083007791,-0.0439899592962838,"UP","UP",TRUE,7,9
+"covid_blood","GSVA","sctransform","interferon_signaling","gamma-delta T cell",0.0173160173160173,1.65844470870611,0.156233201763358,-0.0689612184306795,"UP","UP",TRUE,6,5
+"covid_blood","GSVA","sctransform","interferon_signaling","conventional dendritic cell",0.4,1.29219926591029,0.284798459193178,0.102371352564097,"UP","UP",TRUE,3,2
+"covid_blood","GSVA","sctransform","interferon_signaling","regulatory T cell",0.509615384615385,0.235220137642705,0.142251121773225,0.125596270906583,"UP","UP",TRUE,11,5
+"covid_blood","GSVA","sctransform","jak_stat","classical monocyte",0.00648848475317244,0.856255573105839,0.223976799754078,0.166797429146579,"UP","UP",TRUE,17,21
+"covid_blood","GSVA","sctransform","jak_stat","central memory CD4-positive, alpha-beta T cell",0.347336386916717,-0.308929221459712,-0.0578924309928429,-0.0307616401360256,"UP","DOWN",FALSE,16,18
+"covid_blood","GSVA","sctransform","jak_stat","naive B cell",0.0409535667814036,-0.823989652234585,-0.202383269885023,-0.155561112681003,"UP","DOWN",FALSE,11,13
+"covid_blood","GSVA","sctransform","jak_stat","naive thymus-derived CD4-positive, alpha-beta T cell",0.0273929092848194,-1.0654221473419,-0.30256122920911,-0.205688925126955,"UP","DOWN",FALSE,15,11
+"covid_blood","GSVA","sctransform","jak_stat","effector memory CD8-positive, alpha-beta T cell",0.576054470642438,0.225947701911194,0.0377031694863318,0.0169139697893578,"UP","UP",TRUE,17,15
+"covid_blood","GSVA","sctransform","jak_stat","mucosal invariant T cell",0.00699300699300699,1.73471803281135,0.0671156071002251,-0.0450270913315493,"UP","UP",TRUE,7,7
+"covid_blood","GSVA","sctransform","jak_stat","natural killer cell",0.580016404824289,-0.186563380945004,0.0749668023243052,0.0884900743918346,"UP","DOWN",FALSE,18,15
+"covid_blood","GSVA","sctransform","jak_stat","naive thymus-derived CD8-positive, alpha-beta T cell",0.775624375624376,0.0468633493913748,-0.252866159184081,-0.257469283028042,"UP","UP",TRUE,9,6
+"covid_blood","GSVA","sctransform","jak_stat","non-classical monocyte",0.00598082577093072,1.37859334345425,0.215155599664418,0.119660650469058,"UP","UP",TRUE,9,20
+"covid_blood","GSVA","sctransform","jak_stat","memory B cell",0.356390977443609,0.804154935469704,-0.0681688239699563,-0.127300009864285,"UP","UP",TRUE,3,18
+"covid_blood","GSVA","sctransform","jak_stat","transitional stage B cell",0.918181818181818,0.149829725452694,-0.135060064811573,-0.146153655324078,"UP","UP",TRUE,7,9
+"covid_blood","GSVA","sctransform","jak_stat","gamma-delta T cell",0.0822510822510823,1.39270588812703,0.0341088684557362,-0.0842345226112009,"UP","UP",TRUE,6,5
+"covid_blood","GSVA","sctransform","jak_stat","conventional dendritic cell",0.4,1.13116360094066,0.217906963041763,0.150550438012455,"UP","UP",TRUE,3,2
+"covid_blood","GSVA","sctransform","jak_stat","regulatory T cell",0.913003663003663,-0.027000908340813,0.0374485634958654,0.0391229183689868,"UP","DOWN",FALSE,11,5
+"covid_blood","GSVA","sctransform","nfkb_signaling","classical monocyte",0.0039402831396478,1.04687128735447,0.0448011378501179,-0.252652712719753,"UP","UP",TRUE,17,21
+"covid_blood","GSVA","sctransform","nfkb_signaling","central memory CD4-positive, alpha-beta T cell",0.237320126786429,0.25219034030148,-0.144783606959248,-0.204230330674027,"UP","UP",TRUE,16,18
+"covid_blood","GSVA","sctransform","nfkb_signaling","naive B cell",0.0217543539154792,-1.08817495241263,-0.204956365880487,0.00921940610774387,"UP","DOWN",FALSE,11,13
+"covid_blood","GSVA","sctransform","nfkb_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.134105946550421,-0.874481250355244,-0.454256408845813,-0.27442076205532,"UP","DOWN",FALSE,15,11
+"covid_blood","GSVA","sctransform","nfkb_signaling","effector memory CD8-positive, alpha-beta T cell",0.0532443915280617,0.77730246811595,0.232790608625825,0.0102062276325394,"UP","UP",TRUE,17,15
+"covid_blood","GSVA","sctransform","nfkb_signaling","mucosal invariant T cell",0.00233100233100233,2.97280046920003,0.321774496261605,-0.183210131261596,"UP","UP",TRUE,7,7
+"covid_blood","GSVA","sctransform","nfkb_signaling","natural killer cell",0.013207559285645,1.00387824435844,0.421378523859923,0.27050976203913,"UP","UP",TRUE,18,15
+"covid_blood","GSVA","sctransform","nfkb_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",1,-0.0192849643211677,-0.337974907109475,-0.333735480822369,"UP","DOWN",FALSE,9,6
+"covid_blood","GSVA","sctransform","nfkb_signaling","non-classical monocyte",0.0689647184399808,1.08111119609352,0.304679331800441,0.0695177790197774,"UP","UP",TRUE,9,20
+"covid_blood","GSVA","sctransform","nfkb_signaling","memory B cell",0.124812030075188,1.10064278380038,0.19463173292591,-0.0945099656110761,"UP","UP",TRUE,3,18
+"covid_blood","GSVA","sctransform","nfkb_signaling","transitional stage B cell",0.837062937062937,-0.2986339879928,-0.0618594650998221,0.0119623945580091,"UP","DOWN",FALSE,7,9
+"covid_blood","GSVA","sctransform","nfkb_signaling","gamma-delta T cell",0.125541125541126,1.30004492824118,0.310327113562738,-0.00799824148305052,"UP","UP",TRUE,6,5
+"covid_blood","GSVA","sctransform","nfkb_signaling","conventional dendritic cell",0.4,1.01647649781774,0.372854164275375,0.233933515815471,"UP","UP",TRUE,3,2
+"covid_blood","GSVA","sctransform","nfkb_signaling","regulatory T cell",0.913003663003663,0.0906686837362758,0.363928267768392,0.353526291578387,"UP","UP",TRUE,11,5
+"covid_blood","GSVA","sctransform","toll_like_receptor","classical monocyte",0.209470652100271,0.416837233453938,0.305695574390075,0.281905583199593,"UP","UP",TRUE,17,21
+"covid_blood","GSVA","sctransform","toll_like_receptor","central memory CD4-positive, alpha-beta T cell",0.0224045118611717,-0.907837324248015,-0.173782505857748,-0.0563506042500672,"UP","DOWN",FALSE,16,18
+"covid_blood","GSVA","sctransform","toll_like_receptor","naive B cell",0.0409535667814036,0.941394610526452,0.0384477505937964,-0.0506746080215,"UP","UP",TRUE,11,13
+"covid_blood","GSVA","sctransform","toll_like_receptor","naive thymus-derived CD4-positive, alpha-beta T cell",0.443029137372252,-0.667278959607278,-0.278218969968188,-0.205736566521067,"UP","DOWN",FALSE,15,11
+"covid_blood","GSVA","sctransform","toll_like_receptor","effector memory CD8-positive, alpha-beta T cell",0.176456045463403,-0.502416991485684,-0.108372731526685,-0.0566973494321443,"UP","DOWN",FALSE,17,15
+"covid_blood","GSVA","sctransform","toll_like_receptor","mucosal invariant T cell",0.0973193473193473,0.78209466826407,-0.0746833572827747,-0.158184512259051,"UP","UP",TRUE,7,7
+"covid_blood","GSVA","sctransform","toll_like_receptor","natural killer cell",0.400613763576616,-0.471155918640804,-0.0194319664909568,0.0238386730030913,"UP","DOWN",FALSE,18,15
+"covid_blood","GSVA","sctransform","toll_like_receptor","naive thymus-derived CD8-positive, alpha-beta T cell",0.863936063936064,0.306146661850072,-0.254703384633716,-0.278800503762102,"UP","UP",TRUE,9,6
+"covid_blood","GSVA","sctransform","toll_like_receptor","non-classical monocyte",1.33799234249009e-05,2.02373592181057,0.342661279712783,0.185525601650454,"UP","UP",TRUE,9,20
+"covid_blood","GSVA","sctransform","toll_like_receptor","memory B cell",0.0466165413533835,1.4458807238925,0.120308759903046,-0.01402819583621,"UP","UP",TRUE,3,18
+"covid_blood","GSVA","sctransform","toll_like_receptor","transitional stage B cell",0.351048951048951,0.596221606566216,0.0436483172391929,-0.00177618512323862,"UP","UP",TRUE,7,9
+"covid_blood","GSVA","sctransform","toll_like_receptor","gamma-delta T cell",0.0822510822510823,1.38766379190641,-0.0778921116449595,-0.173646121753996,"UP","UP",TRUE,6,5
+"covid_blood","GSVA","sctransform","toll_like_receptor","conventional dendritic cell",0.8,0.84790406353349,0.33052383962771,0.279419116471679,"UP","UP",TRUE,3,2
+"covid_blood","GSVA","sctransform","toll_like_receptor","regulatory T cell",0.826923076923077,-0.402835732571808,-0.0536151612443436,-0.033996196139794,"UP","DOWN",FALSE,11,5
+"covid_blood","zscore","log2CPM","interferon_signaling","classical monocyte",0.0418126086275034,0.832656485261617,0.196422884769121,0.0294329499748389,"UP","UP",TRUE,17,21
+"covid_blood","zscore","log2CPM","interferon_signaling","central memory CD4-positive, alpha-beta T cell",2.97736607849803e-05,1.60266460526398,0.15159648195667,-0.246238369293746,"UP","UP",TRUE,16,18
+"covid_blood","zscore","log2CPM","interferon_signaling","naive B cell",0.0154165785307258,1.3250934024587,0.0801698989317487,-0.32397738227018,"UP","UP",TRUE,11,13
+"covid_blood","zscore","log2CPM","interferon_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.0175303126003086,1.18848705936215,-0.0510260018688668,-0.363431329685556,"UP","UP",TRUE,15,11
+"covid_blood","zscore","log2CPM","interferon_signaling","effector memory CD8-positive, alpha-beta T cell",9.47814151780929e-06,2.10800478815171,0.352310760567646,-0.0728950654114196,"UP","UP",TRUE,17,15
+"covid_blood","zscore","log2CPM","interferon_signaling","mucosal invariant T cell",0.0378787878787879,1.59623269491135,0.101767411652828,-0.377994853467689,"UP","UP",TRUE,7,7
+"covid_blood","zscore","log2CPM","interferon_signaling","natural killer cell",8.52136055756656e-06,1.70541842794075,0.432838233955517,0.0517525994834544,"UP","UP",TRUE,18,15
+"covid_blood","zscore","log2CPM","interferon_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.528671328671329,0.668509258913594,-0.170389162883247,-0.327734683643565,"UP","UP",TRUE,9,6
+"covid_blood","zscore","log2CPM","interferon_signaling","non-classical monocyte",0.000167748293685325,1.81306807493501,0.31270699695879,-0.0331127355176826,"UP","UP",TRUE,9,20
+"covid_blood","zscore","log2CPM","interferon_signaling","memory B cell",0.0165413533834586,1.93009785089007,0.165164044323913,-0.317791825590528,"UP","UP",TRUE,3,18
+"covid_blood","zscore","log2CPM","interferon_signaling","transitional stage B cell",0.00786713286713287,1.74151462576898,0.199880573227989,-0.283345894472884,"UP","UP",TRUE,7,9
+"covid_blood","zscore","log2CPM","interferon_signaling","gamma-delta T cell",0.051948051948052,1.67013810951114,0.354008528021001,-0.201538253416411,"UP","UP",TRUE,6,5
+"covid_blood","zscore","log2CPM","interferon_signaling","conventional dendritic cell",0.4,1.27763533037624,0.445359952806522,0.284920977214826,"UP","UP",TRUE,3,2
+"covid_blood","zscore","log2CPM","interferon_signaling","regulatory T cell",0.31959706959707,0.93929397885644,0.23537717277754,0.031067363256961,"UP","UP",TRUE,11,5
+"covid_blood","zscore","log2CPM","jak_stat","classical monocyte",6.35832974332655e-08,2.80728531209922,0.359744214949077,0.0775916630151267,"UP","UP",TRUE,17,21
+"covid_blood","zscore","log2CPM","jak_stat","central memory CD4-positive, alpha-beta T cell",6.07996120875854e-08,1.97619553440638,0.180312313883618,-0.183753549926963,"UP","UP",TRUE,16,18
+"covid_blood","zscore","log2CPM","jak_stat","naive B cell",0.00482744585248287,1.38195137660847,-0.048720910018183,-0.363589511211024,"UP","UP",TRUE,11,13
+"covid_blood","zscore","log2CPM","jak_stat","naive thymus-derived CD4-positive, alpha-beta T cell",0.00130077554697288,1.50511715978768,-0.0884261592232769,-0.347292332527643,"UP","UP",TRUE,15,11
+"covid_blood","zscore","log2CPM","jak_stat","effector memory CD8-positive, alpha-beta T cell",6.89383661310262e-07,2.20653315411954,0.254639069350097,-0.0711947728847969,"UP","UP",TRUE,17,15
+"covid_blood","zscore","log2CPM","jak_stat","mucosal invariant T cell",0.0378787878787879,1.48573829263133,0.102740891029587,-0.251835850245201,"UP","UP",TRUE,7,7
+"covid_blood","zscore","log2CPM","jak_stat","natural killer cell",1.72336273598037e-05,1.73092319545217,0.346121398001923,0.082513021602792,"UP","UP",TRUE,18,15
+"covid_blood","zscore","log2CPM","jak_stat","naive thymus-derived CD8-positive, alpha-beta T cell",0.144655344655345,1.07943627838128,-0.216248286648958,-0.386680406964851,"UP","UP",TRUE,9,6
+"covid_blood","zscore","log2CPM","jak_stat","non-classical monocyte",2.75586482483034e-05,2.02782256368936,0.279196548578494,-0.031019843492861,"UP","UP",TRUE,9,20
+"covid_blood","zscore","log2CPM","jak_stat","memory B cell",0.0165413533834586,1.80741952436912,-0.00617714877463267,-0.355376560143874,"UP","UP",TRUE,3,18
+"covid_blood","zscore","log2CPM","jak_stat","transitional stage B cell",0.0115384615384615,1.79419366694318,0.0532217534661887,-0.328235335923235,"UP","UP",TRUE,7,9
+"covid_blood","zscore","log2CPM","jak_stat","gamma-delta T cell",0.0173160173160173,1.90423562441487,0.216866329420182,-0.19080681697667,"UP","UP",TRUE,6,5
+"covid_blood","zscore","log2CPM","jak_stat","conventional dendritic cell",0.4,1.05181564804421,0.375722710489457,0.32234244587071,"UP","UP",TRUE,3,2
+"covid_blood","zscore","log2CPM","jak_stat","regulatory T cell",0.0274725274725275,1.45819544957265,0.164425589207985,-0.0383023623609877,"UP","UP",TRUE,11,5
+"covid_blood","zscore","log2CPM","nfkb_signaling","classical monocyte",3.53634317637036e-06,2.04710064434707,0.269674585647541,-0.220044444334779,"UP","UP",TRUE,17,21
+"covid_blood","zscore","log2CPM","nfkb_signaling","central memory CD4-positive, alpha-beta T cell",1.76954094881778e-07,1.87802529922761,0.254949848746483,-0.341875023072625,"UP","UP",TRUE,16,18
+"covid_blood","zscore","log2CPM","nfkb_signaling","naive B cell",0.303119531565487,0.829515300706869,-0.0215046222927484,-0.374285594887423,"UP","UP",TRUE,11,13
+"covid_blood","zscore","log2CPM","nfkb_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.0773991219441482,1.11925292101693,-0.122165102792217,-0.441100030247334,"UP","UP",TRUE,15,11
+"covid_blood","zscore","log2CPM","nfkb_signaling","effector memory CD8-positive, alpha-beta T cell",4.27417870012362e-06,2.02774563642794,0.470674135730696,-0.0644916861590614,"UP","UP",TRUE,17,15
+"covid_blood","zscore","log2CPM","nfkb_signaling","mucosal invariant T cell",0.00233100233100233,1.87741477266096,0.294659633159187,-0.585522742548064,"UP","UP",TRUE,7,7
+"covid_blood","zscore","log2CPM","nfkb_signaling","natural killer cell",0.000111155643045895,1.60453057378675,0.658354033639262,0.260777776013202,"UP","UP",TRUE,18,15
+"covid_blood","zscore","log2CPM","nfkb_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.388411588411588,1.00117534771043,-0.247744442348303,-0.519109672238368,"UP","UP",TRUE,9,6
+"covid_blood","zscore","log2CPM","nfkb_signaling","non-classical monocyte",0.0263588485477541,1.44087715817761,0.353340447584269,-0.087799397366817,"UP","UP",TRUE,9,20
+"covid_blood","zscore","log2CPM","nfkb_signaling","memory B cell",0.0466165413533835,1.74440091843028,0.164558178727939,-0.494311495071208,"UP","UP",TRUE,3,18
+"covid_blood","zscore","log2CPM","nfkb_signaling","transitional stage B cell",0.0711538461538462,1.16917869885526,0.100018978089266,-0.308291225620451,"UP","UP",TRUE,7,9
+"covid_blood","zscore","log2CPM","nfkb_signaling","gamma-delta T cell",0.00865800865800866,1.64351848223104,0.422713022119205,-0.108699201502053,"UP","UP",TRUE,6,5
+"covid_blood","zscore","log2CPM","nfkb_signaling","conventional dendritic cell",1,0.65767222187926,0.467096401600995,0.380765252500222,"UP","UP",TRUE,3,2
+"covid_blood","zscore","log2CPM","nfkb_signaling","regulatory T cell",0.0274725274725275,1.6267084099999,0.41906194061639,0.239794534081377,"UP","UP",TRUE,11,5
+"covid_blood","zscore","log2CPM","toll_like_receptor","classical monocyte",8.00454648233645e-07,1.85821911295586,0.48628838339858,0.223697988615851,"UP","UP",TRUE,17,21
+"covid_blood","zscore","log2CPM","toll_like_receptor","central memory CD4-positive, alpha-beta T cell",3.15159780268931e-06,1.59595138051267,0.113420260385267,-0.247032511765023,"UP","UP",TRUE,16,18
+"covid_blood","zscore","log2CPM","toll_like_receptor","naive B cell",0.00153997525783769,1.50495275336137,0.126257872032051,-0.333950434732571,"UP","UP",TRUE,11,13
+"covid_blood","zscore","log2CPM","toll_like_receptor","naive thymus-derived CD4-positive, alpha-beta T cell",0.00200617124159997,1.34871931866543,-0.0757650350096285,-0.387775456118448,"UP","UP",TRUE,15,11
+"covid_blood","zscore","log2CPM","toll_like_receptor","effector memory CD8-positive, alpha-beta T cell",4.89285634488924e-05,1.7592311068549,0.165717255954539,-0.148131630914586,"UP","UP",TRUE,17,15
+"covid_blood","zscore","log2CPM","toll_like_receptor","mucosal invariant T cell",0.128205128205128,1.35355431019825,-0.0149794600217033,-0.411206728185185,"UP","UP",TRUE,7,7
+"covid_blood","zscore","log2CPM","toll_like_receptor","natural killer cell",0.000628864453403797,1.40816594581029,0.272322054924166,0.00521721929213894,"UP","UP",TRUE,18,15
+"covid_blood","zscore","log2CPM","toll_like_receptor","naive thymus-derived CD8-positive, alpha-beta T cell",0.223776223776224,1.0209709961628,-0.230188974100042,-0.427873011268319,"UP","UP",TRUE,9,6
+"covid_blood","zscore","log2CPM","toll_like_receptor","non-classical monocyte",5.29205926507276e-05,2.04805216887977,0.448606680061805,0.0431582144113525,"UP","UP",TRUE,9,20
+"covid_blood","zscore","log2CPM","toll_like_receptor","memory B cell",0.0165413533834586,1.87469297637581,0.155785359459216,-0.303197560657946,"UP","UP",TRUE,3,18
+"covid_blood","zscore","log2CPM","toll_like_receptor","transitional stage B cell",0.0115384615384615,1.61024931546927,0.211992421696267,-0.240022739359342,"UP","UP",TRUE,7,9
+"covid_blood","zscore","log2CPM","toll_like_receptor","gamma-delta T cell",0.051948051948052,1.5814546270996,0.131191687625728,-0.316803276830329,"UP","UP",TRUE,6,5
+"covid_blood","zscore","log2CPM","toll_like_receptor","conventional dendritic cell",0.8,0.419229692132177,0.496058296081797,0.45093218351545,"UP","UP",TRUE,3,2
+"covid_blood","zscore","log2CPM","toll_like_receptor","regulatory T cell",0.0897435897435898,1.21270790242755,0.104788610128315,-0.101164517175497,"UP","UP",TRUE,11,5
+"covid_blood","zscore","voom","interferon_signaling","classical monocyte",0.322202429888315,0.572473625346197,0.197758676126147,0.107202128671404,"UP","UP",TRUE,17,21
+"covid_blood","zscore","voom","interferon_signaling","central memory CD4-positive, alpha-beta T cell",0.15398890805453,0.664913857189845,-0.0251173809107211,-0.129495849924068,"UP","UP",TRUE,16,18
+"covid_blood","zscore","voom","interferon_signaling","naive B cell",0.119121332743624,0.945230554774362,0.00820927836635795,-0.156439869586465,"UP","UP",TRUE,11,13
+"covid_blood","zscore","voom","interferon_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.506549178375804,0.13673042273802,-0.125343121737271,-0.145307457709594,"UP","UP",TRUE,15,11
+"covid_blood","zscore","voom","interferon_signaling","effector memory CD8-positive, alpha-beta T cell",0.0046943032445294,1.09408484934185,0.0716980980147992,-0.0726414485026209,"UP","UP",TRUE,17,15
+"covid_blood","zscore","voom","interferon_signaling","mucosal invariant T cell",0.128205128205128,1.14315163312352,0.00552534565286861,-0.240942026087446,"UP","UP",TRUE,7,7
+"covid_blood","zscore","voom","interferon_signaling","natural killer cell",0.00943197177456957,1.17936279981357,0.101941399067577,-0.0633805299254354,"UP","UP",TRUE,18,15
+"covid_blood","zscore","voom","interferon_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.455944055944056,-0.409116918957576,-0.18068027821207,-0.123428770879252,"UP","DOWN",FALSE,9,6
+"covid_blood","zscore","voom","interferon_signaling","non-classical monocyte",0.000281577492971796,1.71384531307519,0.307588604840798,0.0489013460523604,"UP","UP",TRUE,9,20
+"covid_blood","zscore","voom","interferon_signaling","memory B cell",0.0616541353383459,1.40656010430419,0.12402309132562,-0.109325942754039,"UP","UP",TRUE,3,18
+"covid_blood","zscore","voom","interferon_signaling","transitional stage B cell",0.0115384615384615,1.43034984165462,0.0906565881950875,-0.116184740997669,"UP","UP",TRUE,7,9
+"covid_blood","zscore","voom","interferon_signaling","gamma-delta T cell",0.246753246753247,1.15613426277386,0.130459096002854,-0.138968411998499,"UP","UP",TRUE,6,5
+"covid_blood","zscore","voom","interferon_signaling","conventional dendritic cell",0.8,0.969234965274507,0.322325303114595,0.193160670156788,"UP","UP",TRUE,3,2
+"covid_blood","zscore","voom","interferon_signaling","regulatory T cell",0.583333333333333,0.348267829361434,0.0839390785917346,0.0341523787712902,"UP","UP",TRUE,11,5
+"covid_blood","zscore","voom","jak_stat","classical monocyte",1.44817040274235e-07,2.35057960894312,0.332221806181312,0.149010503413505,"UP","UP",TRUE,17,21
+"covid_blood","zscore","voom","jak_stat","central memory CD4-positive, alpha-beta T cell",0.125817330659911,0.678328534553692,0.0290846189296418,-0.0552548204027129,"UP","UP",TRUE,16,18
+"covid_blood","zscore","voom","jak_stat","naive B cell",0.820138581748489,0.404970498879347,-0.200514052498639,-0.245692899448688,"UP","UP",TRUE,11,13
+"covid_blood","zscore","voom","jak_stat","naive thymus-derived CD4-positive, alpha-beta T cell",0.180438924381582,-0.252881728480507,-0.169567462724926,-0.148077687285574,"UP","DOWN",FALSE,15,11
+"covid_blood","zscore","voom","jak_stat","effector memory CD8-positive, alpha-beta T cell",0.0636809813825402,0.786466272263923,0.0322847442101399,-0.0405494219227185,"UP","UP",TRUE,17,15
+"covid_blood","zscore","voom","jak_stat","mucosal invariant T cell",0.0973193473193473,1.10250021576422,0.0360699941192109,-0.139421029157642,"UP","UP",TRUE,7,7
+"covid_blood","zscore","voom","jak_stat","natural killer cell",0.36145503031784,0.61107163908701,0.106503603165158,0.0450777575480497,"UP","UP",TRUE,18,15
+"covid_blood","zscore","voom","jak_stat","naive thymus-derived CD8-positive, alpha-beta T cell",0.388411588411588,-0.229408593228605,-0.213709326697163,-0.194964260126981,"UP","DOWN",FALSE,9,6
+"covid_blood","zscore","voom","jak_stat","non-classical monocyte",0.00505301794657117,1.36107817039712,0.237194527953589,0.045825974030965,"UP","UP",TRUE,9,20
+"covid_blood","zscore","voom","jak_stat","memory B cell",0.73984962406015,0.480910233923689,-0.147343711717383,-0.207828882427056,"UP","UP",TRUE,3,18
+"covid_blood","zscore","voom","jak_stat","transitional stage B cell",0.918181818181818,0.508618238516284,-0.15822275970965,-0.208824207043341,"UP","UP",TRUE,7,9
+"covid_blood","zscore","voom","jak_stat","gamma-delta T cell",0.246753246753247,1.1549495389882,0.0324829444437873,-0.113613983600462,"UP","UP",TRUE,6,5
+"covid_blood","zscore","voom","jak_stat","conventional dendritic cell",1,-0.204590096307582,0.175020702730293,0.188602523353429,"UP","DOWN",FALSE,3,2
+"covid_blood","zscore","voom","jak_stat","regulatory T cell",0.509615384615385,0.400193979085069,0.0239559897155502,-0.00367043171130006,"UP","UP",TRUE,11,5
+"covid_blood","zscore","voom","nfkb_signaling","classical monocyte",0.000925249968300599,1.24641620009717,0.277791145399786,-0.0886580867356585,"UP","UP",TRUE,17,21
+"covid_blood","zscore","voom","nfkb_signaling","central memory CD4-positive, alpha-beta T cell",0.383790099266846,0.521550985085598,0.0374244095059284,-0.115843037091212,"UP","UP",TRUE,16,18
+"covid_blood","zscore","voom","nfkb_signaling","naive B cell",0.228425924145402,-0.249950105338298,-0.193241096131796,-0.116654662961059,"UP","DOWN",FALSE,11,13
+"covid_blood","zscore","voom","nfkb_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.237211499632418,-0.507767057145943,-0.19114650563471,-0.0779961084460784,"UP","DOWN",FALSE,15,11
+"covid_blood","zscore","voom","nfkb_signaling","effector memory CD8-positive, alpha-beta T cell",0.433072544797211,0.402600999121344,0.0356250665325167,-0.0649182865980289,"UP","UP",TRUE,17,15
+"covid_blood","zscore","voom","nfkb_signaling","mucosal invariant T cell",0.0973193473193473,1.01850546290828,0.00459289302119388,-0.350198084109825,"UP","UP",TRUE,7,7
+"covid_blood","zscore","voom","nfkb_signaling","natural killer cell",0.872530658578721,0.155777241205608,0.1501093879922,0.110421453156704,"UP","UP",TRUE,18,15
+"covid_blood","zscore","voom","nfkb_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.272127872127872,-0.422053443666833,-0.245851880238833,-0.158849537980829,"UP","DOWN",FALSE,9,6
+"covid_blood","zscore","voom","nfkb_signaling","non-classical monocyte",0.253373413193503,0.550733964456027,0.187537423545538,-0.00109861803953477,"UP","UP",TRUE,9,20
+"covid_blood","zscore","voom","nfkb_signaling","memory B cell",0.41203007518797,0.625222419437548,-0.0131645656270636,-0.197972842209711,"UP","UP",TRUE,3,18
+"covid_blood","zscore","voom","nfkb_signaling","transitional stage B cell",0.407867132867133,-0.219716773605889,-0.18618812354205,-0.12584152628444,"UP","DOWN",FALSE,7,9
+"covid_blood","zscore","voom","nfkb_signaling","gamma-delta T cell",0.792207792207792,0.217696700333535,-0.0623592197315148,-0.119820803173555,"UP","UP",TRUE,6,5
+"covid_blood","zscore","voom","nfkb_signaling","conventional dendritic cell",0.8,-0.434800684644209,0.242625418187987,0.302496465073493,"UP","DOWN",FALSE,3,2
+"covid_blood","zscore","voom","nfkb_signaling","regulatory T cell",0.826923076923077,-0.410500911106668,0.0995428727256931,0.149633238994141,"UP","DOWN",FALSE,11,5
+"covid_blood","zscore","voom","toll_like_receptor","classical monocyte",1.44817040274235e-07,2.24338726868235,0.442503670248523,0.294861719023499,"UP","UP",TRUE,17,21
+"covid_blood","zscore","voom","toll_like_receptor","central memory CD4-positive, alpha-beta T cell",0.695270238009564,0.214774384145445,-0.0665784763198755,-0.0875077479031821,"UP","UP",TRUE,16,18
+"covid_blood","zscore","voom","toll_like_receptor","naive B cell",7.77198751354089e-05,1.61513120011258,0.0968716045307968,-0.0802594030918918,"UP","UP",TRUE,11,13
+"covid_blood","zscore","voom","toll_like_receptor","naive thymus-derived CD4-positive, alpha-beta T cell",0.0236930117936983,-0.703034387188428,-0.187685465872194,-0.140392212446386,"UP","DOWN",FALSE,15,11
+"covid_blood","zscore","voom","toll_like_receptor","effector memory CD8-positive, alpha-beta T cell",0.550803344083476,-0.0512566348453287,-0.122932064746978,-0.119247274453643,"UP","DOWN",FALSE,17,15
+"covid_blood","zscore","voom","toll_like_receptor","mucosal invariant T cell",0.317599067599068,0.951833071765841,-0.0806107162811393,-0.204467207921943,"UP","UP",TRUE,7,7
+"covid_blood","zscore","voom","toll_like_receptor","natural killer cell",0.177575467938203,-0.126766959374912,-0.0640845973562945,-0.0544152287406965,"UP","DOWN",FALSE,18,15
+"covid_blood","zscore","voom","toll_like_receptor","naive thymus-derived CD8-positive, alpha-beta T cell",0.272127872127872,-0.588829490097752,-0.22229594865621,-0.18131747157532,"UP","DOWN",FALSE,9,6
+"covid_blood","zscore","voom","toll_like_receptor","non-classical monocyte",0.000167748293685325,1.61424537208269,0.226426951718922,0.0312317776593116,"UP","UP",TRUE,9,20
+"covid_blood","zscore","voom","toll_like_receptor","memory B cell",0.0466165413533835,1.3606515932697,0.13760406902031,-0.0123320334400801,"UP","UP",TRUE,3,18
+"covid_blood","zscore","voom","toll_like_receptor","transitional stage B cell",0.210489510489511,0.731543939464907,0.0824117716555356,-0.000775839923503081,"UP","UP",TRUE,7,9
+"covid_blood","zscore","voom","toll_like_receptor","gamma-delta T cell",0.536796536796537,0.764873550631645,-0.104920257088233,-0.176123056833587,"UP","UP",TRUE,6,5
+"covid_blood","zscore","voom","toll_like_receptor","conventional dendritic cell",1,-0.0625302483708106,0.195819547308234,0.200992795048696,"UP","DOWN",FALSE,3,2
+"covid_blood","zscore","voom","toll_like_receptor","regulatory T cell",0.742673992673993,-0.114642262491644,-0.11534564957704,-0.106176100041248,"UP","DOWN",FALSE,11,5
+"covid_blood","zscore","scran","interferon_signaling","classical monocyte",0.308059549509113,0.502650618189259,0.258650480190343,0.196310430213746,"UP","UP",TRUE,17,21
+"covid_blood","zscore","scran","interferon_signaling","central memory CD4-positive, alpha-beta T cell",0.144123514901983,0.745486774384466,0.0846964606451433,-0.161351947645496,"UP","UP",TRUE,16,18
+"covid_blood","zscore","scran","interferon_signaling","naive B cell",0.0720246908832183,1.09743648702689,0.0790799084664663,-0.424551648875264,"UP","UP",TRUE,11,13
+"covid_blood","zscore","scran","interferon_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.721103627157605,0.584894289819536,-0.0096041094086858,-0.169396788927847,"UP","UP",TRUE,15,11
+"covid_blood","zscore","scran","interferon_signaling","effector memory CD8-positive, alpha-beta T cell",0.00884143030352396,1.20205534014312,0.154995560865716,-0.0637491996469855,"UP","UP",TRUE,17,15
+"covid_blood","zscore","scran","interferon_signaling","mucosal invariant T cell",0.164918414918415,1.2897439314739,0.0302325114125545,-0.456675443422049,"UP","UP",TRUE,7,7
+"covid_blood","zscore","scran","interferon_signaling","natural killer cell",0.00943197177456957,1.10304628892012,0.175131341029841,-0.0529807651844914,"UP","UP",TRUE,18,15
+"covid_blood","zscore","scran","interferon_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.775624375624376,0.326909688146303,-0.0858263091243849,-0.155549518498706,"UP","UP",TRUE,9,6
+"covid_blood","zscore","scran","interferon_signaling","non-classical monocyte",0.000576734609718118,1.33971135280722,0.368318479754159,0.0585432927643697,"UP","UP",TRUE,9,20
+"covid_blood","zscore","scran","interferon_signaling","memory B cell",0.100751879699248,1.463621066065,0.156532775421395,-0.305387651342941,"UP","UP",TRUE,3,18
+"covid_blood","zscore","scran","interferon_signaling","transitional stage B cell",0.0164335664335664,1.28312618169058,0.140983117804249,-0.307601072288047,"UP","UP",TRUE,7,9
+"covid_blood","zscore","scran","interferon_signaling","gamma-delta T cell",0.125541125541126,1.32847974871222,0.173079650484579,-0.328014504110481,"UP","UP",TRUE,6,5
+"covid_blood","zscore","scran","interferon_signaling","conventional dendritic cell",0.8,0.980603683763259,0.35031091187069,0.246226340794833,"UP","UP",TRUE,3,2
+"covid_blood","zscore","scran","interferon_signaling","regulatory T cell",0.31959706959707,0.904481739246099,0.154812265455761,-0.0324994836561139,"UP","UP",TRUE,11,5
+"covid_blood","zscore","scran","jak_stat","classical monocyte",9.20310901143914e-06,1.79979634607295,0.3679776622452,0.233122335731275,"UP","UP",TRUE,17,21
+"covid_blood","zscore","scran","jak_stat","central memory CD4-positive, alpha-beta T cell",0.134737141021565,0.688912605729679,0.126546552494837,-0.0970108656741729,"UP","UP",TRUE,16,18
+"covid_blood","zscore","scran","jak_stat","naive B cell",0.648977783333013,0.937414965356321,-0.119235033463764,-0.488146222832504,"UP","UP",TRUE,11,13
+"covid_blood","zscore","scran","jak_stat","naive thymus-derived CD4-positive, alpha-beta T cell",0.878478571502532,0.480096199719778,-0.0510959410156373,-0.154481581744459,"UP","UP",TRUE,15,11
+"covid_blood","zscore","scran","jak_stat","effector memory CD8-positive, alpha-beta T cell",0.0894329822921024,0.925030282865894,0.116308154129154,-0.0354805942982839,"UP","UP",TRUE,17,15
+"covid_blood","zscore","scran","jak_stat","mucosal invariant T cell",0.259324009324009,1.13617240021603,0.0543620535841813,-0.328265204173563,"UP","UP",TRUE,7,7
+"covid_blood","zscore","scran","jak_stat","natural killer cell",0.442143899496463,0.723574562977295,0.17399073663542,0.0486507306135513,"UP","UP",TRUE,18,15
+"covid_blood","zscore","scran","jak_stat","naive thymus-derived CD8-positive, alpha-beta T cell",0.688911088911089,0.48898612946063,-0.12519172669075,-0.221246348421522,"UP","UP",TRUE,9,6
+"covid_blood","zscore","scran","jak_stat","non-classical monocyte",0.00705141934527242,1.07304780941405,0.288730596105693,0.0424213299203286,"UP","UP",TRUE,9,20
+"covid_blood","zscore","scran","jak_stat","memory B cell",0.41203007518797,0.886992522765022,-0.101944689709412,-0.400594417361003,"UP","UP",TRUE,3,18
+"covid_blood","zscore","scran","jak_stat","transitional stage B cell",0.141608391608392,0.923175815914522,-0.0855773167432834,-0.391294695915912,"UP","UP",TRUE,7,9
+"covid_blood","zscore","scran","jak_stat","gamma-delta T cell",0.428571428571429,1.28179988792374,0.0846104183965572,-0.288533223442634,"UP","UP",TRUE,6,5
+"covid_blood","zscore","scran","jak_stat","conventional dendritic cell",0.4,-0.568473828811281,0.223385265888594,0.251862863373039,"UP","DOWN",FALSE,3,2
+"covid_blood","zscore","scran","jak_stat","regulatory T cell",0.14514652014652,1.19718181361976,0.0898075364709135,-0.0601549124985053,"UP","UP",TRUE,11,5
+"covid_blood","zscore","scran","nfkb_signaling","classical monocyte",0.00166045911967518,1.0526810713103,0.299970300495139,0.0397584936659216,"UP","UP",TRUE,17,21
+"covid_blood","zscore","scran","nfkb_signaling","central memory CD4-positive, alpha-beta T cell",0.329941947305312,0.649433223607882,0.132417208825777,-0.156172321899546,"UP","UP",TRUE,16,18
+"covid_blood","zscore","scran","nfkb_signaling","naive B cell",0.909510829503426,0.481121197980104,-0.0869096683108941,-0.363850078452328,"UP","UP",TRUE,11,13
+"covid_blood","zscore","scran","nfkb_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.474226523913561,0.0964940275161599,-0.0544514009861027,-0.0832992683557839,"UP","UP",TRUE,15,11
+"covid_blood","zscore","scran","nfkb_signaling","effector memory CD8-positive, alpha-beta T cell",0.245510372996863,0.597225470157762,0.110822656899092,-0.0489831239672772,"UP","UP",TRUE,17,15
+"covid_blood","zscore","scran","nfkb_signaling","mucosal invariant T cell",0.0728438228438228,1.10970521047574,0.0545469480563213,-0.558047880862702,"UP","UP",TRUE,7,7
+"covid_blood","zscore","scran","nfkb_signaling","natural killer cell",0.734717710214194,0.341721483064979,0.192206883866413,0.101872618018516,"UP","UP",TRUE,18,15
+"covid_blood","zscore","scran","nfkb_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.272127872127872,0.250429281157719,-0.104653009810811,-0.18504166790568,"UP","UP",TRUE,9,6
+"covid_blood","zscore","scran","nfkb_signaling","non-classical monocyte",0.294844985099858,0.642415169319116,0.241921404577646,-0.0111710636188186,"UP","UP",TRUE,9,20
+"covid_blood","zscore","scran","nfkb_signaling","memory B cell",0.356390977443609,0.916980296933463,0.0462506808332676,-0.377211752662476,"UP","UP",TRUE,3,18
+"covid_blood","zscore","scran","nfkb_signaling","transitional stage B cell",1,0.444684992015824,-0.0813167557472581,-0.302513193037867,"UP","UP",TRUE,7,9
+"covid_blood","zscore","scran","nfkb_signaling","gamma-delta T cell",0.662337662337662,0.696626400896956,0.0115408863729564,-0.243270081503396,"UP","UP",TRUE,6,5
+"covid_blood","zscore","scran","nfkb_signaling","conventional dendritic cell",0.8,-0.695575364809423,0.250410182333229,0.322353637050666,"UP","DOWN",FALSE,3,2
+"covid_blood","zscore","scran","nfkb_signaling","regulatory T cell",0.221153846153846,0.549238474659604,0.158692097332655,0.091659058133212,"UP","UP",TRUE,11,5
+"covid_blood","zscore","scran","toll_like_receptor","classical monocyte",6.36666853643255e-07,2.21847307181981,0.488596354927702,0.371192815758731,"UP","UP",TRUE,17,21
+"covid_blood","zscore","scran","toll_like_receptor","central memory CD4-positive, alpha-beta T cell",0.506008229009706,0.590310667627004,0.0536375619613156,-0.140494665623746,"UP","UP",TRUE,16,18
+"covid_blood","zscore","scran","toll_like_receptor","naive B cell",0.00482744585248287,1.20289428495457,0.139793557732547,-0.366265389780719,"UP","UP",TRUE,11,13
+"covid_blood","zscore","scran","toll_like_receptor","naive thymus-derived CD4-positive, alpha-beta T cell",0.539952835561262,0.46908652956577,-0.0547191868577647,-0.157993814669032,"UP","UP",TRUE,15,11
+"covid_blood","zscore","scran","toll_like_receptor","effector memory CD8-positive, alpha-beta T cell",0.501947137636615,0.646427183110985,-0.0183616401998001,-0.111455219940313,"UP","UP",TRUE,17,15
+"covid_blood","zscore","scran","toll_like_receptor","mucosal invariant T cell",0.534965034965035,1.13504303048697,-0.0680438904994844,-0.449285556620188,"UP","UP",TRUE,7,7
+"covid_blood","zscore","scran","toll_like_receptor","natural killer cell",0.508700843281091,0.459921226359893,0.0226682599785634,-0.0619907014354922,"UP","UP",TRUE,18,15
+"covid_blood","zscore","scran","toll_like_receptor","naive thymus-derived CD8-positive, alpha-beta T cell",0.775624375624376,0.453446475586017,-0.125046812553821,-0.214706340846656,"UP","UP",TRUE,9,6
+"covid_blood","zscore","scran","toll_like_receptor","non-classical monocyte",0.000281577492971796,1.1816069367476,0.303869437171032,0.0367902455025911,"UP","UP",TRUE,9,20
+"covid_blood","zscore","scran","toll_like_receptor","memory B cell",0.0796992481203008,1.15953387691097,0.161440294838162,-0.234461828343654,"UP","UP",TRUE,3,18
+"covid_blood","zscore","scran","toll_like_receptor","transitional stage B cell",0.0548951048951049,0.942747225299239,0.125966234943486,-0.210565465300569,"UP","UP",TRUE,7,9
+"covid_blood","zscore","scran","toll_like_receptor","gamma-delta T cell",0.662337662337662,1.12009487042758,-0.0493818241567401,-0.386291858705843,"UP","UP",TRUE,6,5
+"covid_blood","zscore","scran","toll_like_receptor","conventional dendritic cell",0.8,-0.518213503013154,0.262226022539594,0.293102247087988,"UP","DOWN",FALSE,3,2
+"covid_blood","zscore","scran","toll_like_receptor","regulatory T cell",0.440934065934066,1.05259316926025,-0.0299118693995489,-0.185361175800554,"UP","UP",TRUE,11,5
+"covid_blood","zscore","sctransform","interferon_signaling","classical monocyte",0.884697552832246,0.173700563124238,-0.051025980387413,-0.0955384219267331,"UP","UP",TRUE,17,21
+"covid_blood","zscore","sctransform","interferon_signaling","central memory CD4-positive, alpha-beta T cell",0.281117849689411,0.623376696241731,-0.0905603457790255,-0.227026356548254,"UP","UP",TRUE,16,18
+"covid_blood","zscore","sctransform","interferon_signaling","naive B cell",0.0256547699171202,1.27014206513498,0.0940922088082303,-0.162110617210094,"UP","UP",TRUE,11,13
+"covid_blood","zscore","sctransform","interferon_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.198163900307527,0.68790379939142,-0.222002762510832,-0.364157520156872,"UP","UP",TRUE,15,11
+"covid_blood","zscore","sctransform","interferon_signaling","effector memory CD8-positive, alpha-beta T cell",0.000582295863952574,1.39893296576917,0.262734824513862,0.00252376131947904,"UP","UP",TRUE,17,15
+"covid_blood","zscore","sctransform","interferon_signaling","mucosal invariant T cell",0.00407925407925408,2.20209885910943,0.238116598775657,-0.229735111036115,"UP","UP",TRUE,7,7
+"covid_blood","zscore","sctransform","interferon_signaling","natural killer cell",0.0017946131888524,1.26053821138931,0.355182756569502,0.137397525023489,"UP","UP",TRUE,18,15
+"covid_blood","zscore","sctransform","interferon_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.528671328671329,0.492138229076187,-0.17516931746745,-0.273656462738808,"UP","UP",TRUE,9,6
+"covid_blood","zscore","sctransform","interferon_signaling","non-classical monocyte",0.00505301794657117,1.20528941679912,0.249425173569072,0.0508751641970908,"UP","UP",TRUE,9,20
+"covid_blood","zscore","sctransform","interferon_signaling","memory B cell",0.0240601503759399,1.89257256216731,0.285391118928032,-0.130033699055765,"UP","UP",TRUE,3,18
+"covid_blood","zscore","sctransform","interferon_signaling","transitional stage B cell",0.00122377622377622,1.89428944263283,0.245561207817021,-0.116318064885785,"UP","UP",TRUE,7,9
+"covid_blood","zscore","sctransform","interferon_signaling","gamma-delta T cell",0.0173160173160173,2.01706472019282,0.434356328957122,-0.0651477452770758,"UP","UP",TRUE,6,5
+"covid_blood","zscore","sctransform","interferon_signaling","conventional dendritic cell",0.2,1.88430899770511,0.427514528168343,0.0712285918899194,"UP","UP",TRUE,3,2
+"covid_blood","zscore","sctransform","interferon_signaling","regulatory T cell",0.742673992673993,0.471750891651331,0.263718345863067,0.188971744312573,"UP","UP",TRUE,11,5
+"covid_blood","zscore","sctransform","jak_stat","classical monocyte",0.00714334872960144,1.01389730154885,0.13379040477586,-0.0386475089588656,"UP","UP",TRUE,17,21
+"covid_blood","zscore","sctransform","jak_stat","central memory CD4-positive, alpha-beta T cell",0.0503525626580498,0.80479017827139,-0.0472539754793142,-0.164753242331827,"UP","UP",TRUE,16,18
+"covid_blood","zscore","sctransform","jak_stat","naive B cell",0.0154165785307258,1.2582383875547,-0.0394521579441705,-0.213011183364767,"UP","UP",TRUE,11,13
+"covid_blood","zscore","sctransform","jak_stat","naive thymus-derived CD4-positive, alpha-beta T cell",0.14844424655974,0.653679842032055,-0.250985868571954,-0.347666137254801,"UP","UP",TRUE,15,11
+"covid_blood","zscore","sctransform","jak_stat","effector memory CD8-positive, alpha-beta T cell",0.00151543498199966,1.24908033667451,0.167076938716673,-0.00144345724274784,"UP","UP",TRUE,17,15
+"covid_blood","zscore","sctransform","jak_stat","mucosal invariant T cell",0.00116550116550117,2.33739353272973,0.230958516622044,-0.109099410707494,"UP","UP",TRUE,7,7
+"covid_blood","zscore","sctransform","jak_stat","natural killer cell",0.0023703092889425,1.01998986294811,0.270315352962144,0.162422446315471,"UP","UP",TRUE,18,15
+"covid_blood","zscore","sctransform","jak_stat","naive thymus-derived CD8-positive, alpha-beta T cell",0.181018981018981,0.945595250699056,-0.221974332593016,-0.338294623815184,"UP","UP",TRUE,9,6
+"covid_blood","zscore","sctransform","jak_stat","non-classical monocyte",0.0035610566345199,1.38270654441264,0.222166329878502,0.0495323900634473,"UP","UP",TRUE,9,20
+"covid_blood","zscore","sctransform","jak_stat","memory B cell",0.0165413533834586,1.87775954866524,0.103257958893976,-0.180801471735257,"UP","UP",TRUE,3,18
+"covid_blood","zscore","sctransform","jak_stat","transitional stage B cell",0.00122377622377622,1.98924719679768,0.0916469886945067,-0.172889293524699,"UP","UP",TRUE,7,9
+"covid_blood","zscore","sctransform","jak_stat","gamma-delta T cell",0.00432900432900433,2.95209312517198,0.287914744907755,-0.0624056681125869,"UP","UP",TRUE,6,5
+"covid_blood","zscore","sctransform","jak_stat","conventional dendritic cell",0.2,1.96396975607707,0.359385296847792,0.12483708347391,"UP","UP",TRUE,3,2
+"covid_blood","zscore","sctransform","jak_stat","regulatory T cell",0.11492673992674,1.11433623060228,0.1898802378303,0.108525936797242,"UP","UP",TRUE,11,5
+"covid_blood","zscore","sctransform","nfkb_signaling","classical monocyte",0.000819510180279711,1.16841180453249,-0.0660069842119359,-0.411444524651403,"UP","UP",TRUE,17,21
+"covid_blood","zscore","sctransform","nfkb_signaling","central memory CD4-positive, alpha-beta T cell",0.00443395055239238,1.09472488390503,-0.074183546430232,-0.321120243413084,"UP","UP",TRUE,16,18
+"covid_blood","zscore","sctransform","nfkb_signaling","naive B cell",0.864616784929075,0.459877070514164,-0.00304487304054854,-0.152859869884053,"UP","UP",TRUE,11,13
+"covid_blood","zscore","sctransform","nfkb_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.356549437236609,0.315612779798711,-0.362071555758789,-0.444333387780013,"UP","UP",TRUE,15,11
+"covid_blood","zscore","sctransform","nfkb_signaling","effector memory CD8-positive, alpha-beta T cell",0.00608580118542879,1.11413821497343,0.351446005567247,0.0359911533969371,"UP","UP",TRUE,17,15
+"covid_blood","zscore","sctransform","nfkb_signaling","mucosal invariant T cell",0.000582750582750583,2.63140872100121,0.491874470215654,-0.387558794456658,"UP","UP",TRUE,7,7
+"covid_blood","zscore","sctransform","nfkb_signaling","natural killer cell",0.016387365045676,0.877045018123334,0.560709527787578,0.383129383547006,"UP","UP",TRUE,18,15
+"covid_blood","zscore","sctransform","nfkb_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.0495504495504496,0.867046427358614,-0.257478926376175,-0.454659859847462,"UP","UP",TRUE,9,6
+"covid_blood","zscore","sctransform","nfkb_signaling","non-classical monocyte",0.0435955848249701,1.0215863419177,0.271895067037273,0.0237226869631468,"UP","UP",TRUE,9,20
+"covid_blood","zscore","sctransform","nfkb_signaling","memory B cell",0.0345864661654135,1.87178678082208,0.337311263329252,-0.245747125501783,"UP","UP",TRUE,3,18
+"covid_blood","zscore","sctransform","nfkb_signaling","transitional stage B cell",0.299125874125874,0.846037055240847,0.162673048612842,-0.0753328249654715,"UP","UP",TRUE,7,9
+"covid_blood","zscore","sctransform","nfkb_signaling","gamma-delta T cell",0.051948051948052,1.51575896351979,0.534480124813706,0.0848822055817325,"UP","UP",TRUE,6,5
+"covid_blood","zscore","sctransform","nfkb_signaling","conventional dendritic cell",0.2,1.7458266157014,0.448761472420695,0.0940996262558589,"UP","UP",TRUE,3,2
+"covid_blood","zscore","sctransform","nfkb_signaling","regulatory T cell",1,-0.0191596395045736,0.469860347982871,0.47283056794022,"UP","DOWN",FALSE,11,5
+"covid_blood","zscore","sctransform","toll_like_receptor","classical monocyte",0.178997026906858,0.624517148201528,0.226231465622347,0.0928717329969208,"UP","UP",TRUE,17,21
+"covid_blood","zscore","sctransform","toll_like_receptor","central memory CD4-positive, alpha-beta T cell",0.25136487256948,0.440946015551643,-0.147048707498163,-0.226758250480077,"UP","UP",TRUE,16,18
+"covid_blood","zscore","sctransform","toll_like_receptor","naive B cell",0.00594276612246729,1.60869460418468,0.146901138175656,-0.160824490589413,"UP","UP",TRUE,11,13
+"covid_blood","zscore","sctransform","toll_like_receptor","naive thymus-derived CD4-positive, alpha-beta T cell",0.14844424655974,0.68313633213297,-0.259203785499805,-0.389137179055891,"UP","UP",TRUE,15,11
+"covid_blood","zscore","sctransform","toll_like_receptor","effector memory CD8-positive, alpha-beta T cell",0.0442371980393504,0.872505905183853,0.0655514461725102,-0.0712488164278964,"UP","UP",TRUE,17,15
+"covid_blood","zscore","sctransform","toll_like_receptor","mucosal invariant T cell",0.0110722610722611,2.01536611561029,0.132521487161942,-0.249389736959298,"UP","UP",TRUE,7,7
+"covid_blood","zscore","sctransform","toll_like_receptor","natural killer cell",0.155164301241878,0.652467694596633,0.185308468740826,0.0948088311090301,"UP","UP",TRUE,18,15
+"covid_blood","zscore","sctransform","toll_like_receptor","naive thymus-derived CD8-positive, alpha-beta T cell",0.0663336663336663,1.06960598735494,-0.234765993491939,-0.37330759545033,"UP","UP",TRUE,9,6
+"covid_blood","zscore","sctransform","toll_like_receptor","non-classical monocyte",0.000457513500991762,1.5685419989897,0.383337727118731,0.13378048733084,"UP","UP",TRUE,9,20
+"covid_blood","zscore","sctransform","toll_like_receptor","memory B cell",0.00300751879699248,2.16200127668113,0.287676871894027,-0.1018679429489,"UP","UP",TRUE,3,18
+"covid_blood","zscore","sctransform","toll_like_receptor","transitional stage B cell",0.00524475524475524,1.72776611084317,0.262706281982187,-0.0602643150528906,"UP","UP",TRUE,7,9
+"covid_blood","zscore","sctransform","toll_like_receptor","gamma-delta T cell",0.00432900432900433,2.55940249936122,0.21260547832047,-0.172813176418529,"UP","UP",TRUE,6,5
+"covid_blood","zscore","sctransform","toll_like_receptor","conventional dendritic cell",0.4,1.50112068537669,0.477749789195478,0.223581699674468,"UP","UP",TRUE,3,2
+"covid_blood","zscore","sctransform","toll_like_receptor","regulatory T cell",0.440934065934066,0.701064267675703,0.133591851041219,0.0650691471544272,"UP","UP",TRUE,11,5
+"covid_blood","AUCell","log2CPM","interferon_signaling","classical monocyte",0.220398553603259,0.703228144829195,0.246763672589115,0.229162704727969,"UP","UP",TRUE,17,21
+"covid_blood","AUCell","log2CPM","interferon_signaling","central memory CD4-positive, alpha-beta T cell",0.645547628299466,0.471748493836534,0.213355168828634,0.204336015218293,"UP","UP",TRUE,16,18
+"covid_blood","AUCell","log2CPM","interferon_signaling","naive B cell",0.608469703670942,0.522416558825203,0.223068788051672,0.214946947876414,"UP","UP",TRUE,11,13
+"covid_blood","AUCell","log2CPM","interferon_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.474226523913561,0.131664751935314,0.205283808265522,0.202984261132176,"UP","UP",TRUE,15,11
+"covid_blood","AUCell","log2CPM","interferon_signaling","effector memory CD8-positive, alpha-beta T cell",0.142459814942557,0.726792306800102,0.226780635083809,0.212244892852496,"UP","UP",TRUE,17,15
+"covid_blood","AUCell","log2CPM","interferon_signaling","mucosal invariant T cell",0.208624708624709,0.67500769216193,0.211698181059049,0.197207315800235,"UP","UP",TRUE,7,7
+"covid_blood","AUCell","log2CPM","interferon_signaling","natural killer cell",0.00053585068863932,1.26346660724633,0.22533700111546,0.20347324398536,"UP","UP",TRUE,18,15
+"covid_blood","AUCell","log2CPM","interferon_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.181018981018981,-0.286785960442853,0.198217878269225,0.202903600609888,"UP","DOWN",FALSE,9,6
+"covid_blood","AUCell","log2CPM","interferon_signaling","non-classical monocyte",0.000167748293685325,1.60635210589071,0.260144509281224,0.230166013572351,"UP","UP",TRUE,9,20
+"covid_blood","AUCell","log2CPM","interferon_signaling","memory B cell",0.124812030075188,0.991297945350729,0.240916317181969,0.216918159413956,"UP","UP",TRUE,3,18
+"covid_blood","AUCell","log2CPM","interferon_signaling","transitional stage B cell",0.141608391608392,0.826888334430072,0.234447454326294,0.219974343319087,"UP","UP",TRUE,7,9
+"covid_blood","AUCell","log2CPM","interferon_signaling","gamma-delta T cell",0.177489177489177,0.999058631085643,0.235145649207445,0.206815201833669,"UP","UP",TRUE,6,5
+"covid_blood","AUCell","log2CPM","interferon_signaling","conventional dendritic cell",0.2,2.42960371215398,0.282733120472964,0.242509433584562,"UP","UP",TRUE,3,2
+"covid_blood","AUCell","log2CPM","interferon_signaling","regulatory T cell",0.377289377289377,0.0438105080120991,0.229555031442249,0.228834489385341,"UP","UP",TRUE,11,5
+"covid_blood","AUCell","log2CPM","jak_stat","classical monocyte",2.42658879384659e-07,2.8419486968224,0.244977566994671,0.222822749833475,"UP","UP",TRUE,17,21
+"covid_blood","AUCell","log2CPM","jak_stat","central memory CD4-positive, alpha-beta T cell",0.000365886620801708,1.17358334064449,0.209497284503335,0.200235548810365,"UP","UP",TRUE,16,18
+"covid_blood","AUCell","log2CPM","jak_stat","naive B cell",0.0072736188296829,-1.52514549558086,0.173580841017532,0.182948021478341,"UP","DOWN",FALSE,11,13
+"covid_blood","AUCell","log2CPM","jak_stat","naive thymus-derived CD4-positive, alpha-beta T cell",0.14844424655974,-0.512406984316853,0.190908847209382,0.193691634059534,"UP","DOWN",FALSE,15,11
+"covid_blood","AUCell","log2CPM","jak_stat","effector memory CD8-positive, alpha-beta T cell",0.0969956447922049,0.486186578508197,0.2031907264846,0.19874627008094,"UP","UP",TRUE,17,15
+"covid_blood","AUCell","log2CPM","jak_stat","mucosal invariant T cell",1,-0.202349770718852,0.203405967568347,0.205937276121853,"UP","DOWN",FALSE,7,7
+"covid_blood","AUCell","log2CPM","jak_stat","natural killer cell",0.155164301241878,0.4777202449867,0.214409876572358,0.209274522288764,"UP","UP",TRUE,18,15
+"covid_blood","AUCell","log2CPM","jak_stat","naive thymus-derived CD8-positive, alpha-beta T cell",0.272127872127872,-0.719836731469998,0.186526899890567,0.190903608783537,"UP","DOWN",FALSE,9,6
+"covid_blood","AUCell","log2CPM","jak_stat","non-classical monocyte",0.000167748293685325,1.76580895165068,0.226980991892245,0.209840198499449,"UP","UP",TRUE,9,20
+"covid_blood","AUCell","log2CPM","jak_stat","memory B cell",0.470676691729323,-0.409526227837287,0.183708151310332,0.187076852625865,"UP","DOWN",FALSE,3,18
+"covid_blood","AUCell","log2CPM","jak_stat","transitional stage B cell",0.469755244755245,-0.3254727204527,0.181647317340992,0.184226747271202,"UP","DOWN",FALSE,7,9
+"covid_blood","AUCell","log2CPM","jak_stat","gamma-delta T cell",0.792207792207792,0.087423386100737,0.202811805001688,0.201932019988653,"UP","UP",TRUE,6,5
+"covid_blood","AUCell","log2CPM","jak_stat","conventional dendritic cell",0.4,-1.14574163214272,0.234251336720849,0.244211723892165,"UP","DOWN",FALSE,3,2
+"covid_blood","AUCell","log2CPM","jak_stat","regulatory T cell",0.583333333333333,0.392809235681976,0.210208974288719,0.207808943542312,"UP","UP",TRUE,11,5
+"covid_blood","AUCell","log2CPM","nfkb_signaling","classical monocyte",0.00287786433312991,1.20110854197377,0.398039394410576,0.345063536914781,"UP","UP",TRUE,17,21
+"covid_blood","AUCell","log2CPM","nfkb_signaling","central memory CD4-positive, alpha-beta T cell",0.0297163739385403,0.87144707701997,0.4104248321332,0.373178784472194,"UP","UP",TRUE,16,18
+"covid_blood","AUCell","log2CPM","nfkb_signaling","naive B cell",0.0154165785307258,-0.941522485604701,0.348419939068011,0.386063023962942,"UP","DOWN",FALSE,11,13
+"covid_blood","AUCell","log2CPM","nfkb_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.14844424655974,-0.681242681589624,0.355889769999696,0.377959524144922,"UP","DOWN",FALSE,15,11
+"covid_blood","AUCell","log2CPM","nfkb_signaling","effector memory CD8-positive, alpha-beta T cell",0.188996690817014,0.611610328716625,0.404941012044231,0.380060563708362,"UP","UP",TRUE,17,15
+"covid_blood","AUCell","log2CPM","nfkb_signaling","mucosal invariant T cell",0.382867132867133,0.634968637039978,0.389344201813439,0.359272714645971,"UP","UP",TRUE,7,7
+"covid_blood","AUCell","log2CPM","nfkb_signaling","natural killer cell",0.400613763576616,0.431505590052631,0.419348990773656,0.401595316946698,"UP","UP",TRUE,18,15
+"covid_blood","AUCell","log2CPM","nfkb_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.272127872127872,-0.740200674846765,0.352614468447118,0.374400186349872,"UP","DOWN",FALSE,9,6
+"covid_blood","AUCell","log2CPM","nfkb_signaling","non-classical monocyte",0.317132342919449,0.559056511697873,0.398923761971798,0.376204235408501,"UP","UP",TRUE,9,20
+"covid_blood","AUCell","log2CPM","nfkb_signaling","memory B cell",0.261654135338346,0.901966317440982,0.401565744032247,0.366167370542541,"UP","UP",TRUE,3,18
+"covid_blood","AUCell","log2CPM","nfkb_signaling","transitional stage B cell",0.407867132867133,-0.272256293740626,0.358464523353777,0.369571631607909,"UP","DOWN",FALSE,7,9
+"covid_blood","AUCell","log2CPM","nfkb_signaling","gamma-delta T cell",0.536796536796537,-0.052516849837011,0.382318030362876,0.384707562361377,"UP","DOWN",FALSE,6,5
+"covid_blood","AUCell","log2CPM","nfkb_signaling","conventional dendritic cell",1,-0.481183519219729,0.448414506932418,0.459599550329657,"UP","DOWN",FALSE,3,2
+"covid_blood","AUCell","log2CPM","nfkb_signaling","regulatory T cell",0.826923076923077,-0.306401793649378,0.418493935803206,0.426000668428888,"UP","DOWN",FALSE,11,5
+"covid_blood","AUCell","log2CPM","toll_like_receptor","classical monocyte",1.88109274482896e-07,2.56407007895142,0.236002826501753,0.215098221928009,"UP","UP",TRUE,17,21
+"covid_blood","AUCell","log2CPM","toll_like_receptor","central memory CD4-positive, alpha-beta T cell",0.55075849489798,0.119295372188052,0.163815142213433,0.162765212011102,"UP","UP",TRUE,16,18
+"covid_blood","AUCell","log2CPM","toll_like_receptor","naive B cell",0.00196463024569095,-1.26094525740587,0.17557064699711,0.187052875108127,"UP","DOWN",FALSE,11,13
+"covid_blood","AUCell","log2CPM","toll_like_receptor","naive thymus-derived CD4-positive, alpha-beta T cell",1,-0.335003024418337,0.152499106349347,0.155414896880615,"UP","DOWN",FALSE,15,11
+"covid_blood","AUCell","log2CPM","toll_like_receptor","effector memory CD8-positive, alpha-beta T cell",0.433072544797211,-0.271775061259271,0.152860270462189,0.155833128367587,"UP","DOWN",FALSE,17,15
+"covid_blood","AUCell","log2CPM","toll_like_receptor","mucosal invariant T cell",0.901515151515152,0.0717697352562924,0.156742717157109,0.155935409788602,"UP","UP",TRUE,7,7
+"covid_blood","AUCell","log2CPM","toll_like_receptor","natural killer cell",0.274224876294682,-0.0931674328544456,0.161282462474871,0.162281317946145,"UP","DOWN",FALSE,18,15
+"covid_blood","AUCell","log2CPM","toll_like_receptor","naive thymus-derived CD8-positive, alpha-beta T cell",0.181018981018981,0.624797014406145,0.152659580864179,0.148370932249802,"UP","UP",TRUE,9,6
+"covid_blood","AUCell","log2CPM","toll_like_receptor","non-classical monocyte",0.0020357453640812,1.39591909939776,0.218016434426812,0.202009779325679,"UP","UP",TRUE,9,20
+"covid_blood","AUCell","log2CPM","toll_like_receptor","memory B cell",0.813533834586466,0.310027778430517,0.189836978444162,0.187636684823899,"UP","UP",TRUE,3,18
+"covid_blood","AUCell","log2CPM","toll_like_receptor","transitional stage B cell",1,-0.182155607285899,0.185743379137907,0.187232437715009,"UP","DOWN",FALSE,7,9
+"covid_blood","AUCell","log2CPM","toll_like_receptor","gamma-delta T cell",0.246753246753247,0.835158415212158,0.159128846387192,0.1547990515825,"UP","UP",TRUE,6,5
+"covid_blood","AUCell","log2CPM","toll_like_receptor","conventional dendritic cell",0.8,-1.03523666572804,0.209884924031496,0.215675452318409,"UP","DOWN",FALSE,3,2
+"covid_blood","AUCell","log2CPM","toll_like_receptor","regulatory T cell",0.742673992673993,-0.175610081976621,0.15972338121035,0.160977932567909,"UP","DOWN",FALSE,11,5
+"covid_blood","AUCell","voom","interferon_signaling","classical monocyte",0.621659959222927,0.491555953053232,0.0772741231063191,0.0694426030272898,"UP","UP",TRUE,17,21
+"covid_blood","AUCell","voom","interferon_signaling","central memory CD4-positive, alpha-beta T cell",0.0297163739385403,0.761876181243052,0.0761782192575406,0.0674626192317608,"UP","UP",TRUE,16,18
+"covid_blood","AUCell","voom","interferon_signaling","naive B cell",0.228425924145402,0.85193459742931,0.10604566547142,0.0970573799750134,"UP","UP",TRUE,11,13
+"covid_blood","AUCell","voom","interferon_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.855833224495573,0.267531200943407,0.0727300850734725,0.0701487028053153,"UP","UP",TRUE,15,11
+"covid_blood","AUCell","voom","interferon_signaling","effector memory CD8-positive, alpha-beta T cell",0.00608580118542879,1.01402420089131,0.0832349529138802,0.071177494199536,"UP","UP",TRUE,17,15
+"covid_blood","AUCell","voom","interferon_signaling","mucosal invariant T cell",0.00699300699300699,1.25133456292294,0.0810573417301956,0.0666929068611203,"UP","UP",TRUE,7,7
+"covid_blood","AUCell","voom","interferon_signaling","natural killer cell",1.37028260063517e-05,1.37346867073799,0.089886246455272,0.0722641144624903,"UP","UP",TRUE,18,15
+"covid_blood","AUCell","voom","interferon_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.688911088911089,0.0500440345858906,0.0713134828564063,0.0708623356535189,"UP","UP",TRUE,9,6
+"covid_blood","AUCell","voom","interferon_signaling","non-classical monocyte",0.0020357453640812,1.33306309386399,0.10263276617685,0.0879509860788863,"UP","UP",TRUE,9,20
+"covid_blood","AUCell","voom","interferon_signaling","memory B cell",0.184962406015038,1.32638650861249,0.108091647331787,0.0940271332817737,"UP","UP",TRUE,3,18
+"covid_blood","AUCell","voom","interferon_signaling","transitional stage B cell",0.407867132867133,0.6655219754148,0.103965031488233,0.0969354215003867,"UP","UP",TRUE,7,9
+"covid_blood","AUCell","voom","interferon_signaling","gamma-delta T cell",0.177489177489177,1.13791600017519,0.09292343387471,0.0746751740139211,"UP","UP",TRUE,6,5
+"covid_blood","AUCell","voom","interferon_signaling","conventional dendritic cell",0.8,0.979697080745078,0.119653905645785,0.10872969837587,"UP","UP",TRUE,3,2
+"covid_blood","AUCell","voom","interferon_signaling","regulatory T cell",0.913003663003663,0.173207033002708,0.0837824298671166,0.0815603248259861,"UP","UP",TRUE,11,5
+"covid_blood","AUCell","voom","jak_stat","classical monocyte",5.15461091590971e-07,4.04206543174077,0.0894586894586895,0.0489531045086601,"UP","UP",TRUE,17,21
+"covid_blood","AUCell","voom","jak_stat","central memory CD4-positive, alpha-beta T cell",6.07996120875854e-08,3.46880178962671,0.0884986348528015,0.0629167985649467,"UP","UP",TRUE,16,18
+"covid_blood","AUCell","voom","jak_stat","naive B cell",0.00196463024569095,2.27727554777703,0.0649248899248899,0.0488713565636643,"UP","UP",TRUE,11,13
+"covid_blood","AUCell","voom","jak_stat","naive thymus-derived CD4-positive, alpha-beta T cell",0.000229868395166551,2.25798052128466,0.0748955365622032,0.0557260640593974,"UP","UP",TRUE,15,11
+"covid_blood","AUCell","voom","jak_stat","effector memory CD8-positive, alpha-beta T cell",4.89285634488924e-05,2.48751646508015,0.0910661415563376,0.0662155745489079,"UP","UP",TRUE,17,15
+"covid_blood","AUCell","voom","jak_stat","mucosal invariant T cell",0.00407925407925408,2.2400409664665,0.0951906118572785,0.0661409578076245,"UP","UP",TRUE,7,7
+"covid_blood","AUCell","voom","jak_stat","natural killer cell",3.33333873270187e-05,2.54043831942962,0.0924633322781471,0.0658911047799937,"UP","UP",TRUE,18,15
+"covid_blood","AUCell","voom","jak_stat","naive thymus-derived CD8-positive, alpha-beta T cell",0.0255744255744256,1.61259279069964,0.0757280785058563,0.0600743906299462,"UP","UP",TRUE,9,6
+"covid_blood","AUCell","voom","jak_stat","non-classical monocyte",2.75586482483034e-05,3.00166177215631,0.0746333227814709,0.0475391737891738,"UP","UP",TRUE,9,20
+"covid_blood","AUCell","voom","jak_stat","memory B cell",0.0240601503759399,2.18213120398978,0.0656457739791073,0.0486744222855334,"UP","UP",TRUE,3,18
+"covid_blood","AUCell","voom","jak_stat","transitional stage B cell",0.0548951048951049,1.58309433134018,0.061039886039886,0.0478790756568534,"UP","UP",TRUE,7,9
+"covid_blood","AUCell","voom","jak_stat","gamma-delta T cell",0.0530273912025269,1.656143713862,0.0934749920861032,0.0737844254510921,"UP","UP",TRUE,6,5
+"covid_blood","AUCell","voom","jak_stat","conventional dendritic cell",1,0.191341726704447,0.0760604621715733,0.0750237416904083,"UP","UP",TRUE,3,2
+"covid_blood","AUCell","voom","jak_stat","regulatory T cell",0.0897435897435898,1.27763215448557,0.0790792540792541,0.0710541310541311,"UP","UP",TRUE,11,5
+"covid_blood","AUCell","voom","nfkb_signaling","classical monocyte",3.25181817881232e-06,2.7225619468511,0.0581656627792729,0.0421724245253657,"UP","UP",TRUE,17,21
+"covid_blood","AUCell","voom","nfkb_signaling","central memory CD4-positive, alpha-beta T cell",6.72708150982323e-05,1.97214133194326,0.0687182280319535,0.0531630759299605,"UP","UP",TRUE,16,18
+"covid_blood","AUCell","voom","nfkb_signaling","naive B cell",0.000326104537174673,1.98410461709619,0.0727536805968178,0.0585609742472488,"UP","UP",TRUE,11,13
+"covid_blood","AUCell","voom","nfkb_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.0773991219441482,0.792468486554328,0.063916727184701,0.0575229418366673,"UP","UP",TRUE,15,11
+"covid_blood","AUCell","voom","nfkb_signaling","effector memory CD8-positive, alpha-beta T cell",0.294788506991552,0.473543128106361,0.0606219829979922,0.0568433793270395,"UP","UP",TRUE,17,15
+"covid_blood","AUCell","voom","nfkb_signaling","mucosal invariant T cell",0.0296622589113772,1.88088585558284,0.0697893972403776,0.0533769063180828,"UP","UP",TRUE,7,7
+"covid_blood","AUCell","voom","nfkb_signaling","natural killer cell",0.111589486932225,0.872632494000695,0.0620350197692246,0.0556427015250545,"UP","UP",TRUE,18,15
+"covid_blood","AUCell","voom","nfkb_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.113486513486513,0.959873303187622,0.0647785039941903,0.0561365286855483,"UP","UP",TRUE,9,6
+"covid_blood","AUCell","voom","nfkb_signaling","non-classical monocyte",0.0184077273316909,1.47817743896412,0.0552731380618091,0.0450871459694989,"UP","UP",TRUE,9,20
+"covid_blood","AUCell","voom","nfkb_signaling","memory B cell",0.0874288560319893,1.56582878841394,0.0689905591866376,0.0553538287743081,"UP","UP",TRUE,3,18
+"covid_blood","AUCell","voom","nfkb_signaling","transitional stage B cell",0.0441510725382234,0.90965974854556,0.0646747587924058,0.0580246913580247,"UP","UP",TRUE,7,9
+"covid_blood","AUCell","voom","nfkb_signaling","gamma-delta T cell",0.854805435691019,-0.129638366836893,0.0620309852335996,0.0630065359477124,"UP","DOWN",FALSE,6,5
+"covid_blood","AUCell","voom","nfkb_signaling","conventional dendritic cell",1,-0.192155031083577,0.0515855725006052,0.0534495279593319,"UP","DOWN",FALSE,3,2
+"covid_blood","AUCell","voom","nfkb_signaling","regulatory T cell",0.11492673992674,-0.85754393946476,0.0605070310952664,0.0656935366739288,"UP","DOWN",FALSE,11,5
+"covid_blood","AUCell","voom","toll_like_receptor","classical monocyte",1.35505387972533e-08,3.46816074115741,0.116289347242716,0.0756908130755119,"UP","UP",TRUE,17,21
+"covid_blood","AUCell","voom","toll_like_receptor","central memory CD4-positive, alpha-beta T cell",0.101732783953483,0.554002066043648,0.0568549396886348,0.0536866220534153,"UP","UP",TRUE,16,18
+"covid_blood","AUCell","voom","toll_like_receptor","naive B cell",0.839274156043045,-0.157523943324659,0.0633202933799787,0.0642186812728154,"UP","DOWN",FALSE,11,13
+"covid_blood","AUCell","voom","toll_like_receptor","naive thymus-derived CD4-positive, alpha-beta T cell",0.00537550348426644,-1.35854079244371,0.0488612490782865,0.0566384239742894,"UP","DOWN",FALSE,15,11
+"covid_blood","AUCell","voom","toll_like_receptor","effector memory CD8-positive, alpha-beta T cell",0.00235794666334066,-1.20173499554401,0.0502205974421991,0.0584081138611795,"UP","DOWN",FALSE,17,15
+"covid_blood","AUCell","voom","toll_like_receptor","mucosal invariant T cell",0.0728438228438228,0.913194956351507,0.0607645203412973,0.0546111511928115,"UP","UP",TRUE,7,7
+"covid_blood","AUCell","voom","toll_like_receptor","natural killer cell",0.0170126401377815,-1.03751594284079,0.0536843032773581,0.0605562280006122,"UP","DOWN",FALSE,18,15
+"covid_blood","AUCell","voom","toll_like_receptor","naive thymus-derived CD8-positive, alpha-beta T cell",0.388411588411588,-0.444293329997261,0.052297675195125,0.0551219444328506,"UP","DOWN",FALSE,9,6
+"covid_blood","AUCell","voom","toll_like_receptor","non-classical monocyte",0.000281577492971796,1.84532481574337,0.0724988522058517,0.0565152969656497,"UP","UP",TRUE,9,20
+"covid_blood","AUCell","voom","toll_like_receptor","memory B cell",0.41203007518797,-0.81232459592957,0.0530767839503596,0.0574963711154704,"UP","DOWN",FALSE,3,18
+"covid_blood","AUCell","voom","toll_like_receptor","transitional stage B cell",0.0115384615384615,-1.53723679401964,0.0510813115262383,0.0578581001804008,"UP","DOWN",FALSE,7,9
+"covid_blood","AUCell","voom","toll_like_receptor","gamma-delta T cell",0.0822510822510823,-1.42344510935293,0.0516646493314969,0.0616469802579406,"UP","DOWN",FALSE,6,5
+"covid_blood","AUCell","voom","toll_like_receptor","conventional dendritic cell",0.2,-1.49616699124318,0.0747248772208078,0.083183772277641,"UP","DOWN",FALSE,3,2
+"covid_blood","AUCell","voom","toll_like_receptor","regulatory T cell",0.00220574058726075,-3.30434224416226,0.0448759054293509,0.060703702157853,"UP","DOWN",FALSE,11,5
+"covid_blood","AUCell","scran","interferon_signaling","classical monocyte",0.617682148956311,0.490925961693731,0.0772741231063191,0.0694536515302177,"UP","UP",TRUE,17,21
+"covid_blood","AUCell","scran","interferon_signaling","central memory CD4-positive, alpha-beta T cell",0.0297163739385403,0.768461315569372,0.0761691560324826,0.0673643335911317,"UP","UP",TRUE,16,18
+"covid_blood","AUCell","scran","interferon_signaling","naive B cell",0.228425924145402,0.851721644598266,0.106037755747733,0.0970707656612529,"UP","UP",TRUE,11,13
+"covid_blood","AUCell","scran","interferon_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.838442641622747,0.274594090686012,0.0727397525135344,0.0700880615903818,"UP","UP",TRUE,15,11
+"covid_blood","AUCell","scran","interferon_signaling","effector memory CD8-positive, alpha-beta T cell",0.00608580118542879,1.01406058649495,0.0832349529138802,0.071177494199536,"UP","UP",TRUE,17,15
+"covid_blood","AUCell","scran","interferon_signaling","mucosal invariant T cell",0.0110722610722611,1.24641715871517,0.0809869075240305,0.0666556181637388,"UP","UP",TRUE,7,7
+"covid_blood","AUCell","scran","interferon_signaling","natural killer cell",1.37028260063517e-05,1.3729365042016,0.0898846352152617,0.0722544470224285,"UP","UP",TRUE,18,15
+"covid_blood","AUCell","scran","interferon_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.688911088911089,0.0564048604129221,0.0713295952565094,0.0708188321732405,"UP","UP",TRUE,9,6
+"covid_blood","AUCell","scran","interferon_signaling","non-classical monocyte",0.0020357453640812,1.33407897213577,0.102626321216808,0.0879364849187935,"UP","UP",TRUE,9,20
+"covid_blood","AUCell","scran","interferon_signaling","memory B cell",0.184962406015038,1.32344081673195,0.108091647331787,0.0939320701211653,"UP","UP",TRUE,3,18
+"covid_blood","AUCell","scran","interferon_signaling","transitional stage B cell",0.407867132867133,0.66024003544295,0.103948458733842,0.0969225315803042,"UP","UP",TRUE,7,9
+"covid_blood","AUCell","scran","interferon_signaling","gamma-delta T cell",0.177489177489177,1.13106183094608,0.092918600154679,0.0747563805104408,"UP","UP",TRUE,6,5
+"covid_blood","AUCell","scran","interferon_signaling","conventional dendritic cell",0.8,0.980685753126024,0.119663573085847,0.108744199535963,"UP","UP",TRUE,3,2
+"covid_blood","AUCell","scran","interferon_signaling","regulatory T cell",0.913003663003663,0.162184756753896,0.0837507909723687,0.0816879350348028,"UP","UP",TRUE,11,5
+"covid_blood","AUCell","scran","jak_stat","classical monocyte",3.12704741475076e-09,4.03964322195805,0.0894572928886654,0.0489666711888934,"UP","UP",TRUE,17,21
+"covid_blood","AUCell","scran","jak_stat","central memory CD4-positive, alpha-beta T cell",6.07996120875854e-08,3.45822905521102,0.0884912155745489,0.0628416165453203,"UP","UP",TRUE,16,18
+"covid_blood","AUCell","scran","jak_stat","naive B cell",0.00196463024569095,2.2669914749882,0.0649313649313649,0.0490010227189714,"UP","UP",TRUE,11,13
+"covid_blood","AUCell","scran","jak_stat","naive thymus-derived CD4-positive, alpha-beta T cell",0.000229868395166551,2.26025991787778,0.0749224438113327,0.0557239057239057,"UP","UP",TRUE,15,11
+"covid_blood","AUCell","scran","jak_stat","effector memory CD8-positive, alpha-beta T cell",4.89285634488924e-05,2.48505564188324,0.0910703312664097,0.0661839189616967,"UP","UP",TRUE,17,15
+"covid_blood","AUCell","scran","jak_stat","mucosal invariant T cell",0.00407925407925408,2.23748806822835,0.0951634784968118,0.0661714828381495,"UP","UP",TRUE,7,7
+"covid_blood","AUCell","scran","jak_stat","natural killer cell",3.33333873270187e-05,2.53649019654705,0.0924580563469452,0.0658657803102248,"UP","UP",TRUE,18,15
+"covid_blood","AUCell","scran","jak_stat","naive thymus-derived CD8-positive, alpha-beta T cell",0.0250148441553133,1.60222447220289,0.075664767331434,0.060082304526749,"UP","UP",TRUE,9,6
+"covid_blood","AUCell","scran","jak_stat","non-classical monocyte",2.75586482483034e-05,3.00312521703212,0.0746227709190672,0.0474988129154796,"UP","UP",TRUE,9,20
+"covid_blood","AUCell","scran","jak_stat","memory B cell",0.0240601503759399,2.19435339131549,0.0657169990503324,0.0487865358235729,"UP","UP",TRUE,3,18
+"covid_blood","AUCell","scran","jak_stat","transitional stage B cell",0.0548951048951049,1.59058018500996,0.0611043277709944,0.0478368682072386,"UP","UP",TRUE,7,9
+"covid_blood","AUCell","scran","jak_stat","gamma-delta T cell",0.051948051948052,1.65717188494523,0.0934116809116809,0.0738841405508072,"UP","UP",TRUE,6,5
+"covid_blood","AUCell","scran","jak_stat","conventional dendritic cell",1,0.191947109567148,0.0760367204811649,0.075,"UP","UP",TRUE,3,2
+"covid_blood","AUCell","scran","jak_stat","regulatory T cell",0.0897435897435898,1.287499686131,0.0790857290857291,0.0709924026590693,"UP","UP",TRUE,11,5
+"covid_blood","AUCell","scran","nfkb_signaling","classical monocyte",3.25986632865234e-06,2.71764160066554,0.058161390918023,0.0422104644326867,"UP","UP",TRUE,17,21
+"covid_blood","AUCell","scran","nfkb_signaling","central memory CD4-positive, alpha-beta T cell",7.23315097971349e-05,1.97187913677719,0.0687136891793755,0.05320342128621,"UP","UP",TRUE,16,18
+"covid_blood","AUCell","scran","nfkb_signaling","naive B cell",0.000326104537174673,1.98944256236989,0.0727470786294316,0.0587285626501313,"UP","UP",TRUE,11,13
+"covid_blood","AUCell","scran","nfkb_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.0687368628141276,0.802256019440046,0.0639554587267006,0.0574635241301908,"UP","UP",TRUE,15,11
+"covid_blood","AUCell","scran","nfkb_signaling","effector memory CD8-positive, alpha-beta T cell",0.294788506991552,0.47503776262364,0.0606305267204921,0.0568288549987896,"UP","UP",TRUE,17,15
+"covid_blood","AUCell","scran","nfkb_signaling","mucosal invariant T cell",0.0296622589113772,1.86912130274341,0.0696234049175226,0.0534391534391534,"UP","UP",TRUE,7,7
+"covid_blood","AUCell","scran","nfkb_signaling","natural killer cell",0.11568635715325,0.87910426873254,0.0620551924473493,0.0555894456548051,"UP","UP",TRUE,18,15
+"covid_blood","AUCell","scran","nfkb_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.113486513486513,0.950232250283548,0.0647462277091907,0.0561970467199225,"UP","UP",TRUE,9,6
+"covid_blood","AUCell","scran","nfkb_signaling","non-classical monocyte",0.0175093272544547,1.48602833028016,0.055281207133059,0.0450435729847495,"UP","UP",TRUE,9,20
+"covid_blood","AUCell","scran","nfkb_signaling","memory B cell",0.0873260205504918,1.58840266238349,0.069038973614137,0.0553336560961833,"UP","UP",TRUE,3,18
+"covid_blood","AUCell","scran","nfkb_signaling","transitional stage B cell",0.0439951078310948,0.898169939493707,0.0647162568731196,0.0582102799967724,"UP","UP",TRUE,7,9
+"covid_blood","AUCell","scran","nfkb_signaling","gamma-delta T cell",0.930735930735931,-0.12472022836113,0.0620672960542242,0.0630065359477124,"UP","DOWN",FALSE,6,5
+"covid_blood","AUCell","scran","nfkb_signaling","conventional dendritic cell",1,-0.194490736340574,0.0515613652868555,0.0534495279593319,"UP","DOWN",FALSE,3,2
+"covid_blood","AUCell","scran","nfkb_signaling","regulatory T cell",0.125888811013295,-0.846431987273135,0.0604806232257213,0.0656209150326797,"UP","DOWN",FALSE,11,5
+"covid_blood","AUCell","scran","toll_like_receptor","classical monocyte",1.35505387972533e-08,3.46754033542596,0.116284436893418,0.0756967756425163,"UP","UP",TRUE,17,21
+"covid_blood","AUCell","scran","toll_like_receptor","central memory CD4-positive, alpha-beta T cell",0.101154659310488,0.553324244585234,0.0568523310655703,0.0536912596055298,"UP","UP",TRUE,16,18
+"covid_blood","AUCell","scran","toll_like_receptor","naive B cell",0.930717115312672,-0.163312898110492,0.0633202933799787,0.0642572086288435,"UP","DOWN",FALSE,11,13
+"covid_blood","AUCell","scran","toll_like_receptor","naive thymus-derived CD4-positive, alpha-beta T cell",0.00644822266171035,-1.35695926732157,0.0488779442658987,0.0566194521701847,"UP","DOWN",FALSE,15,11
+"covid_blood","AUCell","scran","toll_like_receptor","effector memory CD8-positive, alpha-beta T cell",0.00235794666334066,-1.1908507437902,0.0502279629661456,0.0583802885484926,"UP","DOWN",FALSE,17,15
+"covid_blood","AUCell","scran","toll_like_receptor","mucosal invariant T cell",0.0728438228438228,0.906190138980534,0.0606989321042495,0.0546409640278333,"UP","UP",TRUE,7,7
+"covid_blood","AUCell","scran","toll_like_receptor","natural killer cell",0.0147244655955708,-1.03985940292152,0.0536912596055298,0.0605701406569556,"UP","DOWN",FALSE,18,15
+"covid_blood","AUCell","scran","toll_like_receptor","naive thymus-derived CD8-positive, alpha-beta T cell",0.388411588411588,-0.430823395630876,0.0522744874345525,0.0550454248229615,"UP","DOWN",FALSE,9,6
+"covid_blood","AUCell","scran","toll_like_receptor","non-classical monocyte",0.000281577492971796,1.84452659747378,0.0724895771016227,0.0564902541842314,"UP","UP",TRUE,9,20
+"covid_blood","AUCell","scran","toll_like_receptor","memory B cell",0.450393475179491,-0.804804994609107,0.0531602598884205,0.0574870960112414,"UP","DOWN",FALSE,3,18
+"covid_blood","AUCell","scran","toll_like_receptor","transitional stage B cell",0.0127323195077812,-1.59083108564987,0.051093236660247,0.058020414504408,"UP","DOWN",FALSE,7,9
+"covid_blood","AUCell","scran","toll_like_receptor","gamma-delta T cell",0.0822510822510823,-1.43297960451949,0.0516716056596686,0.0617054134145832,"UP","DOWN",FALSE,6,5
+"covid_blood","AUCell","scran","toll_like_receptor","conventional dendritic cell",0.2,-1.50480420704083,0.0746970519081208,0.083183772277641,"UP","DOWN",FALSE,3,2
+"covid_blood","AUCell","scran","toll_like_receptor","regulatory T cell",0.000457875457875458,-3.237632187042,0.0448872885118137,0.0607871780959139,"UP","DOWN",FALSE,11,5
+"covid_blood","AUCell","sctransform","interferon_signaling","classical monocyte",0.663311541516667,0.50388517070177,0.118437557589171,0.104137026598967,"UP","UP",TRUE,17,21
+"covid_blood","AUCell","sctransform","interferon_signaling","central memory CD4-positive, alpha-beta T cell",0.383790099266846,0.429671918861127,0.072654631339519,0.0592668494997114,"UP","UP",TRUE,16,18
+"covid_blood","AUCell","sctransform","interferon_signaling","naive B cell",0.0011986487959028,-0.8095889419724,0.0856963928083647,0.10284137411198,"UP","DOWN",FALSE,11,13
+"covid_blood","AUCell","sctransform","interferon_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.180438924381582,0.107064857942014,0.0575423635508313,0.0549442037708861,"UP","UP",TRUE,15,11
+"covid_blood","AUCell","sctransform","interferon_signaling","effector memory CD8-positive, alpha-beta T cell",0.0694811762200394,0.665112380387986,0.0917462096390068,0.0698845115721974,"UP","UP",TRUE,17,15
+"covid_blood","AUCell","sctransform","interferon_signaling","mucosal invariant T cell",0.382867132867133,-0.0852493340255902,0.0679366437744061,0.0704662671602587,"UP","DOWN",FALSE,7,7
+"covid_blood","AUCell","sctransform","interferon_signaling","natural killer cell",0.0182074054036417,0.947872800976801,0.0937505213077234,0.064042862338061,"UP","UP",TRUE,18,15
+"covid_blood","AUCell","sctransform","interferon_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.0495504495504496,-0.598309579280723,0.0494691836237643,0.0636652270232578,"UP","DOWN",FALSE,9,6
+"covid_blood","AUCell","sctransform","interferon_signaling","non-classical monocyte",0.000167748293685325,1.96302903666007,0.144719472497751,0.103380138425968,"UP","UP",TRUE,9,20
+"covid_blood","AUCell","sctransform","interferon_signaling","memory B cell",0.813533834586466,0.17553737153347,0.101215856429351,0.0959983307031621,"UP","UP",TRUE,3,18
+"covid_blood","AUCell","sctransform","interferon_signaling","transitional stage B cell",0.407867132867133,-0.00876728525553805,0.0958357819901825,0.0960412864595671,"UP","DOWN",FALSE,7,9
+"covid_blood","AUCell","sctransform","interferon_signaling","gamma-delta T cell",0.792207792207792,0.579385225276125,0.0955452795377126,0.0725117356794683,"UP","UP",TRUE,6,5
+"covid_blood","AUCell","sctransform","interferon_signaling","conventional dendritic cell",0.2,1.73096219138545,0.168300653594771,0.124495791169965,"UP","UP",TRUE,3,2
+"covid_blood","AUCell","sctransform","interferon_signaling","regulatory T cell",0.0517399267399267,-0.89191055205849,0.0735754764108066,0.0953194907365703,"UP","DOWN",FALSE,11,5
+"covid_blood","AUCell","sctransform","jak_stat","classical monocyte",8.33879310600203e-10,3.83255693654246,0.182606186732825,0.137703072883087,"UP","UP",TRUE,17,21
+"covid_blood","AUCell","sctransform","jak_stat","central memory CD4-positive, alpha-beta T cell",6.49820809250732e-05,1.64494978622654,0.106206824488387,0.0873339043955312,"UP","UP",TRUE,16,18
+"covid_blood","AUCell","sctransform","jak_stat","naive B cell",0.424429039350294,-0.635618621458813,0.0656810735003463,0.0733913109214595,"UP","DOWN",FALSE,11,13
+"covid_blood","AUCell","sctransform","jak_stat","naive thymus-derived CD4-positive, alpha-beta T cell",0.443029137372252,0.403821387533604,0.0684009545248071,0.0658485555661159,"UP","UP",TRUE,15,11
+"covid_blood","AUCell","sctransform","jak_stat","effector memory CD8-positive, alpha-beta T cell",0.0823385845277701,0.661808090252763,0.093027846161104,0.0864375187372098,"UP","UP",TRUE,17,15
+"covid_blood","AUCell","sctransform","jak_stat","mucosal invariant T cell",0.0262237762237762,-1.29076674365573,0.0960016897875887,0.109058123654887,"UP","DOWN",FALSE,7,7
+"covid_blood","AUCell","sctransform","jak_stat","natural killer cell",0.555745406352234,0.24600704671406,0.100330119202471,0.0968723154604638,"UP","UP",TRUE,18,15
+"covid_blood","AUCell","sctransform","jak_stat","naive thymus-derived CD8-positive, alpha-beta T cell",0.606993006993007,0.312504258482178,0.0589894297748026,0.0566056181010485,"UP","UP",TRUE,9,6
+"covid_blood","AUCell","sctransform","jak_stat","non-classical monocyte",2.75586482483034e-05,2.76327152959996,0.155869975876188,0.118517355790194,"UP","UP",TRUE,9,20
+"covid_blood","AUCell","sctransform","jak_stat","memory B cell",0.153383458646617,-1.03455942790479,0.0677574397328944,0.0762968526570173,"UP","DOWN",FALSE,3,18
+"covid_blood","AUCell","sctransform","jak_stat","transitional stage B cell",0.680594405594406,-0.280416670690211,0.0720755749910172,0.0749432647329087,"UP","DOWN",FALSE,7,9
+"covid_blood","AUCell","sctransform","jak_stat","gamma-delta T cell",0.329004329004329,-0.457168891330724,0.081663984740195,0.0878948832384391,"UP","DOWN",FALSE,6,5
+"covid_blood","AUCell","sctransform","jak_stat","conventional dendritic cell",0.2,-2.82941032637599,0.151810564749034,0.159442926612605,"UP","DOWN",FALSE,3,2
+"covid_blood","AUCell","sctransform","jak_stat","regulatory T cell",0.18040293040293,0.858798225530247,0.0922822157991326,0.0857660164870231,"UP","UP",TRUE,11,5
+"covid_blood","AUCell","sctransform","nfkb_signaling","classical monocyte",0.000425545019815588,1.18732872453068,0.0367067545275334,0.0182238021450491,"UP","UP",TRUE,17,21
+"covid_blood","AUCell","sctransform","nfkb_signaling","central memory CD4-positive, alpha-beta T cell",0.000332089819454857,1.26219894612843,0.0477774739464649,0.0292140559117134,"UP","UP",TRUE,16,18
+"covid_blood","AUCell","sctransform","nfkb_signaling","naive B cell",0.167410213513323,0.794018213921557,0.0693188378176073,0.0509300743919284,"UP","UP",TRUE,11,13
+"covid_blood","AUCell","sctransform","nfkb_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.878478571502532,-0.0613271413803122,0.0285317858191799,0.0291805117071729,"UP","DOWN",FALSE,15,11
+"covid_blood","AUCell","sctransform","nfkb_signaling","effector memory CD8-positive, alpha-beta T cell",0.0485711586764626,0.822812062595941,0.0433499368209594,0.0280768490667315,"UP","UP",TRUE,17,15
+"covid_blood","AUCell","sctransform","nfkb_signaling","mucosal invariant T cell",0.0174825174825175,1.53946036359213,0.0686111870689393,0.0406456849442904,"UP","UP",TRUE,7,7
+"covid_blood","AUCell","sctransform","nfkb_signaling","natural killer cell",0.0569274457538942,0.376491677511738,0.0530263286712106,0.0455086642562716,"UP","UP",TRUE,18,15
+"covid_blood","AUCell","sctransform","nfkb_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.606993006993007,0.447291917079415,0.0292657072348987,0.0238801284193682,"UP","UP",TRUE,9,6
+"covid_blood","AUCell","sctransform","nfkb_signaling","non-classical monocyte",0.0112908580674698,1.1322718774943,0.0559198155406341,0.0321319843223043,"UP","UP",TRUE,9,20
+"covid_blood","AUCell","sctransform","nfkb_signaling","memory B cell",0.0345864661654135,1.64682620592918,0.0674566280800899,0.0353652896356387,"UP","UP",TRUE,3,18
+"covid_blood","AUCell","sctransform","nfkb_signaling","transitional stage B cell",0.0311188811188811,0.502055428714432,0.067078141073219,0.05199093907507,"UP","UP",TRUE,7,9
+"covid_blood","AUCell","sctransform","nfkb_signaling","gamma-delta T cell",0.662337662337662,-0.394458417081956,0.0443644355320593,0.0528739403882964,"UP","DOWN",FALSE,6,5
+"covid_blood","AUCell","sctransform","nfkb_signaling","conventional dendritic cell",0.2,2.13342248725595,0.0695753451017329,0.0345881566554249,"UP","UP",TRUE,3,2
+"covid_blood","AUCell","sctransform","nfkb_signaling","regulatory T cell",0.661172161172161,-0.509943605982066,0.0373452877144428,0.0486895755476559,"UP","DOWN",FALSE,11,5
+"covid_blood","AUCell","sctransform","toll_like_receptor","classical monocyte",3.97135021673347e-07,2.19163800571199,0.222599629267604,0.188155462887614,"UP","UP",TRUE,17,21
+"covid_blood","AUCell","sctransform","toll_like_receptor","central memory CD4-positive, alpha-beta T cell",0.645547628299466,-0.133194009824794,0.0706256210462108,0.0731579045176637,"UP","DOWN",FALSE,16,18
+"covid_blood","AUCell","sctransform","toll_like_receptor","naive B cell",0.0409535667814036,-1.04571677593551,0.0924791136178049,0.114284762884273,"UP","DOWN",FALSE,11,13
+"covid_blood","AUCell","sctransform","toll_like_receptor","naive thymus-derived CD4-positive, alpha-beta T cell",0.00302297648508444,-1.36589125002233,0.0446884356686311,0.0632811989914791,"UP","DOWN",FALSE,15,11
+"covid_blood","AUCell","sctransform","toll_like_receptor","effector memory CD8-positive, alpha-beta T cell",0.628085299455535,-0.222335038539432,0.0686867704786823,0.0717952047853763,"UP","DOWN",FALSE,17,15
+"covid_blood","AUCell","sctransform","toll_like_receptor","mucosal invariant T cell",0.259324009324009,-0.678987055149634,0.0769930049290163,0.086165725698207,"UP","DOWN",FALSE,7,7
+"covid_blood","AUCell","sctransform","toll_like_receptor","natural killer cell",0.324721942162118,-0.275973012703754,0.0788706004785814,0.082805374365836,"UP","DOWN",FALSE,18,15
+"covid_blood","AUCell","sctransform","toll_like_receptor","naive thymus-derived CD8-positive, alpha-beta T cell",0.181018981018981,-0.867214201050053,0.0466226564216588,0.0606485444152573,"UP","DOWN",FALSE,9,6
+"covid_blood","AUCell","sctransform","toll_like_receptor","non-classical monocyte",0.000898851273663867,1.65339945862852,0.203006382906622,0.165179205651152,"UP","UP",TRUE,9,20
+"covid_blood","AUCell","sctransform","toll_like_receptor","memory B cell",0.0240601503759399,-1.68157582717338,0.0939333418599084,0.115312307673808,"UP","DOWN",FALSE,3,18
+"covid_blood","AUCell","sctransform","toll_like_receptor","transitional stage B cell",0.141608391608392,-0.967633912007304,0.108351218058724,0.119368771090975,"UP","DOWN",FALSE,7,9
+"covid_blood","AUCell","sctransform","toll_like_receptor","gamma-delta T cell",0.930735930735931,-0.163889264249119,0.0696486723138829,0.0725122241570989,"UP","DOWN",FALSE,6,5
+"covid_blood","AUCell","sctransform","toll_like_receptor","conventional dendritic cell",0.4,-1.21257056330994,0.195861331654254,0.209285440217231,"UP","DOWN",FALSE,3,2
+"covid_blood","AUCell","sctransform","toll_like_receptor","regulatory T cell",0.509615384615385,-0.52803839425781,0.0780433835715557,0.0863488877738752,"UP","DOWN",FALSE,11,5
+"covid_blood","UCell","log2CPM","interferon_signaling","classical monocyte",0.861844465402194,0.369658922335428,0.226304681282107,0.217921220640778,"UP","UP",TRUE,17,21
+"covid_blood","UCell","log2CPM","interferon_signaling","central memory CD4-positive, alpha-beta T cell",0.772246636820681,0.480714049931837,0.213543742312423,0.206649241492415,"UP","UP",TRUE,16,18
+"covid_blood","UCell","log2CPM","interferon_signaling","naive B cell",0.228425924145402,0.660216956198901,0.225636363636364,0.218058662125083,"UP","UP",TRUE,11,13
+"covid_blood","UCell","log2CPM","interferon_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.721103627157605,0.328207024546021,0.209743173431734,0.205477021133848,"UP","UP",TRUE,15,11
+"covid_blood","UCell","log2CPM","interferon_signaling","effector memory CD8-positive, alpha-beta T cell",0.277695200221055,0.60734916096701,0.221768612980247,0.212256498564986,"UP","UP",TRUE,17,15
+"covid_blood","UCell","log2CPM","interferon_signaling","mucosal invariant T cell",0.382867132867133,0.665252573443849,0.211238798102267,0.200619574767176,"UP","UP",TRUE,7,7
+"covid_blood","UCell","log2CPM","interferon_signaling","natural killer cell",0.0027150898235093,1.0456409728852,0.218644458111248,0.204436080360804,"UP","UP",TRUE,18,15
+"covid_blood","UCell","log2CPM","interferon_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.388411588411588,-0.128845448896079,0.205671040043734,0.207241287412874,"UP","DOWN",FALSE,9,6
+"covid_blood","UCell","log2CPM","interferon_signaling","non-classical monocyte",0.000360059730374573,1.36096741743436,0.245728713953806,0.225055227552276,"UP","UP",TRUE,9,20
+"covid_blood","UCell","log2CPM","interferon_signaling","memory B cell",0.153383458646617,1.09559503053849,0.240831898318983,0.221027060270603,"UP","UP",TRUE,3,18
+"covid_blood","UCell","log2CPM","interferon_signaling","transitional stage B cell",0.141608391608392,0.835962379328551,0.231244245299596,0.220058903922373,"UP","UP",TRUE,7,9
+"covid_blood","UCell","log2CPM","interferon_signaling","gamma-delta T cell",0.246753246753247,0.930527206972231,0.228140016400164,0.207555719557196,"UP","UP",TRUE,6,5
+"covid_blood","UCell","log2CPM","interferon_signaling","conventional dendritic cell",0.2,2.80495370615761,0.261550225502255,0.223789667896679,"UP","UP",TRUE,3,2
+"covid_blood","UCell","log2CPM","interferon_signaling","regulatory T cell",0.31959706959707,0.0325066869160296,0.224947668567595,0.22450110701107,"UP","UP",TRUE,11,5
+"covid_blood","UCell","log2CPM","jak_stat","classical monocyte",1.2481783480834e-06,2.45146290116872,0.289002611615471,0.273831974227323,"UP","UP",TRUE,17,21
+"covid_blood","UCell","log2CPM","jak_stat","central memory CD4-positive, alpha-beta T cell",0.000264901187494919,1.39909114795419,0.277221723044397,0.267930350011745,"UP","UP",TRUE,16,18
+"covid_blood","UCell","log2CPM","jak_stat","naive B cell",0.00389480735085796,-1.48244940375874,0.246582932923313,0.253632460562693,"UP","DOWN",FALSE,11,13
+"covid_blood","UCell","log2CPM","jak_stat","naive thymus-derived CD4-positive, alpha-beta T cell",0.646083694875592,0.478260475739914,0.26269476156918,0.260322826574412,"UP","UP",TRUE,15,11
+"covid_blood","UCell","log2CPM","jak_stat","effector memory CD8-positive, alpha-beta T cell",0.033093558625328,0.766262760398797,0.274254570327074,0.269527930467465,"UP","UP",TRUE,17,15
+"covid_blood","UCell","log2CPM","jak_stat","mucosal invariant T cell",0.382867132867133,0.563227795350247,0.27469827846572,0.269427866706936,"UP","UP",TRUE,7,7
+"covid_blood","UCell","log2CPM","jak_stat","natural killer cell",0.100440501696983,0.681601842527795,0.27814575992483,0.273127084801503,"UP","UP",TRUE,18,15
+"covid_blood","UCell","log2CPM","jak_stat","naive thymus-derived CD8-positive, alpha-beta T cell",0.954645354645355,0.115505126276452,0.260901025761491,0.260258515386422,"UP","UP",TRUE,9,6
+"covid_blood","UCell","log2CPM","jak_stat","non-classical monocyte",0.000167748293685325,1.77517624551577,0.282830318690784,0.271635799859056,"UP","UP",TRUE,9,20
+"covid_blood","UCell","log2CPM","jak_stat","memory B cell",0.887218045112782,-0.000233850300154619,0.255526192154099,0.255527875655783,"UP","DOWN",FALSE,3,18
+"covid_blood","UCell","log2CPM","jak_stat","transitional stage B cell",0.536013986013986,0.449189130123414,0.254050840632236,0.251691880040717,"UP","UP",TRUE,7,9
+"covid_blood","UCell","log2CPM","jak_stat","gamma-delta T cell",1,0.081415215961111,0.27185424007517,0.271352360817477,"UP","UP",TRUE,6,5
+"covid_blood","UCell","log2CPM","jak_stat","conventional dendritic cell",0.4,-1.36235768679609,0.280659149635894,0.286207540521494,"UP","DOWN",FALSE,3,2
+"covid_blood","UCell","log2CPM","jak_stat","regulatory T cell",0.0274725274725275,1.20228208879511,0.278149721314626,0.273985764622974,"UP","UP",TRUE,11,5
+"covid_blood","UCell","log2CPM","nfkb_signaling","classical monocyte",0.0309251455457639,0.80837633042666,0.228479302832244,0.203919165196943,"UP","UP",TRUE,17,21
+"covid_blood","UCell","log2CPM","nfkb_signaling","central memory CD4-positive, alpha-beta T cell",0.17520059958581,0.523554410491471,0.231869212962963,0.216179355281207,"UP","UP",TRUE,16,18
+"covid_blood","UCell","log2CPM","nfkb_signaling","naive B cell",0.00312321725028684,-1.41157801170916,0.200719977553311,0.238894586894587,"UP","DOWN",FALSE,11,13
+"covid_blood","UCell","log2CPM","nfkb_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.00915409466021931,-1.19569489144665,0.193459259259259,0.220755331088664,"UP","DOWN",FALSE,15,11
+"covid_blood","UCell","log2CPM","nfkb_signaling","effector memory CD8-positive, alpha-beta T cell",0.681976750023404,0.186449077445188,0.231749818445897,0.225848971193416,"UP","UP",TRUE,17,15
+"covid_blood","UCell","log2CPM","nfkb_signaling","mucosal invariant T cell",0.259324009324009,0.732379754752725,0.221413580246914,0.203586419753086,"UP","UP",TRUE,7,7
+"covid_blood","UCell","log2CPM","nfkb_signaling","natural killer cell",0.872530658578721,0.0713920169836969,0.240924211248285,0.238641152263374,"UP","UP",TRUE,18,15
+"covid_blood","UCell","log2CPM","nfkb_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.0003996003996004,-2.06914741155752,0.194526063100137,0.221817901234568,"UP","DOWN",FALSE,9,6
+"covid_blood","UCell","log2CPM","nfkb_signaling","non-classical monocyte",0.340448556940311,0.482082987793417,0.236865569272977,0.220602777777778,"UP","UP",TRUE,9,20
+"covid_blood","UCell","log2CPM","nfkb_signaling","memory B cell",0.669172932330827,0.184725409662783,0.227158436213992,0.222127229080933,"UP","UP",TRUE,3,18
+"covid_blood","UCell","log2CPM","nfkb_signaling","transitional stage B cell",0.299125874125874,-0.453448085295417,0.204041446208113,0.216971193415638,"UP","DOWN",FALSE,7,9
+"covid_blood","UCell","log2CPM","nfkb_signaling","gamma-delta T cell",0.428571428571429,-0.502698153871636,0.210997942386831,0.228837037037037,"UP","DOWN",FALSE,6,5
+"covid_blood","UCell","log2CPM","nfkb_signaling","conventional dendritic cell",0.4,-0.73975425032911,0.261800411522634,0.274882716049383,"UP","DOWN",FALSE,3,2
+"covid_blood","UCell","log2CPM","nfkb_signaling","regulatory T cell",0.0897435897435898,-1.06154162356811,0.247875982042649,0.267627160493827,"UP","DOWN",FALSE,11,5
+"covid_blood","UCell","log2CPM","toll_like_receptor","classical monocyte",2.59197485711563e-08,3.63211912198413,0.198705651672434,0.180606909430439,"UP","UP",TRUE,17,21
+"covid_blood","UCell","log2CPM","toll_like_receptor","central memory CD4-positive, alpha-beta T cell",0.223824462300141,0.47641256240071,0.148115441176471,0.146128213507625,"UP","UP",TRUE,16,18
+"covid_blood","UCell","log2CPM","toll_like_receptor","naive B cell",0.530912479408239,-0.298396273008863,0.161900356506239,0.163720211161388,"UP","DOWN",FALSE,11,13
+"covid_blood","UCell","log2CPM","toll_like_receptor","naive thymus-derived CD4-positive, alpha-beta T cell",0.609782608695652,-0.225849489562467,0.142487058823529,0.143664171122995,"UP","DOWN",FALSE,15,11
+"covid_blood","UCell","log2CPM","toll_like_receptor","effector memory CD8-positive, alpha-beta T cell",0.8232362631644,0.143679121205287,0.14638800461361,0.145638039215686,"UP","UP",TRUE,17,15
+"covid_blood","UCell","log2CPM","toll_like_receptor","mucosal invariant T cell",0.164918414918415,0.999300842257669,0.146971148459384,0.140427170868347,"UP","UP",TRUE,7,7
+"covid_blood","UCell","log2CPM","toll_like_receptor","natural killer cell",0.0619946856329514,0.60224217752098,0.150273311546841,0.146293202614379,"UP","UP",TRUE,18,15
+"covid_blood","UCell","log2CPM","toll_like_receptor","naive thymus-derived CD8-positive, alpha-beta T cell",0.528671328671329,0.457450702575934,0.143535511982571,0.141866339869281,"UP","UP",TRUE,9,6
+"covid_blood","UCell","log2CPM","toll_like_receptor","non-classical monocyte",0.000360059730374573,1.70600598052742,0.177828758169935,0.164689901960784,"UP","UP",TRUE,9,20
+"covid_blood","UCell","log2CPM","toll_like_receptor","memory B cell",1,0.227623539813269,0.162799346405229,0.161768954248366,"UP","UP",TRUE,3,18
+"covid_blood","UCell","log2CPM","toll_like_receptor","transitional stage B cell",0.252272727272727,0.750361892673699,0.16345462184874,0.156814814814815,"UP","UP",TRUE,7,9
+"covid_blood","UCell","log2CPM","toll_like_receptor","gamma-delta T cell",0.662337662337662,0.173643833120995,0.146133333333333,0.145167450980392,"UP","UP",TRUE,6,5
+"covid_blood","UCell","log2CPM","toll_like_receptor","conventional dendritic cell",1,0.075692593609676,0.171787581699346,0.171666666666667,"UP","UP",TRUE,3,2
+"covid_blood","UCell","log2CPM","toll_like_receptor","regulatory T cell",0.509615384615385,0.488392597683741,0.148506951871658,0.146149019607843,"UP","UP",TRUE,11,5
+"covid_blood","UCell","voom","interferon_signaling","classical monocyte",0.90764464625658,0.3496703748347,0.280561642156863,0.268965079365079,"UP","UP",TRUE,17,21
+"covid_blood","UCell","voom","interferon_signaling","central memory CD4-positive, alpha-beta T cell",0.695270238009564,0.45946208892671,0.259763671875,0.250250462962963,"UP","UP",TRUE,16,18
+"covid_blood","UCell","voom","interferon_signaling","naive B cell",0.0547500464716779,0.819297841855229,0.283288446969697,0.268268269230769,"UP","UP",TRUE,11,13
+"covid_blood","UCell","voom","interferon_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.759662238421156,0.3201686031579,0.255051805555556,0.248602462121212,"UP","UP",TRUE,15,11
+"covid_blood","UCell","voom","interferon_signaling","effector memory CD8-positive, alpha-beta T cell",0.202162267762553,0.646712169411349,0.273458946078431,0.258696388888889,"UP","UP",TRUE,17,15
+"covid_blood","UCell","voom","interferon_signaling","mucosal invariant T cell",0.382867132867133,0.685151120494845,0.256641369047619,0.239872619047619,"UP","UP",TRUE,7,7
+"covid_blood","UCell","voom","interferon_signaling","natural killer cell",0.0027150898235093,1.11186106266521,0.270522800925926,0.247507361111111,"UP","UP",TRUE,18,15
+"covid_blood","UCell","voom","interferon_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.388411588411588,-0.194184629444617,0.248283101851852,0.252021180555556,"UP","DOWN",FALSE,9,6
+"covid_blood","UCell","voom","interferon_signaling","non-classical monocyte",0.000457513500991762,1.49289025583359,0.313968518518519,0.282380729166667,"UP","UP",TRUE,9,20
+"covid_blood","UCell","voom","interferon_signaling","memory B cell",0.0105263157894737,1.26021676037279,0.305090277777778,0.272424768518518,"UP","UP",TRUE,3,18
+"covid_blood","UCell","voom","interferon_signaling","transitional stage B cell",0.0711538461538462,0.963994556412352,0.292299107142857,0.272496527777778,"UP","UP",TRUE,7,9
+"covid_blood","UCell","voom","interferon_signaling","gamma-delta T cell",0.246753246753247,0.945641670271869,0.283678472222222,0.252103333333333,"UP","UP",TRUE,6,5
+"covid_blood","UCell","voom","interferon_signaling","conventional dendritic cell",0.2,2.70409626659373,0.329486805555556,0.27675625,"UP","UP",TRUE,3,2
+"covid_blood","UCell","voom","interferon_signaling","regulatory T cell",0.377289377289377,0.0412333469562471,0.280785606060606,0.27992375,"UP","UP",TRUE,11,5
+"covid_blood","UCell","voom","jak_stat","classical monocyte",4.3092798073542e-06,1.98289686801529,0.328121568627451,0.306639021164021,"UP","UP",TRUE,17,21
+"covid_blood","UCell","voom","jak_stat","central memory CD4-positive, alpha-beta T cell",0.00037926176883047,1.45289634737963,0.315713020833333,0.297290277777778,"UP","UP",TRUE,16,18
+"covid_blood","UCell","voom","jak_stat","naive B cell",0.00213125550145414,-1.68925448607877,0.256206565656566,0.270256944444444,"UP","DOWN",FALSE,11,13
+"covid_blood","UCell","voom","jak_stat","naive thymus-derived CD4-positive, alpha-beta T cell",0.646083694875592,0.437717004790444,0.287141296296296,0.282951641414141,"UP","UP",TRUE,15,11
+"covid_blood","UCell","voom","jak_stat","effector memory CD8-positive, alpha-beta T cell",0.0299415763255893,0.837468559358065,0.309789787581699,0.299864722222222,"UP","UP",TRUE,17,15
+"covid_blood","UCell","voom","jak_stat","mucosal invariant T cell",0.317599067599068,0.603234721228047,0.309707142857143,0.298899007936508,"UP","UP",TRUE,7,7
+"covid_blood","UCell","voom","jak_stat","natural killer cell",0.125560161345473,0.695644207738738,0.318089583333333,0.308169537037037,"UP","UP",TRUE,18,15
+"covid_blood","UCell","voom","jak_stat","naive thymus-derived CD8-positive, alpha-beta T cell",0.775624375624376,0.128387199491377,0.281512191358025,0.280081712962963,"UP","UP",TRUE,9,6
+"covid_blood","UCell","voom","jak_stat","non-classical monocyte",0.000576734609718118,1.67817313037449,0.319421450617284,0.300611666666667,"UP","UP",TRUE,9,20
+"covid_blood","UCell","voom","jak_stat","memory B cell",0.962406015037594,0.0821611964375471,0.273422222222222,0.272313040123457,"UP","UP",TRUE,3,18
+"covid_blood","UCell","voom","jak_stat","transitional stage B cell",0.351048951048951,0.482998676529389,0.271725,0.26700200617284,"UP","UP",TRUE,7,9
+"covid_blood","UCell","voom","jak_stat","gamma-delta T cell",1,0.110131576833136,0.305152777777778,0.303835,"UP","UP",TRUE,6,5
+"covid_blood","UCell","voom","jak_stat","conventional dendritic cell",0.8,-0.811323505156693,0.3170625,0.323061111111111,"UP","DOWN",FALSE,3,2
+"covid_blood","UCell","voom","jak_stat","regulatory T cell",0.11492673992674,0.923329788774997,0.314712752525252,0.3085425,"UP","UP",TRUE,11,5
+"covid_blood","UCell","voom","nfkb_signaling","classical monocyte",0.013561176109189,0.923003414853442,0.247598615916955,0.217063803299097,"UP","UP",TRUE,17,21
+"covid_blood","UCell","voom","nfkb_signaling","central memory CD4-positive, alpha-beta T cell",0.17520059958581,0.517180780008141,0.244100490196078,0.22790232389252,"UP","UP",TRUE,16,18
+"covid_blood","UCell","voom","nfkb_signaling","naive B cell",0.00248543353268081,-1.51688714427923,0.216581699346405,0.258960784313725,"UP","DOWN",FALSE,11,13
+"covid_blood","UCell","voom","nfkb_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.00770059123807946,-1.21441116681751,0.203734640522876,0.232997029114676,"UP","DOWN",FALSE,15,11
+"covid_blood","UCell","voom","nfkb_signaling","effector memory CD8-positive, alpha-beta T cell",0.681976750023404,0.188025946498071,0.24396462898885,0.237668409586057,"UP","UP",TRUE,17,15
+"covid_blood","UCell","voom","nfkb_signaling","mucosal invariant T cell",0.259324009324009,0.723223390331826,0.233289449112979,0.21447152194211,"UP","UP",TRUE,7,7
+"covid_blood","UCell","voom","nfkb_signaling","natural killer cell",0.928979674000012,0.0420190315449343,0.255529411764706,0.254077995642702,"UP","UP",TRUE,18,15
+"covid_blood","UCell","voom","nfkb_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.0003996003996004,-2.09234800820824,0.204754538852578,0.2340174291939,"UP","DOWN",FALSE,9,6
+"covid_blood","UCell","voom","nfkb_signaling","non-classical monocyte",0.317132342919449,0.520492074381554,0.255028322440087,0.236202941176471,"UP","UP",TRUE,9,20
+"covid_blood","UCell","voom","nfkb_signaling","memory B cell",0.669172932330827,0.14765861290171,0.244111111111111,0.239912854030501,"UP","UP",TRUE,3,18
+"covid_blood","UCell","voom","nfkb_signaling","transitional stage B cell",0.210489510489511,-0.572485956069083,0.218638655462185,0.235504720406681,"UP","DOWN",FALSE,7,9
+"covid_blood","UCell","voom","nfkb_signaling","gamma-delta T cell",0.428571428571429,-0.501074315578139,0.222813725490196,0.241705882352941,"UP","DOWN",FALSE,6,5
+"covid_blood","UCell","voom","nfkb_signaling","conventional dendritic cell",0.4,-0.7691157580711,0.28077559912854,0.295571895424837,"UP","DOWN",FALSE,3,2
+"covid_blood","UCell","voom","nfkb_signaling","regulatory T cell",0.0897435897435898,-1.03538970416333,0.262330956625074,0.282457516339869,"UP","DOWN",FALSE,11,5
+"covid_blood","UCell","voom","toll_like_receptor","classical monocyte",3.97135021673347e-07,3.19254097723327,0.272507378209016,0.247612992963508,"UP","UP",TRUE,17,21
+"covid_blood","UCell","voom","toll_like_receptor","central memory CD4-positive, alpha-beta T cell",0.347336386916717,0.409105346577985,0.192636597938144,0.189639557082856,"UP","UP",TRUE,16,18
+"covid_blood","UCell","voom","toll_like_receptor","naive B cell",0.909510829503426,0.0119442617490603,0.220211184004998,0.220078509119746,"UP","UP",TRUE,11,13
+"covid_blood","UCell","voom","toll_like_receptor","naive thymus-derived CD4-positive, alpha-beta T cell",0.721103627157605,-0.228729768056062,0.183111111111111,0.185205560762262,"UP","DOWN",FALSE,15,11
+"covid_blood","UCell","voom","toll_like_receptor","effector memory CD8-positive, alpha-beta T cell",0.794372094513015,0.163826328778739,0.189336971902163,0.187781672394044,"UP","UP",TRUE,17,15
+"covid_blood","UCell","voom","toll_like_receptor","mucosal invariant T cell",0.164918414918415,1.10143398655671,0.188665684830633,0.178269513991163,"UP","UP",TRUE,7,7
+"covid_blood","UCell","voom","toll_like_receptor","natural killer cell",0.0793965476746115,0.622791279516711,0.195340015273005,0.188691638029782,"UP","UP",TRUE,18,15
+"covid_blood","UCell","voom","toll_like_receptor","naive thymus-derived CD8-positive, alpha-beta T cell",0.455944055944056,0.497624741418632,0.178967163039328,0.175642038946163,"UP","UP",TRUE,9,6
+"covid_blood","UCell","voom","toll_like_receptor","non-classical monocyte",0.00968746396032753,1.20478051038809,0.238095838106147,0.222086941580756,"UP","UP",TRUE,9,20
+"covid_blood","UCell","voom","toll_like_receptor","memory B cell",0.306766917293233,0.67167901745106,0.221187857961054,0.215574837724322,"UP","UP",TRUE,3,18
+"covid_blood","UCell","voom","toll_like_receptor","transitional stage B cell",0.141608391608392,0.831450909873713,0.222283259695631,0.209265368461245,"UP","UP",TRUE,7,9
+"covid_blood","UCell","voom","toll_like_receptor","gamma-delta T cell",0.329004329004329,0.304412532016917,0.187800114547537,0.185438487972509,"UP","UP",TRUE,6,5
+"covid_blood","UCell","voom","toll_like_receptor","conventional dendritic cell",0.8,0.15803082970295,0.237272623138603,0.236917525773196,"UP","UP",TRUE,3,2
+"covid_blood","UCell","voom","toll_like_receptor","regulatory T cell",0.509615384615385,0.351248468539146,0.191874414245548,0.189189003436426,"UP","UP",TRUE,11,5
+"covid_blood","UCell","scran","interferon_signaling","classical monocyte",0.90764464625658,0.3496703748347,0.280561642156863,0.268965079365079,"UP","UP",TRUE,17,21
+"covid_blood","UCell","scran","interferon_signaling","central memory CD4-positive, alpha-beta T cell",0.695270238009564,0.45946208892671,0.259763671875,0.250250462962963,"UP","UP",TRUE,16,18
+"covid_blood","UCell","scran","interferon_signaling","naive B cell",0.0547500464716779,0.819297841855229,0.283288446969697,0.268268269230769,"UP","UP",TRUE,11,13
+"covid_blood","UCell","scran","interferon_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.759662238421156,0.3201686031579,0.255051805555556,0.248602462121212,"UP","UP",TRUE,15,11
+"covid_blood","UCell","scran","interferon_signaling","effector memory CD8-positive, alpha-beta T cell",0.202162267762553,0.646712169411349,0.273458946078431,0.258696388888889,"UP","UP",TRUE,17,15
+"covid_blood","UCell","scran","interferon_signaling","mucosal invariant T cell",0.382867132867133,0.685151120494845,0.256641369047619,0.239872619047619,"UP","UP",TRUE,7,7
+"covid_blood","UCell","scran","interferon_signaling","natural killer cell",0.0027150898235093,1.11186106266521,0.270522800925926,0.247507361111111,"UP","UP",TRUE,18,15
+"covid_blood","UCell","scran","interferon_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.388411588411588,-0.194184629444617,0.248283101851852,0.252021180555556,"UP","DOWN",FALSE,9,6
+"covid_blood","UCell","scran","interferon_signaling","non-classical monocyte",0.000457513500991762,1.49289025583359,0.313968518518519,0.282380729166667,"UP","UP",TRUE,9,20
+"covid_blood","UCell","scran","interferon_signaling","memory B cell",0.0105263157894737,1.26021676037279,0.305090277777778,0.272424768518518,"UP","UP",TRUE,3,18
+"covid_blood","UCell","scran","interferon_signaling","transitional stage B cell",0.0711538461538462,0.963994556412352,0.292299107142857,0.272496527777778,"UP","UP",TRUE,7,9
+"covid_blood","UCell","scran","interferon_signaling","gamma-delta T cell",0.246753246753247,0.945641670271869,0.283678472222222,0.252103333333333,"UP","UP",TRUE,6,5
+"covid_blood","UCell","scran","interferon_signaling","conventional dendritic cell",0.2,2.70409626659373,0.329486805555556,0.27675625,"UP","UP",TRUE,3,2
+"covid_blood","UCell","scran","interferon_signaling","regulatory T cell",0.377289377289377,0.0412333469562471,0.280785606060606,0.27992375,"UP","UP",TRUE,11,5
+"covid_blood","UCell","scran","jak_stat","classical monocyte",4.3092798073542e-06,1.98289686801529,0.328121568627451,0.306639021164021,"UP","UP",TRUE,17,21
+"covid_blood","UCell","scran","jak_stat","central memory CD4-positive, alpha-beta T cell",0.00037926176883047,1.45289634737963,0.315713020833333,0.297290277777778,"UP","UP",TRUE,16,18
+"covid_blood","UCell","scran","jak_stat","naive B cell",0.00213125550145414,-1.68925448607877,0.256206565656566,0.270256944444444,"UP","DOWN",FALSE,11,13
+"covid_blood","UCell","scran","jak_stat","naive thymus-derived CD4-positive, alpha-beta T cell",0.646083694875592,0.437717004790444,0.287141296296296,0.282951641414141,"UP","UP",TRUE,15,11
+"covid_blood","UCell","scran","jak_stat","effector memory CD8-positive, alpha-beta T cell",0.0299415763255893,0.837468559358065,0.309789787581699,0.299864722222222,"UP","UP",TRUE,17,15
+"covid_blood","UCell","scran","jak_stat","mucosal invariant T cell",0.317599067599068,0.603234721228047,0.309707142857143,0.298899007936508,"UP","UP",TRUE,7,7
+"covid_blood","UCell","scran","jak_stat","natural killer cell",0.125560161345473,0.695644207738738,0.318089583333333,0.308169537037037,"UP","UP",TRUE,18,15
+"covid_blood","UCell","scran","jak_stat","naive thymus-derived CD8-positive, alpha-beta T cell",0.775624375624376,0.128387199491377,0.281512191358025,0.280081712962963,"UP","UP",TRUE,9,6
+"covid_blood","UCell","scran","jak_stat","non-classical monocyte",0.000576734609718118,1.67817313037449,0.319421450617284,0.300611666666667,"UP","UP",TRUE,9,20
+"covid_blood","UCell","scran","jak_stat","memory B cell",0.962406015037594,0.0821611964375471,0.273422222222222,0.272313040123457,"UP","UP",TRUE,3,18
+"covid_blood","UCell","scran","jak_stat","transitional stage B cell",0.351048951048951,0.482998676529389,0.271725,0.26700200617284,"UP","UP",TRUE,7,9
+"covid_blood","UCell","scran","jak_stat","gamma-delta T cell",1,0.110131576833136,0.305152777777778,0.303835,"UP","UP",TRUE,6,5
+"covid_blood","UCell","scran","jak_stat","conventional dendritic cell",0.8,-0.811323505156693,0.3170625,0.323061111111111,"UP","DOWN",FALSE,3,2
+"covid_blood","UCell","scran","jak_stat","regulatory T cell",0.11492673992674,0.923329788774997,0.314712752525252,0.3085425,"UP","UP",TRUE,11,5
+"covid_blood","UCell","scran","nfkb_signaling","classical monocyte",0.013561176109189,0.923003414853442,0.247598615916955,0.217063803299097,"UP","UP",TRUE,17,21
+"covid_blood","UCell","scran","nfkb_signaling","central memory CD4-positive, alpha-beta T cell",0.17520059958581,0.517180780008141,0.244100490196078,0.22790232389252,"UP","UP",TRUE,16,18
+"covid_blood","UCell","scran","nfkb_signaling","naive B cell",0.00248543353268081,-1.51688714427923,0.216581699346405,0.258960784313725,"UP","DOWN",FALSE,11,13
+"covid_blood","UCell","scran","nfkb_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.00770059123807946,-1.21441116681751,0.203734640522876,0.232997029114676,"UP","DOWN",FALSE,15,11
+"covid_blood","UCell","scran","nfkb_signaling","effector memory CD8-positive, alpha-beta T cell",0.681976750023404,0.188025946498071,0.24396462898885,0.237668409586057,"UP","UP",TRUE,17,15
+"covid_blood","UCell","scran","nfkb_signaling","mucosal invariant T cell",0.259324009324009,0.723223390331826,0.233289449112979,0.21447152194211,"UP","UP",TRUE,7,7
+"covid_blood","UCell","scran","nfkb_signaling","natural killer cell",0.928979674000012,0.0420190315449343,0.255529411764706,0.254077995642702,"UP","UP",TRUE,18,15
+"covid_blood","UCell","scran","nfkb_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.0003996003996004,-2.09234800820824,0.204754538852578,0.2340174291939,"UP","DOWN",FALSE,9,6
+"covid_blood","UCell","scran","nfkb_signaling","non-classical monocyte",0.317132342919449,0.520492074381554,0.255028322440087,0.236202941176471,"UP","UP",TRUE,9,20
+"covid_blood","UCell","scran","nfkb_signaling","memory B cell",0.669172932330827,0.14765861290171,0.244111111111111,0.239912854030501,"UP","UP",TRUE,3,18
+"covid_blood","UCell","scran","nfkb_signaling","transitional stage B cell",0.210489510489511,-0.572485956069083,0.218638655462185,0.235504720406681,"UP","DOWN",FALSE,7,9
+"covid_blood","UCell","scran","nfkb_signaling","gamma-delta T cell",0.428571428571429,-0.501074315578139,0.222813725490196,0.241705882352941,"UP","DOWN",FALSE,6,5
+"covid_blood","UCell","scran","nfkb_signaling","conventional dendritic cell",0.4,-0.7691157580711,0.28077559912854,0.295571895424837,"UP","DOWN",FALSE,3,2
+"covid_blood","UCell","scran","nfkb_signaling","regulatory T cell",0.0897435897435898,-1.03538970416333,0.262330956625074,0.282457516339869,"UP","DOWN",FALSE,11,5
+"covid_blood","UCell","scran","toll_like_receptor","classical monocyte",3.97135021673347e-07,3.19254097723327,0.272507378209016,0.247612992963508,"UP","UP",TRUE,17,21
+"covid_blood","UCell","scran","toll_like_receptor","central memory CD4-positive, alpha-beta T cell",0.347336386916717,0.409105346577985,0.192636597938144,0.189639557082856,"UP","UP",TRUE,16,18
+"covid_blood","UCell","scran","toll_like_receptor","naive B cell",0.909510829503426,0.0119442617490603,0.220211184004998,0.220078509119746,"UP","UP",TRUE,11,13
+"covid_blood","UCell","scran","toll_like_receptor","naive thymus-derived CD4-positive, alpha-beta T cell",0.721103627157605,-0.228729768056062,0.183111111111111,0.185205560762262,"UP","DOWN",FALSE,15,11
+"covid_blood","UCell","scran","toll_like_receptor","effector memory CD8-positive, alpha-beta T cell",0.794372094513015,0.163826328778739,0.189336971902163,0.187781672394044,"UP","UP",TRUE,17,15
+"covid_blood","UCell","scran","toll_like_receptor","mucosal invariant T cell",0.164918414918415,1.10143398655671,0.188665684830633,0.178269513991163,"UP","UP",TRUE,7,7
+"covid_blood","UCell","scran","toll_like_receptor","natural killer cell",0.0793965476746115,0.622791279516711,0.195340015273005,0.188691638029782,"UP","UP",TRUE,18,15
+"covid_blood","UCell","scran","toll_like_receptor","naive thymus-derived CD8-positive, alpha-beta T cell",0.455944055944056,0.497624741418632,0.178967163039328,0.175642038946163,"UP","UP",TRUE,9,6
+"covid_blood","UCell","scran","toll_like_receptor","non-classical monocyte",0.00968746396032753,1.20478051038809,0.238095838106147,0.222086941580756,"UP","UP",TRUE,9,20
+"covid_blood","UCell","scran","toll_like_receptor","memory B cell",0.306766917293233,0.67167901745106,0.221187857961054,0.215574837724322,"UP","UP",TRUE,3,18
+"covid_blood","UCell","scran","toll_like_receptor","transitional stage B cell",0.141608391608392,0.831450909873713,0.222283259695631,0.209265368461245,"UP","UP",TRUE,7,9
+"covid_blood","UCell","scran","toll_like_receptor","gamma-delta T cell",0.329004329004329,0.304412532016917,0.187800114547537,0.185438487972509,"UP","UP",TRUE,6,5
+"covid_blood","UCell","scran","toll_like_receptor","conventional dendritic cell",0.8,0.15803082970295,0.237272623138603,0.236917525773196,"UP","UP",TRUE,3,2
+"covid_blood","UCell","scran","toll_like_receptor","regulatory T cell",0.509615384615385,0.351248468539146,0.191874414245548,0.189189003436426,"UP","UP",TRUE,11,5
+"covid_blood","UCell","sctransform","interferon_signaling","classical monocyte",0.884697552832246,0.35909386134466,0.156295781781347,0.148269665553798,"UP","UP",TRUE,17,21
+"covid_blood","UCell","sctransform","interferon_signaling","central memory CD4-positive, alpha-beta T cell",0.0110045918544046,0.671402980192842,0.12970418204182,0.114000136668033,"UP","UP",TRUE,16,18
+"covid_blood","UCell","sctransform","interferon_signaling","naive B cell",0.45852082251665,0.078152267071747,0.141943419434194,0.14080310341565,"UP","UP",TRUE,11,13
+"covid_blood","UCell","sctransform","interferon_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.539952835561262,0.502140563385012,0.119617384173842,0.110151179693615,"UP","UP",TRUE,15,11
+"covid_blood","UCell","sctransform","interferon_signaling","effector memory CD8-positive, alpha-beta T cell",0.0532443915280617,0.68600424398387,0.137502062079444,0.119993603936039,"UP","UP",TRUE,17,15
+"covid_blood","UCell","sctransform","interferon_signaling","mucosal invariant T cell",0.804778554778555,0.184511186741231,0.124029871727289,0.120059040590406,"UP","UP",TRUE,7,7
+"covid_blood","UCell","sctransform","interferon_signaling","natural killer cell",0.0017946131888524,0.977907502875504,0.138378160448271,0.115687084870849,"UP","UP",TRUE,18,15
+"covid_blood","UCell","sctransform","interferon_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.113486513486513,-0.0820304267153118,0.113418887522209,0.114774497744977,"UP","DOWN",FALSE,9,6
+"covid_blood","UCell","sctransform","interferon_signaling","non-classical monocyte",0.000360059730374573,1.76965602915441,0.170272242722427,0.137947232472325,"UP","UP",TRUE,9,20
+"covid_blood","UCell","sctransform","interferon_signaling","memory B cell",0.533834586466165,0.586643376202509,0.146875768757688,0.133807024736914,"UP","UP",TRUE,3,18
+"covid_blood","UCell","sctransform","interferon_signaling","transitional stage B cell",0.351048951048951,0.6370965743008,0.146453347390617,0.136416837501708,"UP","UP",TRUE,7,9
+"covid_blood","UCell","sctransform","interferon_signaling","gamma-delta T cell",0.536796536796537,0.772933810246406,0.144355063550636,0.121354981549815,"UP","UP",TRUE,6,5
+"covid_blood","UCell","sctransform","interferon_signaling","conventional dendritic cell",0.2,1.56509186831407,0.19429930299303,0.163627306273063,"UP","UP",TRUE,3,2
+"covid_blood","UCell","sctransform","interferon_signaling","regulatory T cell",0.0686813186813187,-0.4015373012243,0.127749748406575,0.135084870848708,"UP","DOWN",FALSE,11,5
+"covid_blood","UCell","sctransform","jak_stat","classical monocyte",4.86429597850119e-10,3.98604727815209,0.266421257720847,0.23347629115071,"UP","UP",TRUE,17,21
+"covid_blood","UCell","sctransform","jak_stat","central memory CD4-positive, alpha-beta T cell",1.88660288850881e-06,2.23064666829108,0.220035236081748,0.200206326834234,"UP","UP",TRUE,16,18
+"covid_blood","UCell","sctransform","jak_stat","naive B cell",0.206601862713049,0.422624968481622,0.192329809725159,0.189791510814767,"UP","UP",TRUE,11,13
+"covid_blood","UCell","sctransform","jak_stat","naive thymus-derived CD4-positive, alpha-beta T cell",5.04778570467088e-05,2.05428547365552,0.19687460653042,0.185850983407009,"UP","UP",TRUE,15,11
+"covid_blood","UCell","sctransform","jak_stat","effector memory CD8-positive, alpha-beta T cell",0.00535073790212986,1.05415773525294,0.208533515731874,0.200209443269908,"UP","UP",TRUE,17,15
+"covid_blood","UCell","sctransform","jak_stat","mucosal invariant T cell",0.804778554778555,-0.453587388261647,0.210979764421625,0.216054162891372,"UP","DOWN",FALSE,7,7
+"covid_blood","UCell","sctransform","jak_stat","natural killer cell",0.0247262462301802,0.786698928470342,0.213932425025448,0.206022926943857,"UP","UP",TRUE,18,15
+"covid_blood","UCell","sctransform","jak_stat","naive thymus-derived CD8-positive, alpha-beta T cell",0.011988011988012,1.48785725671622,0.189361365593924,0.182722339675828,"UP","UP",TRUE,9,6
+"covid_blood","UCell","sctransform","jak_stat","non-classical monocyte",1.93709339136625e-05,2.77667375798211,0.243841672539347,0.216354263565891,"UP","UP",TRUE,9,20
+"covid_blood","UCell","sctransform","jak_stat","memory B cell",0.533834586466165,0.366711482740144,0.195039699318769,0.193211964607313,"UP","UP",TRUE,3,18
+"covid_blood","UCell","sctransform","jak_stat","transitional stage B cell",0.210489510489511,0.846092491046133,0.196993456156247,0.19218025213374,"UP","UP",TRUE,7,9
+"covid_blood","UCell","sctransform","jak_stat","gamma-delta T cell",0.792207792207792,0.295928597745996,0.203151984965938,0.200595066948555,"UP","UP",TRUE,6,5
+"covid_blood","UCell","sctransform","jak_stat","conventional dendritic cell",1,-0.5561817916255,0.247599718111346,0.251041578576462,"UP","DOWN",FALSE,3,2
+"covid_blood","UCell","sctransform","jak_stat","regulatory T cell",0.038003663003663,1.33052410981309,0.208219232494074,0.196793234672304,"UP","UP",TRUE,11,5
+"covid_blood","UCell","sctransform","nfkb_signaling","classical monocyte",0.00519790918490134,0.941475707466943,0.0273689179375454,0.0203709582598471,"UP","UP",TRUE,17,21
+"covid_blood","UCell","sctransform","nfkb_signaling","central memory CD4-positive, alpha-beta T cell",0.000203378564788911,1.93925455582371,0.0365324074074074,0.0243957475994513,"UP","UP",TRUE,16,18
+"covid_blood","UCell","sctransform","nfkb_signaling","naive B cell",0.000103348592070167,2.18157363395037,0.0491447811447812,0.0284843304843305,"UP","UP",TRUE,11,13
+"covid_blood","UCell","sctransform","nfkb_signaling","naive thymus-derived CD4-positive, alpha-beta T cell",0.376798309606484,0.242194631020902,0.0273234567901235,0.025702581369248,"UP","UP",TRUE,15,11
+"covid_blood","UCell","sctransform","nfkb_signaling","effector memory CD8-positive, alpha-beta T cell",0.000396809742863253,1.637147838295,0.0412055192447349,0.0254246913580247,"UP","UP",TRUE,17,15
+"covid_blood","UCell","sctransform","nfkb_signaling","mucosal invariant T cell",0.0150820346748684,1.72263127634709,0.0543597883597884,0.0298659611992945,"UP","UP",TRUE,7,7
+"covid_blood","UCell","sctransform","nfkb_signaling","natural killer cell",0.000821453535969717,1.53773770333183,0.042440329218107,0.0295366255144033,"UP","UP",TRUE,18,15
+"covid_blood","UCell","sctransform","nfkb_signaling","naive thymus-derived CD8-positive, alpha-beta T cell",0.0449352133253389,1.30220403453088,0.0312976680384088,0.023619341563786,"UP","UP",TRUE,9,6
+"covid_blood","UCell","sctransform","nfkb_signaling","non-classical monocyte",3.13925546392981e-05,2.66254677890465,0.0395020576131687,0.0228425925925926,"UP","UP",TRUE,9,20
+"covid_blood","UCell","sctransform","nfkb_signaling","memory B cell",0.018525355407444,2.34807729463308,0.0465925925925926,0.0242153635116598,"UP","UP",TRUE,3,18
+"covid_blood","UCell","sctransform","nfkb_signaling","transitional stage B cell",0.0148354895533318,0.99951114368501,0.0469453262786596,0.0324951989026063,"UP","UP",TRUE,7,9
+"covid_blood","UCell","sctransform","nfkb_signaling","gamma-delta T cell",0.329004329004329,0.852318648165516,0.0417695473251029,0.0337703703703704,"UP","UP",TRUE,6,5
+"covid_blood","UCell","sctransform","nfkb_signaling","conventional dendritic cell",0.2,2.63725375090802,0.0532716049382716,0.0277777777777778,"UP","UP",TRUE,3,2
+"covid_blood","UCell","sctransform","nfkb_signaling","regulatory T cell",0.14052705186776,0.883491541492066,0.037334455667789,0.0310148148148148,"UP","UP",TRUE,11,5
+"covid_blood","UCell","sctransform","toll_like_receptor","classical monocyte",3.53634317637036e-06,1.86816419730904,0.197442675893887,0.172925490196078,"UP","UP",TRUE,17,21
+"covid_blood","UCell","sctransform","toll_like_receptor","central memory CD4-positive, alpha-beta T cell",0.0270850728998465,0.921351036735681,0.0949360294117647,0.084056862745098,"UP","UP",TRUE,16,18
+"covid_blood","UCell","sctransform","toll_like_receptor","naive B cell",0.0409535667814036,-0.960228952919681,0.107078431372549,0.115065158371041,"UP","DOWN",FALSE,11,13
+"covid_blood","UCell","sctransform","toll_like_receptor","naive thymus-derived CD4-positive, alpha-beta T cell",0.574382875840003,-0.247873039264475,0.0775848366013072,0.0794032085561497,"UP","DOWN",FALSE,15,11
+"covid_blood","UCell","sctransform","toll_like_receptor","effector memory CD8-positive, alpha-beta T cell",0.188996690817014,0.4144998534159,0.0911743944636678,0.0872745098039216,"UP","UP",TRUE,17,15
+"covid_blood","UCell","sctransform","toll_like_receptor","mucosal invariant T cell",0.382867132867133,-0.62042863054461,0.0892095238095238,0.0954459383753501,"UP","DOWN",FALSE,7,7
+"covid_blood","UCell","sctransform","toll_like_receptor","natural killer cell",0.0732128996467964,0.586711428042119,0.0953899782135076,0.0892658823529412,"UP","UP",TRUE,18,15
+"covid_blood","UCell","sctransform","toll_like_receptor","naive thymus-derived CD8-positive, alpha-beta T cell",0.528671328671329,-0.350151165494546,0.079362962962963,0.0818274509803922,"UP","DOWN",FALSE,9,6
+"covid_blood","UCell","sctransform","toll_like_receptor","non-classical monocyte",0.00598082577093072,1.44580173643379,0.175839651416122,0.146894117647059,"UP","UP",TRUE,9,20
+"covid_blood","UCell","sctransform","toll_like_receptor","memory B cell",0.887218045112782,0.121376895544134,0.112207843137255,0.110752505446623,"UP","UP",TRUE,3,18
+"covid_blood","UCell","sctransform","toll_like_receptor","transitional stage B cell",0.407867132867133,0.534763341402653,0.117896918767507,0.113566013071895,"UP","UP",TRUE,7,9
+"covid_blood","UCell","sctransform","toll_like_receptor","gamma-delta T cell",0.428571428571429,0.495698995221956,0.0889895424836601,0.0843294117647059,"UP","UP",TRUE,6,5
+"covid_blood","UCell","sctransform","toll_like_receptor","conventional dendritic cell",0.2,-1.51609357945941,0.161483660130719,0.184923529411765,"UP","DOWN",FALSE,3,2
+"covid_blood","UCell","sctransform","toll_like_receptor","regulatory T cell",0.583333333333333,0.341420218431177,0.0980613190730838,0.0954972549019608,"UP","UP",TRUE,11,5

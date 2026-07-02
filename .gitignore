@@ -1,54 +1,35 @@
-# Data (too large for git)
-data/raw/*.h5ad
-data/pseudobulk/
-data/pathways/reactome_msigdb.gmt
-data/pathways/pathway_genes_summary.yaml
-data/pathways/*_genes.txt
-
-# Results (reproducible via pipeline)
-results/scores/
-results/evaluation/
-results/figures/
-
-# Logs
-logs/
-
-# Snakemake
 .snakemake/
-
-# R artifacts
-.Rhistory
-.RData
-.Rproj.user/
-*.Rproj
-
-# Python
 __pycache__/
 *.pyc
-*.pyo
-.eggs/
-*.egg-info/
-*.egg
-
-# OS
+.Rhistory
 .DS_Store
-Thumbs.db
-._*
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# Archives
 *.tar.gz
-*.zip
 
-# Manuscript / temporary
-manuscript_package/
-manuscript_package.tar.gz
-
-# Claude metadata
-.claude/
+# Scratch / working artifacts
+CLAUDE_CODE_*.md
+batch*_report.txt
+batch*_verify.txt
+stage1_report.txt
+*_diagnosis.txt
+config_recon.txt
+gt_verify.txt
+sot_trace.txt
+audit_inputs.txt
+full_diff.txt
+sim_and_fig4_blocks.txt
+snakefile_*.txt
+snakemake_dryrun_error.txt
+*.bak
+.codex
+# Manuscript / submission staging — never in the code repo
+zenodo_v2_upload/
+outputs/generate_manuscript.py
+# Large data — distributed via Zenodo, not GitHub
+data_v2/raw/
+data_v2/pseudobulk/
+logs_v2/
+analysis_wrs/
+v2_validationCodex/
+dataset_curation/
+# Superseded/decoy
+results_v3/figure1_validation/verified_numbers.json

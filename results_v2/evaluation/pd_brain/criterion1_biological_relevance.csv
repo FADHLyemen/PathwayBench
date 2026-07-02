@@ -1,0 +1,661 @@
+"dataset","method","normalization","pathway","cell_type","p_value","cohens_d","mean_disease","mean_control","expected_direction","observed_direction","direction_correct","n_disease","n_control"
+"pd_brain","ssGSEA","log2CPM","nfkb_signaling","oligodendrocyte",0.197752682100508,0.623976702232677,2.8719583480536,2.86089713538511,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","log2CPM","nfkb_signaling","glutamatergic neuron",0.40042913608131,0.550812838401274,2.79342587286107,2.77423787520364,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","log2CPM","nfkb_signaling","astrocyte",0.121151891586674,0.843329554152333,2.76700883683625,2.7520033698203,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","log2CPM","nfkb_signaling","central nervous system macrophage",0.0504573687182383,0.933868799314898,2.91053850322366,2.89832910553559,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","log2CPM","nfkb_signaling","GABAergic neuron",0.733258046301525,0.0966055763877425,2.77041626246481,2.76787542241024,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","log2CPM","nfkb_signaling","oligodendrocyte precursor cell",0.40042913608131,0.268287859828471,2.78833765671551,2.78373213842967,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","log2CPM","nfkb_signaling","central nervous system neuron",0.837457279562543,0.0689203572406563,2.76882890548407,2.76777503162466,"UP","UP",TRUE,18,4
+"pd_brain","ssGSEA","log2CPM","nfkb_signaling","ependymal cell",0.0790849673202614,-0.897681957900482,2.69706952018988,2.71472056143848,"UP","DOWN",FALSE,14,4
+"pd_brain","ssGSEA","log2CPM","nfkb_signaling","mural cell",0.555313382269904,0.282598258147466,2.85901208314522,2.84804596145617,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","log2CPM","nfkb_signaling","endothelial cell",0.555313382269904,-0.259656273654929,2.94430450751863,2.95113916920144,"UP","DOWN",FALSE,19,6
+"pd_brain","ssGSEA","log2CPM","nfkb_signaling","leukocyte",0.635364635364635,-0.583929552171779,2.93014991416627,2.94900663526667,"UP","DOWN",FALSE,10,4
+"pd_brain","ssGSEA","log2CPM","toll_like_receptor","oligodendrocyte",0.197752682100508,0.71447140899998,2.59064931720986,2.58373505579606,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","log2CPM","toll_like_receptor","glutamatergic neuron",0.333314511575381,0.286313561595106,2.54635184610129,2.54312359671726,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","log2CPM","toll_like_receptor","astrocyte",0.436691134952005,0.279217842730091,2.59642772844724,2.59238889000248,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","log2CPM","toll_like_receptor","central nervous system macrophage",0.687046866177301,-0.0363264926810441,2.82268637641798,2.82321817948413,"UP","DOWN",FALSE,19,6
+"pd_brain","ssGSEA","log2CPM","toll_like_receptor","GABAergic neuron",0.780474308300395,0.0465232902764183,2.55241967316598,2.55184258069014,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","log2CPM","toll_like_receptor","oligodendrocyte precursor cell",0.877018633540373,-0.3974622804145,2.5805099785774,2.58452801968511,"UP","DOWN",FALSE,19,6
+"pd_brain","ssGSEA","log2CPM","toll_like_receptor","central nervous system neuron",0.484483937115516,0.251813581792025,2.56011955908762,2.55586612517387,"UP","UP",TRUE,18,4
+"pd_brain","ssGSEA","log2CPM","toll_like_receptor","ependymal cell",0.441830065359477,-0.461756655560831,2.59553306663317,2.601665421352,"UP","DOWN",FALSE,14,4
+"pd_brain","ssGSEA","log2CPM","toll_like_receptor","mural cell",0.333314511575381,0.657343452401461,2.66900742905836,2.65821328256026,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","log2CPM","toll_like_receptor","endothelial cell",0.273551665725579,0.613569616041439,2.73732349996623,2.73061828782736,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","log2CPM","toll_like_receptor","leukocyte",0.035964035964036,-1.43564700652294,2.77319532433737,2.79077158734656,"UP","DOWN",FALSE,10,4
+"pd_brain","ssGSEA","log2CPM","oxidative_stress","oligodendrocyte",0.733258046301525,-0.246834292306519,2.45486762206016,2.45908649480089,"UP","DOWN",FALSE,19,6
+"pd_brain","ssGSEA","log2CPM","oxidative_stress","glutamatergic neuron",0.555313382269904,-0.14053107005038,2.35304568964749,2.35701351705491,"UP","DOWN",FALSE,19,6
+"pd_brain","ssGSEA","log2CPM","oxidative_stress","astrocyte",0.733258046301525,0.358924345882289,2.43491959129398,2.42571469954241,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","log2CPM","oxidative_stress","central nervous system macrophage",0.641852060982496,-0.322029653234729,2.53406066564696,2.54038114027241,"UP","DOWN",FALSE,19,6
+"pd_brain","ssGSEA","log2CPM","oxidative_stress","GABAergic neuron",0.302540937323546,-0.667946934937642,2.34283548545921,2.35446045922338,"UP","DOWN",FALSE,19,6
+"pd_brain","ssGSEA","log2CPM","oxidative_stress","oligodendrocyte precursor cell",0.555313382269904,0.271822859606727,2.36119738439133,2.3560067215178,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","log2CPM","oxidative_stress","central nervous system neuron",0.342036910457963,-0.734898218456305,2.36057034883689,2.3785585923825,"UP","DOWN",FALSE,18,4
+"pd_brain","ssGSEA","log2CPM","oxidative_stress","ependymal cell",0.232679738562091,-1.02055612122463,2.40658361872625,2.4364353238014,"UP","DOWN",FALSE,14,4
+"pd_brain","ssGSEA","log2CPM","oxidative_stress","mural cell",0.925996612083569,-0.463382747576244,2.54425176565953,2.56136605331053,"UP","DOWN",FALSE,19,6
+"pd_brain","ssGSEA","log2CPM","oxidative_stress","endothelial cell",0.121151891586674,-0.773475829340695,2.51945013507382,2.55073953927099,"UP","DOWN",FALSE,19,6
+"pd_brain","ssGSEA","log2CPM","oxidative_stress","leukocyte",0.839160839160839,-0.196554295606321,2.49579821644212,2.50408578174209,"UP","DOWN",FALSE,10,4
+"pd_brain","ssGSEA","voom","nfkb_signaling","oligodendrocyte",0.176036137775268,0.626205821164771,0.395663206262408,0.381029187136027,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","voom","nfkb_signaling","glutamatergic neuron",0.40042913608131,0.552678323396714,0.295177531289674,0.269790153300417,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","voom","nfkb_signaling","astrocyte",0.0689779785431959,0.977947359584872,0.259282447772806,0.237084804031926,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","voom","nfkb_signaling","central nervous system macrophage",0.0504573687182383,1.08688178702362,0.441115413997142,0.4226933828475,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","voom","nfkb_signaling","GABAergic neuron",0.780474308300395,0.104352976844699,0.262851664189851,0.259308461052007,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","voom","nfkb_signaling","oligodendrocyte precursor cell",0.36600790513834,0.331608093038858,0.282156739709291,0.274821311300781,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","voom","nfkb_signaling","central nervous system neuron",0.774299384825701,0.0891949356132183,0.264805232746789,0.263001035143219,"UP","UP",TRUE,18,4
+"pd_brain","ssGSEA","voom","nfkb_signaling","ependymal cell",0.157516339869281,-0.870436472095792,0.169174701645524,0.190458209609819,"UP","DOWN",FALSE,14,4
+"pd_brain","ssGSEA","voom","nfkb_signaling","mural cell",0.555313382269904,0.239738624972611,0.371631609745697,0.359886252417218,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","voom","nfkb_signaling","endothelial cell",0.828390739695088,-0.178486237567649,0.480490698415508,0.486567658912535,"UP","DOWN",FALSE,19,6
+"pd_brain","ssGSEA","voom","nfkb_signaling","leukocyte",0.733266733266733,-0.509233758517314,0.464316033645846,0.484718379163408,"UP","DOWN",FALSE,10,4
+"pd_brain","ssGSEA","voom","toll_like_receptor","oligodendrocyte",0.05914172783738,1.10777094513753,0.221473496235905,0.209180345607489,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","voom","toll_like_receptor","glutamatergic neuron",0.302540937323546,0.596098807883021,0.168649414362787,0.161407214149122,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","voom","toll_like_receptor","astrocyte",0.221174477696217,0.676674918176002,0.207036984563074,0.196400541677877,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","voom","toll_like_receptor","central nervous system macrophage",0.121151891586674,0.755914178245214,0.486839359181136,0.479606268934636,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","voom","toll_like_receptor","GABAergic neuron",0.877018633540373,0.119362869153136,0.166127318224032,0.164775089482664,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","voom","toll_like_receptor","oligodendrocyte precursor cell",0.555313382269904,0.124002366292356,0.181246776713747,0.179977807523395,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","voom","toll_like_receptor","central nervous system neuron",0.195215311004785,0.663119443888372,0.160215887721937,0.153068862322311,"UP","UP",TRUE,18,4
+"pd_brain","ssGSEA","voom","toll_like_receptor","ependymal cell",0.958823529411765,0.0972454396453431,0.194015227051754,0.19270784781622,"UP","UP",TRUE,14,4
+"pd_brain","ssGSEA","voom","toll_like_receptor","mural cell",0.156115189158667,0.765424797352298,0.269770483662337,0.256730532299107,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","voom","toll_like_receptor","endothelial cell",0.121151891586674,0.858870013395734,0.361383187497074,0.351912243740157,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","voom","toll_like_receptor","leukocyte",0.001998001998002,-2.49874740888585,0.369722508301731,0.398570354383958,"UP","DOWN",FALSE,10,4
+"pd_brain","ssGSEA","voom","oxidative_stress","oligodendrocyte",0.828390739695088,-0.15488961044161,0.0516068721055605,0.0561227717581995,"UP","DOWN",FALSE,19,6
+"pd_brain","ssGSEA","voom","oxidative_stress","glutamatergic neuron",0.877018633540373,-0.0442260647450238,-0.113467788655688,-0.111242954944862,"UP","DOWN",FALSE,19,6
+"pd_brain","ssGSEA","voom","oxidative_stress","astrocyte",0.687046866177301,0.310967287384533,0.0195681290240239,0.00689673399667174,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","voom","oxidative_stress","central nervous system macrophage",0.780474308300395,-0.00868468987956808,0.11648956966431,0.11674390903988,"UP","DOWN",FALSE,19,6
+"pd_brain","ssGSEA","voom","oxidative_stress","GABAergic neuron",0.877018633540373,-0.0446120478533909,-0.119554962248713,-0.118103828837502,"UP","DOWN",FALSE,19,6
+"pd_brain","ssGSEA","voom","oxidative_stress","oligodendrocyte precursor cell",0.597955957086392,0.272968729275529,-0.101943289324108,-0.109495438438541,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","voom","oxidative_stress","central nervous system neuron",0.902255639097744,0.0537215431906998,-0.102907074801187,-0.104743655158898,"UP","UP",TRUE,18,4
+"pd_brain","ssGSEA","voom","oxidative_stress","ependymal cell",0.0117647058823529,-2.14285882868912,-0.070360012463896,0.00341734365517917,"UP","DOWN",FALSE,14,4
+"pd_brain","ssGSEA","voom","oxidative_stress","mural cell",1,-0.202582079680988,0.147596704655648,0.157289515244282,"UP","DOWN",FALSE,19,6
+"pd_brain","ssGSEA","voom","oxidative_stress","endothelial cell",0.0302089215132693,-1.05881610061151,0.120467591451038,0.173006069320684,"UP","DOWN",FALSE,19,6
+"pd_brain","ssGSEA","voom","oxidative_stress","leukocyte",0.733266733266733,0.14317141604411,0.0756145977459023,0.0685734242117535,"UP","UP",TRUE,10,4
+"pd_brain","ssGSEA","scran","nfkb_signaling","oligodendrocyte",0.176036137775268,0.626205821164771,0.395663206262408,0.381029187136027,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","scran","nfkb_signaling","glutamatergic neuron",0.40042913608131,0.552678323396714,0.295177531289674,0.269790153300417,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","scran","nfkb_signaling","astrocyte",0.0689779785431959,0.977947359584872,0.259282447772806,0.237084804031926,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","scran","nfkb_signaling","central nervous system macrophage",0.0504573687182383,1.08688178702362,0.441115413997142,0.4226933828475,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","scran","nfkb_signaling","GABAergic neuron",0.780474308300395,0.104352976844699,0.262851664189851,0.259308461052007,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","scran","nfkb_signaling","oligodendrocyte precursor cell",0.36600790513834,0.331608093038858,0.282156739709291,0.274821311300781,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","scran","nfkb_signaling","central nervous system neuron",0.774299384825701,0.0891949356132183,0.264805232746789,0.263001035143219,"UP","UP",TRUE,18,4
+"pd_brain","ssGSEA","scran","nfkb_signaling","ependymal cell",0.157516339869281,-0.870436472095792,0.169174701645524,0.190458209609819,"UP","DOWN",FALSE,14,4
+"pd_brain","ssGSEA","scran","nfkb_signaling","mural cell",0.555313382269904,0.239738624972611,0.371631609745697,0.359886252417218,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","scran","nfkb_signaling","endothelial cell",0.828390739695088,-0.178486237567649,0.480490698415508,0.486567658912535,"UP","DOWN",FALSE,19,6
+"pd_brain","ssGSEA","scran","nfkb_signaling","leukocyte",0.733266733266733,-0.509233758517314,0.464316033645846,0.484718379163408,"UP","DOWN",FALSE,10,4
+"pd_brain","ssGSEA","scran","toll_like_receptor","oligodendrocyte",0.05914172783738,1.10777094513753,0.221473496235905,0.209180345607489,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","scran","toll_like_receptor","glutamatergic neuron",0.302540937323546,0.596098807883021,0.168649414362787,0.161407214149122,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","scran","toll_like_receptor","astrocyte",0.221174477696217,0.676674918176002,0.207036984563074,0.196400541677877,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","scran","toll_like_receptor","central nervous system macrophage",0.121151891586674,0.755914178245214,0.486839359181136,0.479606268934636,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","scran","toll_like_receptor","GABAergic neuron",0.877018633540373,0.119362869153136,0.166127318224032,0.164775089482664,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","scran","toll_like_receptor","oligodendrocyte precursor cell",0.555313382269904,0.124002366292356,0.181246776713747,0.179977807523395,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","scran","toll_like_receptor","central nervous system neuron",0.195215311004785,0.663119443888372,0.160215887721937,0.153068862322311,"UP","UP",TRUE,18,4
+"pd_brain","ssGSEA","scran","toll_like_receptor","ependymal cell",0.958823529411765,0.0972454396453431,0.194015227051754,0.19270784781622,"UP","UP",TRUE,14,4
+"pd_brain","ssGSEA","scran","toll_like_receptor","mural cell",0.156115189158667,0.765424797352298,0.269770483662337,0.256730532299107,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","scran","toll_like_receptor","endothelial cell",0.121151891586674,0.858870013395734,0.361383187497074,0.351912243740157,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","scran","toll_like_receptor","leukocyte",0.001998001998002,-2.49874740888585,0.369722508301731,0.398570354383958,"UP","DOWN",FALSE,10,4
+"pd_brain","ssGSEA","scran","oxidative_stress","oligodendrocyte",0.828390739695088,-0.15488961044161,0.0516068721055605,0.0561227717581995,"UP","DOWN",FALSE,19,6
+"pd_brain","ssGSEA","scran","oxidative_stress","glutamatergic neuron",0.877018633540373,-0.0442260647450238,-0.113467788655688,-0.111242954944862,"UP","DOWN",FALSE,19,6
+"pd_brain","ssGSEA","scran","oxidative_stress","astrocyte",0.687046866177301,0.310967287384533,0.0195681290240239,0.00689673399667174,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","scran","oxidative_stress","central nervous system macrophage",0.780474308300395,-0.00868468987956808,0.11648956966431,0.11674390903988,"UP","DOWN",FALSE,19,6
+"pd_brain","ssGSEA","scran","oxidative_stress","GABAergic neuron",0.877018633540373,-0.0446120478533909,-0.119554962248713,-0.118103828837502,"UP","DOWN",FALSE,19,6
+"pd_brain","ssGSEA","scran","oxidative_stress","oligodendrocyte precursor cell",0.597955957086392,0.272968729275529,-0.101943289324108,-0.109495438438541,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","scran","oxidative_stress","central nervous system neuron",0.902255639097744,0.0537215431906998,-0.102907074801187,-0.104743655158898,"UP","UP",TRUE,18,4
+"pd_brain","ssGSEA","scran","oxidative_stress","ependymal cell",0.0117647058823529,-2.14285882868912,-0.070360012463896,0.00341734365517917,"UP","DOWN",FALSE,14,4
+"pd_brain","ssGSEA","scran","oxidative_stress","mural cell",1,-0.202582079680988,0.147596704655648,0.157289515244282,"UP","DOWN",FALSE,19,6
+"pd_brain","ssGSEA","scran","oxidative_stress","endothelial cell",0.0302089215132693,-1.05881610061151,0.120467591451038,0.173006069320684,"UP","DOWN",FALSE,19,6
+"pd_brain","ssGSEA","scran","oxidative_stress","leukocyte",0.733266733266733,0.14317141604411,0.0756145977459023,0.0685734242117535,"UP","UP",TRUE,10,4
+"pd_brain","ssGSEA","sctransform","nfkb_signaling","oligodendrocyte",0.0360813099943535,1.13327261026352,0.487180914383496,0.424774411584585,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","sctransform","nfkb_signaling","glutamatergic neuron",1,0.0135047911633974,0.100041977569752,0.0964661226549481,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","sctransform","nfkb_signaling","astrocyte",0.0112478825522304,1.39356227323117,0.0359815950392584,-0.135551727025374,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","sctransform","nfkb_signaling","central nervous system macrophage",0.514217955957086,0.426398247281928,0.390524997813798,0.347661549818347,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","sctransform","nfkb_signaling","GABAergic neuron",0.687046866177301,-0.0603397058313913,-0.0770435558709961,-0.0635238653735503,"UP","DOWN",FALSE,19,6
+"pd_brain","ssGSEA","sctransform","nfkb_signaling","oligodendrocyte precursor cell",0.156115189158667,0.529928984146203,-0.102504553338504,-0.192843273690241,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","sctransform","nfkb_signaling","central nervous system neuron",0.652084757347915,0.0839535840203254,0.0194280570775734,0.00682285490552283,"UP","UP",TRUE,18,4
+"pd_brain","ssGSEA","sctransform","nfkb_signaling","ependymal cell",0.720915032679738,-0.420837062655942,-0.21454355847303,-0.17139660880238,"UP","DOWN",FALSE,14,4
+"pd_brain","ssGSEA","sctransform","nfkb_signaling","mural cell",0.302540937323546,0.584361885371127,0.366060888258495,0.315281660083877,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","sctransform","nfkb_signaling","endothelial cell",0.555313382269904,0.094465010584473,0.442541313890929,0.435175278539786,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","sctransform","nfkb_signaling","leukocyte",0.839160839160839,0.137777020665437,0.334110905161321,0.325335863165316,"UP","UP",TRUE,10,4
+"pd_brain","ssGSEA","sctransform","toll_like_receptor","oligodendrocyte",0.0170750988142293,1.25289392246899,0.231799766623871,0.16427875832557,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","sctransform","toll_like_receptor","glutamatergic neuron",0.877018633540373,0.0841036068338403,0.111258108316077,0.102917520348303,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","sctransform","toll_like_receptor","astrocyte",0.156115189158667,0.892598027663442,0.199695356335578,0.125811857320123,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","sctransform","toll_like_receptor","central nervous system macrophage",0.156115189158667,0.655732566854059,0.428120069528947,0.402665941729314,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","sctransform","toll_like_receptor","GABAergic neuron",0.687046866177301,-0.128194690971673,0.0347944784660267,0.0442596896482262,"UP","DOWN",FALSE,19,6
+"pd_brain","ssGSEA","sctransform","toll_like_receptor","oligodendrocyte precursor cell",0.197752682100508,0.638222203874299,0.0563937183916532,0.0153737658996825,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","sctransform","toll_like_receptor","central nervous system neuron",0.837457279562543,0.216362859361289,0.0909858019419494,0.0806536009562782,"UP","UP",TRUE,18,4
+"pd_brain","ssGSEA","sctransform","toll_like_receptor","ependymal cell",0.505228758169935,-0.208852352876382,0.0303326722236528,0.0442108091339216,"UP","DOWN",FALSE,14,4
+"pd_brain","ssGSEA","sctransform","toll_like_receptor","mural cell",0.273551665725579,0.493209175842005,0.276110139773523,0.24971392697327,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","sctransform","toll_like_receptor","endothelial cell",0.197752682100508,0.663777850298077,0.319919447846402,0.29305565181369,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","sctransform","toll_like_receptor","leukocyte",0.303696303696304,-0.727564798645914,0.278818347829215,0.304486900730026,"UP","DOWN",FALSE,10,4
+"pd_brain","ssGSEA","sctransform","oxidative_stress","oligodendrocyte",0.333314511575381,0.597903842106618,0.253527886471714,0.197538545075377,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","sctransform","oxidative_stress","glutamatergic neuron",0.975324675324675,-0.0439175354180886,0.0589330701599254,0.0664089931577956,"UP","DOWN",FALSE,19,6
+"pd_brain","ssGSEA","sctransform","oxidative_stress","astrocyte",0.641852060982496,0.153586639161433,0.222220384637597,0.203644759297457,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","sctransform","oxidative_stress","central nervous system macrophage",0.197752682100508,0.623491332871512,0.316374760164404,0.273170854394202,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","sctransform","oxidative_stress","GABAergic neuron",0.474601919819311,-0.34745474358429,-0.0263387540803581,0.0229801639983465,"UP","DOWN",FALSE,19,6
+"pd_brain","ssGSEA","sctransform","oxidative_stress","oligodendrocyte precursor cell",0.40042913608131,0.447490419133536,-0.0653975311295271,-0.109125100056226,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","sctransform","oxidative_stress","central nervous system neuron",0.902255639097744,-0.089008481717545,0.0556719396419876,0.0660049862362391,"UP","DOWN",FALSE,18,4
+"pd_brain","ssGSEA","sctransform","oxidative_stress","ependymal cell",0.232679738562091,-0.689230738334549,0.115074555417885,0.182572576320801,"UP","DOWN",FALSE,14,4
+"pd_brain","ssGSEA","sctransform","oxidative_stress","mural cell",0.828390739695088,0.124022464203583,0.38111059532485,0.369784896269624,"UP","UP",TRUE,19,6
+"pd_brain","ssGSEA","sctransform","oxidative_stress","endothelial cell",0.0923207227555053,-1.00388434584571,0.244243421300516,0.315903884297124,"UP","DOWN",FALSE,19,6
+"pd_brain","ssGSEA","sctransform","oxidative_stress","leukocyte",0.733266733266733,0.283590974611617,0.138388348229805,0.114352393997471,"UP","UP",TRUE,10,4
+"pd_brain","GSVA","log2CPM","nfkb_signaling","oligodendrocyte",0.36600790513834,0.459249393612684,0.269966325722772,0.216155631337588,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","log2CPM","nfkb_signaling","glutamatergic neuron",0.597955957086392,0.418175050173305,-0.275843795849093,-0.376004965682094,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","log2CPM","nfkb_signaling","astrocyte",0.0251609260304912,1.11341882700068,-0.41526399284456,-0.512250137536041,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","log2CPM","nfkb_signaling","central nervous system macrophage",0.474601919819311,0.193448997860179,0.252977526672384,0.23207830160337,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","log2CPM","nfkb_signaling","GABAergic neuron",0.597955957086392,0.0865199383858346,-0.470996961256974,-0.484779428422383,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","log2CPM","nfkb_signaling","oligodendrocyte precursor cell",0.641852060982496,0.150023772469435,-0.404754237814577,-0.424473329854045,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","log2CPM","nfkb_signaling","central nervous system neuron",0.967053998632946,0.0366012836356861,-0.303300199705603,-0.308453832642674,"UP","UP",TRUE,18,4
+"pd_brain","GSVA","log2CPM","nfkb_signaling","ependymal cell",0.381699346405229,-0.645077343961896,-0.497601344078809,-0.446103370766591,"UP","DOWN",FALSE,14,4
+"pd_brain","GSVA","log2CPM","nfkb_signaling","mural cell",0.40042913608131,0.552697067866475,0.382760557077445,0.279924351293244,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","log2CPM","nfkb_signaling","endothelial cell",0.780474308300395,-0.276770117147103,0.508512572185128,0.529584230616279,"UP","DOWN",FALSE,19,6
+"pd_brain","GSVA","log2CPM","nfkb_signaling","leukocyte",0.187812187812188,-0.6852172461826,0.327369093787394,0.393206425096589,"UP","DOWN",FALSE,10,4
+"pd_brain","GSVA","log2CPM","toll_like_receptor","oligodendrocyte",0.273551665725579,0.627640938863557,-0.17179381111963,-0.212321717007154,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","log2CPM","toll_like_receptor","glutamatergic neuron",0.877018633540373,0.213207025641665,-0.258391847921031,-0.27305796551726,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","log2CPM","toll_like_receptor","astrocyte",0.156115189158667,0.567374312909423,-0.20452949350231,-0.248323655202121,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","log2CPM","toll_like_receptor","central nervous system macrophage",0.641852060982496,-0.160279100384329,0.378372343110233,0.384597346484174,"UP","DOWN",FALSE,19,6
+"pd_brain","GSVA","log2CPM","toll_like_receptor","GABAergic neuron",0.597955957086392,0.368310517318061,-0.272274877503427,-0.299775231614211,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","log2CPM","toll_like_receptor","oligodendrocyte precursor cell",0.137809147374365,-0.567849579101243,-0.238452016165101,-0.201444897122999,"UP","DOWN",FALSE,19,6
+"pd_brain","GSVA","log2CPM","toll_like_receptor","central nervous system neuron",0.300205058099795,0.521096973428736,-0.226616689046859,-0.266879034909728,"UP","UP",TRUE,18,4
+"pd_brain","GSVA","log2CPM","toll_like_receptor","ependymal cell",0.798039215686274,0.184909809974808,-0.230370685006323,-0.239834610131495,"UP","UP",TRUE,14,4
+"pd_brain","GSVA","log2CPM","toll_like_receptor","mural cell",0.197752682100508,0.520557086580498,0.133054459309161,0.0964746840049139,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","log2CPM","toll_like_receptor","endothelial cell",0.780474308300395,0.0735699827825084,0.290905453589944,0.287663558861421,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","log2CPM","toll_like_receptor","leukocyte",0.303696303696304,-0.897885295364708,0.221370969874524,0.264945535805132,"UP","DOWN",FALSE,10,4
+"pd_brain","GSVA","log2CPM","oxidative_stress","oligodendrocyte",0.733258046301525,0.0873336558155405,0.042356424162157,0.0320783642944404,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","log2CPM","oxidative_stress","glutamatergic neuron",0.221174477696217,-0.370999296385771,-0.323270972881701,-0.27219687827093,"UP","DOWN",FALSE,19,6
+"pd_brain","GSVA","log2CPM","oxidative_stress","astrocyte",0.975324675324675,0.0282350584098421,0.109693577203766,0.105659112858585,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","log2CPM","oxidative_stress","central nervous system macrophage",0.36600790513834,0.243172735427562,0.196686547843698,0.175476961540634,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","log2CPM","oxidative_stress","GABAergic neuron",0.0302089215132693,-1.01815784191264,-0.337175820885013,-0.246402791419591,"UP","DOWN",FALSE,19,6
+"pd_brain","GSVA","log2CPM","oxidative_stress","oligodendrocyte precursor cell",0.555313382269904,0.366817552442977,-0.336122157304657,-0.372064263319589,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","log2CPM","oxidative_stress","central nervous system neuron",0.226930963773069,-0.730368434864897,-0.22221697878556,-0.12516562880695,"UP","DOWN",FALSE,18,4
+"pd_brain","GSVA","log2CPM","oxidative_stress","ependymal cell",0.277124183006536,-0.903754495288781,-0.0775029673048644,0.0437161258956139,"UP","DOWN",FALSE,14,4
+"pd_brain","GSVA","log2CPM","oxidative_stress","mural cell",0.641852060982496,-0.0485695213678783,0.351307472545704,0.356518358633093,"UP","DOWN",FALSE,19,6
+"pd_brain","GSVA","log2CPM","oxidative_stress","endothelial cell",0.0689779785431959,-0.803009339851899,0.23055837658548,0.32683515450263,"UP","DOWN",FALSE,19,6
+"pd_brain","GSVA","log2CPM","oxidative_stress","leukocyte",0.733266733266733,0.0542104868531342,0.0651898631355332,0.0592728294295237,"UP","UP",TRUE,10,4
+"pd_brain","GSVA","voom","nfkb_signaling","oligodendrocyte",0.273551665725579,0.511766594762083,0.397063880829497,0.353517171391603,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","voom","nfkb_signaling","glutamatergic neuron",0.733258046301525,0.298087787465958,-0.0530532900747701,-0.134625734308374,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","voom","nfkb_signaling","astrocyte",0.05914172783738,0.830002762610445,-0.33007017922184,-0.42997153820088,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","voom","nfkb_signaling","central nervous system macrophage",0.273551665725579,0.646649396710645,0.274525081591677,0.197981601730507,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","voom","nfkb_signaling","GABAergic neuron",0.877018633540373,0.145565255192449,-0.307199788530745,-0.334873078325163,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","voom","nfkb_signaling","oligodendrocyte precursor cell",0.877018633540373,-0.0350311061974975,-0.237218390545535,-0.231598045626753,"UP","DOWN",FALSE,19,6
+"pd_brain","GSVA","voom","nfkb_signaling","central nervous system neuron",0.593574846206425,0.172095373442663,-0.276526918412935,-0.299739664750959,"UP","UP",TRUE,18,4
+"pd_brain","GSVA","voom","nfkb_signaling","ependymal cell",0.157516339869281,-0.812279368407344,-0.524949014473573,-0.478713394053573,"UP","DOWN",FALSE,14,4
+"pd_brain","GSVA","voom","nfkb_signaling","mural cell",0.597955957086392,0.327185458152711,0.237217677752257,0.150723402559083,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","voom","nfkb_signaling","endothelial cell",0.514217955957086,-0.357385644142912,0.460285758629989,0.495607545403354,"UP","DOWN",FALSE,19,6
+"pd_brain","GSVA","voom","nfkb_signaling","leukocyte",0.0759240759240759,-1.04807104057583,-0.0265524235949148,0.116214553723557,"UP","DOWN",FALSE,10,4
+"pd_brain","GSVA","voom","toll_like_receptor","oligodendrocyte",0.0799774138904574,0.840040721281662,-0.104840879035886,-0.162314044264772,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","voom","toll_like_receptor","glutamatergic neuron",0.514217955957086,0.362729727414631,-0.200096410083068,-0.238562083013405,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","voom","toll_like_receptor","astrocyte",0.333314511575381,0.436199620740658,-0.162072345890373,-0.209231112546214,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","voom","toll_like_receptor","central nervous system macrophage",0.176036137775268,0.619105137381437,0.428152957335635,0.410135662835617,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","voom","toll_like_receptor","GABAergic neuron",0.436691134952005,0.431966068941208,-0.211816340724103,-0.255180326399805,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","voom","toll_like_receptor","oligodendrocyte precursor cell",0.246470920383964,-0.367614627771594,-0.187730061661906,-0.157396303041995,"UP","DOWN",FALSE,19,6
+"pd_brain","GSVA","voom","toll_like_receptor","central nervous system neuron",0.342036910457963,0.830212939879599,-0.21669892989809,-0.271178575909966,"UP","UP",TRUE,18,4
+"pd_brain","GSVA","voom","toll_like_receptor","ependymal cell",0.381699346405229,0.871243738165039,-0.208438746773836,-0.260600286882352,"UP","UP",TRUE,14,4
+"pd_brain","GSVA","voom","toll_like_receptor","mural cell",0.436691134952005,0.431083087382837,0.107852394635662,0.0715823622854608,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","voom","toll_like_receptor","endothelial cell",0.733258046301525,-0.041056055509052,0.285425673128953,0.287566073853209,"UP","DOWN",FALSE,19,6
+"pd_brain","GSVA","voom","toll_like_receptor","leukocyte",0.141858141858142,-0.949611599933895,0.0877210264364139,0.175661179786192,"UP","DOWN",FALSE,10,4
+"pd_brain","GSVA","voom","oxidative_stress","oligodendrocyte",0.828390739695088,0.0498194327159798,0.0690267647601822,0.0623174321699555,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","voom","oxidative_stress","glutamatergic neuron",0.221174477696217,-0.189680199739382,-0.348253924925552,-0.315079791697074,"UP","DOWN",FALSE,19,6
+"pd_brain","GSVA","voom","oxidative_stress","astrocyte",0.975324675324675,0.0851903232575962,0.116005424434344,0.103493315683902,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","voom","oxidative_stress","central nervous system macrophage",0.975324675324675,0.0197677334520264,0.0680409516801262,0.0657343562538106,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","voom","oxidative_stress","GABAergic neuron",0.246470920383964,-0.310250015158827,-0.359459792821568,-0.325879658586938,"UP","DOWN",FALSE,19,6
+"pd_brain","GSVA","voom","oxidative_stress","oligodendrocyte precursor cell",0.641852060982496,0.0124207716119767,-0.331290767178917,-0.332853557073246,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","voom","oxidative_stress","central nervous system neuron",0.593574846206425,-0.0849809139478346,-0.196948422211208,-0.183777936855948,"UP","DOWN",FALSE,18,4
+"pd_brain","GSVA","voom","oxidative_stress","ependymal cell",0.192156862745098,-1.27022593306664,-0.0688365131078565,0.0970143636688898,"UP","DOWN",FALSE,14,4
+"pd_brain","GSVA","voom","oxidative_stress","mural cell",0.474601919819311,0.313606623798619,0.408224630641774,0.373356667064229,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","voom","oxidative_stress","endothelial cell",0.0504573687182383,-0.894069736515223,0.275083633570472,0.389944202199379,"UP","DOWN",FALSE,19,6
+"pd_brain","GSVA","voom","oxidative_stress","leukocyte",1,0.119240562814979,0.0256168247945328,0.0109877420396931,"UP","UP",TRUE,10,4
+"pd_brain","GSVA","scran","nfkb_signaling","oligodendrocyte",0.514217955957086,0.328289671684032,0.353218298262785,0.324370378691154,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","scran","nfkb_signaling","glutamatergic neuron",0.733258046301525,0.305291372603674,-0.104573335188419,-0.186286714666573,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","scran","nfkb_signaling","astrocyte",0.121151891586674,0.653577133449521,-0.38060840619422,-0.457938386998067,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","scran","nfkb_signaling","central nervous system macrophage",0.333314511575381,0.567684545018069,0.235320269777907,0.171182512259872,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","scran","nfkb_signaling","GABAergic neuron",0.828390739695088,0.113958452144336,-0.356894646691098,-0.377877096945845,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","scran","nfkb_signaling","oligodendrocyte precursor cell",0.877018633540373,-0.081440884857477,-0.305971827476271,-0.294156596215504,"UP","DOWN",FALSE,19,6
+"pd_brain","GSVA","scran","nfkb_signaling","central nervous system neuron",0.902255639097744,0.163735865397246,-0.289160727606146,-0.310947325687917,"UP","UP",TRUE,18,4
+"pd_brain","GSVA","scran","nfkb_signaling","ependymal cell",0.126797385620915,-0.998436469132598,-0.51124588748436,-0.459537406491874,"UP","DOWN",FALSE,14,4
+"pd_brain","GSVA","scran","nfkb_signaling","mural cell",0.555313382269904,0.384446342428404,0.25231317139359,0.148105393167553,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","scran","nfkb_signaling","endothelial cell",0.436691134952005,-0.430404525016483,0.47916207502433,0.518334509569765,"UP","DOWN",FALSE,19,6
+"pd_brain","GSVA","scran","nfkb_signaling","leukocyte",0.105894105894106,-0.916403189501795,0.139813144506746,0.25022177391151,"UP","DOWN",FALSE,10,4
+"pd_brain","GSVA","scran","toll_like_receptor","oligodendrocyte",0.273551665725579,0.660667433751384,-0.139587938569483,-0.184312366972443,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","scran","toll_like_receptor","glutamatergic neuron",0.474601919819311,0.458228398320645,-0.219542486755268,-0.262571208591205,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","scran","toll_like_receptor","astrocyte",0.273551665725579,0.427914306819448,-0.190259922681089,-0.23654427316827,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","scran","toll_like_receptor","central nervous system macrophage",0.687046866177301,-0.194022487998752,0.401077079793883,0.407142859462064,"UP","DOWN",FALSE,19,6
+"pd_brain","GSVA","scran","toll_like_receptor","GABAergic neuron",0.273551665725579,0.517863055582331,-0.244351732815238,-0.290223475179545,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","scran","toll_like_receptor","oligodendrocyte precursor cell",0.246470920383964,-0.578121209187254,-0.228085659339161,-0.180826357527351,"UP","DOWN",FALSE,19,6
+"pd_brain","GSVA","scran","toll_like_receptor","central nervous system neuron",0.262200956937799,0.891957099215593,-0.227648624922387,-0.289335307946388,"UP","UP",TRUE,18,4
+"pd_brain","GSVA","scran","toll_like_receptor","ependymal cell",0.232679738562091,0.905376698292368,-0.214419009902668,-0.263520422847124,"UP","UP",TRUE,14,4
+"pd_brain","GSVA","scran","toll_like_receptor","mural cell",0.514217955957086,0.341570896586566,0.0925335942278452,0.0636812596957458,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","scran","toll_like_receptor","endothelial cell",0.687046866177301,-0.0261940735402756,0.291968897672296,0.293300122748663,"UP","DOWN",FALSE,19,6
+"pd_brain","GSVA","scran","toll_like_receptor","leukocyte",0.141858141858142,-0.933890338576547,0.196520867407761,0.258343138048335,"UP","DOWN",FALSE,10,4
+"pd_brain","GSVA","scran","oxidative_stress","oligodendrocyte",0.555313382269904,0.271374151272872,0.0750461478998932,0.0367164043969664,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","scran","oxidative_stress","glutamatergic neuron",0.436691134952005,-0.0992409016415767,-0.339398571893025,-0.322524790571427,"UP","DOWN",FALSE,19,6
+"pd_brain","GSVA","scran","oxidative_stress","astrocyte",0.687046866177301,0.153729099113633,0.150839122944923,0.126387708044211,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","scran","oxidative_stress","central nervous system macrophage",0.514217955957086,0.231188791797752,0.0831513044860053,0.0562644590988298,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","scran","oxidative_stress","GABAergic neuron",0.333314511575381,-0.403690421540065,-0.345523751318947,-0.302318374392957,"UP","DOWN",FALSE,19,6
+"pd_brain","GSVA","scran","oxidative_stress","oligodendrocyte precursor cell",0.733258046301525,0.0755538424040355,-0.339687374387413,-0.349563852051847,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","scran","oxidative_stress","central nervous system neuron",0.593574846206425,0.0112461351574614,-0.197404936612683,-0.199168330991107,"UP","UP",TRUE,18,4
+"pd_brain","GSVA","scran","oxidative_stress","ependymal cell",0.192156862745098,-1.12202639890376,-0.0859705481701744,0.0777222755014818,"UP","DOWN",FALSE,14,4
+"pd_brain","GSVA","scran","oxidative_stress","mural cell",0.555313382269904,0.244210326328873,0.398350423824649,0.372692148591016,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","scran","oxidative_stress","endothelial cell",0.0799774138904574,-0.80699192670101,0.236858777317208,0.339538745295756,"UP","DOWN",FALSE,19,6
+"pd_brain","GSVA","scran","oxidative_stress","leukocyte",1,0.0457663889123795,0.00496765601871983,-0.000810911574352959,"UP","UP",TRUE,10,4
+"pd_brain","GSVA","sctransform","nfkb_signaling","oligodendrocyte",0.0923207227555053,0.965944228097662,0.499374295729313,0.391031072859595,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","sctransform","nfkb_signaling","glutamatergic neuron",0.687046866177301,0.290308676751867,-0.00322894142421571,-0.0925899348679118,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","sctransform","nfkb_signaling","astrocyte",0.0112478825522304,1.26257787770143,-0.27351624704177,-0.461853966738812,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","sctransform","nfkb_signaling","central nervous system macrophage",0.121151891586674,0.524819722964917,0.272209260958831,0.195314000887831,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","sctransform","nfkb_signaling","GABAergic neuron",0.474601919819311,0.127077728962764,-0.348429623105805,-0.376265530169827,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","sctransform","nfkb_signaling","oligodendrocyte precursor cell",0.273551665725579,0.50288972502448,-0.351398851229139,-0.423128693851767,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","sctransform","nfkb_signaling","central nervous system neuron",0.837457279562543,0.37197437432757,-0.333890359649239,-0.385077422465332,"UP","UP",TRUE,18,4
+"pd_brain","GSVA","sctransform","nfkb_signaling","ependymal cell",0.157516339869281,-1.1455598922994,-0.567460773395406,-0.493089303081489,"UP","DOWN",FALSE,14,4
+"pd_brain","GSVA","sctransform","nfkb_signaling","mural cell",0.333314511575381,0.516162183035874,0.229300780835367,0.0990406015321204,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","sctransform","nfkb_signaling","endothelial cell",0.925996612083569,-0.183594183313958,0.43262155596373,0.452774167428725,"UP","DOWN",FALSE,19,6
+"pd_brain","GSVA","sctransform","nfkb_signaling","leukocyte",0.23976023976024,-0.671018367778096,0.18627524514249,0.279365693822688,"UP","DOWN",FALSE,10,4
+"pd_brain","GSVA","sctransform","toll_like_receptor","oligodendrocyte",0.05914172783738,0.895078750584375,0.123429281482601,0.0228783518274099,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","sctransform","toll_like_receptor","glutamatergic neuron",0.0689779785431959,0.893790896698294,-0.020953418167016,-0.130384802017858,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","sctransform","toll_like_receptor","astrocyte",0.0302089215132693,1.19069045238284,-0.0383245693837785,-0.167574733267523,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","sctransform","toll_like_receptor","central nervous system macrophage",0.121151891586674,0.798749742057307,0.408840020204731,0.370143176348755,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","sctransform","toll_like_receptor","GABAergic neuron",0.273551665725579,0.488536172338803,-0.165695156837681,-0.223167694750574,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","sctransform","toll_like_receptor","oligodendrocyte precursor cell",1,0.259901811603544,-0.198379532543744,-0.219454670825802,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","sctransform","toll_like_receptor","central nervous system neuron",0.0530416951469583,1.16606190771052,-0.279697087901826,-0.33733495536735,"UP","UP",TRUE,18,4
+"pd_brain","GSVA","sctransform","toll_like_receptor","ependymal cell",0.381699346405229,0.530433947439245,-0.308682976269298,-0.339346787846969,"UP","UP",TRUE,14,4
+"pd_brain","GSVA","sctransform","toll_like_receptor","mural cell",0.780474308300395,0.121165847815742,-0.0252783717295767,-0.0383889723903574,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","sctransform","toll_like_receptor","endothelial cell",0.555313382269904,0.135011951388678,0.197691929873654,0.189393975391894,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","sctransform","toll_like_receptor","leukocyte",0.0759240759240759,-1.33777721859734,0.0570870550976442,0.140953252669338,"UP","DOWN",FALSE,10,4
+"pd_brain","GSVA","sctransform","oxidative_stress","oligodendrocyte",0.555313382269904,0.310549960072873,0.275213255324208,0.226395053460613,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","sctransform","oxidative_stress","glutamatergic neuron",0.687046866177301,-0.0722810666086944,-0.129456123151445,-0.11597294854591,"UP","DOWN",FALSE,19,6
+"pd_brain","GSVA","sctransform","oxidative_stress","astrocyte",0.641852060982496,0.406592502508705,0.215054925820578,0.140937236822139,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","sctransform","oxidative_stress","central nervous system macrophage",0.333314511575381,0.53067958428196,0.194142580914452,0.135651241143409,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","sctransform","oxidative_stress","GABAergic neuron",0.436691134952005,-0.254841152211482,-0.220309625396441,-0.182677198323599,"UP","DOWN",FALSE,19,6
+"pd_brain","GSVA","sctransform","oxidative_stress","oligodendrocyte precursor cell",0.273551665725579,0.633262506258124,-0.309836853192887,-0.378259873026482,"UP","UP",TRUE,19,6
+"pd_brain","GSVA","sctransform","oxidative_stress","central nervous system neuron",0.140806561859193,-0.481241342660659,-0.25986476374604,-0.194535187020806,"UP","DOWN",FALSE,18,4
+"pd_brain","GSVA","sctransform","oxidative_stress","ependymal cell",0.232679738562091,-0.669065306596783,-0.167326366610404,-0.0729619541773475,"UP","DOWN",FALSE,14,4
+"pd_brain","GSVA","sctransform","oxidative_stress","mural cell",0.780474308300395,-0.0507655731152918,0.266494368547409,0.274069127213049,"UP","DOWN",FALSE,19,6
+"pd_brain","GSVA","sctransform","oxidative_stress","endothelial cell",0.0689779785431959,-0.700716968615804,0.114713459761149,0.235879438096576,"UP","DOWN",FALSE,19,6
+"pd_brain","GSVA","sctransform","oxidative_stress","leukocyte",0.733266733266733,-0.256831602165942,-0.119153354098883,-0.0940370827381863,"UP","DOWN",FALSE,10,4
+"pd_brain","zscore","log2CPM","nfkb_signaling","oligodendrocyte",0.156115189158667,0.585144550427131,0.268691878265541,0.156908886310391,"UP","UP",TRUE,19,6
+"pd_brain","zscore","log2CPM","nfkb_signaling","glutamatergic neuron",0.828390739695088,0.362682568014373,-0.260812953568695,-0.396190049241847,"UP","UP",TRUE,19,6
+"pd_brain","zscore","log2CPM","nfkb_signaling","astrocyte",0.05914172783738,0.97333789913501,-0.296463235005498,-0.485709861607746,"UP","UP",TRUE,19,6
+"pd_brain","zscore","log2CPM","nfkb_signaling","central nervous system macrophage",0.436691134952005,0.586899544916629,0.436801887360985,0.345819991106295,"UP","UP",TRUE,19,6
+"pd_brain","zscore","log2CPM","nfkb_signaling","GABAergic neuron",0.641852060982496,0.0366213090015816,-0.464239677476304,-0.475891375106751,"UP","UP",TRUE,19,6
+"pd_brain","zscore","log2CPM","nfkb_signaling","oligodendrocyte precursor cell",0.474601919819311,0.429238529401697,-0.379040708295668,-0.481266361350376,"UP","UP",TRUE,19,6
+"pd_brain","zscore","log2CPM","nfkb_signaling","central nervous system neuron",0.837457279562543,-0.135313377548607,-0.213187299712372,-0.186720988033793,"UP","DOWN",FALSE,18,4
+"pd_brain","zscore","log2CPM","nfkb_signaling","ependymal cell",0.878431372549019,-0.234044789312522,-0.714766868573264,-0.649325023289554,"UP","DOWN",FALSE,14,4
+"pd_brain","zscore","log2CPM","nfkb_signaling","mural cell",0.474601919819311,0.458514285267036,0.542391970435333,0.428262163534642,"UP","UP",TRUE,19,6
+"pd_brain","zscore","log2CPM","nfkb_signaling","endothelial cell",0.975324675324675,-0.0440132065918383,0.727743630938082,0.738189044217574,"UP","DOWN",FALSE,19,6
+"pd_brain","zscore","log2CPM","nfkb_signaling","leukocyte",0.373626373626374,-0.478962171628911,0.47957988499038,0.621343765660776,"UP","DOWN",FALSE,10,4
+"pd_brain","zscore","log2CPM","toll_like_receptor","oligodendrocyte",0.156115189158667,0.711129514143925,-0.0854168364511699,-0.147443436438884,"UP","UP",TRUE,19,6
+"pd_brain","zscore","log2CPM","toll_like_receptor","glutamatergic neuron",0.641852060982496,0.347360843063505,-0.249906482931289,-0.289176530934179,"UP","UP",TRUE,19,6
+"pd_brain","zscore","log2CPM","toll_like_receptor","astrocyte",0.156115189158667,0.863209398579642,-0.0908400111976708,-0.184865754898016,"UP","UP",TRUE,19,6
+"pd_brain","zscore","log2CPM","toll_like_receptor","central nervous system macrophage",0.121151891586674,0.44774214910443,0.673240264428227,0.637473916539124,"UP","UP",TRUE,19,6
+"pd_brain","zscore","log2CPM","toll_like_receptor","GABAergic neuron",0.925996612083569,0.14348931942624,-0.28633847689274,-0.301313209769382,"UP","UP",TRUE,19,6
+"pd_brain","zscore","log2CPM","toll_like_receptor","oligodendrocyte precursor cell",0.333314511575381,0.550309207626561,-0.233899666259138,-0.284191919006208,"UP","UP",TRUE,19,6
+"pd_brain","zscore","log2CPM","toll_like_receptor","central nervous system neuron",0.652084757347915,0.200996879639683,-0.153981496582324,-0.170724884385933,"UP","UP",TRUE,18,4
+"pd_brain","zscore","log2CPM","toll_like_receptor","ependymal cell",0.505228758169935,0.374257582649573,-0.246303583828268,-0.305386099273488,"UP","UP",TRUE,14,4
+"pd_brain","zscore","log2CPM","toll_like_receptor","mural cell",0.597955957086392,0.345414920904788,0.249716740267787,0.211441623276349,"UP","UP",TRUE,19,6
+"pd_brain","zscore","log2CPM","toll_like_receptor","endothelial cell",0.156115189158667,0.737344342678615,0.300990948115404,0.241788102174066,"UP","UP",TRUE,19,6
+"pd_brain","zscore","log2CPM","toll_like_receptor","leukocyte",0.373626373626374,-0.516134933620689,0.231591767150941,0.308195881759955,"UP","DOWN",FALSE,10,4
+"pd_brain","zscore","log2CPM","oxidative_stress","oligodendrocyte",0.687046866177301,0.323108861957337,0.0287801774866201,-0.0160991394209858,"UP","UP",TRUE,19,6
+"pd_brain","zscore","log2CPM","oxidative_stress","glutamatergic neuron",0.877018633540373,-0.07679075698975,-0.323848318787099,-0.307157465061182,"UP","DOWN",FALSE,19,6
+"pd_brain","zscore","log2CPM","oxidative_stress","astrocyte",0.40042913608131,0.548790531272043,0.117851095416895,0.0107166972006007,"UP","UP",TRUE,19,6
+"pd_brain","zscore","log2CPM","oxidative_stress","central nervous system macrophage",0.555313382269904,0.335417759966722,0.360143224309037,0.324407464699775,"UP","UP",TRUE,19,6
+"pd_brain","zscore","log2CPM","oxidative_stress","GABAergic neuron",0.302540937323546,-0.488938451798244,-0.363357998964705,-0.283504604585247,"UP","DOWN",FALSE,19,6
+"pd_brain","zscore","log2CPM","oxidative_stress","oligodendrocyte precursor cell",0.246470920383964,0.58549212378528,-0.32446098752339,-0.417840576531805,"UP","UP",TRUE,19,6
+"pd_brain","zscore","log2CPM","oxidative_stress","central nervous system neuron",0.386329460013671,-0.683436276092205,-0.16826093027387,-0.0580391407654268,"UP","DOWN",FALSE,18,4
+"pd_brain","zscore","log2CPM","oxidative_stress","ependymal cell",0.958823529411765,-0.193837656329173,-0.0655882506834242,-0.0266134796967726,"UP","DOWN",FALSE,14,4
+"pd_brain","zscore","log2CPM","oxidative_stress","mural cell",0.687046866177301,-0.0749748952565106,0.547631200292071,0.563765789041341,"UP","DOWN",FALSE,19,6
+"pd_brain","zscore","log2CPM","oxidative_stress","endothelial cell",0.176036137775268,-0.693939434225784,0.208096422723813,0.327189863656335,"UP","DOWN",FALSE,19,6
+"pd_brain","zscore","log2CPM","oxidative_stress","leukocyte",1,-0.123386592924328,-0.128481298293067,-0.101093484706881,"UP","DOWN",FALSE,10,4
+"pd_brain","zscore","voom","nfkb_signaling","oligodendrocyte",0.273551665725579,0.557667288466083,0.474078885170025,0.399224447611795,"UP","UP",TRUE,19,6
+"pd_brain","zscore","voom","nfkb_signaling","glutamatergic neuron",0.641852060982496,0.411456077691213,-0.0526413693422756,-0.186088020276322,"UP","UP",TRUE,19,6
+"pd_brain","zscore","voom","nfkb_signaling","astrocyte",0.0427780914737436,0.955570421147931,-0.269702644674363,-0.393880316504361,"UP","UP",TRUE,19,6
+"pd_brain","zscore","voom","nfkb_signaling","central nervous system macrophage",0.156115189158667,0.877211698807308,0.396559960417337,0.224048476841272,"UP","UP",TRUE,19,6
+"pd_brain","zscore","voom","nfkb_signaling","GABAergic neuron",0.641852060982496,0.134710005713367,-0.260250818027353,-0.293984753002292,"UP","UP",TRUE,19,6
+"pd_brain","zscore","voom","nfkb_signaling","oligodendrocyte precursor cell",0.687046866177301,0.206253749845627,-0.159208054610971,-0.189179285148839,"UP","UP",TRUE,19,6
+"pd_brain","zscore","voom","nfkb_signaling","central nervous system neuron",0.593574846206425,-0.0696393477277003,-0.261158700060841,-0.251746879457425,"UP","DOWN",FALSE,18,4
+"pd_brain","zscore","voom","nfkb_signaling","ependymal cell",0.878431372549019,-0.336544052171023,-0.904582010789749,-0.828846334683671,"UP","DOWN",FALSE,14,4
+"pd_brain","zscore","voom","nfkb_signaling","mural cell",0.687046866177301,0.17474816977827,0.219546076169516,0.169754927115709,"UP","UP",TRUE,19,6
+"pd_brain","zscore","voom","nfkb_signaling","endothelial cell",0.733258046301525,-0.165373164868713,0.666690487046389,0.711250852160844,"UP","DOWN",FALSE,19,6
+"pd_brain","zscore","voom","nfkb_signaling","leukocyte",0.187812187812188,-0.867078958894461,-0.0715991407871862,0.117528280745809,"UP","DOWN",FALSE,10,4
+"pd_brain","zscore","voom","toll_like_receptor","oligodendrocyte",0.0799774138904574,0.976513864690513,-0.0683172728641663,-0.132209406026772,"UP","UP",TRUE,19,6
+"pd_brain","zscore","voom","toll_like_receptor","glutamatergic neuron",0.333314511575381,0.647279917092843,-0.215082754929464,-0.261436283892368,"UP","UP",TRUE,19,6
+"pd_brain","zscore","voom","toll_like_receptor","astrocyte",0.05914172783738,0.799223967776812,-0.0681721394271231,-0.132504401790267,"UP","UP",TRUE,19,6
+"pd_brain","zscore","voom","toll_like_receptor","central nervous system macrophage",0.0923207227555053,0.630707563510296,0.706788202441913,0.644830288999909,"UP","UP",TRUE,19,6
+"pd_brain","zscore","voom","toll_like_receptor","GABAergic neuron",0.333314511575381,0.628309365291084,-0.211989346996277,-0.2511547569089,"UP","UP",TRUE,19,6
+"pd_brain","zscore","voom","toll_like_receptor","oligodendrocyte precursor cell",0.687046866177301,-0.0641982815177925,-0.122537120294357,-0.119511829876267,"UP","DOWN",FALSE,19,6
+"pd_brain","zscore","voom","toll_like_receptor","central nervous system neuron",0.11784005468216,0.732756214324251,-0.206534886984606,-0.245595100226218,"UP","UP",TRUE,18,4
+"pd_brain","zscore","voom","toll_like_receptor","ependymal cell",0.381699346405229,0.427634272733667,-0.273411108883731,-0.316605215771798,"UP","UP",TRUE,14,4
+"pd_brain","zscore","voom","toll_like_receptor","mural cell",0.246470920383964,0.451139090175518,0.0641813907697087,0.0256971836476335,"UP","UP",TRUE,19,6
+"pd_brain","zscore","voom","toll_like_receptor","endothelial cell",0.302540937323546,0.452989892170154,0.309639475425178,0.277447363560934,"UP","UP",TRUE,19,6
+"pd_brain","zscore","voom","toll_like_receptor","leukocyte",0.0759240759240759,-1.13968949013994,0.106499610625443,0.231635363291632,"UP","DOWN",FALSE,10,4
+"pd_brain","zscore","voom","oxidative_stress","oligodendrocyte",0.780474308300395,0.150116064390905,0.0930320292045138,0.0735649025991122,"UP","UP",TRUE,19,6
+"pd_brain","zscore","voom","oxidative_stress","glutamatergic neuron",0.597955957086392,-0.151957871408466,-0.372889519317784,-0.338388256755057,"UP","DOWN",FALSE,19,6
+"pd_brain","zscore","voom","oxidative_stress","astrocyte",0.877018633540373,0.296475251002149,0.186765764424827,0.132639212251617,"UP","UP",TRUE,19,6
+"pd_brain","zscore","voom","oxidative_stress","central nervous system macrophage",0.597955957086392,-0.0337720659317729,0.138252946988584,0.142470511308482,"UP","DOWN",FALSE,19,6
+"pd_brain","zscore","voom","oxidative_stress","GABAergic neuron",0.273551665725579,-0.456030625918027,-0.391516559995628,-0.32607568501183,"UP","DOWN",FALSE,19,6
+"pd_brain","zscore","voom","oxidative_stress","oligodendrocyte precursor cell",0.514217955957086,0.387746064454438,-0.279337956560804,-0.33480211019463,"UP","UP",TRUE,19,6
+"pd_brain","zscore","voom","oxidative_stress","central nervous system neuron",0.538072453861928,-0.244674798422034,-0.243440849137225,-0.207542487279977,"UP","DOWN",FALSE,18,4
+"pd_brain","zscore","voom","oxidative_stress","ependymal cell",0.0464052287581699,-1.67813747245664,-0.10389445819397,0.113545929280155,"UP","DOWN",FALSE,14,4
+"pd_brain","zscore","voom","oxidative_stress","mural cell",0.780474308300395,-0.161915152833818,0.46490855497912,0.492297857973446,"UP","DOWN",FALSE,19,6
+"pd_brain","zscore","voom","oxidative_stress","endothelial cell",0.0251609260304912,-1.18065000150562,0.33031604204366,0.556909051257725,"UP","DOWN",FALSE,19,6
+"pd_brain","zscore","voom","oxidative_stress","leukocyte",0.945054945054945,0.030040302964824,0.0445866312546566,0.0384474961254627,"UP","UP",TRUE,10,4
+"pd_brain","zscore","scran","nfkb_signaling","oligodendrocyte",0.302540937323546,0.570324803277054,0.447727617717564,0.384927805392909,"UP","UP",TRUE,19,6
+"pd_brain","zscore","scran","nfkb_signaling","glutamatergic neuron",0.687046866177301,0.421968719423257,0.0195286016658227,-0.0955174256918599,"UP","UP",TRUE,19,6
+"pd_brain","zscore","scran","nfkb_signaling","astrocyte",0.05914172783738,0.977171540775163,-0.176472858276097,-0.290706671012204,"UP","UP",TRUE,19,6
+"pd_brain","zscore","scran","nfkb_signaling","central nervous system macrophage",0.137809147374365,0.91398525409556,0.411025714291321,0.232919440906735,"UP","UP",TRUE,19,6
+"pd_brain","zscore","scran","nfkb_signaling","GABAergic neuron",0.687046866177301,0.197883989613113,-0.153313665045299,-0.19689338833583,"UP","UP",TRUE,19,6
+"pd_brain","zscore","scran","nfkb_signaling","oligodendrocyte precursor cell",0.733258046301525,0.20862516221205,-0.0904757736835181,-0.117137221423205,"UP","UP",TRUE,19,6
+"pd_brain","zscore","scran","nfkb_signaling","central nervous system neuron",0.711961722488038,-0.0255311990340879,-0.168962472031318,-0.165843706582083,"UP","DOWN",FALSE,18,4
+"pd_brain","zscore","scran","nfkb_signaling","ependymal cell",0.277124183006536,0.267577801094184,-0.851172383049878,-0.940137147062489,"UP","UP",TRUE,14,4
+"pd_brain","zscore","scran","nfkb_signaling","mural cell",0.733258046301525,0.175868236709542,0.173270353894313,0.130020932901114,"UP","UP",TRUE,19,6
+"pd_brain","zscore","scran","nfkb_signaling","endothelial cell",0.828390739695088,-0.223153574780706,0.520784536500392,0.578186085305101,"UP","DOWN",FALSE,19,6
+"pd_brain","zscore","scran","nfkb_signaling","leukocyte",0.187812187812188,-1.12109313545003,-0.55081778004246,-0.188593572054276,"UP","DOWN",FALSE,10,4
+"pd_brain","zscore","scran","toll_like_receptor","oligodendrocyte",0.0799774138904574,0.925465725709938,0.0508170379216878,-0.00609503400734251,"UP","UP",TRUE,19,6
+"pd_brain","zscore","scran","toll_like_receptor","glutamatergic neuron",0.176036137775268,0.779166546396386,-0.0990921998879975,-0.150050571056997,"UP","UP",TRUE,19,6
+"pd_brain","zscore","scran","toll_like_receptor","astrocyte",0.0360813099943535,0.865251258893689,0.0219592747780403,-0.0455245564842453,"UP","UP",TRUE,19,6
+"pd_brain","zscore","scran","toll_like_receptor","central nervous system macrophage",0.137809147374365,0.747547160037241,0.698905923493842,0.614278374512647,"UP","UP",TRUE,19,6
+"pd_brain","zscore","scran","toll_like_receptor","GABAergic neuron",0.0799774138904574,0.909389000396258,-0.10524540014787,-0.163461779760626,"UP","UP",TRUE,19,6
+"pd_brain","zscore","scran","toll_like_receptor","oligodendrocyte precursor cell",0.641852060982496,0.0573057036569374,-0.0274901864964956,-0.0302005336555743,"UP","UP",TRUE,19,6
+"pd_brain","zscore","scran","toll_like_receptor","central nervous system neuron",0.226930963773069,0.574818068435483,-0.148094785933124,-0.188059102955022,"UP","UP",TRUE,18,4
+"pd_brain","zscore","scran","toll_like_receptor","ependymal cell",0.157516339869281,0.966494425961134,-0.357105557678939,-0.634742873720578,"UP","UP",TRUE,14,4
+"pd_brain","zscore","scran","toll_like_receptor","mural cell",0.925996612083569,0.170755613143967,0.0265097877456572,0.00212491779392701,"UP","UP",TRUE,19,6
+"pd_brain","zscore","scran","toll_like_receptor","endothelial cell",0.333314511575381,0.311515397876294,0.202544453719304,0.154462735256976,"UP","UP",TRUE,19,6
+"pd_brain","zscore","scran","toll_like_receptor","leukocyte",0.303696303696304,-0.610023609908387,-0.474792712822607,-0.289536864439993,"UP","DOWN",FALSE,10,4
+"pd_brain","zscore","scran","oxidative_stress","oligodendrocyte",0.474601919819311,0.391844188280386,0.183798298185423,0.142869981039861,"UP","UP",TRUE,19,6
+"pd_brain","zscore","scran","oxidative_stress","glutamatergic neuron",0.733258046301525,-0.015415236590529,-0.152304327622729,-0.149650294650491,"UP","DOWN",FALSE,19,6
+"pd_brain","zscore","scran","oxidative_stress","astrocyte",0.733258046301525,0.473528821967463,0.290223493886055,0.205248379775385,"UP","UP",TRUE,19,6
+"pd_brain","zscore","scran","oxidative_stress","central nervous system macrophage",0.221174477696217,0.682525125442497,0.234630931560285,0.128844597534216,"UP","UP",TRUE,19,6
+"pd_brain","zscore","scran","oxidative_stress","GABAergic neuron",0.597955957086392,-0.193369487999634,-0.173975652542922,-0.152178111723644,"UP","DOWN",FALSE,19,6
+"pd_brain","zscore","scran","oxidative_stress","oligodendrocyte precursor cell",0.474601919819311,0.499457809496937,-0.128637222850266,-0.195563289847321,"UP","UP",TRUE,19,6
+"pd_brain","zscore","scran","oxidative_stress","central nervous system neuron",0.652084757347915,-0.206502751640181,-0.149051799920734,-0.119563776395212,"UP","DOWN",FALSE,18,4
+"pd_brain","zscore","scran","oxidative_stress","ependymal cell",0.505228758169935,0.361935278867837,-0.147025038645582,-0.265284689711446,"UP","UP",TRUE,14,4
+"pd_brain","zscore","scran","oxidative_stress","mural cell",0.514217955957086,-0.160902697952152,0.397424070960562,0.429597584328487,"UP","DOWN",FALSE,19,6
+"pd_brain","zscore","scran","oxidative_stress","endothelial cell",0.273551665725579,-0.496075418949361,0.138213238120575,0.262845472404573,"UP","DOWN",FALSE,19,6
+"pd_brain","zscore","scran","oxidative_stress","leukocyte",0.733266733266733,-0.10850605465712,-0.923823109528742,-0.877815444520909,"UP","DOWN",FALSE,10,4
+"pd_brain","zscore","sctransform","nfkb_signaling","oligodendrocyte",0.0799774138904574,0.748957758404612,0.534917701472955,0.365452499826473,"UP","UP",TRUE,19,6
+"pd_brain","zscore","sctransform","nfkb_signaling","glutamatergic neuron",0.687046866177301,0.42433155222159,-0.0360231380846835,-0.22321049734937,"UP","UP",TRUE,19,6
+"pd_brain","zscore","sctransform","nfkb_signaling","astrocyte",0.05914172783738,1.02099756773478,-0.179902590346117,-0.441243254414554,"UP","UP",TRUE,19,6
+"pd_brain","zscore","sctransform","nfkb_signaling","central nervous system macrophage",0.0923207227555053,0.776975717165483,0.481583406281595,0.310578964711944,"UP","UP",TRUE,19,6
+"pd_brain","zscore","sctransform","nfkb_signaling","GABAergic neuron",0.687046866177301,0.127500379704659,-0.339947073995194,-0.390423523386578,"UP","UP",TRUE,19,6
+"pd_brain","zscore","sctransform","nfkb_signaling","oligodendrocyte precursor cell",0.302540937323546,0.549952192736236,-0.33236184281804,-0.480355903036392,"UP","UP",TRUE,19,6
+"pd_brain","zscore","sctransform","nfkb_signaling","central nervous system neuron",0.837457279562543,-0.016638731573712,-0.263704635082362,-0.259762316922574,"UP","DOWN",FALSE,18,4
+"pd_brain","zscore","sctransform","nfkb_signaling","ependymal cell",0.878431372549019,0.00326529396595202,-0.910776426695407,-0.911950765661598,"UP","UP",TRUE,14,4
+"pd_brain","zscore","sctransform","nfkb_signaling","mural cell",0.40042913608131,0.429921152778118,0.377288653732621,0.27367456785753,"UP","UP",TRUE,19,6
+"pd_brain","zscore","sctransform","nfkb_signaling","endothelial cell",0.877018633540373,0.0221918484693967,0.545503333735608,0.539949251434971,"UP","UP",TRUE,19,6
+"pd_brain","zscore","sctransform","nfkb_signaling","leukocyte",0.373626373626374,-0.557249112895828,0.129544346296298,0.298079772282915,"UP","DOWN",FALSE,10,4
+"pd_brain","zscore","sctransform","toll_like_receptor","oligodendrocyte",0.05914172783738,0.917593773783767,0.096585698218087,-0.0103373874622085,"UP","UP",TRUE,19,6
+"pd_brain","zscore","sctransform","toll_like_receptor","glutamatergic neuron",0.597955957086392,0.460605231285103,-0.1027412245698,-0.179853280381614,"UP","UP",TRUE,19,6
+"pd_brain","zscore","sctransform","toll_like_receptor","astrocyte",0.0689779785431959,0.903910794679457,0.00205216869177273,-0.145741390118278,"UP","UP",TRUE,19,6
+"pd_brain","zscore","sctransform","toll_like_receptor","central nervous system macrophage",0.0799774138904574,0.628133872805009,0.731845514444427,0.638312434794355,"UP","UP",TRUE,19,6
+"pd_brain","zscore","sctransform","toll_like_receptor","GABAergic neuron",0.925996612083569,0.278320467028805,-0.207938879132185,-0.253153339524532,"UP","UP",TRUE,19,6
+"pd_brain","zscore","sctransform","toll_like_receptor","oligodendrocyte precursor cell",0.246470920383964,0.733443711769361,-0.203846846429148,-0.288112150468839,"UP","UP",TRUE,19,6
+"pd_brain","zscore","sctransform","toll_like_receptor","central nervous system neuron",0.538072453861928,0.330030981419934,-0.201769217601162,-0.23902804464297,"UP","UP",TRUE,18,4
+"pd_brain","zscore","sctransform","toll_like_receptor","ependymal cell",0.277124183006536,0.518948503918119,-0.384960587266529,-0.503098077712543,"UP","UP",TRUE,14,4
+"pd_brain","zscore","sctransform","toll_like_receptor","mural cell",0.780474308300395,0.232672235393731,0.137801649660661,0.104327138039993,"UP","UP",TRUE,19,6
+"pd_brain","zscore","sctransform","toll_like_receptor","endothelial cell",0.121151891586674,0.748183888000388,0.176685131244853,0.100563988020609,"UP","UP",TRUE,19,6
+"pd_brain","zscore","sctransform","toll_like_receptor","leukocyte",0.453546453546454,-0.524381703891707,-0.0114020459236532,0.0823404948423231,"UP","DOWN",FALSE,10,4
+"pd_brain","zscore","sctransform","oxidative_stress","oligodendrocyte",0.474601919819311,0.489285232112382,0.182555288041732,0.100591016404583,"UP","UP",TRUE,19,6
+"pd_brain","zscore","sctransform","oxidative_stress","glutamatergic neuron",0.828390739695088,0.0546437514375574,-0.197319125792823,-0.211147156112048,"UP","UP",TRUE,19,6
+"pd_brain","zscore","sctransform","oxidative_stress","astrocyte",0.436691134952005,0.633583428626719,0.196008009459388,0.0451809331010035,"UP","UP",TRUE,19,6
+"pd_brain","zscore","sctransform","oxidative_stress","central nervous system macrophage",0.333314511575381,0.53752939389607,0.392590955971557,0.309375362673544,"UP","UP",TRUE,19,6
+"pd_brain","zscore","sctransform","oxidative_stress","GABAergic neuron",0.436691134952005,-0.280032632888238,-0.296433239646456,-0.239829724682128,"UP","DOWN",FALSE,19,6
+"pd_brain","zscore","sctransform","oxidative_stress","oligodendrocyte precursor cell",0.156115189158667,0.676889466545706,-0.301026385294887,-0.423222216014741,"UP","UP",TRUE,19,6
+"pd_brain","zscore","sctransform","oxidative_stress","central nervous system neuron",0.386329460013671,-0.525413673268945,-0.203962191511906,-0.107830167275853,"UP","DOWN",FALSE,18,4
+"pd_brain","zscore","sctransform","oxidative_stress","ependymal cell",0.798039215686274,0.000774657855343696,-0.175300269482464,-0.17549500138745,"UP","UP",TRUE,14,4
+"pd_brain","zscore","sctransform","oxidative_stress","mural cell",1,-0.110374001106308,0.466268451281904,0.491383287768563,"UP","DOWN",FALSE,19,6
+"pd_brain","zscore","sctransform","oxidative_stress","endothelial cell",0.246470920383964,-0.602032216346579,0.0949980893127142,0.207734622723749,"UP","DOWN",FALSE,19,6
+"pd_brain","zscore","sctransform","oxidative_stress","leukocyte",1,-0.153063472659371,-0.341563820264131,-0.305283370310326,"UP","DOWN",FALSE,10,4
+"pd_brain","AUCell","log2CPM","nfkb_signaling","oligodendrocyte",0.302540937323546,0.602902983765156,0.105496628271983,0.100984413453651,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","log2CPM","nfkb_signaling","glutamatergic neuron",0.246470920383964,0.715027814575977,0.0951663636349099,0.0877029339977111,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","log2CPM","nfkb_signaling","astrocyte",0.474601919819311,0.513005790070447,0.0819487420584092,0.0775154700776795,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","log2CPM","nfkb_signaling","central nervous system macrophage",0.0170750988142293,1.09465449691798,0.166490604416428,0.1531411093894,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","log2CPM","nfkb_signaling","GABAergic neuron",0.0799774138904574,0.827797719618376,0.0868781652426573,0.082486150355989,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","log2CPM","nfkb_signaling","oligodendrocyte precursor cell",0.0799774138904574,-0.900913478147706,0.071733613497786,0.0758251552071623,"UP","DOWN",FALSE,19,6
+"pd_brain","AUCell","log2CPM","nfkb_signaling","central nervous system neuron",0.902255639097744,0.180537482796198,0.0912921945735728,0.0904141220794215,"UP","UP",TRUE,18,4
+"pd_brain","AUCell","log2CPM","nfkb_signaling","ependymal cell",0.958823529411765,-0.0913557448341672,0.0620284646535672,0.0633792118615745,"UP","DOWN",FALSE,14,4
+"pd_brain","AUCell","log2CPM","nfkb_signaling","mural cell",0.40042913608131,0.336005277342574,0.098320772307215,0.0944449508299659,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","log2CPM","nfkb_signaling","endothelial cell",0.975324675324675,-0.102651677480635,0.15099744621786,0.152354186289106,"UP","DOWN",FALSE,19,6
+"pd_brain","AUCell","log2CPM","nfkb_signaling","leukocyte",0.635364635364635,-0.125927249266171,0.171933278643697,0.174625527906906,"UP","DOWN",FALSE,10,4
+"pd_brain","AUCell","log2CPM","toll_like_receptor","oligodendrocyte",0.0689779785431959,1.05059785297267,0.124443809266385,0.119504868346402,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","log2CPM","toll_like_receptor","glutamatergic neuron",0.641852060982496,0.47922031990323,0.120021623670463,0.117993368948181,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","log2CPM","toll_like_receptor","astrocyte",0.780474308300395,0.280093248528762,0.117279622124287,0.115521646022517,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","log2CPM","toll_like_receptor","central nervous system macrophage",0.925996612083569,0.0986408251857102,0.20495563160432,0.204419717376832,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","log2CPM","toll_like_receptor","GABAergic neuron",0.0689779785431959,0.93205634787394,0.113006254605257,0.110062670326535,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","log2CPM","toll_like_receptor","oligodendrocyte precursor cell",0.246470920383964,-0.512055342609344,0.110823382354236,0.111969671628477,"UP","DOWN",FALSE,19,6
+"pd_brain","AUCell","log2CPM","toll_like_receptor","central nervous system neuron",0.0981544771018455,1.03589136543479,0.113022485015638,0.109980520055488,"UP","UP",TRUE,18,4
+"pd_brain","AUCell","log2CPM","toll_like_receptor","ependymal cell",0.573856209150327,-0.40526548629947,0.112533924759066,0.115480160955501,"UP","DOWN",FALSE,14,4
+"pd_brain","AUCell","log2CPM","toll_like_receptor","mural cell",0.36600790513834,0.459167427976908,0.135087253270865,0.130769785753405,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","log2CPM","toll_like_receptor","endothelial cell",0.514217955957086,-0.177848655726696,0.172544773580597,0.174078555991723,"UP","DOWN",FALSE,19,6
+"pd_brain","AUCell","log2CPM","toll_like_receptor","leukocyte",0.013986013986014,-1.6983936935025,0.158310360772508,0.173911139970288,"UP","DOWN",FALSE,10,4
+"pd_brain","AUCell","log2CPM","oxidative_stress","oligodendrocyte",0.0799774138904574,0.770394421998031,0.0209628890394942,0.0136786000660346,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","log2CPM","oxidative_stress","glutamatergic neuron",0.6780064463271,0.416572037975984,0.00606506892673881,0.0039370194802132,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","log2CPM","oxidative_stress","astrocyte",0.733258046301525,0.263292570773855,0.0345150365300544,0.0305822838545352,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","log2CPM","oxidative_stress","central nervous system macrophage",0.975324675324675,-0.169370404428167,0.0331460904277107,0.0354965567661903,"UP","DOWN",FALSE,19,6
+"pd_brain","AUCell","log2CPM","oxidative_stress","GABAergic neuron",0.723498234187948,0.113847874770598,0.0024022886209439,0.00217118296306778,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","log2CPM","oxidative_stress","oligodendrocyte precursor cell",0.372945251324673,0.527346760340323,0.00723246669099521,0.00513831894721947,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","log2CPM","oxidative_stress","central nervous system neuron",0.491556101141641,0.569618774667196,0.00528866562897977,0.00226625512947502,"UP","UP",TRUE,18,4
+"pd_brain","AUCell","log2CPM","oxidative_stress","ependymal cell",0.645098039215686,-0.200803007038155,0.0160687753946916,0.0176878449129758,"UP","DOWN",FALSE,14,4
+"pd_brain","AUCell","log2CPM","oxidative_stress","mural cell",0.975324675324675,-0.104687518364196,0.0354115309853805,0.0373272487146833,"UP","DOWN",FALSE,19,6
+"pd_brain","AUCell","log2CPM","oxidative_stress","endothelial cell",0.733258046301525,-0.218913371013509,0.0443452890752422,0.047907527946795,"UP","DOWN",FALSE,19,6
+"pd_brain","AUCell","log2CPM","oxidative_stress","leukocyte",0.733266733266733,-0.486540922646481,0.037729057591623,0.0472619216074713,"UP","DOWN",FALSE,10,4
+"pd_brain","AUCell","voom","nfkb_signaling","oligodendrocyte",0.0228034878927894,1.1277449424489,0.00324424147138829,0,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","voom","nfkb_signaling","glutamatergic neuron",0.503742047688535,0.330643913935676,0.0167570209936187,0.0165862456884129,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","voom","nfkb_signaling","astrocyte",0.0228034878927894,0.852998163776348,0.00422632180820221,0,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","voom","nfkb_signaling","central nervous system macrophage",0.0207905138339921,1.20474054584587,0.0260537545856105,0.0134670273989159,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","voom","nfkb_signaling","GABAergic neuron",0.445052840162906,0.393236644634289,0.00787719445043871,0.00714491581364646,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","voom","nfkb_signaling","oligodendrocyte precursor cell",0.726118365967,0.183986093463071,0.0047489236017833,0.00410007530750565,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","voom","nfkb_signaling","central nervous system neuron",0.711961722488038,0.266895644609975,0.0115347545688103,0.0107661841407971,"UP","UP",TRUE,18,4
+"pd_brain","AUCell","voom","nfkb_signaling","ependymal cell",0.532621968486562,-0.167318995843066,0.00432320865757398,0.00534125456726076,"UP","DOWN",FALSE,14,4
+"pd_brain","AUCell","voom","nfkb_signaling","mural cell",0.0182305176416084,1.11496216874164,0.00655307417569109,2.78916687585418e-05,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","voom","nfkb_signaling","endothelial cell",0.3397745833098,-0.307110887611134,0.0199895186044771,0.0229130058851421,"UP","DOWN",FALSE,19,6
+"pd_brain","AUCell","voom","nfkb_signaling","leukocyte",0.23976023976024,-0.611520310640868,0.0387080579031043,0.045198449223217,"UP","DOWN",FALSE,10,4
+"pd_brain","AUCell","voom","toll_like_receptor","oligodendrocyte",0.302540937323546,0.696006573899872,0.0269238892166073,0.0236488524159757,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","voom","toll_like_receptor","glutamatergic neuron",0.0923207227555053,0.803159482388692,0.0381312991262523,0.0349987404781925,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","voom","toll_like_receptor","astrocyte",0.197752682100508,0.764131253649136,0.0285255079775628,0.0248090316583467,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","voom","toll_like_receptor","central nervous system macrophage",0.436691134952005,0.548312367248435,0.0616127443813096,0.0586972641767162,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","voom","toll_like_receptor","GABAergic neuron",0.197752682100508,0.82938083183172,0.0381307389238175,0.0357136521520083,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","voom","toll_like_receptor","oligodendrocyte precursor cell",0.197752682100508,-0.506926916987554,0.0300134056442636,0.0313798327496958,"UP","DOWN",FALSE,19,6
+"pd_brain","AUCell","voom","toll_like_receptor","central nervous system neuron",0.579939545422744,0.366474663500842,0.0314271387330748,0.0299810539536567,"UP","UP",TRUE,18,4
+"pd_brain","AUCell","voom","toll_like_receptor","ependymal cell",0.192156862745098,-0.829143095141028,0.0373158044390921,0.0410586369490479,"UP","DOWN",FALSE,14,4
+"pd_brain","AUCell","voom","toll_like_receptor","mural cell",0.0251609260304912,0.878067521728525,0.0246309806511681,0.0208353290545071,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","voom","toll_like_receptor","endothelial cell",0.877018633540373,0.128748508997349,0.0551278409966225,0.054001554001554,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","voom","toll_like_receptor","leukocyte",0.945054945054945,0.149419974076323,0.0246596630158274,0.0233446158103692,"UP","UP",TRUE,10,4
+"pd_brain","AUCell","voom","oxidative_stress","oligodendrocyte",NA,NA,0,0,"UP","DOWN",FALSE,19,6
+"pd_brain","AUCell","voom","oxidative_stress","glutamatergic neuron",NA,NA,0,0,"UP","DOWN",FALSE,19,6
+"pd_brain","AUCell","voom","oxidative_stress","astrocyte",0.960261116400388,0.135149714164431,0.00210477138887864,0.00150276415167796,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","voom","oxidative_stress","central nervous system macrophage",0.881176672718558,-0.181717228497798,0.00164742620391202,0.00262399750837032,"UP","DOWN",FALSE,19,6
+"pd_brain","AUCell","voom","oxidative_stress","GABAergic neuron",NA,NA,0,0,"UP","DOWN",FALSE,19,6
+"pd_brain","AUCell","voom","oxidative_stress","oligodendrocyte precursor cell",NA,NA,0,0,"UP","DOWN",FALSE,19,6
+"pd_brain","AUCell","voom","oxidative_stress","central nervous system neuron",NA,NA,0,0,"UP","DOWN",FALSE,18,4
+"pd_brain","AUCell","voom","oxidative_stress","ependymal cell",NA,NA,0,0,"UP","DOWN",FALSE,14,4
+"pd_brain","AUCell","voom","oxidative_stress","mural cell",0.546704156758256,0.169388815105322,0.00287193105398394,0.00198551740247606,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","voom","oxidative_stress","endothelial cell",0.898052239543293,-0.0452210061961315,0.0131081031239627,0.0136961769057074,"UP","DOWN",FALSE,19,6
+"pd_brain","AUCell","voom","oxidative_stress","leukocyte",0.767861002312784,-0.641384987863401,0.000826909600560617,0.00932025227750526,"UP","DOWN",FALSE,10,4
+"pd_brain","AUCell","scran","nfkb_signaling","oligodendrocyte",0.0228034878927894,1.1277449424489,0.00324424147138829,0,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","scran","nfkb_signaling","glutamatergic neuron",0.503742047688535,0.330643913935676,0.0167570209936187,0.0165862456884129,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","scran","nfkb_signaling","astrocyte",0.0228034878927894,0.853384636285987,0.00422778979076844,0,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","scran","nfkb_signaling","central nervous system macrophage",0.0207905138339921,1.19957135804966,0.0260493506379118,0.0135135135135135,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","scran","nfkb_signaling","GABAergic neuron",0.426228498220001,0.392761788806066,0.00788013041557118,0.00714956442510622,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","scran","nfkb_signaling","oligodendrocyte precursor cell",0.726118365967,0.183174131831473,0.00474598763665083,0.00410007530750565,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","scran","nfkb_signaling","central nervous system neuron",0.711961722488038,0.275310700249616,0.0115394031802701,0.0107452653892282,"UP","UP",TRUE,18,4
+"pd_brain","AUCell","scran","nfkb_signaling","ependymal cell",0.532621968486562,-0.164194000190281,0.00432719318168235,0.00532730873288149,"UP","DOWN",FALSE,14,4
+"pd_brain","AUCell","scran","nfkb_signaling","mural cell",0.00941315106625356,1.12066358612425,0.00653545838489622,0,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","scran","nfkb_signaling","endothelial cell",0.356116453455853,-0.306151206716003,0.0200511738722591,0.0229455461653604,"UP","DOWN",FALSE,19,6
+"pd_brain","AUCell","scran","nfkb_signaling","leukocyte",0.23976023976024,-0.571251022222925,0.0388949320837866,0.0447033721027529,"UP","DOWN",FALSE,10,4
+"pd_brain","AUCell","scran","toll_like_receptor","oligodendrocyte",0.302540937323546,0.695851718749965,0.0269233290141726,0.0236488524159757,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","scran","toll_like_receptor","glutamatergic neuron",0.0923207227555053,0.802937524459959,0.0381324195311218,0.0350005144525692,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","scran","toll_like_receptor","astrocyte",0.197752682100508,0.76401657863156,0.0285243875726933,0.0248090316583467,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","scran","toll_like_receptor","central nervous system macrophage",0.436691134952005,0.550119284894401,0.0616127443813096,0.0586901682792094,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","scran","toll_like_receptor","GABAergic neuron",0.197752682100508,0.830201711569604,0.0381312991262523,0.0357118781776316,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","scran","toll_like_receptor","oligodendrocyte precursor cell",0.197752682100508,-0.507418875331412,0.0300100444296551,0.031378058775319,"UP","DOWN",FALSE,19,6
+"pd_brain","AUCell","scran","toll_like_receptor","central nervous system neuron",0.593574846206425,0.370923913290379,0.0314259560834903,0.0299597662611361,"UP","UP",TRUE,18,4
+"pd_brain","AUCell","scran","toll_like_receptor","ependymal cell",0.192156862745098,-0.822788628392601,0.0373112427906948,0.0410213834871369,"UP","DOWN",FALSE,14,4
+"pd_brain","AUCell","scran","toll_like_receptor","mural cell",0.0251609260304912,0.880641769208524,0.0246248184243858,0.0208282331570003,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","scran","toll_like_receptor","endothelial cell",0.877018633540373,0.13358021657356,0.0551502490940126,0.0539855882321636,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","scran","toll_like_receptor","leukocyte",0.839160839160839,0.181509542307845,0.0246426328618109,0.0230891635001224,"UP","UP",TRUE,10,4
+"pd_brain","AUCell","scran","oxidative_stress","oligodendrocyte",NA,NA,0,0,"UP","DOWN",FALSE,19,6
+"pd_brain","AUCell","scran","oxidative_stress","glutamatergic neuron",NA,NA,0,0,"UP","DOWN",FALSE,19,6
+"pd_brain","AUCell","scran","oxidative_stress","astrocyte",0.960261116400388,0.135149714164431,0.00210477138887864,0.00150276415167796,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","scran","oxidative_stress","central nervous system macrophage",0.881176672718558,-0.181717228497798,0.00164742620391202,0.00262399750837032,"UP","DOWN",FALSE,19,6
+"pd_brain","AUCell","scran","oxidative_stress","GABAergic neuron",NA,NA,0,0,"UP","DOWN",FALSE,19,6
+"pd_brain","AUCell","scran","oxidative_stress","oligodendrocyte precursor cell",NA,NA,0,0,"UP","DOWN",FALSE,19,6
+"pd_brain","AUCell","scran","oxidative_stress","central nervous system neuron",NA,NA,0,0,"UP","DOWN",FALSE,18,4
+"pd_brain","AUCell","scran","oxidative_stress","ependymal cell",NA,NA,0,0,"UP","DOWN",FALSE,14,4
+"pd_brain","AUCell","scran","oxidative_stress","mural cell",0.573875322490618,0.164822632693641,0.00285717798350115,0.00199330374523086,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","scran","oxidative_stress","endothelial cell",0.898052239543293,-0.0425966805990041,0.0130736792928362,0.0136260998209141,"UP","DOWN",FALSE,19,6
+"pd_brain","AUCell","scran","oxidative_stress","leukocyte",0.767861002312784,-0.642403146389348,0.000850268628825041,0.00971735575800047,"UP","DOWN",FALSE,10,4
+"pd_brain","AUCell","sctransform","nfkb_signaling","oligodendrocyte",0.0427780914737436,0.960226047116188,0.120072535728164,0.0733296873575791,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","sctransform","nfkb_signaling","glutamatergic neuron",0.302540937323546,0.646458964287472,0.0454937818523156,0.0278653824729843,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","sctransform","nfkb_signaling","astrocyte",0.00438170525127047,1.30939564087007,0.0241756976526632,0.00888909144309746,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","sctransform","nfkb_signaling","central nervous system macrophage",0.00562394127611519,1.40282523825353,0.104827239916398,0.0804757998359311,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","sctransform","nfkb_signaling","GABAergic neuron",0.246470920383964,0.610249474612823,0.0230157016824259,0.0141484114686193,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","sctransform","nfkb_signaling","oligodendrocyte precursor cell",0.0170750988142293,1.24146764194899,0.0161225687498301,0.00702052886903858,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","sctransform","nfkb_signaling","central nervous system neuron",0.386329460013671,0.553256244670079,0.0111944959269725,0.00859690699723513,"UP","UP",TRUE,18,4
+"pd_brain","AUCell","sctransform","nfkb_signaling","ependymal cell",1,-0.0295743176408832,0.00230347539617433,0.00243672712909792,"UP","DOWN",FALSE,14,4
+"pd_brain","AUCell","sctransform","nfkb_signaling","mural cell",0.0689779785431959,0.932386180128369,0.0263939860589401,0.0131143722338691,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","sctransform","nfkb_signaling","endothelial cell",0.555313382269904,0.143537143144503,0.0911964077544147,0.0866992778942464,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","sctransform","nfkb_signaling","leukocyte",0.453546453546454,-0.618494989671509,0.0746841673502871,0.0932458299152311,"UP","DOWN",FALSE,10,4
+"pd_brain","AUCell","sctransform","toll_like_receptor","oligodendrocyte",0.00438170525127047,1.61331233049796,0.109103534196312,0.080937857665227,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","sctransform","toll_like_receptor","glutamatergic neuron",0.246470920383964,0.734375017165569,0.0548652999637016,0.0468122087436748,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","sctransform","toll_like_receptor","astrocyte",0.105985319028797,0.88319508662903,0.0907204110154374,0.0725690242646649,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","sctransform","toll_like_receptor","central nervous system macrophage",0.05914172783738,0.827757731256415,0.256404225936288,0.238129203847453,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","sctransform","toll_like_receptor","GABAergic neuron",0.733258046301525,0.211126786974044,0.0448351479921728,0.0427607738194793,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","sctransform","toll_like_receptor","oligodendrocyte precursor cell",0.641852060982496,0.288867735017396,0.059202461453063,0.0569548976974968,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","sctransform","toll_like_receptor","central nervous system neuron",0.484483937115516,0.772966774081957,0.024160815577834,0.0203314542073729,"UP","UP",TRUE,18,4
+"pd_brain","AUCell","sctransform","toll_like_receptor","ependymal cell",0.381699346405229,-0.0308378815276504,0.0413321977059765,0.0416555985163759,"UP","DOWN",FALSE,14,4
+"pd_brain","AUCell","sctransform","toll_like_receptor","mural cell",0.597955957086392,0.205849652520966,0.0537365816477382,0.0505999757320557,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","sctransform","toll_like_receptor","endothelial cell",0.197752682100508,0.570159264209331,0.120854984188727,0.109818351157155,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","sctransform","toll_like_receptor","leukocyte",0.00799200799200799,-1.88604453879214,0.0886614916915085,0.114068848813986,"UP","DOWN",FALSE,10,4
+"pd_brain","AUCell","sctransform","oxidative_stress","oligodendrocyte",0.975324675324675,-0.122606033463136,0.125979348044655,0.129797827932645,"UP","DOWN",FALSE,19,6
+"pd_brain","AUCell","sctransform","oxidative_stress","glutamatergic neuron",0.641852060982496,0.349660635273678,0.0289675698018217,0.0210308476015282,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","sctransform","oxidative_stress","astrocyte",0.641852060982496,0.482275261892014,0.108864961682542,0.091864770529692,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","sctransform","oxidative_stress","central nervous system macrophage",0.333314511575381,-0.382603231628567,0.140729614293268,0.148784255459648,"UP","DOWN",FALSE,19,6
+"pd_brain","AUCell","sctransform","oxidative_stress","GABAergic neuron",0.828390739695088,0.113212350034091,0.033693017211204,0.03157722513089,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","sctransform","oxidative_stress","oligodendrocyte precursor cell",0.333314511575381,0.606837118184628,0.0193225741586171,0.0121029078817037,"UP","UP",TRUE,19,6
+"pd_brain","AUCell","sctransform","oxidative_stress","central nervous system neuron",0.837457279562543,0.183455380974692,0.0242932723299215,0.0219572484788453,"UP","UP",TRUE,18,4
+"pd_brain","AUCell","sctransform","oxidative_stress","ependymal cell",0.157516339869281,-0.964255860435283,0.0385449726091087,0.0540916407244941,"UP","DOWN",FALSE,14,4
+"pd_brain","AUCell","sctransform","oxidative_stress","mural cell",0.474601919819311,-0.30790094972147,0.13583566688761,0.146654344134711,"UP","DOWN",FALSE,19,6
+"pd_brain","AUCell","sctransform","oxidative_stress","endothelial cell",0.333314511575381,-0.480375973337384,0.098352796168999,0.11771408188293,"UP","DOWN",FALSE,19,6
+"pd_brain","AUCell","sctransform","oxidative_stress","leukocyte",0.23976023976024,-0.982563361376294,0.0575076057733126,0.0876189507570398,"UP","DOWN",FALSE,10,4
+"pd_brain","UCell","log2CPM","nfkb_signaling","oligodendrocyte",0.0302089215132693,1.15840066781991,0.0426263807667316,0.0340504115226338,"UP","UP",TRUE,19,6
+"pd_brain","UCell","log2CPM","nfkb_signaling","glutamatergic neuron",0.176036137775268,0.794328308753337,0.0472917478882391,0.0446090534979424,"UP","UP",TRUE,19,6
+"pd_brain","UCell","log2CPM","nfkb_signaling","astrocyte",0.0799774138904574,0.994694782203494,0.044491877842755,0.0357088477366255,"UP","UP",TRUE,19,6
+"pd_brain","UCell","log2CPM","nfkb_signaling","central nervous system macrophage",0.0251609260304912,1.10246690820099,0.0935233918128655,0.0801491769547325,"UP","UP",TRUE,19,6
+"pd_brain","UCell","log2CPM","nfkb_signaling","GABAergic neuron",0.00900056465273857,1.42193392065356,0.0471663417803769,0.0411810699588478,"UP","UP",TRUE,19,6
+"pd_brain","UCell","log2CPM","nfkb_signaling","oligodendrocyte precursor cell",0.0427780914737436,1.11787862482652,0.0370253411306043,0.0321234567901235,"UP","UP",TRUE,19,6
+"pd_brain","UCell","log2CPM","nfkb_signaling","central nervous system neuron",0.140806561859193,1.05141925163849,0.0499475308641975,0.0462484567901235,"UP","UP",TRUE,18,4
+"pd_brain","UCell","log2CPM","nfkb_signaling","ependymal cell",0.645098039215686,-0.304324117473532,0.034771164021164,0.0380663580246914,"UP","DOWN",FALSE,14,4
+"pd_brain","UCell","log2CPM","nfkb_signaling","mural cell",0.273551665725579,0.573766789724311,0.0533060428849902,0.0472592592592593,"UP","UP",TRUE,19,6
+"pd_brain","UCell","log2CPM","nfkb_signaling","endothelial cell",0.137809147374365,0.648758397254184,0.0782901234567901,0.0719783950617284,"UP","UP",TRUE,19,6
+"pd_brain","UCell","log2CPM","nfkb_signaling","leukocyte",0.839160839160839,-0.310200320051065,0.0978179012345679,0.102848765432099,"UP","DOWN",FALSE,10,4
+"pd_brain","UCell","log2CPM","toll_like_receptor","oligodendrocyte",0.36600790513834,0.569072159628029,0.107767182662539,0.106300653594771,"UP","UP",TRUE,19,6
+"pd_brain","UCell","log2CPM","toll_like_receptor","glutamatergic neuron",0.302540937323546,0.532699730467683,0.115904850361197,0.113941830065359,"UP","UP",TRUE,19,6
+"pd_brain","UCell","log2CPM","toll_like_receptor","astrocyte",0.733258046301525,0.44941594612137,0.108647368421053,0.105947712418301,"UP","UP",TRUE,19,6
+"pd_brain","UCell","log2CPM","toll_like_receptor","central nervous system macrophage",0.436691134952005,0.500169083395449,0.15342084623323,0.151130718954248,"UP","UP",TRUE,19,6
+"pd_brain","UCell","log2CPM","toll_like_receptor","GABAergic neuron",0.137809147374365,0.802514619848043,0.11005995872033,0.108005882352941,"UP","UP",TRUE,19,6
+"pd_brain","UCell","log2CPM","toll_like_receptor","oligodendrocyte precursor cell",0.687046866177301,0.172225100627402,0.107415995872033,0.107024509803922,"UP","UP",TRUE,19,6
+"pd_brain","UCell","log2CPM","toll_like_receptor","central nervous system neuron",0.652084757347915,0.0310632796986316,0.106839433551198,0.106689215686275,"UP","UP",TRUE,18,4
+"pd_brain","UCell","log2CPM","toll_like_receptor","ependymal cell",0.221738853970486,-0.667968847632199,0.112882212885154,0.116603431372549,"UP","DOWN",FALSE,14,4
+"pd_brain","UCell","log2CPM","toll_like_receptor","mural cell",0.221174477696217,0.615719163437112,0.11236439628483,0.109285294117647,"UP","UP",TRUE,19,6
+"pd_brain","UCell","log2CPM","toll_like_receptor","endothelial cell",0.877018633540373,0.0772538565598363,0.139453973168215,0.138904575163399,"UP","UP",TRUE,19,6
+"pd_brain","UCell","log2CPM","toll_like_receptor","leukocyte",0.635364635364635,-0.490623670898904,0.122966274509804,0.127341666666667,"UP","DOWN",FALSE,10,4
+"pd_brain","UCell","log2CPM","oxidative_stress","oligodendrocyte",0.33815802977075,0.570283712786903,0.0140284495021338,0.0126666666666667,"UP","UP",TRUE,19,6
+"pd_brain","UCell","log2CPM","oxidative_stress","glutamatergic neuron",NA,NA,0.0126666666666667,0.0126666666666667,"UP","DOWN",FALSE,19,6
+"pd_brain","UCell","log2CPM","oxidative_stress","astrocyte",0.228099366993443,0.506251416275067,0.0224551920341394,0.017478978978979,"UP","UP",TRUE,19,6
+"pd_brain","UCell","log2CPM","oxidative_stress","central nervous system macrophage",0.705900197801079,-0.0807339935473586,0.0182873399715505,0.0190750750750751,"UP","DOWN",FALSE,19,6
+"pd_brain","UCell","log2CPM","oxidative_stress","GABAergic neuron",NA,NA,0.0126666666666667,0.0126666666666667,"UP","DOWN",FALSE,19,6
+"pd_brain","UCell","log2CPM","oxidative_stress","oligodendrocyte precursor cell",NA,NA,0.0126666666666667,0.0126666666666667,"UP","DOWN",FALSE,19,6
+"pd_brain","UCell","log2CPM","oxidative_stress","central nervous system neuron",NA,NA,0.0126666666666667,0.0126666666666667,"UP","DOWN",FALSE,18,4
+"pd_brain","UCell","log2CPM","oxidative_stress","ependymal cell",1,0.00686776935260624,0.0141196911196912,0.0141013513513514,"UP","UP",TRUE,14,4
+"pd_brain","UCell","log2CPM","oxidative_stress","mural cell",0.974195019443485,-0.00561500449542793,0.0217818871503082,0.0218348348348349,"UP","DOWN",FALSE,19,6
+"pd_brain","UCell","log2CPM","oxidative_stress","endothelial cell",0.780474308300395,-0.170202015722051,0.0361797060218113,0.0388663663663663,"UP","DOWN",FALSE,19,6
+"pd_brain","UCell","log2CPM","oxidative_stress","leukocyte",0.288313931666037,-0.616502075055442,0.0197009009009009,0.0283018018018018,"UP","DOWN",FALSE,10,4
+"pd_brain","UCell","voom","nfkb_signaling","oligodendrocyte",0.0302089215132693,1.15840066781991,0.0430553835569315,0.0339749455337691,"UP","UP",TRUE,19,6
+"pd_brain","UCell","voom","nfkb_signaling","glutamatergic neuron",0.176036137775268,0.794328308753344,0.0479951840385277,0.0451546840958606,"UP","UP",TRUE,19,6
+"pd_brain","UCell","voom","nfkb_signaling","astrocyte",0.0799774138904574,0.994694782203489,0.045030615755074,0.0357309368191721,"UP","UP",TRUE,19,6
+"pd_brain","UCell","voom","nfkb_signaling","central nervous system macrophage",0.0251609260304912,1.10230818020671,0.0969566563467492,0.0827908496732026,"UP","UP",TRUE,19,6
+"pd_brain","UCell","voom","nfkb_signaling","GABAergic neuron",0.00900056465273857,1.42189253490673,0.0478624011007912,0.0415272331154684,"UP","UP",TRUE,19,6
+"pd_brain","UCell","voom","nfkb_signaling","oligodendrocyte precursor cell",0.0427780914737436,1.11787862482653,0.037124871001032,0.0319346405228758,"UP","UP",TRUE,19,6
+"pd_brain","UCell","voom","nfkb_signaling","central nervous system neuron",0.11784005468216,1.05204678002115,0.0508093681917211,0.046890522875817,"UP","UP",TRUE,18,4
+"pd_brain","UCell","voom","nfkb_signaling","ependymal cell",0.645098039215686,-0.305033410049986,0.0347707749766573,0.0382728758169935,"UP","DOWN",FALSE,14,4
+"pd_brain","UCell","voom","nfkb_signaling","mural cell",0.273551665725579,0.573933273102565,0.0543890608875129,0.0479934640522876,"UP","UP",TRUE,19,6
+"pd_brain","UCell","voom","nfkb_signaling","endothelial cell",0.137809147374365,0.649448908912829,0.0808417612659099,0.0741492374727669,"UP","UP",TRUE,19,6
+"pd_brain","UCell","voom","nfkb_signaling","leukocyte",0.839160839160839,-0.30213582934914,0.101987581699346,0.107202614379085,"UP","DOWN",FALSE,10,4
+"pd_brain","UCell","voom","toll_like_receptor","oligodendrocyte",0.36600790513834,0.569072159628033,0.108352594773647,0.106609168609169,"UP","UP",TRUE,19,6
+"pd_brain","UCell","voom","toll_like_receptor","glutamatergic neuron",0.302540937323546,0.532699730467685,0.11802674518464,0.115693084693085,"UP","UP",TRUE,19,6
+"pd_brain","UCell","voom","toll_like_receptor","astrocyte",0.733258046301525,0.449415946121371,0.109398969451601,0.106189588189588,"UP","UP",TRUE,19,6
+"pd_brain","UCell","voom","toll_like_receptor","central nervous system macrophage",0.436691134952005,0.50091187232769,0.162641148325359,0.159911033411033,"UP","UP",TRUE,19,6
+"pd_brain","UCell","voom","toll_like_receptor","GABAergic neuron",0.137809147374365,0.802247468255786,0.111078272604588,0.108639471639472,"UP","UP",TRUE,19,6
+"pd_brain","UCell","voom","toll_like_receptor","oligodendrocyte precursor cell",0.687046866177301,0.172225100627392,0.107935099987732,0.107469696969697,"UP","UP",TRUE,19,6
+"pd_brain","UCell","voom","toll_like_receptor","central nervous system neuron",0.652084757347915,0.0316509516991269,0.107253043253043,0.107071095571096,"UP","UP",TRUE,18,4
+"pd_brain","UCell","voom","toll_like_receptor","ependymal cell",0.232679738562091,-0.66668824466986,0.114487845487845,0.118927156177156,"UP","DOWN",FALSE,14,4
+"pd_brain","UCell","voom","toll_like_receptor","mural cell",0.221174477696217,0.608371321849687,0.113805545331861,0.110197358197358,"UP","UP",TRUE,19,6
+"pd_brain","UCell","voom","toll_like_receptor","endothelial cell",0.877018633540373,0.0786498106797859,0.146051772788615,0.145385780885781,"UP","UP",TRUE,19,6
+"pd_brain","UCell","voom","toll_like_receptor","leukocyte",0.635364635364635,-0.473080216077832,0.127023076923077,0.132131118881119,"UP","DOWN",FALSE,10,4
+"pd_brain","UCell","voom","oxidative_stress","oligodendrocyte",0.33815802977075,0.570283712786903,0.012012865497076,0.0103333333333333,"UP","UP",TRUE,19,6
+"pd_brain","UCell","voom","oxidative_stress","glutamatergic neuron",NA,NA,0.0103333333333333,0.0103333333333333,"UP","DOWN",FALSE,19,6
+"pd_brain","UCell","voom","oxidative_stress","astrocyte",0.228099366993443,0.506251416275068,0.0224058479532164,0.0162685185185185,"UP","UP",TRUE,19,6
+"pd_brain","UCell","voom","oxidative_stress","central nervous system macrophage",0.705900197801079,-0.0807257873172534,0.0172690058479532,0.0182407407407407,"UP","DOWN",FALSE,19,6
+"pd_brain","UCell","voom","oxidative_stress","GABAergic neuron",NA,NA,0.0103333333333333,0.0103333333333333,"UP","DOWN",FALSE,19,6
+"pd_brain","UCell","voom","oxidative_stress","oligodendrocyte precursor cell",NA,NA,0.0103333333333333,0.0103333333333333,"UP","DOWN",FALSE,19,6
+"pd_brain","UCell","voom","oxidative_stress","central nervous system neuron",NA,NA,0.0103333333333333,0.0103333333333333,"UP","DOWN",FALSE,18,4
+"pd_brain","UCell","voom","oxidative_stress","ependymal cell",1,0.00994600950510754,0.0121412698412698,0.0121083333333333,"UP","UP",TRUE,14,4
+"pd_brain","UCell","voom","oxidative_stress","mural cell",0.974200146340906,-0.00564508233636942,0.0215824561403509,0.0216481481481481,"UP","DOWN",FALSE,19,6
+"pd_brain","UCell","voom","oxidative_stress","endothelial cell",0.780474308300395,-0.169773691305825,0.0393415204678363,0.0426462962962963,"UP","DOWN",FALSE,19,6
+"pd_brain","UCell","voom","oxidative_stress","leukocyte",0.303696303696304,-0.61333795976396,0.0191822222222222,0.0297388888888889,"UP","DOWN",FALSE,10,4
+"pd_brain","UCell","scran","nfkb_signaling","oligodendrocyte",0.0302089215132693,1.15840066781991,0.0430553835569315,0.0339749455337691,"UP","UP",TRUE,19,6
+"pd_brain","UCell","scran","nfkb_signaling","glutamatergic neuron",0.176036137775268,0.794328308753344,0.0479951840385277,0.0451546840958606,"UP","UP",TRUE,19,6
+"pd_brain","UCell","scran","nfkb_signaling","astrocyte",0.0799774138904574,0.994694782203489,0.045030615755074,0.0357309368191721,"UP","UP",TRUE,19,6
+"pd_brain","UCell","scran","nfkb_signaling","central nervous system macrophage",0.0251609260304912,1.10230818020671,0.0969566563467492,0.0827908496732026,"UP","UP",TRUE,19,6
+"pd_brain","UCell","scran","nfkb_signaling","GABAergic neuron",0.00900056465273857,1.42189253490673,0.0478624011007912,0.0415272331154684,"UP","UP",TRUE,19,6
+"pd_brain","UCell","scran","nfkb_signaling","oligodendrocyte precursor cell",0.0427780914737436,1.11787862482653,0.037124871001032,0.0319346405228758,"UP","UP",TRUE,19,6
+"pd_brain","UCell","scran","nfkb_signaling","central nervous system neuron",0.11784005468216,1.05204678002115,0.0508093681917211,0.046890522875817,"UP","UP",TRUE,18,4
+"pd_brain","UCell","scran","nfkb_signaling","ependymal cell",0.645098039215686,-0.305033410049986,0.0347707749766573,0.0382728758169935,"UP","DOWN",FALSE,14,4
+"pd_brain","UCell","scran","nfkb_signaling","mural cell",0.273551665725579,0.573933273102565,0.0543890608875129,0.0479934640522876,"UP","UP",TRUE,19,6
+"pd_brain","UCell","scran","nfkb_signaling","endothelial cell",0.137809147374365,0.649448908912829,0.0808417612659099,0.0741492374727669,"UP","UP",TRUE,19,6
+"pd_brain","UCell","scran","nfkb_signaling","leukocyte",0.839160839160839,-0.30213582934914,0.101987581699346,0.107202614379085,"UP","DOWN",FALSE,10,4
+"pd_brain","UCell","scran","toll_like_receptor","oligodendrocyte",0.36600790513834,0.569072159628033,0.108352594773647,0.106609168609169,"UP","UP",TRUE,19,6
+"pd_brain","UCell","scran","toll_like_receptor","glutamatergic neuron",0.302540937323546,0.532699730467685,0.11802674518464,0.115693084693085,"UP","UP",TRUE,19,6
+"pd_brain","UCell","scran","toll_like_receptor","astrocyte",0.733258046301525,0.449415946121371,0.109398969451601,0.106189588189588,"UP","UP",TRUE,19,6
+"pd_brain","UCell","scran","toll_like_receptor","central nervous system macrophage",0.436691134952005,0.50091187232769,0.162641148325359,0.159911033411033,"UP","UP",TRUE,19,6
+"pd_brain","UCell","scran","toll_like_receptor","GABAergic neuron",0.137809147374365,0.802247468255786,0.111078272604588,0.108639471639472,"UP","UP",TRUE,19,6
+"pd_brain","UCell","scran","toll_like_receptor","oligodendrocyte precursor cell",0.687046866177301,0.172225100627392,0.107935099987732,0.107469696969697,"UP","UP",TRUE,19,6
+"pd_brain","UCell","scran","toll_like_receptor","central nervous system neuron",0.652084757347915,0.0316509516991269,0.107253043253043,0.107071095571096,"UP","UP",TRUE,18,4
+"pd_brain","UCell","scran","toll_like_receptor","ependymal cell",0.232679738562091,-0.66668824466986,0.114487845487845,0.118927156177156,"UP","DOWN",FALSE,14,4
+"pd_brain","UCell","scran","toll_like_receptor","mural cell",0.221174477696217,0.608371321849687,0.113805545331861,0.110197358197358,"UP","UP",TRUE,19,6
+"pd_brain","UCell","scran","toll_like_receptor","endothelial cell",0.877018633540373,0.0786498106797859,0.146051772788615,0.145385780885781,"UP","UP",TRUE,19,6
+"pd_brain","UCell","scran","toll_like_receptor","leukocyte",0.635364635364635,-0.473080216077832,0.127023076923077,0.132131118881119,"UP","DOWN",FALSE,10,4
+"pd_brain","UCell","scran","oxidative_stress","oligodendrocyte",0.33815802977075,0.570283712786903,0.012012865497076,0.0103333333333333,"UP","UP",TRUE,19,6
+"pd_brain","UCell","scran","oxidative_stress","glutamatergic neuron",NA,NA,0.0103333333333333,0.0103333333333333,"UP","DOWN",FALSE,19,6
+"pd_brain","UCell","scran","oxidative_stress","astrocyte",0.228099366993443,0.506251416275068,0.0224058479532164,0.0162685185185185,"UP","UP",TRUE,19,6
+"pd_brain","UCell","scran","oxidative_stress","central nervous system macrophage",0.705900197801079,-0.0807257873172534,0.0172690058479532,0.0182407407407407,"UP","DOWN",FALSE,19,6
+"pd_brain","UCell","scran","oxidative_stress","GABAergic neuron",NA,NA,0.0103333333333333,0.0103333333333333,"UP","DOWN",FALSE,19,6
+"pd_brain","UCell","scran","oxidative_stress","oligodendrocyte precursor cell",NA,NA,0.0103333333333333,0.0103333333333333,"UP","DOWN",FALSE,19,6
+"pd_brain","UCell","scran","oxidative_stress","central nervous system neuron",NA,NA,0.0103333333333333,0.0103333333333333,"UP","DOWN",FALSE,18,4
+"pd_brain","UCell","scran","oxidative_stress","ependymal cell",1,0.00994600950510754,0.0121412698412698,0.0121083333333333,"UP","UP",TRUE,14,4
+"pd_brain","UCell","scran","oxidative_stress","mural cell",0.974200146340906,-0.00564508233636942,0.0215824561403509,0.0216481481481481,"UP","DOWN",FALSE,19,6
+"pd_brain","UCell","scran","oxidative_stress","endothelial cell",0.780474308300395,-0.169773691305825,0.0393415204678363,0.0426462962962963,"UP","DOWN",FALSE,19,6
+"pd_brain","UCell","scran","oxidative_stress","leukocyte",0.303696303696304,-0.61333795976396,0.0191822222222222,0.0297388888888889,"UP","DOWN",FALSE,10,4
+"pd_brain","UCell","sctransform","nfkb_signaling","oligodendrocyte",0.0504573687182383,0.871312706541807,0.0477037037037037,0.0324897119341564,"UP","UP",TRUE,19,6
+"pd_brain","UCell","sctransform","nfkb_signaling","glutamatergic neuron",0.226596155837475,0.583462714521928,0.0403664717348928,0.0349753086419753,"UP","UP",TRUE,19,6
+"pd_brain","UCell","sctransform","nfkb_signaling","astrocyte",0.21857373123421,0.662807350167298,0.0242586094866797,0.0201913580246914,"UP","UP",TRUE,19,6
+"pd_brain","UCell","sctransform","nfkb_signaling","central nervous system macrophage",0.105985319028797,0.852364395696383,0.070137102014295,0.0623683127572016,"UP","UP",TRUE,19,6
+"pd_brain","UCell","sctransform","nfkb_signaling","GABAergic neuron",0.32073562448322,0.564292359424095,0.0219330734243015,0.0198230452674897,"UP","UP",TRUE,19,6
+"pd_brain","UCell","sctransform","nfkb_signaling","oligodendrocyte precursor cell",0.0927117395632998,1.10217205871291,0.0214710851202079,0.0185102880658436,"UP","UP",TRUE,19,6
+"pd_brain","UCell","sctransform","nfkb_signaling","central nervous system neuron",0.754378834555569,0.314911875260954,0.0213340192043896,0.0203487654320988,"UP","UP",TRUE,18,4
+"pd_brain","UCell","sctransform","nfkb_signaling","ependymal cell",0.330898546028725,-0.669437083890604,0.0183377425044092,0.0184228395061728,"UP","DOWN",FALSE,14,4
+"pd_brain","UCell","sctransform","nfkb_signaling","mural cell",0.182488427360806,0.888395984021365,0.0208265107212475,0.0183600823045267,"UP","UP",TRUE,19,6
+"pd_brain","UCell","sctransform","nfkb_signaling","endothelial cell",0.975324675324675,0.0720530790537622,0.0474795321637427,0.0465493827160494,"UP","UP",TRUE,19,6
+"pd_brain","UCell","sctransform","nfkb_signaling","leukocyte",0.0759240759240759,-1.17442060766171,0.0580197530864197,0.0687901234567901,"UP","DOWN",FALSE,10,4
+"pd_brain","UCell","sctransform","toll_like_receptor","oligodendrocyte",0.00562394127611519,1.63362718960298,0.102020020639835,0.0866875816993464,"UP","UP",TRUE,19,6
+"pd_brain","UCell","sctransform","toll_like_receptor","glutamatergic neuron",0.273551665725579,0.441779743803012,0.0764346749226006,0.073516339869281,"UP","UP",TRUE,19,6
+"pd_brain","UCell","sctransform","toll_like_receptor","astrocyte",0.105985319028797,1.0181904792673,0.0931467492260062,0.0826941176470588,"UP","UP",TRUE,19,6
+"pd_brain","UCell","sctransform","toll_like_receptor","central nervous system macrophage",0.105985319028797,0.840277365042544,0.22022951496388,0.210367973856209,"UP","UP",TRUE,19,6
+"pd_brain","UCell","sctransform","toll_like_receptor","GABAergic neuron",0.597955957086392,0.428315275037824,0.0730010319917441,0.0713196078431372,"UP","UP",TRUE,19,6
+"pd_brain","UCell","sctransform","toll_like_receptor","oligodendrocyte precursor cell",0.436691134952005,-0.113558004159223,0.0793116615067079,0.0799424836601307,"UP","DOWN",FALSE,19,6
+"pd_brain","UCell","sctransform","toll_like_receptor","central nervous system neuron",0.262200956937799,0.884314604948296,0.0619764705882353,0.0604558823529412,"UP","UP",TRUE,18,4
+"pd_brain","UCell","sctransform","toll_like_receptor","ependymal cell",0.573856209150327,-0.368140935484918,0.077929131652661,0.0793803921568628,"UP","DOWN",FALSE,14,4
+"pd_brain","UCell","sctransform","toll_like_receptor","mural cell",0.780474308300395,-0.2001710358467,0.0719050567595459,0.0736954248366013,"UP","DOWN",FALSE,19,6
+"pd_brain","UCell","sctransform","toll_like_receptor","endothelial cell",0.687046866177301,-0.18972447941375,0.105635706914345,0.107757516339869,"UP","DOWN",FALSE,19,6
+"pd_brain","UCell","sctransform","toll_like_receptor","leukocyte",0.053946053946054,-1.07837732065039,0.0961196078431373,0.106179411764706,"UP","DOWN",FALSE,10,4
+"pd_brain","UCell","sctransform","oxidative_stress","oligodendrocyte",0.197752682100508,-0.634813060977607,0.0639838786154576,0.0779219219219219,"UP","DOWN",FALSE,19,6
+"pd_brain","UCell","sctransform","oxidative_stress","glutamatergic neuron",0.465553003617496,0.364604528603834,0.0198274063537222,0.0153573573573574,"UP","UP",TRUE,19,6
+"pd_brain","UCell","sctransform","oxidative_stress","astrocyte",0.597955957086392,0.328640935935198,0.0600483641536273,0.052984984984985,"UP","UP",TRUE,19,6
+"pd_brain","UCell","sctransform","oxidative_stress","central nervous system macrophage",0.555313382269904,-0.465543819974214,0.116505452821242,0.118798798798799,"UP","DOWN",FALSE,19,6
+"pd_brain","UCell","sctransform","oxidative_stress","GABAergic neuron",0.972633000616866,-0.0870745975772776,0.0162380275011854,0.0168228228228228,"UP","DOWN",FALSE,19,6
+"pd_brain","UCell","sctransform","oxidative_stress","oligodendrocyte precursor cell",0.927460126706383,-0.088159777236281,0.0133238501659555,0.0135165165165165,"UP","DOWN",FALSE,19,6
+"pd_brain","UCell","sctransform","oxidative_stress","central nervous system neuron",0.566595616111108,-0.147568759382214,0.0182292292292292,0.0192387387387388,"UP","DOWN",FALSE,18,4
+"pd_brain","UCell","sctransform","oxidative_stress","ependymal cell",0.217169794462607,-1.12076871093062,0.0223487773487774,0.0315765765765766,"UP","DOWN",FALSE,14,4
+"pd_brain","UCell","sctransform","oxidative_stress","mural cell",0.302540937323546,-0.334977868163688,0.0866543385490754,0.0934024024024024,"UP","DOWN",FALSE,19,6
+"pd_brain","UCell","sctransform","oxidative_stress","endothelial cell",0.246470920383964,-0.640285494290371,0.0488070175438597,0.0612762762762763,"UP","DOWN",FALSE,19,6
+"pd_brain","UCell","sctransform","oxidative_stress","leukocyte",0.105894105894106,-1.04067972692343,0.036790990990991,0.0552252252252252,"UP","DOWN",FALSE,10,4
